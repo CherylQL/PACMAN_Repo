@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.18 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.18 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> Reading design: Top.prj
 
@@ -108,41 +108,41 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan\SegmentDecoder.v" into library work
+Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\SegmentDecoder.v" into library work
 Parsing module <SegmentDecoder>.
-Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan\ShiftReg.v" into library work
+Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\ShiftReg.v" into library work
 Parsing module <ShiftReg>.
-Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan\Seg7Remap.v" into library work
+Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\Seg7Remap.v" into library work
 Parsing module <Seg7Remap>.
-Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan\Seg7Decode.v" into library work
+Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\Seg7Decode.v" into library work
 Parsing module <Seg7Decode>.
-Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan\AntiJitter.v" into library work
+Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\AntiJitter.v" into library work
 Parsing module <AntiJitter>.
-Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan\vgac.v" into library work
+Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\vgac.v" into library work
 Parsing module <vgac>.
-Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan\Seg7Device.v" into library work
+Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\Seg7Device.v" into library work
 Parsing module <Seg7Device>.
-Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan\PS2_keyboard.v" into library work
+Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\PS2_keyboard.v" into library work
 Parsing module <PS2_keyboard>.
-Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan\Keypad.v" into library work
+Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\Keypad.v" into library work
 Parsing module <Keypad>.
-Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan\ipcore_dir\Ghost.v" into library work
+Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\ipcore_dir\Ghost.v" into library work
 Parsing module <Ghost>.
-Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan\clkdiv.v" into library work
+Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\clkdiv.v" into library work
 Parsing module <clkdiv>.
-Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" into library work
+Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" into library work
 Parsing module <Top>.
 
 =========================================================================
 *                            HDL Elaboration                            *
 =========================================================================
-WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" Line 40: Port dbg_keyLine is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" Line 76: Port rdn is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" Line 114: Port segment is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" Line 40: Port dbg_keyLine is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" Line 76: Port rdn is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" Line 114: Port segment is not connected to this instance
 
 Elaborating module <Top>.
-WARNING:HDLCompiler:872 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" Line 58: Using initial value of PacX since it is never assigned
-WARNING:HDLCompiler:872 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" Line 60: Using initial value of PacY since it is never assigned
+WARNING:HDLCompiler:872 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" Line 58: Using initial value of PacX since it is never assigned
+WARNING:HDLCompiler:872 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" Line 60: Using initial value of PacY since it is never assigned
 
 Elaborating module <clkdiv>.
 
@@ -151,10 +151,10 @@ Elaborating module <AntiJitter(WIDTH=4)>.
 Elaborating module <Keypad>.
 
 Elaborating module <PS2_keyboard>.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" Line 63: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" Line 63: Result of 32-bit expression is truncated to fit in 10-bit target.
 
 Elaborating module <Ghost>.
-WARNING:HDLCompiler:1499 - "C:\Users\10308\Desktop\DDLS\PacMan\ipcore_dir\Ghost.v" Line 39: Empty module <Ghost> remains a black box.
+WARNING:HDLCompiler:1499 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\ipcore_dir\Ghost.v" Line 39: Empty module <Ghost> remains a black box.
 
 Elaborating module <vgac>.
 
@@ -167,45 +167,45 @@ Elaborating module <SegmentDecoder>.
 Elaborating module <Seg7Remap>.
 
 Elaborating module <ShiftReg(WIDTH=64)>.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35. All outputs of instance <a0<1>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35. All outputs of instance <a0<2>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35. All outputs of instance <a0<3>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35. All outputs of instance <a0<4>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35. All outputs of instance <a0<5>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35. All outputs of instance <a0<6>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35. All outputs of instance <a0<7>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35. All outputs of instance <a0<8>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35. All outputs of instance <a0<9>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35. All outputs of instance <a0<10>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35. All outputs of instance <a0<11>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35. All outputs of instance <a0<12>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35. All outputs of instance <a0<13>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35. All outputs of instance <a0<14>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35. All outputs of instance <a0<1>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35. All outputs of instance <a0<2>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35. All outputs of instance <a0<3>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35. All outputs of instance <a0<4>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35. All outputs of instance <a0<5>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35. All outputs of instance <a0<6>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35. All outputs of instance <a0<7>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35. All outputs of instance <a0<8>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35. All outputs of instance <a0<9>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35. All outputs of instance <a0<10>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35. All outputs of instance <a0<11>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35. All outputs of instance <a0<12>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35. All outputs of instance <a0<13>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35. All outputs of instance <a0<14>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <Top>.
-    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan\toP.v".
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35: Output port <O> of the instance <a0<1>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35: Output port <O> of the instance <a0<2>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35: Output port <O> of the instance <a0<3>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35: Output port <O> of the instance <a0<4>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35: Output port <O> of the instance <a0<5>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35: Output port <O> of the instance <a0<6>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35: Output port <O> of the instance <a0<7>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35: Output port <O> of the instance <a0<8>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35: Output port <O> of the instance <a0<9>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35: Output port <O> of the instance <a0<10>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35: Output port <O> of the instance <a0<11>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35: Output port <O> of the instance <a0<12>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35: Output port <O> of the instance <a0<13>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 35: Output port <O> of the instance <a0<14>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 40: Output port <dbg_keyLine> of the instance <k0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 76: Output port <rdn> of the instance <vga> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 114: Output port <segment> of the instance <segDevice> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 114: Output port <anode> of the instance <segDevice> is unconnected or connected to loadless signal.
+    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v".
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35: Output port <O> of the instance <a0<1>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35: Output port <O> of the instance <a0<2>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35: Output port <O> of the instance <a0<3>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35: Output port <O> of the instance <a0<4>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35: Output port <O> of the instance <a0<5>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35: Output port <O> of the instance <a0<6>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35: Output port <O> of the instance <a0<7>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35: Output port <O> of the instance <a0<8>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35: Output port <O> of the instance <a0<9>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35: Output port <O> of the instance <a0<10>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35: Output port <O> of the instance <a0<11>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35: Output port <O> of the instance <a0<12>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35: Output port <O> of the instance <a0<13>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 35: Output port <O> of the instance <a0<14>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 40: Output port <dbg_keyLine> of the instance <k0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 76: Output port <rdn> of the instance <vga> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 114: Output port <segment> of the instance <segDevice> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\toP.v" line 114: Output port <anode> of the instance <segDevice> is unconnected or connected to loadless signal.
     Found 9-bit register for signal <y>.
     Found 1-bit register for signal <wasReady>.
     Found 10-bit register for signal <x>.
@@ -228,7 +228,7 @@ INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan\toP.v" line 114: Output port
 Unit <Top> synthesized.
 
 Synthesizing Unit <clkdiv>.
-    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan\clkdiv.v".
+    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\clkdiv.v".
 WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 32-bit register for signal <clkdiv>.
     Found 32-bit adder for signal <clkdiv[31]_GND_2_o_add_1_OUT> created at line 28.
@@ -238,7 +238,7 @@ WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and lef
 Unit <clkdiv> synthesized.
 
 Synthesizing Unit <AntiJitter>.
-    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan\AntiJitter.v".
+    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\AntiJitter.v".
         WIDTH = 4
     Found 4-bit register for signal <cnt>.
     Found 1-bit register for signal <O>.
@@ -250,7 +250,7 @@ Synthesizing Unit <AntiJitter>.
 Unit <AntiJitter> synthesized.
 
 Synthesizing Unit <Keypad>.
-    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan\Keypad.v".
+    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\Keypad.v".
     Found 4-bit register for signal <keyLineX>.
     Found 1-bit register for signal <state>.
     Found 5-bit register for signal <keyLineY>.
@@ -269,7 +269,7 @@ Synthesizing Unit <Keypad>.
 Unit <Keypad> synthesized.
 
 Synthesizing Unit <PS2_keyboard>.
-    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan\PS2_keyboard.v".
+    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\PS2_keyboard.v".
     Found 4-bit register for signal <num>.
     Found 8-bit register for signal <temp_data>.
     Found 10-bit register for signal <data>.
@@ -288,7 +288,7 @@ Synthesizing Unit <PS2_keyboard>.
 Unit <PS2_keyboard> synthesized.
 
 Synthesizing Unit <vgac>.
-    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan\vgac.v".
+    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\vgac.v".
     Found 10-bit register for signal <v_count>.
     Found 9-bit register for signal <row_addr>.
     Found 10-bit register for signal <col_addr>.
@@ -317,7 +317,7 @@ Synthesizing Unit <vgac>.
 Unit <vgac> synthesized.
 
 Synthesizing Unit <Seg7Device>.
-    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan\Seg7Device.v".
+    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\Seg7Device.v".
     Found 4x4-bit Read Only RAM for signal <anode>
     Found 8-bit 4-to-1 multiplexer for signal <segment> created at line 36.
     Summary:
@@ -326,26 +326,26 @@ Synthesizing Unit <Seg7Device>.
 Unit <Seg7Device> synthesized.
 
 Synthesizing Unit <Seg7Decode>.
-    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan\Seg7Decode.v".
+    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\Seg7Decode.v".
     Summary:
 	no macro.
 Unit <Seg7Decode> synthesized.
 
 Synthesizing Unit <SegmentDecoder>.
-    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan\SegmentDecoder.v".
+    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\SegmentDecoder.v".
     Found 16x7-bit Read Only RAM for signal <segment>
     Summary:
 	inferred   1 RAM(s).
 Unit <SegmentDecoder> synthesized.
 
 Synthesizing Unit <Seg7Remap>.
-    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan\Seg7Remap.v".
+    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\Seg7Remap.v".
     Summary:
 	no macro.
 Unit <Seg7Remap> synthesized.
 
 Synthesizing Unit <ShiftReg>.
-    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan\ShiftReg.v".
+    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\ShiftReg.v".
         WIDTH = 64
         DELAY = 12
     Found 1-bit register for signal <oe>.
@@ -952,11 +952,11 @@ clk            |    3.100|         |         |         |
 
 
 Total REAL time to Xst completion: 12.00 secs
-Total CPU time to Xst completion: 11.69 secs
+Total CPU time to Xst completion: 12.25 secs
  
 --> 
 
-Total memory usage is 4626420 kilobytes
+Total memory usage is 4626448 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :   55 (   0 filtered)

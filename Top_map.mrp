@@ -10,36 +10,36 @@ Target Device  : xc7k160t
 Target Package : ffg676
 Target Speed   : -1
 Mapper Version : kintex7 -- $Revision: 1.55 $
-Mapped Date    : Thu Dec 24 22:06:44 2020
+Mapped Date    : Thu Dec 24 22:45:47 2020
 
 Design Summary
 --------------
 Number of errors:      0
-Number of warnings:   39
+Number of warnings:    4
 Slice Logic Utilization:
   Number of Slice Registers:                   214 out of 202,800    1%
     Number used as Flip Flops:                 214
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                0
-  Number of Slice LUTs:                        488 out of 101,400    1%
+  Number of Slice LUTs:                        492 out of 101,400    1%
     Number used as logic:                      485 out of 101,400    1%
       Number using O6 output only:             403
       Number using O5 output only:              34
       Number using O5 and O6:                   48
       Number used as ROM:                        0
     Number used as Memory:                       0 out of  35,000    0%
-    Number used exclusively as route-thrus:      3
-      Number with same-slice register load:      0
+    Number used exclusively as route-thrus:      7
+      Number with same-slice register load:      4
       Number with same-slice carry load:         3
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                   165 out of  25,350    1%
-  Number of LUT Flip Flop pairs used:          499
-    Number with an unused Flip Flop:           299 out of     499   59%
-    Number with an unused LUT:                  11 out of     499    2%
-    Number of fully used LUT-FF pairs:         189 out of     499   37%
+  Number of occupied Slices:                   201 out of  25,350    1%
+  Number of LUT Flip Flop pairs used:          502
+    Number with an unused Flip Flop:           305 out of     502   60%
+    Number with an unused LUT:                  10 out of     502    1%
+    Number of fully used LUT-FF pairs:         187 out of     502   37%
     Number of unique control sets:              25
     Number of slice register sites lost
       to control set restrictions:             106 out of 202,800    1%
@@ -53,7 +53,8 @@ Slice Logic Distribution:
   over-mapped for a non-BRAM resource or if placement fails.
 
 IO Utilization:
-  Number of bonded IOBs:                        33 out of     400    8%
+  Number of bonded IOBs:                        47 out of     400   11%
+    Number of LOCed IOBs:                       47 out of      47  100%
 
 Specific Feature Utilization:
   Number of RAMB36E1/FIFO36E1s:                  0 out of     325    0%
@@ -90,11 +91,11 @@ Specific Feature Utilization:
   Number of STARTUPs:                            0 out of       1    0%
   Number of XADCs:                               0 out of       1    0%
 
-Average Fanout of Non-Clock Nets:                4.71
+Average Fanout of Non-Clock Nets:                4.60
 
 Peak Memory Usage:  5159 MB
 Total REAL time to MAP completion:  38 secs 
-Total CPU time to MAP completion:   38 secs 
+Total CPU time to MAP completion:   37 secs 
 
 Table of Contents
 -----------------
@@ -117,9 +118,6 @@ Section 1 - Errors
 
 Section 2 - Warnings
 --------------------
-WARNING:LIT:701 - PAD symbol "BTN_Y<3>" has an undefined IOSTANDARD.
-WARNING:LIT:702 - PAD symbol "BTN_Y<3>" is not constrained (LOC) to a specific
-   location.
 WARNING:Pack:2912 - The LUT-1 inverter "k0/state_inv1_INV_0" failed to join the
    "OLOGICE2" comp matched to output buffer "BTN_Y_3_IOBUF/OBUFT".  This may
    result in suboptimal timing.  The LUT-1 inverter k0/state_inv1_INV_0 drives
@@ -136,186 +134,18 @@ WARNING:Pack:2912 - The LUT-1 inverter "k0/state_inv1_INV_0" failed to join the
    "OLOGICE2" comp matched to output buffer "BTN_Y_0_IOBUF/OBUFT".  This may
    result in suboptimal timing.  The LUT-1 inverter k0/state_inv1_INV_0 drives
    multiple loads.
-WARNING:PhysDesignRules:2452 - The IOB BTN_X<4> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB BTN_X<3> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB BTN_X<2> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB BTN_X<1> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB BTN_X<0> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB rst is either not constrained (LOC) to a
-   specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB HS is either not constrained (LOC) to a
-   specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB VS is either not constrained (LOC) to a
-   specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB SEGLED_CLK is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB SEGLED_CLR is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB ps2_clk is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB r<0> is either not constrained (LOC) to a
-   specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB r<1> is either not constrained (LOC) to a
-   specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB r<2> is either not constrained (LOC) to a
-   specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB r<3> is either not constrained (LOC) to a
-   specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB BTN_Y<3> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB BTN_Y<2> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB BTN_Y<1> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB BTN_Y<0> is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB clk is either not constrained (LOC) to a
-   specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB b<0> is either not constrained (LOC) to a
-   specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB b<1> is either not constrained (LOC) to a
-   specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB b<2> is either not constrained (LOC) to a
-   specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB b<3> is either not constrained (LOC) to a
-   specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB SW<15> is either not constrained (LOC) to
-   a specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB SEGLED_PEN is either not constrained
-   (LOC) to a specific location and/or has an undefined I/O Standard
-   (IOSTANDARD). This condition may seriously affect the device and will be an
-   error in bitstream creation. It should be corrected by properly specifying
-   the pin location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB g<0> is either not constrained (LOC) to a
-   specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB g<1> is either not constrained (LOC) to a
-   specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB g<2> is either not constrained (LOC) to a
-   specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB g<3> is either not constrained (LOC) to a
-   specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB SW<0> is either not constrained (LOC) to
-   a specific location and/or has an undefined I/O Standard (IOSTANDARD). This
-   condition may seriously affect the device and will be an error in bitstream
-   creation. It should be corrected by properly specifying the pin location and
-   I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB ps2_data is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
-WARNING:PhysDesignRules:2452 - The IOB SEGLED_DT is either not constrained (LOC)
-   to a specific location and/or has an undefined I/O Standard (IOSTANDARD).
-   This condition may seriously affect the device and will be an error in
-   bitstream creation. It should be corrected by properly specifying the pin
-   location and I/O Standard.
 
 Section 3 - Informational
 -------------------------
-INFO:LIT:243 - Logical network SW<14> has no load.
+INFO:LIT:243 - Logical network SW<14>_IBUF has no load.
 INFO:LIT:395 - The above info message is repeated 13 more times for the
    following (max. 5 shown):
-   SW<13>,
-   SW<12>,
-   SW<11>,
-   SW<10>,
-   SW<9>
+   SW<13>_IBUF,
+   SW<12>_IBUF,
+   SW<11>_IBUF,
+   SW<10>_IBUF,
+   SW<9>_IBUF
    To see the details of these info messages, please use the -detail switch.
-INFO:LIT:244 - All of the single ended outputs in this design are using slew
-   rate limited output drivers. The delay on speed critical single ended outputs
-   can be dramatically reduced by designating them as fast outputs.
 INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
    0.000 to 85.000 Celsius)
 INFO:Pack:1720 - Initializing voltage to 0.970 Volts. (default - Range: 0.970 to
@@ -346,38 +176,52 @@ Section 6 - IOB Properties
 | IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
 |                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
-| BTN_X<0>                           | IOB              | BIDIR     | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| BTN_X<1>                           | IOB              | BIDIR     | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| BTN_X<2>                           | IOB              | BIDIR     | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| BTN_X<3>                           | IOB              | BIDIR     | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| BTN_X<4>                           | IOB              | BIDIR     | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| BTN_Y<0>                           | IOB              | BIDIR     | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| BTN_Y<1>                           | IOB              | BIDIR     | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| BTN_Y<2>                           | IOB              | BIDIR     | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| BTN_Y<3>                           | IOB              | BIDIR     | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| HS                                 | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| SEGLED_CLK                         | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| SEGLED_CLR                         | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| SEGLED_DT                          | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| SEGLED_PEN                         | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| SW<0>                              | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
-| SW<15>                             | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
-| VS                                 | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| b<0>                               | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| b<1>                               | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| b<2>                               | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| b<3>                               | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| BTN_X<0>                           | IOB              | BIDIR     | LVCMOS18             |       | 12       | SLOW |              | PULLUP   |          |
+| BTN_X<1>                           | IOB              | BIDIR     | LVCMOS18             |       | 12       | SLOW |              | PULLUP   |          |
+| BTN_X<2>                           | IOB              | BIDIR     | LVCMOS18             |       | 12       | SLOW |              | PULLUP   |          |
+| BTN_X<3>                           | IOB              | BIDIR     | LVCMOS18             |       | 12       | SLOW |              | PULLUP   |          |
+| BTN_X<4>                           | IOB              | BIDIR     | LVCMOS18             |       | 12       | SLOW |              | PULLUP   |          |
+| BTN_Y<0>                           | IOB              | BIDIR     | LVCMOS18             |       | 12       | SLOW |              | PULLUP   |          |
+| BTN_Y<1>                           | IOB              | BIDIR     | LVCMOS18             |       | 12       | SLOW |              | PULLUP   |          |
+| BTN_Y<2>                           | IOB              | BIDIR     | LVCMOS18             |       | 12       | SLOW |              | PULLUP   |          |
+| BTN_Y<3>                           | IOB              | BIDIR     | LVCMOS18             |       | 12       | SLOW |              | PULLUP   |          |
+| HS                                 | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| SEGLED_CLK                         | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| SEGLED_CLR                         | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| SEGLED_DT                          | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| SEGLED_PEN                         | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | SLOW |              |          |          |
+| SW<0>                              | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<1>                              | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<2>                              | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<3>                              | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<4>                              | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<5>                              | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<6>                              | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<7>                              | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<8>                              | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<9>                              | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<10>                             | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<11>                             | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<12>                             | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<13>                             | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<14>                             | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| SW<15>                             | IOB              | INPUT     | LVCMOS15             |       |          |      |              |          |          |
+| VS                                 | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| b<0>                               | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| b<1>                               | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| b<2>                               | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| b<3>                               | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
 | clk                                | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
-| g<0>                               | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| g<1>                               | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| g<2>                               | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| g<3>                               | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| ps2_clk                            | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
-| ps2_data                           | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
-| r<0>                               | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| r<1>                               | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| r<2>                               | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
-| r<3>                               | IOB              | OUTPUT    | LVCMOS18             |       | 12       | SLOW |              |          |          |
+| g<0>                               | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| g<1>                               | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| g<2>                               | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| g<3>                               | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| ps2_clk                            | IOB33            | INPUT     | LVCMOS33             |       |          |      |              | PULLUP   |          |
+| ps2_data                           | IOB33            | INPUT     | LVCMOS33             |       |          |      |              | PULLUP   |          |
+| r<0>                               | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| r<1>                               | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| r<2>                               | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
+| r<3>                               | IOB33            | OUTPUT    | LVCMOS33             |       | 12       | FAST |              |          |          |
 | rst                                | IOB              | INPUT     | LVCMOS18             |       |          |      |              |          |          |
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
 

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-12-24T22:06:12</DateModified>
+  <DateModified>2020-12-24T22:44:52</DateModified>
   <ModuleName>top</ModuleName>
   <SummaryTimeStamp>2020-12-24T21:54:45</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/10308/Desktop/DDLS/PacMan/iseconfig/Top.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/10308/Desktop/DDLS/PacMan\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/10308/Desktop/DDLS/PacMan_Repo/PACMAN/iseconfig/Top.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/10308/Desktop/DDLS/PacMan_Repo/PACMAN\</ImplementationReportsDirectory>
   <DateInitialized>2020-12-24T21:50:47</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

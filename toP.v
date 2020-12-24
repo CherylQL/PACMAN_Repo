@@ -55,9 +55,9 @@ module Top(
  	wire [8:0] row_addr;
 	
 	reg [9:0] PacX;
-	initial  PacX <= 10'd30;
+	initial  PacX = 10'd30;
 	reg [8:0] PacY;
-	initial PacY <= 9'd146;
+	initial PacY = 9'd146;
 	
 	wire [9:0] pic_add_ip;
 	assign pic_add_ip = (row_addr - PacY) * 32 + col_addr - PacY;
