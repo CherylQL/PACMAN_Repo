@@ -36,9 +36,9 @@ Setup/Hold to clock clk
             |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
 Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------+------------+------------------+--------+
-ps2_clk     |    0.403(R)|      FAST  |    1.240(R)|      SLOW  |clk_BUFGP         |   0.000|
-ps2_data    |    0.321(R)|      FAST  |    1.874(R)|      SLOW  |clk_BUFGP         |   0.000|
-rst         |    0.542(R)|      FAST  |    2.508(R)|      SLOW  |clk_BUFGP         |   0.000|
+ps2_clk     |    0.514(R)|      FAST  |    0.970(R)|      SLOW  |clk_BUFGP         |   0.000|
+ps2_data    |    0.022(R)|      FAST  |    2.056(R)|      SLOW  |clk_BUFGP         |   0.000|
+rst         |    0.445(R)|      FAST  |    2.559(R)|      SLOW  |clk_BUFGP         |   0.000|
 ------------+------------+------------+------------+------------+------------------+--------+
 
 Clock clk to Pad
@@ -46,7 +46,7 @@ Clock clk to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-SEGLED_CLK  |        13.671(R)|      SLOW  |         5.338(R)|      FAST  |clk_BUFGP         |   0.000|
+SEGLED_CLK  |        13.078(R)|      SLOW  |         5.065(R)|      FAST  |clk_BUFGP         |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock to Setup on destination clock clk
@@ -54,11 +54,11 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |    3.086|         |         |         |
+clk            |    3.485|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Fri Dec 25 14:20:29 2020 
+Analysis completed Fri Dec 25 15:32:18 2020 
 --------------------------------------------------------------------------------
 
 Trace Settings:

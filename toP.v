@@ -47,9 +47,6 @@ module Top(
 	
 	
 	//显示模块
-	reg [9:0] x;
-	reg [8:0] y;
-	
  	reg [11:0] vga_data;
  	wire [9:0] col_addr;
  	wire [8:0] row_addr;
@@ -59,13 +56,27 @@ module Top(
 	reg [8:0] PacY;
 	initial PacY = 9'd146;
 	
-	wire [9:0] pic_add_ip;
-	assign pic_add_ip = (row_addr - PacY) * 32 + (col_addr - PacX);
+	
+	wire [9:0] pac_add_ip;
+	assign pac_add_ip = (row_addr - PacY) * 32 + (col_addr - PacX);
 	wire [11:0] pac_inner_color;
-	Ghost G(.a(pic_add_ip),.spo(pac_inner_color));
+	PacSelf P(.a(pac_add_ip),.spo(pac_inner_color));
+	
+	reg [9:0] GhostX;
+	initial  GhostX = 10'd250;
+	reg [8:0] GhostY;
+	initial GhostY = 9'd146;
+	
+	wire [9:0] ghost_add_ip;
+	assign ghost_add_ip = (row_addr - GhostY) * 32 + (col_addr - GhostX);
+	wire [11:0] ghost_inner_color;
+	Ghost G(.a(ghost_add_ip),.spo(ghost_inner_color));
 	
 	always@(* ) begin
-		if(row_addr >= PacY && row_addr < PacY + 32 && col_addr >= PacX  && col_addr < PacX + 32)begin
+		if(row_addr >= GhostY && row_addr < GhostY + 32 && col_addr >= GhostX  && col_addr < GhostX + 32)begin
+			vga_data <= ghost_inner_color;
+		end
+		else if(row_addr >= PacY && row_addr < PacY + 32 && col_addr >= PacX  && col_addr < PacX + 32)begin
 			vga_data <= pac_inner_color;
 		end
 		else begin
@@ -86,20 +97,20 @@ module Top(
 			wasReady <= keyReady;
 			if (!wasReady&&keyReady) begin
 				case (keyCode)
-					5'hc: PacX <= PacX - 10'd20;
-					5'he: PacX <= PacX + 10'd20;
-					5'h9: PacY <= PacY - 9'd20;
-					5'h11: PacY <= PacY + 9'd20;
+					5'hc: PacX <= PacX - 10'd32;
+					5'he: PacX <= PacX + 10'd32;
+					5'h9: PacY <= PacY - 9'd32;
+					5'h11: PacY <= PacY + 9'd32;
 					default: ;
 				endcase
 			end
 			
 			if (!wasReady&&ps2_ready) begin
 				case (ps2_dataout[7:0])
-					5'hc: PacX <= PacX - 10'd20;
-					5'he: PacX <= PacX + 10'd20;
-					5'h9: PacY <= PacY - 9'd20;
-					5'h11: PacY <= PacY + 9'd20;
+					8'h6b: PacX <= PacX - 10'd32;
+					8'h74: PacX <= PacX + 10'd32;
+					8'h75: PacY <= PacY - 9'd32;
+					8'h72: PacY <= PacY + 9'd32;
 					default: ;
 				endcase
 			end
@@ -108,7 +119,7 @@ module Top(
 	
 	//显示数据模块
 	wire [31:0] segTestData;
-	assign segTestData = {7'b0,x,8'b0,y};
+	assign segTestData = {7'b0,PacX,8'b0,PacY};
 	wire [3:0]sout;
    Seg7Device segDevice(.clkIO(clkdiv[3]), .clkScan(clkdiv[15:14]), .clkBlink(clkdiv[25]),
 		.data(segTestData), .point(8'h0), .LES(8'h0),
