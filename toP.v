@@ -18,7 +18,6 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-//hello world!
 module Top(
 	input clk,rst,
 	input [15:0] SW,
@@ -61,13 +60,12 @@ module Top(
 	initial PacY = 9'd146;
 	
 	wire [9:0] pic_add_ip;
-	assign pic_add_ip = (row_addr - PacY) * 32 + col_addr - PacY;
-	
+	assign pic_add_ip = (row_addr - PacY) * 32 + (col_addr - PacX);
 	wire [11:0] pac_inner_color;
 	Ghost G(.a(pic_add_ip),.spo(pac_inner_color));
 	
 	always@(* ) begin
-		if(row_addr >= PacY && row_addr <= PacY + 32 && col_addr >= PacX  && col_addr <= PacX + 32)begin
+		if(row_addr >= PacY && row_addr < PacY + 32 && col_addr >= PacX  && col_addr < PacX + 32)begin
 			vga_data <= pac_inner_color;
 		end
 		else begin
@@ -82,26 +80,26 @@ module Top(
 	reg wasReady;
 	always @(posedge clk) begin
 		if (!rst) begin
-			x <= 10'd320;
-			y <= 9'd240;
+			PacX <= 10'd320;
+			PacY <= 9'd240;
 		end else begin
 			wasReady <= keyReady;
 			if (!wasReady&&keyReady) begin
 				case (keyCode)
-					5'hc: x <= x - 10'd20;
-					5'he: x <= x + 10'd20;
-					5'h9: y <= y - 9'd20;
-					5'h11: y <= y + 9'd20;
+					5'hc: PacX <= PacX - 10'd20;
+					5'he: PacX <= PacX + 10'd20;
+					5'h9: PacY <= PacY - 9'd20;
+					5'h11: PacY <= PacY + 9'd20;
 					default: ;
 				endcase
 			end
 			
 			if (!wasReady&&ps2_ready) begin
 				case (ps2_dataout[7:0])
-					8'h6b: x <= x - 10'd20;
-					8'h74: x <= x + 10'd20;
-					8'h72: y <= y - 9'd20;
-					8'h75: y <= y + 9'd20;
+					5'hc: PacX <= PacX - 10'd20;
+					5'he: PacX <= PacX + 10'd20;
+					5'h9: PacY <= PacY - 9'd20;
+					5'h11: PacY <= PacY + 9'd20;
 					default: ;
 				endcase
 			end
