@@ -3,7 +3,6 @@ Ghost.asy
 Ghost.gise
 Ghost.mif
 Ghost.ngc
-Ghost.sym
 Ghost.v
 Ghost.veo
 Ghost.xco

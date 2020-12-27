@@ -8,7 +8,41 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<<<<<<< HEAD
 <msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/MHTzt/Desktop/PACMAN_Repo/ifcrash.v&quot; into library work</arg>
+=======
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/10308/Desktop/DDLS/PacMan_Repo/PACMAN/AntiJitter.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/10308/Desktop/DDLS/PacMan_Repo/PACMAN/Keypad.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/10308/Desktop/DDLS/PacMan_Repo/PACMAN/PS2_keyboard.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/10308/Desktop/DDLS/PacMan_Repo/PACMAN/Seg7Decode.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/10308/Desktop/DDLS/PacMan_Repo/PACMAN/Seg7Device.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/10308/Desktop/DDLS/PacMan_Repo/PACMAN/Seg7Remap.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/10308/Desktop/DDLS/PacMan_Repo/PACMAN/SegmentDecoder.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/10308/Desktop/DDLS/PacMan_Repo/PACMAN/ShiftReg.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/10308/Desktop/DDLS/PacMan_Repo/PACMAN/clkdiv.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/10308/Desktop/DDLS/PacMan_Repo/PACMAN/toP.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;C:/Users/10308/Desktop/DDLS/PacMan_Repo/PACMAN/vgac.v&quot; into library work</arg>
+>>>>>>> 940964b2715ebf5581bd0d612cd4b99eebe84dd3
 </msg>
 
 </messages>
