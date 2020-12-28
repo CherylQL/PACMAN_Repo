@@ -47,26 +47,25 @@ module Display(
 		.vga_clk(clkdiv[1]), .clrn(clrn), .d_in(vga_data), .row_addr(row_addr), .col_addr(col_addr), .r(r), .g(g), .b(b), .hs(hs), .vs(vs)
 	);
 	
+	wire isWall;
+	Map map(.x(row_addr), .y(col_addr), .isWall(isWall));
 	
 	always@(* ) begin
-		if(row_addr >= GhostY && row_addr < GhostY + 32 && col_addr >= GhostX  && col_addr < GhostX + 32)begin
+		if(isWall) begin
+			vga_data <= 12'hfff;
+		end
+		else if(row_addr >= GhostY && row_addr < GhostY + 32 && col_addr >= GhostX  && col_addr < GhostX + 32)begin
 			ghost_add_ip <= (row_addr - GhostY) * 32 + (col_addr - GhostX);
 			vga_data <= ghost_inner_color;
 		end
 		else if(row_addr >= PacY && row_addr < PacY + 32 && col_addr >= PacX  && col_addr < PacX + 32)begin
-			//case (state)
-				//2'b00:pac_add_ip <= (row_addr - PacY) * 32 + (col_addr - PacX);
-				//2'b01:pac_add_ip <= (row_addr - PacY) * 32 + (col_addr - PacX);
-				//2'b10:pac_add_ip <= (row_addr - PacY) * 32 + (col_addr - PacX);
-				//2'b11:pac_add_ip <= (row_addr - PacY) * 32 + (col_addr - PacX);
-			//endcase
-			if(state == 2'b00)//ио
+			if(state == 2'b00)
 				pac_add_ip <= (col_addr - PacX) * 32 + (row_addr - PacY);
-			else if(state == 2'b01)//об
+			else if(state == 2'b01)
 				pac_add_ip <= (col_addr - PacX) * 32 + (32 - row_addr + PacY);
-			else if(state == 2'b10)//вС
+			else if(state == 2'b10)
 				pac_add_ip <= (row_addr - PacY) * 32 + (col_addr - PacX);
-			else//ср
+			else
 				pac_add_ip <= (row_addr - PacY) * 32 + (32 - col_addr + PacX);
 			vga_data <= pac_inner_color;
 		end
