@@ -48,12 +48,12 @@ module Top(
 	wire [1:0] pst;
 	//ÏÔÊ¾Ä£¿é
 	
-	wire [9:0] px;
-	wire [9:0] py;
+	wire [9:0] px;    //pacman's x
+	wire [9:0] py;		//pacman's y
 	
 	
-	reg [9:0] GhostX;
-	reg [8:0] GhostY;
+	reg [9:0] GhostX; //ghost's x
+	reg [8:0] GhostY; //ghost's y
 	initial GhostX = 10'd200;
 	initial GhostY = 9'd146;
 	
