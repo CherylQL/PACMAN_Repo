@@ -48,12 +48,17 @@ module Display(
 	);
 	
 	wire isWall;
-	Map map(.x(row_addr), .y(col_addr), .isWall(isWall));
+	Map Wall(.x(col_addr), .y(row_addr), .isWall(isWall));
+	//wire isbean;
+	//beanmap Bean(.x(row_addr), .y(col_addr), .isbean(isbean), .bmap());
 	
 	always@(* ) begin
 		if(isWall) begin
 			vga_data <= 12'hfff;
 		end
+		//else if(isbean) begin
+			//vga_data <= 12'hff0;
+		//end
 		else if(row_addr >= GhostY && row_addr < GhostY + 32 && col_addr >= GhostX  && col_addr < GhostX + 32)begin
 			ghost_add_ip <= (row_addr - GhostY) * 32 + (col_addr - GhostX);
 			vga_data <= ghost_inner_color;

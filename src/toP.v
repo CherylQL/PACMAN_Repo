@@ -48,8 +48,8 @@ module Top(
 	wire [1:0] pst;
 	//��ʾģ��
 	
-	wire [9:0] px;
-	wire [9:0] py;
+	wire [9:0] px;    //pacman's x
+	wire [9:0] py;		//pacman's y
 
 	wire [3:0] sout;
 	
@@ -61,15 +61,15 @@ module Top(
 		.r(r), .g(g), .b(b), .hs(HS), .vs(VS),
 		.PacX(px),.PacY(py),.GhostX(ghost1X),.GhostY(ghost1Y));
 	
-	//����ģ���ƶ�
+	wire result;
 	KeyControl Pac(.clk(clk),.rst(rst),
 		.keyCode(KeyCode),.keyboardCode(ps2_dataout[7:0]),.keyReady(KeyReady),.ps2_ready(ps2_ready),
 		.PacX(px),.PacY(py),
-		.state(pst));
+		.state(pst),.result_l());
 	
 	//��ʾ����ģ��
 	wire [31:0] segTestData;
-	assign segTestData = {7'b0,px,8'b0,py};
+	assign segTestData = {31'b0,result};
    Seg7Device segDevice(.clkIO(clkdiv[3]), .clkScan(clkdiv[15:14]), .clkBlink(clkdiv[25]),
 		.data(segTestData), .point(8'h0), .LES(8'h0),
 		.sout(sout));

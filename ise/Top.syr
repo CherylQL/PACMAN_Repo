@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.28 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.28 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
  
 --> Reading design: Top.prj
 
@@ -110,6 +110,8 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\SegmentDecoder.v" into library work
 Parsing module <SegmentDecoder>.
+Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\Map.v" into library work
+Parsing module <Map>.
 Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\vgac.v" into library work
 Parsing module <vgac>.
 Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\ShiftReg.v" into library work
@@ -118,12 +120,16 @@ Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Seg7Remap.v"
 Parsing module <Seg7Remap>.
 Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Seg7Decode.v" into library work
 Parsing module <Seg7Decode>.
+Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\clkdiv.v" into library work
+Parsing module <clkdiv>.
 Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\AntiJitter.v" into library work
 Parsing module <AntiJitter>.
-Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\ipcore_dir\PacSelf.v" into library work
+Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\ipcore_dir\PacSelf.v" into library work
 Parsing module <PacSelf>.
-Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\ipcore_dir\Ghost.v" into library work
+Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\ipcore_dir\Ghost.v" into library work
 Parsing module <Ghost>.
+Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\CheckCollision.v" into library work
+Parsing module <CheckCollision>.
 Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Seg7Device.v" into library work
 Parsing module <Seg7Device>.
 Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\PS2_keyboard.v" into library work
@@ -134,8 +140,6 @@ Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\KeyControl.v
 Parsing module <KeyControl>.
 Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" into library work
 Parsing module <Display>.
-Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\clkdiv.v" into library work
-Parsing module <clkdiv>.
 Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" into library work
 Parsing module <Top>.
 
@@ -143,7 +147,7 @@ Parsing module <Top>.
 *                            HDL Elaboration                            *
 =========================================================================
 WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 40: Port dbg_keyLine is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 79: Port segment is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 80: Port segment is not connected to this instance
 
 Elaborating module <Top>.
 WARNING:HDLCompiler:872 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 57: Using initial value of GhostX since it is never assigned
@@ -162,22 +166,31 @@ WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.
 Elaborating module <Display>.
 
 Elaborating module <PacSelf>.
-WARNING:HDLCompiler:1499 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\ipcore_dir\PacSelf.v" Line 39: Empty module <PacSelf> remains a black box.
+WARNING:HDLCompiler:1499 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\ipcore_dir\PacSelf.v" Line 39: Empty module <PacSelf> remains a black box.
 
 Elaborating module <Ghost>.
-WARNING:HDLCompiler:1499 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\PACMAN\ipcore_dir\Ghost.v" Line 39: Empty module <Ghost> remains a black box.
+WARNING:HDLCompiler:1499 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\ipcore_dir\Ghost.v" Line 39: Empty module <Ghost> remains a black box.
 
 Elaborating module <vgac>.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 53: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 64: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 66: Result of 32-bit expression is truncated to fit in 10-bit target.
+
+Elaborating module <Map>.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 63: Result of 32-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 68: Result of 32-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 70: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 72: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 74: Result of 32-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 67: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
 
 Elaborating module <KeyControl>.
-WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 72: Size mismatch in connection of port <keyCode>. Formal port size is 5-bit while actual signal size is 1-bit.
-WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 73: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
+
+Elaborating module <CheckCollision>.
+WARNING:HDLCompiler:295 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\CheckCollision.v" Line 41: case condition never applies
+WARNING:HDLCompiler:295 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\CheckCollision.v" Line 45: case condition never applies
+WARNING:HDLCompiler:634 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\CheckCollision.v" Line 28: Net <x[9]> does not have a driver.
+WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\KeyControl.v" Line 43: Size mismatch in connection of port <state>. Formal port size is 1-bit while actual signal size is 2-bit.
+WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\KeyControl.v" Line 46: Size mismatch in connection of port <state>. Formal port size is 1-bit while actual signal size is 2-bit.
+WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 73: Size mismatch in connection of port <keyCode>. Formal port size is 5-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 74: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
 
 Elaborating module <Seg7Device>.
 
@@ -188,7 +201,8 @@ Elaborating module <SegmentDecoder>.
 Elaborating module <Seg7Remap>.
 
 Elaborating module <ShiftReg(WIDTH=64)>.
-WARNING:HDLCompiler:634 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 72: Net <KeyCode> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 70: Net <result> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 73: Net <KeyCode> does not have a driver.
 WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35. All outputs of instance <a0<1>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
 WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35. All outputs of instance <a0<2>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
 WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35. All outputs of instance <a0<3>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
@@ -227,8 +241,10 @@ INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35: Out
 INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 40: Output port <keyCode> of the instance <k0> is unconnected or connected to loadless signal.
 INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 40: Output port <dbg_keyLine> of the instance <k0> is unconnected or connected to loadless signal.
 INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 40: Output port <ready> of the instance <k0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 79: Output port <segment> of the instance <segDevice> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 79: Output port <anode> of the instance <segDevice> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 72: Output port <result_l> of the instance <Pac> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 80: Output port <segment> of the instance <segDevice> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 80: Output port <anode> of the instance <segDevice> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <result> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <KeyCode> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <KeyReady> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Summary:
@@ -301,31 +317,31 @@ WARNING:Xst:647 - Input <clkdiv<0:0>> is never used. This port will be preserved
 WARNING:Xst:647 - Input <clkdiv<31:2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" line 46: Output port <rdn> of the instance <vga> is unconnected or connected to loadless signal.
-    Found 10-bit subtractor for signal <GND_15_o_GND_15_o_sub_7_OUT> created at line 53.
-    Found 11-bit subtractor for signal <GND_15_o_GND_15_o_sub_8_OUT> created at line 53.
-    Found 10-bit subtractor for signal <GND_15_o_GND_15_o_sub_22_OUT> created at line 66.
-    Found 11-bit subtractor for signal <GND_15_o_GND_15_o_sub_27_OUT> created at line 68.
-    Found 10-bit subtractor for signal <GND_15_o_GND_15_o_sub_29_OUT> created at line 70.
-    Found 11-bit subtractor for signal <GND_15_o_GND_15_o_sub_30_OUT> created at line 70.
-    Found 32-bit adder for signal <n0083> created at line 53.
-    Found 10-bit adder for signal <n0113> created at line 56.
-    Found 11-bit adder for signal <n0115> created at line 56.
-    Found 32-bit adder for signal <n0086> created at line 64.
-    Found 32-bit adder for signal <n0150> created at line 66.
-    Found 32-bit adder for signal <n0089> created at line 66.
-    Found 32-bit adder for signal <n0091> created at line 68.
-    Found 32-bit adder for signal <n0159> created at line 70.
-    Found 32-bit adder for signal <n0095> created at line 70.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_15_o_GND_15_o_mux_34_OUT<9>> created at line 51.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_15_o_GND_15_o_mux_34_OUT<8>> created at line 51.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_15_o_GND_15_o_mux_34_OUT<7>> created at line 51.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_15_o_GND_15_o_mux_34_OUT<6>> created at line 51.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_15_o_GND_15_o_mux_34_OUT<5>> created at line 51.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_15_o_GND_15_o_mux_34_OUT<4>> created at line 51.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_15_o_GND_15_o_mux_34_OUT<3>> created at line 51.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_15_o_GND_15_o_mux_34_OUT<2>> created at line 51.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_15_o_GND_15_o_mux_34_OUT<1>> created at line 51.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_15_o_GND_15_o_mux_34_OUT<0>> created at line 51.
+    Found 10-bit subtractor for signal <GND_15_o_GND_15_o_sub_7_OUT> created at line 63.
+    Found 11-bit subtractor for signal <GND_15_o_GND_15_o_sub_8_OUT> created at line 63.
+    Found 10-bit subtractor for signal <GND_15_o_GND_15_o_sub_22_OUT> created at line 70.
+    Found 11-bit subtractor for signal <GND_15_o_GND_15_o_sub_27_OUT> created at line 72.
+    Found 10-bit subtractor for signal <GND_15_o_GND_15_o_sub_29_OUT> created at line 74.
+    Found 11-bit subtractor for signal <GND_15_o_GND_15_o_sub_30_OUT> created at line 74.
+    Found 32-bit adder for signal <n0087> created at line 63.
+    Found 10-bit adder for signal <n0118> created at line 66.
+    Found 11-bit adder for signal <n0120> created at line 66.
+    Found 32-bit adder for signal <n0090> created at line 68.
+    Found 32-bit adder for signal <n0155> created at line 70.
+    Found 32-bit adder for signal <n0093> created at line 70.
+    Found 32-bit adder for signal <n0095> created at line 72.
+    Found 32-bit adder for signal <n0164> created at line 74.
+    Found 32-bit adder for signal <n0099> created at line 74.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_15_o_GND_15_o_mux_34_OUT<9>> created at line 55.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_15_o_GND_15_o_mux_34_OUT<8>> created at line 55.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_15_o_GND_15_o_mux_34_OUT<7>> created at line 55.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_15_o_GND_15_o_mux_34_OUT<6>> created at line 55.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_15_o_GND_15_o_mux_34_OUT<5>> created at line 55.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_15_o_GND_15_o_mux_34_OUT<4>> created at line 55.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_15_o_GND_15_o_mux_34_OUT<3>> created at line 55.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_15_o_GND_15_o_mux_34_OUT<2>> created at line 55.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_15_o_GND_15_o_mux_34_OUT<1>> created at line 55.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_15_o_GND_15_o_mux_34_OUT<0>> created at line 55.
 WARNING:Xst:737 - Found 1-bit latch for signal <ghost_add_ip<8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <ghost_add_ip<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <ghost_add_ip<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -346,19 +362,19 @@ WARNING:Xst:737 - Found 1-bit latch for signal <pac_add_ip<2>>. Latches may be g
 WARNING:Xst:737 - Found 1-bit latch for signal <pac_add_ip<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <pac_add_ip<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <ghost_add_ip<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-    Found 9-bit comparator lessequal for signal <n0000> created at line 52
-    Found 10-bit comparator greater for signal <GND_15_o_BUS_0001_LessThan_3_o> created at line 52
-    Found 10-bit comparator lessequal for signal <n0005> created at line 52
-    Found 11-bit comparator greater for signal <GND_15_o_BUS_0002_LessThan_6_o> created at line 52
-    Found 9-bit comparator lessequal for signal <n0014> created at line 56
-    Found 10-bit comparator greater for signal <GND_15_o_BUS_0004_LessThan_12_o> created at line 56
-    Found 10-bit comparator lessequal for signal <n0019> created at line 56
-    Found 11-bit comparator greater for signal <GND_15_o_BUS_0005_LessThan_15_o> created at line 56
+    Found 9-bit comparator lessequal for signal <n0000> created at line 62
+    Found 10-bit comparator greater for signal <GND_15_o_BUS_0001_LessThan_3_o> created at line 62
+    Found 10-bit comparator lessequal for signal <n0005> created at line 62
+    Found 11-bit comparator greater for signal <GND_15_o_BUS_0002_LessThan_6_o> created at line 62
+    Found 9-bit comparator lessequal for signal <n0014> created at line 66
+    Found 10-bit comparator greater for signal <GND_15_o_BUS_0004_LessThan_12_o> created at line 66
+    Found 10-bit comparator lessequal for signal <n0019> created at line 66
+    Found 11-bit comparator greater for signal <GND_15_o_BUS_0005_LessThan_15_o> created at line 66
     Summary:
 	inferred  15 Adder/Subtractor(s).
 	inferred  20 Latch(s).
 	inferred   8 Comparator(s).
-	inferred  12 Multiplexer(s).
+	inferred  13 Multiplexer(s).
 Unit <Display> synthesized.
 
 Synthesizing Unit <vgac>.
@@ -390,20 +406,51 @@ Synthesizing Unit <vgac>.
 	inferred   1 Multiplexer(s).
 Unit <vgac> synthesized.
 
+Synthesizing Unit <Map>.
+    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\Map.v".
+WARNING:Xst:647 - Input <x<3:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <y<3:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:2999 - Signal 'mapData', unconnected in block 'Map', is tied to its initial value.
+WARNING:Xst:3035 - Index value(s) does not match array range for signal <mapData>, simulation mismatch.
+    Found 1200x1-bit single-port Read Only RAM <Mram_mapData> for signal <mapData>.
+    Found 11-bit adder for signal <y[8]_GND_19_o_add_1_OUT> created at line 25.
+    Found 5x6-bit multiplier for signal <n0009> created at line 25.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   1 Multiplier(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <Map> synthesized.
+
 Synthesizing Unit <KeyControl>.
     Related source file is "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\KeyControl.v".
-    Found 9-bit register for signal <PacY>.
-    Found 1-bit register for signal <wasReady>.
+    Found 2-bit register for signal <state_>.
     Found 2-bit register for signal <state>.
     Found 10-bit register for signal <PacX>.
-    Found 10-bit subtractor for signal <PacX[9]_GND_39_o_sub_2_OUT> created at line 49.
-    Found 9-bit subtractor for signal <PacY[8]_GND_39_o_sub_5_OUT> created at line 64.
-    Found 10-bit adder for signal <PacX[9]_GND_39_o_add_2_OUT> created at line 54.
-    Found 9-bit adder for signal <PacY[8]_GND_39_o_add_3_OUT> created at line 59.
+    Found 9-bit register for signal <PacY>.
+    Found 1-bit register for signal <wasReady>.
+    Found 10-bit subtractor for signal <PacX[9]_GND_41_o_sub_23_OUT> created at line 111.
+    Found 9-bit subtractor for signal <PacY[8]_GND_41_o_sub_25_OUT> created at line 119.
+    Found 10-bit adder for signal <PacX[9]_GND_41_o_add_23_OUT> created at line 115.
+    Found 9-bit adder for signal <PacY[8]_GND_41_o_add_25_OUT> created at line 123.
     Summary:
-	inferred   4 Adder/Subtractor(s).
-	inferred  22 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred  24 D-type flip-flop(s).
 Unit <KeyControl> synthesized.
+
+Synthesizing Unit <CheckCollision>.
+    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\CheckCollision.v".
+WARNING:Xst:647 - Input <PacX> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <PacY> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:653 - Signal <x> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 1-bit register for signal <result>.
+    Found 9-bit register for signal <y>.
+    Found 9-bit subtractor for signal <y[8]_GND_42_o_sub_2_OUT> created at line 51.
+    Found 9-bit adder for signal <y[8]_GND_42_o_add_2_OUT> created at line 55.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  10 D-type flip-flop(s).
+Unit <CheckCollision> synthesized.
 
 Synthesizing Unit <Seg7Device>.
     Related source file is "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Seg7Device.v".
@@ -440,7 +487,7 @@ Synthesizing Unit <ShiftReg>.
     Found 1-bit register for signal <oe>.
     Found 12-bit register for signal <counter>.
     Found 65-bit register for signal <shift>.
-    Found 12-bit adder for signal <counter[11]_GND_45_o_add_5_OUT> created at line 54.
+    Found 12-bit adder for signal <counter[11]_GND_48_o_add_5_OUT> created at line 54.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  78 D-type flip-flop(s).
@@ -451,31 +498,35 @@ Unit <ShiftReg> synthesized.
 HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 9
+# RAMs                                                 : 12
+ 1200x1-bit single-port Read Only RAM                  : 3
  16x7-bit single-port Read Only RAM                    : 8
  4x4-bit single-port Read Only RAM                     : 1
-# Adders/Subtractors                                   : 29
- 10-bit adder                                          : 4
- 10-bit subtractor                                     : 5
- 11-bit adder                                          : 1
+# Multipliers                                          : 3
+ 6x5-bit multiplier                                    : 3
+# Adders/Subtractors                                   : 33
+ 10-bit adder                                          : 3
+ 10-bit addsub                                         : 1
+ 10-bit subtractor                                     : 4
+ 11-bit adder                                          : 4
  11-bit subtractor                                     : 3
  12-bit adder                                          : 1
- 32-bit adder                                          : 8
+ 32-bit adder                                          : 9
  4-bit adder                                           : 1
  4-bit addsub                                          : 3
- 9-bit adder                                           : 1
- 9-bit subtractor                                      : 2
-# Registers                                            : 37
- 1-bit register                                        : 16
+ 9-bit addsub                                          : 3
+ 9-bit subtractor                                      : 1
+# Registers                                            : 43
+ 1-bit register                                        : 18
  10-bit register                                       : 5
  12-bit register                                       : 1
- 2-bit register                                        : 1
- 32-bit register                                       : 1
+ 2-bit register                                        : 2
+ 32-bit register                                       : 2
  4-bit register                                        : 8
  5-bit register                                        : 1
  65-bit register                                       : 1
  8-bit register                                        : 1
- 9-bit register                                        : 2
+ 9-bit register                                        : 4
 # Latches                                              : 20
  1-bit latch                                           : 20
 # Comparators                                          : 14
@@ -483,10 +534,10 @@ Macro Statistics
  10-bit comparator lessequal                           : 2
  11-bit comparator greater                             : 2
  9-bit comparator lessequal                            : 2
-# Multiplexers                                         : 16
+# Multiplexers                                         : 17
  1-bit 4-to-1 multiplexer                              : 10
  10-bit 2-to-1 multiplexer                             : 1
- 12-bit 2-to-1 multiplexer                             : 2
+ 12-bit 2-to-1 multiplexer                             : 3
  4-bit 2-to-1 multiplexer                              : 1
  65-bit 2-to-1 multiplexer                             : 1
  8-bit 4-to-1 multiplexer                              : 1
@@ -516,6 +567,30 @@ WARNING:Xst:2677 - Node <data_9> of sequential type is unconnected in block <ps2
 Synthesizing (advanced) Unit <AntiJitter>.
 The following registers are absorbed into counter <cnt>: 1 register on signal <cnt>.
 Unit <AntiJitter> synthesized (advanced).
+
+Synthesizing (advanced) Unit <CheckCollision>.
+The following registers are absorbed into accumulator <y>: 1 register on signal <y>, 1 register on signal <state>, 1 register on signal <state_>.
+Unit <CheckCollision> synthesized (advanced).
+
+Synthesizing (advanced) Unit <KeyControl>.
+The following registers are absorbed into counter <PacX>: 1 register on signal <PacX>.
+The following registers are absorbed into counter <PacY>: 1 register on signal <PacY>.
+Unit <KeyControl> synthesized (advanced).
+
+Synthesizing (advanced) Unit <Map>.
+	Multiplier <Mmult_n0009> in block <Map> and adder/subtractor <Madd_y[8]_GND_19_o_add_1_OUT> in block <Map> are combined into a MAC<Maddsub_n0009>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_mapData> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 1200-word x 1-bit                   |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <y[8]_GND_19_o_add_1_OUT> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <Map> synthesized (advanced).
 
 Synthesizing (advanced) Unit <PS2_keyboard>.
 The following registers are absorbed into counter <num>: 1 register on signal <num>.
@@ -566,33 +641,39 @@ Unit <vgac> synthesized (advanced).
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 9
+# RAMs                                                 : 12
+ 1200x1-bit single-port distributed Read Only RAM      : 3
  16x7-bit single-port distributed Read Only RAM        : 8
  4x4-bit single-port distributed Read Only RAM         : 1
-# Adders/Subtractors                                   : 21
- 10-bit adder                                          : 9
- 10-bit subtractor                                     : 7
+# MACs                                                 : 3
+ 6x5-to-11-bit MAC                                     : 3
+# Adders/Subtractors                                   : 17
+ 10-bit adder                                          : 8
+ 10-bit subtractor                                     : 6
  11-bit adder                                          : 1
  5-bit subtractor                                      : 1
- 9-bit adder                                           : 1
- 9-bit subtractor                                      : 2
-# Counters                                             : 8
+ 9-bit subtractor                                      : 1
+# Counters                                             : 11
  10-bit up counter                                     : 2
+ 10-bit updown counter                                 : 1
  12-bit up counter                                     : 1
- 32-bit up counter                                     : 1
+ 32-bit up counter                                     : 2
  4-bit up counter                                      : 1
  4-bit updown counter                                  : 3
-# Registers                                            : 160
- Flip-Flops                                            : 160
+ 9-bit updown counter                                  : 1
+# Accumulators                                         : 2
+ 9-bit updown accumulator                              : 2
+# Registers                                            : 145
+ Flip-Flops                                            : 145
 # Comparators                                          : 14
  10-bit comparator greater                             : 8
  10-bit comparator lessequal                           : 2
  11-bit comparator greater                             : 2
  9-bit comparator lessequal                            : 2
-# Multiplexers                                         : 78
+# Multiplexers                                         : 79
  1-bit 2-to-1 multiplexer                              : 65
  1-bit 4-to-1 multiplexer                              : 10
- 12-bit 2-to-1 multiplexer                             : 2
+ 12-bit 2-to-1 multiplexer                             : 3
  8-bit 4-to-1 multiplexer                              : 1
 
 =========================================================================
@@ -600,11 +681,32 @@ Macro Statistics
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
+WARNING:Xst:1989 - Unit <Seg7Decode>: instances <U0>, <U1> of unit <SegmentDecoder> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Seg7Decode>: instances <U0>, <U2> of unit <SegmentDecoder> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Seg7Decode>: instances <U0>, <U3> of unit <SegmentDecoder> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Seg7Decode>: instances <U0>, <U4> of unit <SegmentDecoder> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Seg7Decode>: instances <U0>, <U5> of unit <SegmentDecoder> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Seg7Decode>: instances <U0>, <U6> of unit <SegmentDecoder> are equivalent, second instance is removed
+WARNING:Xst:1989 - Unit <Seg7Decode>: instances <U0>, <U7> of unit <SegmentDecoder> are equivalent, second instance is removed
 WARNING:Xst:1710 - FF/Latch <wasReady> (without init value) has a constant value of 0 in block <KeyControl>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <PacY_0> has a constant value of 0 in block <KeyControl>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <PacY_2> has a constant value of 0 in block <KeyControl>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <PacY_3> has a constant value of 0 in block <KeyControl>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <PacX_0> has a constant value of 0 in block <KeyControl>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <c0/clkdiv_16> of sequential type is unconnected in block <KeyControl>.
+WARNING:Xst:2677 - Node <c0/clkdiv_17> of sequential type is unconnected in block <KeyControl>.
+WARNING:Xst:2677 - Node <c0/clkdiv_18> of sequential type is unconnected in block <KeyControl>.
+WARNING:Xst:2677 - Node <c0/clkdiv_19> of sequential type is unconnected in block <KeyControl>.
+WARNING:Xst:2677 - Node <c0/clkdiv_20> of sequential type is unconnected in block <KeyControl>.
+WARNING:Xst:2677 - Node <c0/clkdiv_21> of sequential type is unconnected in block <KeyControl>.
+WARNING:Xst:2677 - Node <c0/clkdiv_22> of sequential type is unconnected in block <KeyControl>.
+WARNING:Xst:2677 - Node <c0/clkdiv_23> of sequential type is unconnected in block <KeyControl>.
+WARNING:Xst:2677 - Node <c0/clkdiv_24> of sequential type is unconnected in block <KeyControl>.
+WARNING:Xst:2677 - Node <c0/clkdiv_25> of sequential type is unconnected in block <KeyControl>.
+WARNING:Xst:2677 - Node <c0/clkdiv_26> of sequential type is unconnected in block <KeyControl>.
+WARNING:Xst:2677 - Node <c0/clkdiv_27> of sequential type is unconnected in block <KeyControl>.
+WARNING:Xst:2677 - Node <c0/clkdiv_28> of sequential type is unconnected in block <KeyControl>.
+WARNING:Xst:2677 - Node <c0/clkdiv_29> of sequential type is unconnected in block <KeyControl>.
+WARNING:Xst:2677 - Node <c0/clkdiv_30> of sequential type is unconnected in block <KeyControl>.
+WARNING:Xst:2677 - Node <c0/clkdiv_31> of sequential type is unconnected in block <KeyControl>.
+INFO:Xst:2261 - The FF/Latch <state_0> in Unit <KeyControl> is equivalent to the following FF/Latch, which will be removed : <name> 
+INFO:Xst:2261 - The FF/Latch <state__0> in Unit <KeyControl> is equivalent to the following FF/Latch, which will be removed : <name1> 
 WARNING:Xst:2677 - Node <k0/rdyFilter/cnt_3> of sequential type is unconnected in block <Top>.
 WARNING:Xst:2677 - Node <k0/rdyFilter/cnt_2> of sequential type is unconnected in block <Top>.
 WARNING:Xst:2677 - Node <k0/rdyFilter/cnt_1> of sequential type is unconnected in block <Top>.
@@ -627,10 +729,14 @@ Optimizing unit <PS2_keyboard> ...
 Optimizing unit <Display> ...
 
 Optimizing unit <KeyControl> ...
-WARNING:Xst:1293 - FF/Latch <PacY_4> has a constant value of 1 in block <KeyControl>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1293 - FF/Latch <PacY_4> has a constant value of 1 in block <KeyControl>. This FF/Latch will be trimmed during the optimization process.
-
-Optimizing unit <Seg7Device> ...
+WARNING:Xst:2677 - Node <cc_line/y_0> of sequential type is unconnected in block <KeyControl>.
+WARNING:Xst:2677 - Node <cc_line/y_1> of sequential type is unconnected in block <KeyControl>.
+WARNING:Xst:2677 - Node <cc_line/y_2> of sequential type is unconnected in block <KeyControl>.
+WARNING:Xst:2677 - Node <cc_line/y_3> of sequential type is unconnected in block <KeyControl>.
+WARNING:Xst:2677 - Node <cc_turn/y_0> of sequential type is unconnected in block <KeyControl>.
+WARNING:Xst:2677 - Node <cc_turn/y_1> of sequential type is unconnected in block <KeyControl>.
+WARNING:Xst:2677 - Node <cc_turn/y_2> of sequential type is unconnected in block <KeyControl>.
+WARNING:Xst:2677 - Node <cc_turn/y_3> of sequential type is unconnected in block <KeyControl>.
 
 Optimizing unit <ShiftReg> ...
 WARNING:Xst:2677 - Node <c0/clkdiv_16> of sequential type is unconnected in block <Top>.
@@ -653,8 +759,22 @@ WARNING:Xst:2677 - Node <ps2/data_9> of sequential type is unconnected in block 
 WARNING:Xst:2677 - Node <ps2/data_8> of sequential type is unconnected in block <Top>.
 WARNING:Xst:2677 - Node <ps2/data_break> of sequential type is unconnected in block <Top>.
 WARNING:Xst:2677 - Node <ps2/data_expand> of sequential type is unconnected in block <Top>.
-WARNING:Xst:1293 - FF/Latch <Pac/PacY_4> has a constant value of 1 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-INFO:Xst:2261 - The FF/Latch <Pac/PacX_4> in Unit <Top> is equivalent to the following 4 FFs/Latches, which will be removed : <Pac/PacX_3> <Pac/PacX_2> <Pac/PacX_1> <Pac/PacY_1> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_0> in Unit <Top> is equivalent to the following 3 FFs/Latches, which will be removed : <Pac/c0/clkdiv_0> <Pac/cc_turn/y_4> <Pac/cc_line/y_4> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_1> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_1> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_2> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_2> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_3> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_3> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_4> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_4> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_5> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_5> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_6> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_6> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_7> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_7> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_8> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_8> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_9> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_9> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_10> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_10> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_11> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_11> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_12> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_12> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_13> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_13> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_14> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_14> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_15> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_15> 
 
 Mapping all equations...
 Building and optimizing final netlist ...
@@ -666,8 +786,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 196
- Flip-Flops                                            : 196
+# Registers                                            : 217
+ Flip-Flops                                            : 217
 
 =========================================================================
 
@@ -690,28 +810,26 @@ Top Level Output File Name         : Top.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1151
+# BELS                             : 1282
 #      GND                         : 2
-#      INV                         : 19
-#      LUT1                        : 38
-#      LUT2                        : 52
-#      LUT3                        : 48
-#      LUT4                        : 65
-#      LUT5                        : 107
-#      LUT6                        : 445
-#      MUXCY                       : 103
-#      MUXF7                       : 133
+#      INV                         : 17
+#      LUT1                        : 41
+#      LUT2                        : 153
+#      LUT3                        : 53
+#      LUT4                        : 71
+#      LUT5                        : 65
+#      LUT6                        : 452
+#      MUXCY                       : 134
+#      MUXF7                       : 121
 #      MUXF8                       : 60
 #      VCC                         : 1
-#      XORCY                       : 78
-# FlipFlops/Latches                : 216
-#      FD                          : 101
+#      XORCY                       : 112
+# FlipFlops/Latches                : 237
+#      FD                          : 48
 #      FDC                         : 3
 #      FDCE                        : 31
-#      FDE                         : 26
-#      FDR                         : 25
-#      FDRE                        : 5
-#      FDSE                        : 5
+#      FDE                         : 109
+#      FDR                         : 26
 #      LD                          : 10
 #      LDE_1                       : 10
 # Clock Buffers                    : 4
@@ -729,16 +847,16 @@ Selected Device : 7k160tffg676-1
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             216  out of  202800     0%  
- Number of Slice LUTs:                  774  out of  101400     0%  
-    Number used as Logic:               774  out of  101400     0%  
+ Number of Slice Registers:             237  out of  202800     0%  
+ Number of Slice LUTs:                  852  out of  101400     0%  
+    Number used as Logic:               852  out of  101400     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    786
-   Number with an unused Flip Flop:     570  out of    786    72%  
-   Number with an unused LUT:            12  out of    786     1%  
-   Number of fully used LUT-FF pairs:   204  out of    786    25%  
-   Number of unique control sets:        23
+ Number of LUT Flip Flop pairs used:    867
+   Number with an unused Flip Flop:     630  out of    867    72%  
+   Number with an unused LUT:            15  out of    867     1%  
+   Number of fully used LUT-FF pairs:   222  out of    867    25%  
+   Number of unique control sets:        25
 
 IO Utilization: 
  Number of IOs:                          47
@@ -765,16 +883,17 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
------------------------------------------------------------------+-------------------------+-------+
-Clock Signal                                                     | Clock buffer(FF name)   | Load  |
------------------------------------------------------------------+-------------------------+-------+
-clk                                                              | BUFGP                   | 53    |
-c0/clkdiv_15                                                     | NONE(a0<15>/cnt_0)      | 11    |
-c0/clkdiv_1                                                      | BUFG                    | 54    |
-DM/GhostY[8]_GND_15_o_AND_20_o(DM/GhostY[8]_GND_15_o_AND_20_o3:O)| BUFG(*)(DM/pac_add_ip_1)| 20    |
-c0/clkdiv_3                                                      | BUFG                    | 78    |
------------------------------------------------------------------+-------------------------+-------+
-(*) This 1 clock signal(s) are generated by combinatorial logic,
+-------------------------------------------------------------+---------------------------+-------+
+Clock Signal                                                 | Clock buffer(FF name)     | Load  |
+-------------------------------------------------------------+---------------------------+-------+
+clk                                                          | BUFGP                     | 55    |
+c0/clkdiv_15                                                 | BUFG                      | 30    |
+c0/clkdiv_1                                                  | BUFG                      | 54    |
+DM/isWall_GhostY[8]_AND_71_o(DM/isWall_GhostY[8]_AND_71_o1:O)| NONE(*)(DM/pac_add_ip_1)  | 10    |
+DM/isWall(DM_isWall_inv1:O)                                  | NONE(*)(DM/ghost_add_ip_0)| 10    |
+c0/clkdiv_3                                                  | BUFG                      | 78    |
+-------------------------------------------------------------+---------------------------+-------+
+(*) These 2 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
 Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
@@ -787,9 +906,9 @@ Timing Summary:
 ---------------
 Speed Grade: -1
 
-   Minimum period: 2.834ns (Maximum Frequency: 352.880MHz)
+   Minimum period: 4.646ns (Maximum Frequency: 215.239MHz)
    Minimum input arrival time before clock: 1.535ns
-   Maximum output required time after clock: 2.542ns
+   Maximum output required time after clock: 2.694ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -798,33 +917,37 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 2.639ns (frequency: 378.931MHz)
-  Total number of paths / destination ports: 719 / 86
+  Clock period: 4.361ns (frequency: 229.289MHz)
+  Total number of paths / destination ports: 772 / 80
 -------------------------------------------------------------------------
-Delay:               2.639ns (Levels of Logic = 4)
-  Source:            ps2/data_3 (FF)
-  Destination:       Pac/PacY_8 (FF)
+Delay:               4.361ns (Levels of Logic = 8)
+  Source:            c0/clkdiv_0 (FF)
+  Destination:       Pac/cc_turn/result (FF)
   Source Clock:      clk rising
   Destination Clock: clk rising
 
-  Data Path: ps2/data_3 to Pac/PacY_8
+  Data Path: c0/clkdiv_0 to Pac/cc_turn/result
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             2   0.282   0.731  ps2/data_3 (ps2/data_3)
-     LUT5:I0->O           12   0.053   0.485  Pac/keyboardCode[7]_GND_39_o_equal_22_o<7>11 (Pac/keyboardCode[7]_GND_39_o_equal_22_o<7>1)
-     LUT4:I3->O            4   0.053   0.433  Pac/keyboardCode[7]_GND_39_o_equal_24_o<7>1 (Pac/keyboardCode[7]_GND_39_o_equal_24_o)
-     LUT5:I4->O            1   0.053   0.485  Pac/keyboardCode[7]_PacY[8]_select_27_OUT<7>11_SW3 (N27)
-     LUT6:I4->O            1   0.053   0.000  Pac/keyboardCode[7]_PacY[8]_select_27_OUT<8>3 (Pac/keyboardCode[7]_PacY[8]_select_27_OUT<8>)
-     FDRE:D                    0.011          Pac/PacY_8
+     FD:C->Q              31   0.282   0.565  c0/clkdiv_0 (c0/clkdiv_0)
+     LUT2:I1->O            1   0.053   0.000  Pac/cc_turn/Wall/Maddsub_n0009_Madd1_lut<4> (Pac/cc_turn/Wall/Maddsub_n0009_Madd1_lut<4>)
+     MUXCY:S->O            1   0.291   0.000  Pac/cc_turn/Wall/Maddsub_n0009_Madd1_cy<4> (Pac/cc_turn/Wall/Maddsub_n0009_Madd1_cy<4>)
+     MUXCY:CI->O           1   0.015   0.000  Pac/cc_turn/Wall/Maddsub_n0009_Madd1_cy<5> (Pac/cc_turn/Wall/Maddsub_n0009_Madd1_cy<5>)
+     XORCY:CI->O           5   0.320   0.752  Pac/cc_turn/Wall/Maddsub_n0009_Madd1_xor<6> (Pac/cc_turn/Wall/Maddsub_n0009_7)
+     LUT6:I1->O            1   0.053   0.635  Pac_cc_turn/Wall/Mram_mapData191_9 (Pac_cc_turn/Wall/Mram_mapData191_9)
+     LUT6:I2->O            1   0.053   0.413  Pac_cc_turn/isWall_inv1_SW0 (Pac_N0)
+     LUT4:I3->O            1   0.053   0.399  Pac_cc_turn/isWall_inv1 (Pac/cc_turn/isWall)
+     INV:I->O              1   0.067   0.399  Pac/cc_turn/GND_42_o_GND_42_o_not_equal_4_o1_INV_0 (Pac/cc_turn/GND_42_o_GND_42_o_not_equal_4_o)
+     FD:D                      0.011          Pac/cc_turn/result
     ----------------------------------------
-    Total                      2.639ns (0.505ns logic, 2.134ns route)
-                                       (19.1% logic, 80.9% route)
+    Total                      4.361ns (1.198ns logic, 3.163ns route)
+                                       (27.5% logic, 72.5% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'c0/clkdiv_15'
   Clock period: 1.824ns (frequency: 548.246MHz)
-  Total number of paths / destination ports: 71 / 21
+  Total number of paths / destination ports: 252 / 40
 -------------------------------------------------------------------------
 Delay:               1.824ns (Levels of Logic = 1)
   Source:            a0<15>/cnt_0 (FF)
@@ -845,49 +968,50 @@ Delay:               1.824ns (Levels of Logic = 1)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'c0/clkdiv_1'
-  Clock period: 2.673ns (frequency: 374.112MHz)
-  Total number of paths / destination ports: 2011 / 86
+  Clock period: 4.646ns (frequency: 215.239MHz)
+  Total number of paths / destination ports: 10291 / 86
 -------------------------------------------------------------------------
-Delay:               2.673ns (Levels of Logic = 8)
-  Source:            DM/vga/row_addr_1 (FF)
+Delay:               4.646ns (Levels of Logic = 8)
+  Source:            DM/vga/row_addr_6 (FF)
   Destination:       DM/vga/r_3 (FF)
   Source Clock:      c0/clkdiv_1 rising
   Destination Clock: c0/clkdiv_1 rising
 
-  Data Path: DM/vga/row_addr_1 to DM/vga/r_3
+  Data Path: DM/vga/row_addr_6 to DM/vga/r_3
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q              19   0.282   0.754  DM/vga/row_addr_1 (DM/vga/row_addr_1)
-     LUT4:I0->O            0   0.053   0.000  DM/Mcompar_GND_15_o_BUS_0004_LessThan_12_o_lutdi (DM/Mcompar_GND_15_o_BUS_0004_LessThan_12_o_lutdi)
-     MUXCY:DI->O           1   0.278   0.000  DM/Mcompar_GND_15_o_BUS_0004_LessThan_12_o_cy<0> (DM/Mcompar_GND_15_o_BUS_0004_LessThan_12_o_cy<0>)
-     MUXCY:CI->O           1   0.015   0.000  DM/Mcompar_GND_15_o_BUS_0004_LessThan_12_o_cy<1> (DM/Mcompar_GND_15_o_BUS_0004_LessThan_12_o_cy<1>)
-     MUXCY:CI->O           1   0.015   0.000  DM/Mcompar_GND_15_o_BUS_0004_LessThan_12_o_cy<2> (DM/Mcompar_GND_15_o_BUS_0004_LessThan_12_o_cy<2>)
-     MUXCY:CI->O           1   0.015   0.000  DM/Mcompar_GND_15_o_BUS_0004_LessThan_12_o_cy<3> (DM/Mcompar_GND_15_o_BUS_0004_LessThan_12_o_cy<3>)
-     MUXCY:CI->O          13   0.178   0.805  DM/Mcompar_GND_15_o_BUS_0004_LessThan_12_o_cy<4> (DM/Mcompar_GND_15_o_BUS_0004_LessThan_12_o_cy<4>)
-     LUT5:I0->O            1   0.053   0.000  DM/Mmux_vga_data13_F (N97)
-     MUXF7:I0->O           1   0.214   0.000  DM/Mmux_vga_data13 (DM/vga_data<0>)
+     FD:C->Q              12   0.282   0.557  DM/vga/row_addr_6 (DM/vga/row_addr_6)
+     LUT2:I0->O            1   0.053   0.000  DM/Wall/Maddsub_n0009_Madd1_lut<4> (DM/Wall/Maddsub_n0009_Madd1_lut<4>)
+     MUXCY:S->O            1   0.291   0.000  DM/Wall/Maddsub_n0009_Madd1_cy<4> (DM/Wall/Maddsub_n0009_Madd1_cy<4>)
+     MUXCY:CI->O           1   0.015   0.000  DM/Wall/Maddsub_n0009_Madd1_cy<5> (DM/Wall/Maddsub_n0009_Madd1_cy<5>)
+     XORCY:CI->O           4   0.320   0.622  DM/Wall/Maddsub_n0009_Madd1_xor<6> (DM/Wall/Maddsub_n0009_7)
+     LUT3:I0->O            5   0.053   0.629  DM/Wall/Maddsub_n0009_Madd_xor<7>11 (DM/Wall/y[8]_GND_19_o_add_1_OUT<7>)
+     LUT6:I3->O            1   0.053   0.635  DM_Wall/Mram_mapData191_91 (DM_Wall/Mram_mapData191_91)
+     LUT6:I2->O            1   0.053   0.413  DM_isWall_inv1_SW0 (DM_N4)
+     LUT4:I3->O           23   0.053   0.553  DM_isWall_inv1 (DM/isWall)
+     LUT5:I4->O            1   0.053   0.000  DM/Mmux_vga_data14 (DM/vga_data<0>)
      FDR:D                     0.011          DM/vga/r_0
     ----------------------------------------
-    Total                      2.673ns (1.114ns logic, 1.559ns route)
-                                       (41.7% logic, 58.3% route)
+    Total                      4.646ns (1.237ns logic, 3.409ns route)
+                                       (26.6% logic, 73.4% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'c0/clkdiv_3'
-  Clock period: 2.834ns (frequency: 352.880MHz)
-  Total number of paths / destination ports: 6948 / 94
+  Clock period: 3.054ns (frequency: 327.444MHz)
+  Total number of paths / destination ports: 10086 / 156
 -------------------------------------------------------------------------
-Delay:               2.834ns (Levels of Logic = 12)
+Delay:               3.054ns (Levels of Logic = 12)
   Source:            segDevice/U2/shift_45 (FF)
-  Destination:       segDevice/U2/shift_55 (FF)
+  Destination:       segDevice/U2/shift_64 (FF)
   Source Clock:      c0/clkdiv_3 rising
   Destination Clock: c0/clkdiv_3 rising
 
-  Data Path: segDevice/U2/shift_45 to segDevice/U2/shift_55
+  Data Path: segDevice/U2/shift_45 to segDevice/U2/shift_64
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               3   0.282   0.753  segDevice/U2/shift_45 (segDevice/U2/shift_45)
+     FDE:C->Q              2   0.282   0.745  segDevice/U2/shift_45 (segDevice/U2/shift_45)
      LUT6:I0->O            1   0.053   0.000  segDevice/U2/out1_wg_lut<1> (segDevice/U2/out1_wg_lut<1>)
      MUXCY:S->O            1   0.291   0.000  segDevice/U2/out1_wg_cy<1> (segDevice/U2/out1_wg_cy<1>)
      MUXCY:CI->O           1   0.015   0.000  segDevice/U2/out1_wg_cy<2> (segDevice/U2/out1_wg_cy<2>)
@@ -898,12 +1022,12 @@ Delay:               2.834ns (Levels of Logic = 12)
      MUXCY:CI->O           1   0.015   0.000  segDevice/U2/out1_wg_cy<7> (segDevice/U2/out1_wg_cy<7>)
      MUXCY:CI->O           1   0.015   0.000  segDevice/U2/out1_wg_cy<8> (segDevice/U2/out1_wg_cy<8>)
      MUXCY:CI->O           1   0.015   0.000  segDevice/U2/out1_wg_cy<9> (segDevice/U2/out1_wg_cy<9>)
-     MUXCY:CI->O          79   0.015   0.576  segDevice/U2/out1_wg_cy<10> (segDevice/U2/sckEn)
-     LUT3:I2->O           15   0.053   0.491  segDevice/U2/_n0033_inv1 (segDevice/U2/_n0033_inv)
+     MUXCY:CI->O          67   0.178   0.573  segDevice/U2/out1_wg_cy<10> (segDevice/U2/sckEn)
+     LUT3:I2->O           65   0.053   0.559  segDevice/U2/_n0033_inv1 (segDevice/U2/_n0033_inv)
      FDE:CE                    0.200          segDevice/U2/shift_0
     ----------------------------------------
-    Total                      2.834ns (1.014ns logic, 1.820ns route)
-                                       (35.8% logic, 64.2% route)
+    Total                      3.054ns (1.177ns logic, 1.877ns route)
+                                       (38.5% logic, 61.5% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'c0/clkdiv_15'
@@ -927,23 +1051,23 @@ Offset:              1.535ns (Levels of Logic = 2)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 21 / 21
+  Total number of paths / destination ports: 11 / 11
 -------------------------------------------------------------------------
-Offset:              1.255ns (Levels of Logic = 2)
+Offset:              1.143ns (Levels of Logic = 2)
   Source:            rst (PAD)
-  Destination:       Pac/PacX_9 (FF)
+  Destination:       Pac/state__1 (FF)
   Destination Clock: clk rising
 
-  Data Path: rst to Pac/PacX_9
+  Data Path: rst to Pac/state__1
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             2   0.000   0.405  rst_IBUF (rst_IBUF)
-     INV:I->O             10   0.067   0.458  Pac/rst_inv1_INV_0 (Pac/rst_inv)
-     FDSE:S                    0.325          Pac/PacY_5
+     IBUF:I->O             1   0.000   0.485  rst_IBUF (rst_IBUF)
+     LUT2:I0->O            2   0.053   0.405  Pac/_n0069_inv1 (Pac/_n0069_inv)
+     FDE:CE                    0.200          Pac/state__0
     ----------------------------------------
-    Total                      1.255ns (0.392ns logic, 0.863ns route)
-                                       (31.2% logic, 68.8% route)
+    Total                      1.143ns (0.253ns logic, 0.890ns route)
+                                       (22.1% logic, 77.9% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'c0/clkdiv_1'
@@ -1008,7 +1132,7 @@ Offset:              1.225ns (Levels of Logic = 2)
 Timing constraint: Default OFFSET OUT AFTER for Clock 'c0/clkdiv_3'
   Total number of paths / destination ports: 66 / 3
 -------------------------------------------------------------------------
-Offset:              2.542ns (Levels of Logic = 13)
+Offset:              2.694ns (Levels of Logic = 13)
   Source:            segDevice/U2/shift_45 (FF)
   Destination:       SEGLED_CLK (PAD)
   Source Clock:      c0/clkdiv_3 rising
@@ -1017,7 +1141,7 @@ Offset:              2.542ns (Levels of Logic = 13)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               3   0.282   0.753  segDevice/U2/shift_45 (segDevice/U2/shift_45)
+     FDE:C->Q              2   0.282   0.745  segDevice/U2/shift_45 (segDevice/U2/shift_45)
      LUT6:I0->O            1   0.053   0.000  segDevice/U2/out1_wg_lut<1> (segDevice/U2/out1_wg_lut<1>)
      MUXCY:S->O            1   0.291   0.000  segDevice/U2/out1_wg_cy<1> (segDevice/U2/out1_wg_cy<1>)
      MUXCY:CI->O           1   0.015   0.000  segDevice/U2/out1_wg_cy<2> (segDevice/U2/out1_wg_cy<2>)
@@ -1028,37 +1152,46 @@ Offset:              2.542ns (Levels of Logic = 13)
      MUXCY:CI->O           1   0.015   0.000  segDevice/U2/out1_wg_cy<7> (segDevice/U2/out1_wg_cy<7>)
      MUXCY:CI->O           1   0.015   0.000  segDevice/U2/out1_wg_cy<8> (segDevice/U2/out1_wg_cy<8>)
      MUXCY:CI->O           1   0.015   0.000  segDevice/U2/out1_wg_cy<9> (segDevice/U2/out1_wg_cy<9>)
-     MUXCY:CI->O          79   0.015   0.576  segDevice/U2/out1_wg_cy<10> (segDevice/U2/sckEn)
+     MUXCY:CI->O          67   0.178   0.573  segDevice/U2/out1_wg_cy<10> (segDevice/U2/sckEn)
      LUT2:I1->O            1   0.053   0.399  segDevice/U2/sck1 (SEGLED_CLK_OBUF)
      OBUF:I->O                 0.000          SEGLED_CLK_OBUF (SEGLED_CLK)
     ----------------------------------------
-    Total                      2.542ns (0.814ns logic, 1.728ns route)
-                                       (32.0% logic, 68.0% route)
+    Total                      2.694ns (0.977ns logic, 1.717ns route)
+                                       (36.3% logic, 63.7% route)
 
 =========================================================================
 
 Cross Clock Domains Report:
 --------------------------
 
-Clock to Setup on destination clock DM/GhostY[8]_GND_15_o_AND_20_o
+Clock to Setup on destination clock DM/isWall
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-c0/clkdiv_1    |    4.239|         |    2.533|         |
-clk            |    4.242|         |         |         |
+c0/clkdiv_1    |    2.626|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock DM/isWall_GhostY[8]_AND_71_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+c0/clkdiv_1    |         |         |    6.088|         |
+c0/clkdiv_15   |         |         |    6.015|         |
+clk            |         |         |    1.638|         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock c0/clkdiv_1
-------------------------------+---------+---------+---------+---------+
-                              | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
-Source Clock                  |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
-------------------------------+---------+---------+---------+---------+
-DM/GhostY[8]_GND_15_o_AND_20_o|    3.402|    3.449|         |         |
-c0/clkdiv_1                   |    2.673|         |         |         |
-c0/clkdiv_15                  |    1.871|         |         |         |
-clk                           |    3.337|         |         |         |
-------------------------------+---------+---------+---------+---------+
+----------------------------+---------+---------+---------+---------+
+                            | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+----------------------------+---------+---------+---------+---------+
+DM/isWall                   |    4.017|         |         |         |
+DM/isWall_GhostY[8]_AND_71_o|         |    3.403|         |         |
+c0/clkdiv_1                 |    4.646|         |         |         |
+c0/clkdiv_15                |    3.424|         |         |         |
+----------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock c0/clkdiv_15
 ---------------+---------+---------+---------+---------+
@@ -1066,6 +1199,7 @@ Clock to Setup on destination clock c0/clkdiv_15
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 c0/clkdiv_15   |    1.824|         |         |         |
+clk            |    1.772|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock c0/clkdiv_3
@@ -1073,8 +1207,7 @@ Clock to Setup on destination clock c0/clkdiv_3
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-c0/clkdiv_3    |    2.834|         |         |         |
-clk            |    1.784|         |         |         |
+c0/clkdiv_3    |    3.054|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock clk
@@ -1083,20 +1216,20 @@ Clock to Setup on destination clock clk
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 c0/clkdiv_15   |    1.157|         |         |         |
-clk            |    2.639|         |         |         |
+clk            |    4.361|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
 Total REAL time to Xst completion: 12.00 secs
-Total CPU time to Xst completion: 11.88 secs
+Total CPU time to Xst completion: 12.31 secs
  
 --> 
 
-Total memory usage is 4627540 kilobytes
+Total memory usage is 4626432 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  106 (   0 filtered)
-Number of infos    :   24 (   0 filtered)
+Number of warnings :  145 (   0 filtered)
+Number of infos    :   43 (   0 filtered)
 

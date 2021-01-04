@@ -36,9 +36,9 @@ Setup/Hold to clock clk
             |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
 Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------+------------+------------------+--------+
-ps2_clk     |    0.604(R)|      FAST  |    0.801(R)|      SLOW  |clk_BUFGP         |   0.000|
-ps2_data    |    0.194(R)|      FAST  |    1.661(R)|      SLOW  |clk_BUFGP         |   0.000|
-rst         |    0.770(R)|      FAST  |    1.537(R)|      SLOW  |clk_BUFGP         |   0.000|
+ps2_clk     |    0.602(R)|      FAST  |    0.801(R)|      SLOW  |clk_BUFGP         |   0.000|
+ps2_data    |    0.006(R)|      FAST  |    2.058(R)|      SLOW  |clk_BUFGP         |   0.000|
+rst         |    0.646(R)|      FAST  |    1.237(R)|      SLOW  |clk_BUFGP         |   0.000|
 ------------+------------+------------+------------+------------+------------------+--------+
 
 Clock clk to Pad
@@ -46,7 +46,7 @@ Clock clk to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-SEGLED_CLK  |        13.398(R)|      SLOW  |         5.247(R)|      FAST  |clk_BUFGP         |   0.000|
+SEGLED_CLK  |        12.181(R)|      SLOW  |         4.727(R)|      FAST  |clk_BUFGP         |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock to Setup on destination clock clk
@@ -54,18 +54,18 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |    2.143|         |         |         |
+clk            |    3.325|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Mon Dec 28 19:53:48 2020 
+Analysis completed Mon Jan 04 18:25:06 2021 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 5101 MB
+Peak Memory Usage: 5104 MB
 
 
 
