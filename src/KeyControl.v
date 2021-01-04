@@ -26,7 +26,8 @@ module KeyControl(
 	output reg [9:0] PacX,
 	output reg [8:0] PacY,
 	output reg [1:0] state,
-	output wire result_l
+	output wire result_l,
+	output wire result
     );
 		
 	wire [31:0] clkdiv;
@@ -39,7 +40,7 @@ module KeyControl(
 	initial PacX = 10'd320;
 	initial PacY = 9'd146;
 	
-	wire result;
+	//wire result;
 	CheckCollision cc_turn(.clk(clk),.rst(rst),.PacX(PacX),.PacY(PacY),.state(state_),.result(result));
 	
 
@@ -99,12 +100,12 @@ module KeyControl(
 			end
 		end
 		if(result == 1)begin//Åö×²¼ì²â
-			state <= state_;
+			state = state_;
 		end
 	end
 	
-	always@(posedge clkdiv[17])begin
-		if(result == 1)begin
+	always@(posedge clkdiv[18])begin
+		if(result_l != 0)begin
 			case(state)
 				2'b10:
 					begin

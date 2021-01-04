@@ -22,6 +22,7 @@ module Ghost_M(
     reg nextRandomDir;
 
     // Go to next position when clk posedge
+	 /*
     always @ (posedge clk) begin
       nextRandomDir <= $random % 2;
       
@@ -61,5 +62,6 @@ module Ghost_M(
       
       endcase
     end
+	 */
 
 endmodule

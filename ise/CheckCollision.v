@@ -22,8 +22,8 @@ module CheckCollision(
 	input clk,rst,
 	input [9:0] PacX,
 	input [8:0]	PacY,
-	input state,
-	output reg result
+	input [1:0] state,
+	output result
     );
 	reg [9:0] x;
 	reg [8:0] y;
@@ -31,37 +31,31 @@ module CheckCollision(
 	initial begin
 		x <= PacX;
 		y <= PacY;
-		result <=0;
 	end
 	
 	wire isWall;
 	Map Wall(.x(x), .y(y), .isWall(isWall));
+	
+	assign result = ~isWall;
 	always@(posedge clk)begin
 		case(state)
 			2'b10://左
 				begin
-					x <= x - 9'd16;
+					x = x - 10'd8;
 				end
 			2'b11://右
 				begin
-					x <= x + 9'd16;
+					x = x + 10'd8;
 				end
 			2'b00://上
 				begin
-					y <= y - 8'd16;
+					y = y - 9'd8;
 				end
 			2'b01://下
 				begin
-					y <= y + 8'd16;
+					y = y + 9'd8;
 				end
 		endcase
-
-		if(isWall != 1)begin
-			result <= 1;//正常
-		end
-		else begin
-			result <= 0;//碰撞
-		end
 	end
 	
 	

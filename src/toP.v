@@ -55,21 +55,21 @@ module Top(
 	
 	wire [9:0] ghost1X;
 	wire [8:0] ghost1Y;
-	Ghost_M ghost1(.clk(clk), .initX(10'd200), .initY(9'd146), .x(ghost1X), .y(ghost1Y));	
+	Ghost_M ghost1(.clk(clkdiv[17]), .initX(10'd200), .initY(9'd146), .x(ghost1X), .y(ghost1Y));	
 	
 	Display DM(.clk(clk),.clkdiv(clkdiv),.clrn(SW_OK[0]),.state(pst),
 		.r(r), .g(g), .b(b), .hs(HS), .vs(VS),
 		.PacX(px),.PacY(py),.GhostX(ghost1X),.GhostY(ghost1Y));
 	
-	wire result;
+	wire result;wire result_l;
 	KeyControl Pac(.clk(clk),.rst(rst),
 		.keyCode(KeyCode),.keyboardCode(ps2_dataout[7:0]),.keyReady(KeyReady),.ps2_ready(ps2_ready),
 		.PacX(px),.PacY(py),
-		.state(pst),.result_l());
+		.state(pst),.result_l(result_l),.result(result));
 	
 	//��ʾ����ģ��
 	wire [31:0] segTestData;
-	assign segTestData = {31'b0,result};
+	assign segTestData = {ghost1X,ghost1Y};
    Seg7Device segDevice(.clkIO(clkdiv[3]), .clkScan(clkdiv[15:14]), .clkBlink(clkdiv[25]),
 		.data(segTestData), .point(8'h0), .LES(8'h0),
 		.sout(sout));
