@@ -67,15 +67,16 @@ module Top(
 		.PacX(px),.PacY(py),.GhostX(GhostX),.GhostY(GhostY));
 	
 	
+	wire result;
 	//控制模块移动
 	KeyControl Pac(.clk(clk),.rst(rst),
 		.keyCode(KeyCode),.keyboardCode(ps2_dataout[7:0]),.keyReady(KeyReady),.ps2_ready(ps2_ready),
 		.PacX(px),.PacY(py),
-		.state(pst));
+		.state(pst),.result_l());
 	
 	//显示数据模块
 	wire [31:0] segTestData;
-	assign segTestData = {7'b0,px,8'b0,py};
+	assign segTestData = {31'b0,result};
    Seg7Device segDevice(.clkIO(clkdiv[3]), .clkScan(clkdiv[15:14]), .clkBlink(clkdiv[25]),
 		.data(segTestData), .point(8'h0), .LES(8'h0),
 		.sout(sout));
