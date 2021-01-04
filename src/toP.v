@@ -31,49 +31,43 @@ module Top(
 	wire [31:0] clkdiv;
 	clkdiv c0(.clk(clk),.rst(rst),.clkdiv(clkdiv));
 	
-	wire [15:0]SW_OK;//·À¶¶¿ØÖÆÖ®ºóµÄSWÐÅºÅ
+	wire [15:0]SW_OK;//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö®ï¿½ï¿½ï¿½SWï¿½Åºï¿½
 	AntiJitter #(4) a0[15:0](.clk(clkdiv[15]), .I(SW), .O(SW_OK));
 	
-	//°´Å¥ÐÅºÅ
+	//ï¿½ï¿½Å¥ï¿½Åºï¿½
 	wire [4:0] keyCode;
 	wire keyReady;
 	Keypad k0 (.clk(clkdiv[15]), .keyX(BTN_Y), .keyY(BTN_X), .keyCode(keyCode), .ready(keyReady));
 	
-	//¼üÅÌÐÅºÅ
+	//ï¿½ï¿½ï¿½ï¿½ï¿½Åºï¿½
 	wire[9:0] ps2_dataout;
 	wire ps2_ready;
 	PS2_keyboard ps2(.clk(clk), .rst(SW_OK[15]), .ps2_clk(ps2_clk), 
 							.ps2_data(ps2_data), .data_out(ps2_dataout), .ready(ps2_ready));
 
 	wire [1:0] pst;
-	//ÏÔÊ¾Ä£¿é
+	//ï¿½ï¿½Ê¾Ä£ï¿½ï¿½
 	
 	wire [9:0] px;
 	wire [9:0] py;
-	
-	
-	reg [9:0] GhostX;
-	reg [8:0] GhostY;
-	initial GhostX = 10'd200;
-	initial GhostY = 9'd146;
-	
 
 	wire [3:0] sout;
 	
-	
+	wire [9:0] ghost1X;
+	wire [8:0] ghost1Y;
+	Ghost ghost1(.clk(clk), .initX(10'd200), .initY(9'd146), .x(ghost1X), .y(ghost1Y));	
 	
 	Display DM(.clk(clk),.clkdiv(clkdiv),.clrn(SW_OK[0]),.state(pst),
 		.r(r), .g(g), .b(b), .hs(HS), .vs(VS),
-		.PacX(px),.PacY(py),.GhostX(GhostX),.GhostY(GhostY));
+		.PacX(px),.PacY(py),.GhostX(ghost1X),.GhostY(ghost1Y));
 	
-	
-	//¿ØÖÆÄ£¿éÒÆ¶¯
+	//ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½Æ¶ï¿½
 	KeyControl Pac(.clk(clk),.rst(rst),
 		.keyCode(KeyCode),.keyboardCode(ps2_dataout[7:0]),.keyReady(KeyReady),.ps2_ready(ps2_ready),
 		.PacX(px),.PacY(py),
 		.state(pst));
 	
-	//ÏÔÊ¾Êý¾ÝÄ£¿é
+	//ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½
 	wire [31:0] segTestData;
 	assign segTestData = {7'b0,px,8'b0,py};
    Seg7Device segDevice(.clkIO(clkdiv[3]), .clkScan(clkdiv[15:14]), .clkBlink(clkdiv[25]),
