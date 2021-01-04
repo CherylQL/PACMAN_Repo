@@ -55,7 +55,7 @@ module Top(
 	
 	wire [9:0] ghost1X;
 	wire [8:0] ghost1Y;
-	Ghost ghost1(.clk(clk), .initX(10'd200), .initY(9'd146), .x(ghost1X), .y(ghost1Y));	
+	Ghost_M ghost1(.clk(clk), .initX(10'd200), .initY(9'd146), .x(ghost1X), .y(ghost1Y));	
 	
 	Display DM(.clk(clk),.clkdiv(clkdiv),.clrn(SW_OK[0]),.state(pst),
 		.r(r), .g(g), .b(b), .hs(HS), .vs(VS),

@@ -1,4 +1,4 @@
-module Ghost(
+module Ghost_M(
     input wire clk,               // Clock
     input wire [9:0] initX,       // X of Ghost's initial position
     input wire [8:0] initY,       // Y of Ghost's initial position

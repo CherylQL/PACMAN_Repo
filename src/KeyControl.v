@@ -103,8 +103,8 @@ module KeyControl(
 		end
 	end
 	
-	always@(posedge clkdiv[15])begin
-		if(result_l == 1)begin
+	always@(posedge clkdiv[17])begin
+		if(result == 1)begin
 			case(state)
 				2'b10:
 					begin
