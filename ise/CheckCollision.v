@@ -28,10 +28,6 @@ module CheckCollision(
 	reg [9:0] x;
 	reg [8:0] y;
 	
-	initial begin
-		x <= PacX;
-		y <= PacY;
-	end
 	
 	wire isWall;
 	Map Wall(.x(x), .y(y), .isWall(isWall));
@@ -41,19 +37,19 @@ module CheckCollision(
 		case(state)
 			2'b10://вС
 				begin
-					x = x - 10'd8;
+					x <= PacX - 10'd32;
 				end
 			2'b11://ср
 				begin
-					x = x + 10'd8;
+					x <= PacX + 10'd32;
 				end
 			2'b00://ио
 				begin
-					y = y - 9'd8;
+					y <= PacY - 9'd32;
 				end
 			2'b01://об
 				begin
-					y = y + 9'd8;
+					y <= PacY + 9'd32;
 				end
 		endcase
 	end

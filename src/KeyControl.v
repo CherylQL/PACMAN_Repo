@@ -100,7 +100,7 @@ module KeyControl(
 			end
 		end
 		if(result == 1)begin//Åö×²¼ì²â
-			state = state_;
+			state <= state_;
 		end
 	end
 	

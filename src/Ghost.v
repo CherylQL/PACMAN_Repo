@@ -1,7 +1,5 @@
 module Ghost_M(
     input wire clk,               // Clock
-    input wire [9:0] initX,       // X of Ghost's initial position
-    input wire [8:0] initY,       // Y of Ghost's initial position
     output reg [9:0] x,           // X value of Ghost's position 
     output reg [8:0] y,           // Y value of Ghost's position
     output reg [1:0] direction    // Current Direction of Ghost, 00: up, 01: rihgt, 10: down, 11: left
@@ -15,14 +13,13 @@ module Ghost_M(
     // Initialize Position
     initial begin
       direction <= 2'b00; 
-      x <= initX;
-      y <= initY;
+      x <= 10'd200;
+      y <= 9'd146;
     end
 
     reg nextRandomDir;
 
     // Go to next position when clk posedge
-	 /*
     always @ (posedge clk) begin
       nextRandomDir <= $random % 2;
       
@@ -62,6 +59,5 @@ module Ghost_M(
       
       endcase
     end
-	 */
 
 endmodule
