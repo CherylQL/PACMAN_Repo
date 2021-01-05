@@ -25,9 +25,7 @@ module KeyControl(
 	input keyReady,ps2_ready,
 	output reg [9:0] PacX,
 	output reg [8:0] PacY,
-	output reg [1:0] state,
-	output wire result_l,
-	output wire result
+	output reg [1:0] state
     );
 		
 	wire [31:0] clkdiv;
@@ -40,6 +38,8 @@ module KeyControl(
 	initial PacX = 10'd320;
 	initial PacY = 9'd146;
 	
+	wire result_l;
+	wire result;
 	//wire result;
 	CheckCollision cc_turn(.clk(clk),.rst(rst),.PacX(PacX),.PacY(PacY),.state(state_),.result(result));
 	
