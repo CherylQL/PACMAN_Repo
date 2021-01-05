@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.18 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.25 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.18 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.25 secs
  
 --> Reading design: Top.prj
 
@@ -142,7 +142,7 @@ Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Ghost.v" int
 Parsing module <Ghost_M>.
 Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" into library work
 Parsing module <Display>.
-Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\CheckGhostCrash.v" into library work
+Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\CheckGhostCrash.v" into library work
 Parsing module <CheckGhostCrash>.
 Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" into library work
 Parsing module <Top>.
@@ -151,8 +151,8 @@ Parsing module <Top>.
 *                            HDL Elaboration                            *
 =========================================================================
 WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 43: Port dbg_keyLine is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 64: Port direction is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 82: Port segment is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 65: Port direction is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 83: Port segment is not connected to this instance
 
 Elaborating module <Top>.
 
@@ -170,7 +170,7 @@ Elaborating module <Ghost_M>.
 Elaborating module <Map>.
 WARNING:HDLCompiler:816 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Ghost.v" Line 24: System function call random not supported
 WARNING:HDLCompiler:634 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Ghost.v" Line 20: Net <nextRandomDir> does not have a driver.
-WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 46: Port rdn is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 47: Port rdn is not connected to this instance
 
 Elaborating module <Display>.
 
@@ -181,23 +181,23 @@ Elaborating module <Ghost>.
 WARNING:HDLCompiler:1499 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\ipcore_dir\Ghost.v" Line 39: Empty module <Ghost> remains a black box.
 
 Elaborating module <vgac>.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 63: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 68: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 70: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 72: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 74: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 69: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 66: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 71: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 73: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 75: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 77: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 70: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
 
 Elaborating module <KeyControl>.
 
 Elaborating module <CheckCollision>.
-WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 73: Size mismatch in connection of port <keyCode>. Formal port size is 5-bit while actual signal size is 1-bit.
-WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 74: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
-WARNING:HDLCompiler:604 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 77: Module instantiation should have an instance name
+WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 74: Size mismatch in connection of port <keyCode>. Formal port size is 5-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 75: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
+WARNING:HDLCompiler:604 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 78: Module instantiation should have an instance name
 
 Elaborating module <CheckGhostCrash>.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\CheckGhostCrash.v" Line 30: Result of 32-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 77: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\CheckGhostCrash.v" Line 30: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 78: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
 
 Elaborating module <Seg7Device>.
 
@@ -208,9 +208,9 @@ Elaborating module <SegmentDecoder>.
 Elaborating module <Seg7Remap>.
 
 Elaborating module <ShiftReg(WIDTH=64)>.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 91: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 93: Result of 32-bit expression is truncated to fit in 1-bit target.
 WARNING:HDLCompiler:634 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 31: Net <over1> does not have a driver.
-WARNING:HDLCompiler:634 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 73: Net <KeyCode> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 74: Net <KeyCode> does not have a driver.
 WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38. All outputs of instance <a0<1>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
 WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38. All outputs of instance <a0<2>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
 WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38. All outputs of instance <a0<3>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
@@ -249,9 +249,9 @@ INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38: Out
 INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 43: Output port <keyCode> of the instance <k0> is unconnected or connected to loadless signal.
 INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 43: Output port <dbg_keyLine> of the instance <k0> is unconnected or connected to loadless signal.
 INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 43: Output port <ready> of the instance <k0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 64: Output port <direction> of the instance <ghost1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 82: Output port <segment> of the instance <segDevice> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 82: Output port <anode> of the instance <segDevice> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 65: Output port <direction> of the instance <ghost1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 83: Output port <segment> of the instance <segDevice> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 83: Output port <anode> of the instance <segDevice> is unconnected or connected to loadless signal.
 WARNING:Xst:653 - Signal <over1> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <KeyCode> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <KeyReady> is used but never assigned. This sourceless signal will be automatically connected to value GND.
@@ -372,34 +372,34 @@ Synthesizing Unit <Display>.
 WARNING:Xst:647 - Input <clkdiv<0:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <clkdiv<31:2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" line 46: Output port <rdn> of the instance <vga> is unconnected or connected to loadless signal.
-    Found 10-bit subtractor for signal <GND_18_o_GND_18_o_sub_7_OUT> created at line 63.
-    Found 11-bit subtractor for signal <GND_18_o_GND_18_o_sub_8_OUT> created at line 63.
-    Found 10-bit subtractor for signal <GND_18_o_GND_18_o_sub_22_OUT> created at line 70.
-    Found 11-bit subtractor for signal <GND_18_o_GND_18_o_sub_27_OUT> created at line 72.
-    Found 10-bit subtractor for signal <GND_18_o_GND_18_o_sub_29_OUT> created at line 74.
-    Found 11-bit subtractor for signal <GND_18_o_GND_18_o_sub_30_OUT> created at line 74.
-    Found 10-bit adder for signal <n0108> created at line 62.
-    Found 11-bit adder for signal <n0110> created at line 62.
-    Found 32-bit adder for signal <n0087> created at line 63.
-    Found 10-bit adder for signal <n0118> created at line 66.
-    Found 11-bit adder for signal <n0120> created at line 66.
-    Found 32-bit adder for signal <n0090> created at line 68.
-    Found 32-bit adder for signal <n0155> created at line 70.
-    Found 32-bit adder for signal <n0093> created at line 70.
-    Found 32-bit adder for signal <n0095> created at line 72.
-    Found 32-bit adder for signal <n0164> created at line 74.
-    Found 32-bit adder for signal <n0099> created at line 74.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_18_o_GND_18_o_mux_34_OUT<9>> created at line 55.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_18_o_GND_18_o_mux_34_OUT<8>> created at line 55.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_18_o_GND_18_o_mux_34_OUT<7>> created at line 55.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_18_o_GND_18_o_mux_34_OUT<6>> created at line 55.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_18_o_GND_18_o_mux_34_OUT<5>> created at line 55.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_18_o_GND_18_o_mux_34_OUT<4>> created at line 55.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_18_o_GND_18_o_mux_34_OUT<3>> created at line 55.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_18_o_GND_18_o_mux_34_OUT<2>> created at line 55.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_18_o_GND_18_o_mux_34_OUT<1>> created at line 55.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_18_o_GND_18_o_mux_34_OUT<0>> created at line 55.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" line 47: Output port <rdn> of the instance <vga> is unconnected or connected to loadless signal.
+    Found 10-bit subtractor for signal <GND_18_o_GND_18_o_sub_8_OUT> created at line 66.
+    Found 11-bit subtractor for signal <GND_18_o_GND_18_o_sub_9_OUT> created at line 66.
+    Found 10-bit subtractor for signal <GND_18_o_GND_18_o_sub_23_OUT> created at line 73.
+    Found 11-bit subtractor for signal <GND_18_o_GND_18_o_sub_28_OUT> created at line 75.
+    Found 10-bit subtractor for signal <GND_18_o_GND_18_o_sub_30_OUT> created at line 77.
+    Found 11-bit subtractor for signal <GND_18_o_GND_18_o_sub_31_OUT> created at line 77.
+    Found 10-bit adder for signal <n0115> created at line 65.
+    Found 11-bit adder for signal <n0117> created at line 65.
+    Found 32-bit adder for signal <n0092> created at line 66.
+    Found 10-bit adder for signal <n0125> created at line 69.
+    Found 11-bit adder for signal <n0127> created at line 69.
+    Found 32-bit adder for signal <n0095> created at line 71.
+    Found 32-bit adder for signal <n0162> created at line 73.
+    Found 32-bit adder for signal <n0098> created at line 73.
+    Found 32-bit adder for signal <n0100> created at line 75.
+    Found 32-bit adder for signal <n0171> created at line 77.
+    Found 32-bit adder for signal <n0104> created at line 77.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_18_o_GND_18_o_mux_35_OUT<9>> created at line 56.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_18_o_GND_18_o_mux_35_OUT<8>> created at line 56.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_18_o_GND_18_o_mux_35_OUT<7>> created at line 56.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_18_o_GND_18_o_mux_35_OUT<6>> created at line 56.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_18_o_GND_18_o_mux_35_OUT<5>> created at line 56.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_18_o_GND_18_o_mux_35_OUT<4>> created at line 56.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_18_o_GND_18_o_mux_35_OUT<3>> created at line 56.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_18_o_GND_18_o_mux_35_OUT<2>> created at line 56.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_18_o_GND_18_o_mux_35_OUT<1>> created at line 56.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_18_o_GND_18_o_mux_35_OUT<0>> created at line 56.
 WARNING:Xst:737 - Found 1-bit latch for signal <ghost_add_ip<8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <ghost_add_ip<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <ghost_add_ip<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -420,19 +420,19 @@ WARNING:Xst:737 - Found 1-bit latch for signal <pac_add_ip<2>>. Latches may be g
 WARNING:Xst:737 - Found 1-bit latch for signal <pac_add_ip<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <pac_add_ip<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <ghost_add_ip<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-    Found 9-bit comparator lessequal for signal <n0000> created at line 62
-    Found 10-bit comparator greater for signal <GND_18_o_BUS_0001_LessThan_3_o> created at line 62
-    Found 10-bit comparator lessequal for signal <n0005> created at line 62
-    Found 11-bit comparator greater for signal <GND_18_o_BUS_0002_LessThan_6_o> created at line 62
-    Found 9-bit comparator lessequal for signal <n0014> created at line 66
-    Found 10-bit comparator greater for signal <GND_18_o_BUS_0004_LessThan_12_o> created at line 66
-    Found 10-bit comparator lessequal for signal <n0019> created at line 66
-    Found 11-bit comparator greater for signal <GND_18_o_BUS_0005_LessThan_15_o> created at line 66
+    Found 9-bit comparator lessequal for signal <n0001> created at line 65
+    Found 10-bit comparator greater for signal <GND_18_o_BUS_0001_LessThan_4_o> created at line 65
+    Found 10-bit comparator lessequal for signal <n0006> created at line 65
+    Found 11-bit comparator greater for signal <GND_18_o_BUS_0002_LessThan_7_o> created at line 65
+    Found 9-bit comparator lessequal for signal <n0015> created at line 69
+    Found 10-bit comparator greater for signal <GND_18_o_BUS_0004_LessThan_13_o> created at line 69
+    Found 10-bit comparator lessequal for signal <n0020> created at line 69
+    Found 11-bit comparator greater for signal <GND_18_o_BUS_0005_LessThan_16_o> created at line 69
     Summary:
 	inferred  17 Adder/Subtractor(s).
 	inferred  20 Latch(s).
 	inferred   8 Comparator(s).
-	inferred  13 Multiplexer(s).
+	inferred  14 Multiplexer(s).
 Unit <Display> synthesized.
 
 Synthesizing Unit <vgac>.
@@ -500,7 +500,7 @@ WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and lef
 Unit <CheckCollision> synthesized.
 
 Synthesizing Unit <CheckGhostCrash>.
-    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\CheckGhostCrash.v".
+    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\CheckGhostCrash.v".
 WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 11-bit subtractor for signal <GND_45_o_GND_45_o_sub_1_OUT> created at line 30.
@@ -600,12 +600,12 @@ Macro Statistics
  11-bit comparator greater                             : 2
  32-bit comparator greater                             : 1
  9-bit comparator lessequal                            : 2
-# Multiplexers                                         : 34
+# Multiplexers                                         : 35
  1-bit 2-to-1 multiplexer                              : 4
  1-bit 4-to-1 multiplexer                              : 10
  10-bit 2-to-1 multiplexer                             : 7
  10-bit 4-to-1 multiplexer                             : 1
- 12-bit 2-to-1 multiplexer                             : 3
+ 12-bit 2-to-1 multiplexer                             : 4
  4-bit 2-to-1 multiplexer                              : 1
  65-bit 2-to-1 multiplexer                             : 1
  8-bit 4-to-1 multiplexer                              : 1
@@ -772,12 +772,12 @@ Macro Statistics
  11-bit comparator greater                             : 2
  32-bit comparator greater                             : 1
  9-bit comparator lessequal                            : 2
-# Multiplexers                                         : 95
+# Multiplexers                                         : 96
  1-bit 2-to-1 multiplexer                              : 69
  1-bit 4-to-1 multiplexer                              : 10
  10-bit 2-to-1 multiplexer                             : 5
  10-bit 4-to-1 multiplexer                             : 1
- 12-bit 2-to-1 multiplexer                             : 3
+ 12-bit 2-to-1 multiplexer                             : 4
  8-bit 4-to-1 multiplexer                              : 1
  9-bit 2-to-1 multiplexer                              : 5
  9-bit 4-to-1 multiplexer                              : 1
@@ -926,15 +926,15 @@ Top Level Output File Name         : Top.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1722
+# BELS                             : 1724
 #      GND                         : 2
 #      INV                         : 16
 #      LUT1                        : 43
-#      LUT2                        : 192
+#      LUT2                        : 194
 #      LUT3                        : 105
-#      LUT4                        : 138
-#      LUT5                        : 94
-#      LUT6                        : 535
+#      LUT4                        : 137
+#      LUT5                        : 82
+#      LUT6                        : 548
 #      MUXCY                       : 235
 #      MUXF7                       : 122
 #      MUXF8                       : 60
@@ -946,8 +946,7 @@ Primitive and Black Box Usage:
 #      FDCE                        : 31
 #      FDE                         : 107
 #      FDR                         : 27
-#      LD                          : 10
-#      LDE_1                       : 10
+#      LD                          : 20
 # Clock Buffers                    : 4
 #      BUFG                        : 3
 #      BUFGP                       : 1
@@ -966,14 +965,14 @@ Selected Device : 7k160tffg676-1
 
 Slice Logic Utilization: 
  Number of Slice Registers:             291  out of  202800     0%  
- Number of Slice LUTs:                 1123  out of  101400     1%  
-    Number used as Logic:              1123  out of  101400     1%  
+ Number of Slice LUTs:                 1125  out of  101400     1%  
+    Number used as Logic:              1125  out of  101400     1%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   1134
-   Number with an unused Flip Flop:     843  out of   1134    74%  
-   Number with an unused LUT:            11  out of   1134     0%  
-   Number of fully used LUT-FF pairs:   280  out of   1134    24%  
+ Number of LUT Flip Flop pairs used:   1135
+   Number with an unused Flip Flop:     844  out of   1135    74%  
+   Number with an unused LUT:            10  out of   1135     0%  
+   Number of fully used LUT-FF pairs:   281  out of   1135    24%  
    Number of unique control sets:        26
 
 IO Utilization: 
@@ -1002,18 +1001,18 @@ NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
 
 Clock Information:
 ------------------
--------------------------------------------------------------+---------------------------+-------+
-Clock Signal                                                 | Clock buffer(FF name)     | Load  |
--------------------------------------------------------------+---------------------------+-------+
-clk                                                          | BUFGP                     | 77    |
-c0/clkdiv_15                                                 | NONE(a0<15>/cnt_0)        | 11    |
-c0/clkdiv_1                                                  | BUFG                      | 54    |
-DM/isWall_GhostY[8]_AND_71_o(DM/isWall_GhostY[8]_AND_71_o1:O)| NONE(*)(DM/pac_add_ip_0)  | 10    |
-DM/isWall(DM_isWall_inv1:O)                                  | NONE(*)(DM/ghost_add_ip_9)| 10    |
-c0/clkdiv_18                                                 | NONE(Pac/PacY_8)          | 19    |
-c0/clkdiv_24                                                 | BUFG                      | 32    |
-c0/clkdiv_3                                                  | BUFG                      | 78    |
--------------------------------------------------------------+---------------------------+-------+
+-----------------------------------------------------------+---------------------------+-------+
+Clock Signal                                               | Clock buffer(FF name)     | Load  |
+-----------------------------------------------------------+---------------------------+-------+
+clk                                                        | BUFGP                     | 77    |
+c0/clkdiv_15                                               | NONE(a0<15>/cnt_0)        | 11    |
+c0/clkdiv_1                                                | BUFG                      | 54    |
+DM/GND_18_o_isWall_AND_82_o(DM/GND_18_o_isWall_AND_82_o1:O)| NONE(*)(DM/pac_add_ip_0)  | 10    |
+DM/GND_18_o_isWall_AND_63_o(DM/GND_18_o_isWall_AND_63_o1:O)| NONE(*)(DM/ghost_add_ip_9)| 10    |
+c0/clkdiv_18                                               | NONE(Pac/PacY_8)          | 19    |
+c0/clkdiv_24                                               | BUFG                      | 32    |
+c0/clkdiv_3                                                | BUFG                      | 78    |
+-----------------------------------------------------------+---------------------------+-------+
 (*) These 2 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
 Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
@@ -1027,7 +1026,7 @@ Timing Summary:
 ---------------
 Speed Grade: -1
 
-   Minimum period: 4.680ns (Maximum Frequency: 213.675MHz)
+   Minimum period: 4.625ns (Maximum Frequency: 216.216MHz)
    Minimum input arrival time before clock: 1.535ns
    Maximum output required time after clock: 2.766ns
    Maximum combinational path delay: No path found
@@ -1039,7 +1038,7 @@ All values displayed in nanoseconds (ns)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
   Clock period: 4.459ns (frequency: 224.266MHz)
-  Total number of paths / destination ports: 2251 / 99
+  Total number of paths / destination ports: 2252 / 100
 -------------------------------------------------------------------------
 Delay:               4.459ns (Levels of Logic = 8)
   Source:            Pac/cc_turn/y_6 (FF)
@@ -1089,10 +1088,10 @@ Delay:               1.824ns (Levels of Logic = 1)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'c0/clkdiv_1'
-  Clock period: 4.680ns (frequency: 213.675MHz)
-  Total number of paths / destination ports: 11364 / 76
+  Clock period: 4.625ns (frequency: 216.216MHz)
+  Total number of paths / destination ports: 12276 / 76
 -------------------------------------------------------------------------
-Delay:               4.680ns (Levels of Logic = 8)
+Delay:               4.625ns (Levels of Logic = 8)
   Source:            DM/vga/row_addr_6 (FF)
   Destination:       DM/vga/r_3 (FF)
   Source Clock:      c0/clkdiv_1 rising
@@ -1110,12 +1109,12 @@ Delay:               4.680ns (Levels of Logic = 8)
      LUT3:I0->O            5   0.053   0.629  DM/Wall/Maddsub_n0009_Madd_xor<7>11 (DM/Wall/y[8]_GND_16_o_add_1_OUT<7>)
      LUT6:I3->O            1   0.053   0.635  DM_Wall/Mram_mapData191_91 (DM_Wall/Mram_mapData191_91)
      LUT6:I2->O            1   0.053   0.413  DM_isWall_inv1_SW0 (DM_N4)
-     LUT4:I3->O           23   0.053   0.553  DM_isWall_inv1 (DM/isWall)
-     LUT5:I4->O            1   0.053   0.000  DM/Mmux_vga_data13 (DM/vga_data<0>)
-     FDR:D                     0.011          DM/vga/r_0
+     LUT4:I3->O           14   0.053   0.498  DM_isWall_inv1 (DM/isWall)
+     LUT6:I5->O            1   0.053   0.000  DM/Mmux_vga_data21 (DM/vga_data<10>)
+     FDR:D                     0.011          DM/vga/b_2
     ----------------------------------------
-    Total                      4.680ns (1.237ns logic, 3.443ns route)
-                                       (26.4% logic, 73.6% route)
+    Total                      4.625ns (1.237ns logic, 3.388ns route)
+                                       (26.7% logic, 73.3% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'c0/clkdiv_18'
@@ -1347,16 +1346,16 @@ Offset:              1.153ns (Levels of Logic = 2)
 Cross Clock Domains Report:
 --------------------------
 
-Clock to Setup on destination clock DM/isWall
+Clock to Setup on destination clock DM/GND_18_o_isWall_AND_63_o
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-c0/clkdiv_1    |    3.006|         |         |         |
-c0/clkdiv_24   |    3.734|         |         |         |
+c0/clkdiv_1    |         |         |    2.755|         |
+c0/clkdiv_24   |         |         |    2.742|         |
 ---------------+---------+---------+---------+---------+
 
-Clock to Setup on destination clock DM/isWall_GhostY[8]_AND_71_o
+Clock to Setup on destination clock DM/GND_18_o_isWall_AND_82_o
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
@@ -1367,17 +1366,18 @@ clk            |         |         |    1.693|         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock c0/clkdiv_1
-----------------------------+---------+---------+---------+---------+
-                            | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
-Source Clock                |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
-----------------------------+---------+---------+---------+---------+
-DM/isWall                   |    4.017|         |         |         |
-DM/isWall_GhostY[8]_AND_71_o|         |    3.403|         |         |
-c0/clkdiv_1                 |    4.680|         |         |         |
-c0/clkdiv_15                |    1.603|         |         |         |
-c0/clkdiv_18                |    3.752|         |         |         |
-c0/clkdiv_24                |    3.684|         |         |         |
-----------------------------+---------+---------+---------+---------+
+---------------------------+---------+---------+---------+---------+
+                           | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock               |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------+---------+---------+---------+---------+
+DM/GND_18_o_isWall_AND_63_o|         |    4.010|         |         |
+DM/GND_18_o_isWall_AND_82_o|         |    3.507|         |         |
+c0/clkdiv_1                |    4.625|         |         |         |
+c0/clkdiv_15               |    1.603|         |         |         |
+c0/clkdiv_18               |    3.518|         |         |         |
+c0/clkdiv_24               |    4.174|         |         |         |
+clk                        |    1.822|         |         |         |
+---------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock c0/clkdiv_15
 ---------------+---------+---------+---------+---------+
@@ -1410,7 +1410,7 @@ Clock to Setup on destination clock c0/clkdiv_3
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 c0/clkdiv_3    |    3.054|         |         |         |
-clk            |    0.851|         |         |         |
+clk            |    0.950|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock clk
@@ -1419,20 +1419,20 @@ Clock to Setup on destination clock clk
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 c0/clkdiv_15   |    1.157|         |         |         |
-c0/clkdiv_18   |    8.936|         |         |         |
-c0/clkdiv_24   |    8.896|         |         |         |
+c0/clkdiv_18   |    9.448|         |         |         |
+c0/clkdiv_24   |    9.408|         |         |         |
 clk            |    4.459|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 14.00 secs
-Total CPU time to Xst completion: 14.24 secs
+Total REAL time to Xst completion: 15.00 secs
+Total CPU time to Xst completion: 14.17 secs
  
 --> 
 
-Total memory usage is 4646600 kilobytes
+Total memory usage is 4631540 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  166 (   0 filtered)

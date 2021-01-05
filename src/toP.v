@@ -61,10 +61,11 @@ module Top(
 	//ghost1's position
 	wire [9:0] ghost1X;
 	wire [8:0] ghost1Y;
+	
 	Ghost_M ghost1(.clk(clkdiv[24]), .x(ghost1X), .y(ghost1Y));	
 	
 	//displaymodule of characters
-	Display DM(.clk(clk),.clkdiv(clkdiv),.clrn(SW_OK[0]),.state(pst),
+	Display DM(.clk(clk),.clkdiv(clkdiv),.clrn(SW_OK[0]),.state(pst),.over(over_sign),
 		.r(r), .g(g), .b(b), .hs(HS), .vs(VS),
 		.PacX(px),.PacY(py),.GhostX(ghost1X),.GhostY(ghost1Y));
 	
@@ -88,7 +89,8 @@ module Top(
 	assign SEGLED_CLR = sout[0];
  	
 	always@(posedge clk)begin
-		over_sign <= over == 1 || over1 == 1 ? 1 : 0;
+		if(over_sign == 0)
+			over_sign <= over == 1 || over1 == 1 ? 1 : 0;
 	end
 
 endmodule

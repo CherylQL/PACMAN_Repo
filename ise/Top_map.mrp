@@ -10,7 +10,7 @@ Target Device  : xc7k160t
 Target Package : ffg676
 Target Speed   : -1
 Mapper Version : kintex7 -- $Revision: 1.55 $
-Mapped Date    : Tue Jan 05 14:12:38 2021
+Mapped Date    : Tue Jan 05 14:36:43 2021
 
 Design Summary
 --------------
@@ -22,24 +22,24 @@ Slice Logic Utilization:
     Number used as Latches:                     20
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                7
-  Number of Slice LUTs:                        983 out of 101,400    1%
-    Number used as logic:                      974 out of 101,400    1%
+  Number of Slice LUTs:                        981 out of 101,400    1%
+    Number used as logic:                      975 out of 101,400    1%
       Number using O6 output only:             766
       Number using O5 output only:              42
-      Number using O5 and O6:                  166
+      Number using O5 and O6:                  167
       Number used as ROM:                        0
     Number used as Memory:                       0 out of  35,000    0%
-    Number used exclusively as route-thrus:      9
-      Number with same-slice register load:      3
+    Number used exclusively as route-thrus:      6
+      Number with same-slice register load:      0
       Number with same-slice carry load:         2
       Number with other load:                    4
 
 Slice Logic Distribution:
-  Number of occupied Slices:                   350 out of  25,350    1%
-  Number of LUT Flip Flop pairs used:          985
-    Number with an unused Flip Flop:           737 out of     985   74%
-    Number with an unused LUT:                   2 out of     985    1%
-    Number of fully used LUT-FF pairs:         246 out of     985   24%
+  Number of occupied Slices:                   338 out of  25,350    1%
+  Number of LUT Flip Flop pairs used:          988
+    Number with an unused Flip Flop:           736 out of     988   74%
+    Number with an unused LUT:                   7 out of     988    1%
+    Number of fully used LUT-FF pairs:         245 out of     988   24%
     Number of unique control sets:              26
     Number of slice register sites lost
       to control set restrictions:             133 out of 202,800    1%
@@ -91,11 +91,11 @@ Specific Feature Utilization:
   Number of STARTUPs:                            0 out of       1    0%
   Number of XADCs:                               0 out of       1    0%
 
-Average Fanout of Non-Clock Nets:                5.29
+Average Fanout of Non-Clock Nets:                5.30
 
 Peak Memory Usage:  5161 MB
-Total REAL time to MAP completion:  42 secs 
-Total CPU time to MAP completion:   42 secs 
+Total REAL time to MAP completion:  40 secs 
+Total CPU time to MAP completion:   39 secs 
 
 Table of Contents
 -----------------
@@ -134,13 +134,12 @@ WARNING:Pack:2912 - The LUT-1 inverter "k0/state_inv1_INV_0" failed to join the
    "OLOGICE2" comp matched to output buffer "BTN_Y_0_OBUFT".  This may result in
    suboptimal timing.  The LUT-1 inverter k0/state_inv1_INV_0 drives multiple
    loads.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net DM/isWall is sourced by a
-   combinatorial pin. This is not good design practice. Use the CE pin to
-   control the loading of data into the flip-flop.
-WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   DM/isWall_GhostY[8]_AND_71_o is sourced by a combinatorial pin. This is not
-   good design practice. Use the CE pin to control the loading of data into the
-   flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net DM/GND_18_o_isWall_AND_63_o
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net DM/GND_18_o_isWall_AND_82_o
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
 
 Section 3 - Informational
 -------------------------
@@ -179,8 +178,8 @@ To quickly locate the original cause for the removal of a chain of logic, look
 above the place where that logic is listed in the trimming report, then locate
 the lines that are least indented (begin at the leftmost edge).
 
-Loadless block "DM/Madd_n0087_Madd9" (ROM) removed.
-Loadless block "DM/Madd_n0164_Madd9" (ROM) removed.
+Loadless block "DM/Madd_n0092_Madd9" (ROM) removed.
+Loadless block "DM/Madd_n0171_Madd9" (ROM) removed.
 
 Optimized Block(s):
 TYPE 		BLOCK
