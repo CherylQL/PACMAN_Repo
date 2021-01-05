@@ -28,6 +28,9 @@ module Top(
 	output SEGLED_CLK,SEGLED_CLR,SEGLED_DT,SEGLED_PEN,
 	input ps2_clk, ps2_data
     );
+	wire over,over1;
+	reg over_sign;
+	initial over_sign <= 0;
 	wire [31:0] clkdiv;
 	clkdiv c0(.clk(clk),.rst(rst),.clkdiv(clkdiv));
 	
@@ -70,10 +73,12 @@ module Top(
 		.keyCode(KeyCode),.keyboardCode(ps2_dataout[7:0]),.keyReady(KeyReady),.ps2_ready(ps2_ready),
 		.PacX(px),.PacY(py),
 		.state(pst));
+		
+	CheckGhostCrash(.clk(clk),.rst(rst),.PacX(px),.PacY(py),.GhostX(ghost1X),.GhostY(ghost1Y),.result(over));
 	
 	//score_display module
 	wire [31:0] segTestData;
-	assign segTestData = {ghost1X,ghost1Y};
+	assign segTestData = {31'b0,over_sign};
    Seg7Device segDevice(.clkIO(clkdiv[3]), .clkScan(clkdiv[15:14]), .clkBlink(clkdiv[25]),
 		.data(segTestData), .point(8'h0), .LES(8'h0),
 		.sout(sout));
@@ -82,5 +87,8 @@ module Top(
 	assign SEGLED_PEN = sout[1];
 	assign SEGLED_CLR = sout[0];
  	
+	always@(posedge clk)begin
+		over_sign <= over == 1 || over1 == 1 ? 1 : 0;
+	end
 
 endmodule

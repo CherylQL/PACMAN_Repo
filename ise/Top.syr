@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.19 secs
+Total CPU time to Xst completion: 0.18 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.19 secs
+Total CPU time to Xst completion: 0.18 secs
  
 --> Reading design: Top.prj
 
@@ -122,14 +122,14 @@ Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Seg7Decode.v
 Parsing module <Seg7Decode>.
 Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\clkdiv.v" into library work
 Parsing module <clkdiv>.
+Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\CheckCollision.v" into library work
+Parsing module <CheckCollision>.
 Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\AntiJitter.v" into library work
 Parsing module <AntiJitter>.
 Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\ipcore_dir\PacSelf.v" into library work
 Parsing module <PacSelf>.
 Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\ipcore_dir\Ghost.v" into library work
 Parsing module <Ghost>.
-Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\CheckCollision.v" into library work
-Parsing module <CheckCollision>.
 Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Seg7Device.v" into library work
 Parsing module <Seg7Device>.
 Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\PS2_keyboard.v" into library work
@@ -142,15 +142,17 @@ Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Ghost.v" int
 Parsing module <Ghost_M>.
 Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" into library work
 Parsing module <Display>.
+Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\CheckGhostCrash.v" into library work
+Parsing module <CheckGhostCrash>.
 Analyzing Verilog file "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" into library work
 Parsing module <Top>.
 
 =========================================================================
 *                            HDL Elaboration                            *
 =========================================================================
-WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 40: Port dbg_keyLine is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 61: Port direction is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 77: Port segment is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 43: Port dbg_keyLine is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 64: Port direction is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 82: Port segment is not connected to this instance
 
 Elaborating module <Top>.
 
@@ -159,7 +161,7 @@ Elaborating module <clkdiv>.
 Elaborating module <AntiJitter(WIDTH=4)>.
 
 Elaborating module <Keypad>.
-WARNING:HDLCompiler:1127 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 40: Assignment to keyCode ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 43: Assignment to keyCode ignored, since the identifier is never used
 
 Elaborating module <PS2_keyboard>.
 
@@ -184,13 +186,18 @@ WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v
 WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 70: Result of 32-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 72: Result of 32-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 74: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 66: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
+WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 69: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
 
 Elaborating module <KeyControl>.
 
 Elaborating module <CheckCollision>.
-WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 70: Size mismatch in connection of port <keyCode>. Formal port size is 5-bit while actual signal size is 1-bit.
-WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 71: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
+WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 73: Size mismatch in connection of port <keyCode>. Formal port size is 5-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 74: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
+WARNING:HDLCompiler:604 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 77: Module instantiation should have an instance name
+
+Elaborating module <CheckGhostCrash>.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\CheckGhostCrash.v" Line 30: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 77: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
 
 Elaborating module <Seg7Device>.
 
@@ -201,21 +208,23 @@ Elaborating module <SegmentDecoder>.
 Elaborating module <Seg7Remap>.
 
 Elaborating module <ShiftReg(WIDTH=64)>.
-WARNING:HDLCompiler:634 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 70: Net <KeyCode> does not have a driver.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35. All outputs of instance <a0<1>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35. All outputs of instance <a0<2>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35. All outputs of instance <a0<3>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35. All outputs of instance <a0<4>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35. All outputs of instance <a0<5>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35. All outputs of instance <a0<6>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35. All outputs of instance <a0<7>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35. All outputs of instance <a0<8>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35. All outputs of instance <a0<9>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35. All outputs of instance <a0<10>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35. All outputs of instance <a0<11>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35. All outputs of instance <a0<12>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35. All outputs of instance <a0<13>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35. All outputs of instance <a0<14>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 91: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:634 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 31: Net <over1> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 73: Net <KeyCode> does not have a driver.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38. All outputs of instance <a0<1>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38. All outputs of instance <a0<2>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38. All outputs of instance <a0<3>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38. All outputs of instance <a0<4>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38. All outputs of instance <a0<5>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38. All outputs of instance <a0<6>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38. All outputs of instance <a0<7>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38. All outputs of instance <a0<8>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38. All outputs of instance <a0<9>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38. All outputs of instance <a0<10>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38. All outputs of instance <a0<11>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38. All outputs of instance <a0<12>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38. All outputs of instance <a0<13>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38. All outputs of instance <a0<14>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -223,30 +232,32 @@ WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35. 
 
 Synthesizing Unit <Top>.
     Related source file is "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v".
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35: Output port <O> of the instance <a0<1>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35: Output port <O> of the instance <a0<2>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35: Output port <O> of the instance <a0<3>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35: Output port <O> of the instance <a0<4>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35: Output port <O> of the instance <a0<5>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35: Output port <O> of the instance <a0<6>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35: Output port <O> of the instance <a0<7>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35: Output port <O> of the instance <a0<8>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35: Output port <O> of the instance <a0<9>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35: Output port <O> of the instance <a0<10>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35: Output port <O> of the instance <a0<11>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35: Output port <O> of the instance <a0<12>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35: Output port <O> of the instance <a0<13>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35: Output port <O> of the instance <a0<14>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 40: Output port <keyCode> of the instance <k0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 40: Output port <dbg_keyLine> of the instance <k0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 40: Output port <ready> of the instance <k0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 61: Output port <direction> of the instance <ghost1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 77: Output port <segment> of the instance <segDevice> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 77: Output port <anode> of the instance <segDevice> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<1>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<2>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<3>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<4>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<5>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<6>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<7>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<8>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<9>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<10>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<11>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<12>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<13>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<14>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 43: Output port <keyCode> of the instance <k0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 43: Output port <dbg_keyLine> of the instance <k0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 43: Output port <ready> of the instance <k0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 64: Output port <direction> of the instance <ghost1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 82: Output port <segment> of the instance <segDevice> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 82: Output port <anode> of the instance <segDevice> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <over1> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <KeyCode> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <KeyReady> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Found 1-bit register for signal <over_sign>.
     Summary:
-	no macro.
+	inferred   1 D-type flip-flop(s).
 Unit <Top> synthesized.
 
 Synthesizing Unit <clkdiv>.
@@ -470,7 +481,7 @@ Synthesizing Unit <KeyControl>.
 Unit <KeyControl> synthesized.
 
 Synthesizing Unit <CheckCollision>.
-    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\CheckCollision.v".
+    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\CheckCollision.v".
 WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 9-bit register for signal <y>.
     Found 10-bit register for signal <x>.
@@ -487,6 +498,22 @@ WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and lef
 	inferred  19 D-type flip-flop(s).
 	inferred   6 Multiplexer(s).
 Unit <CheckCollision> synthesized.
+
+Synthesizing Unit <CheckGhostCrash>.
+    Related source file is "C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\CheckGhostCrash.v".
+WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 11-bit subtractor for signal <GND_45_o_GND_45_o_sub_1_OUT> created at line 30.
+    Found 10-bit subtractor for signal <GND_45_o_GND_45_o_sub_4_OUT> created at line 30.
+    Found 32-bit adder for signal <GND_45_o_GND_45_o_add_6_OUT> created at line 30.
+    Found 32x32-bit multiplier for signal <n0012> created at line 30.
+    Found 32x32-bit multiplier for signal <n0014> created at line 30.
+    Found 32-bit comparator greater for signal <GND_45_o_GND_45_o_LessThan_8_o> created at line 30
+    Summary:
+	inferred   2 Multiplier(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred   1 Comparator(s).
+Unit <CheckGhostCrash> synthesized.
 
 Synthesizing Unit <Seg7Device>.
     Related source file is "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Seg7Device.v".
@@ -523,7 +550,7 @@ Synthesizing Unit <ShiftReg>.
     Found 1-bit register for signal <oe>.
     Found 12-bit register for signal <counter>.
     Found 65-bit register for signal <shift>.
-    Found 12-bit adder for signal <counter[11]_GND_49_o_add_5_OUT> created at line 54.
+    Found 12-bit adder for signal <counter[11]_GND_51_o_add_5_OUT> created at line 54.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  78 D-type flip-flop(s).
@@ -538,23 +565,24 @@ Macro Statistics
  1200x1-bit single-port Read Only RAM                  : 4
  16x7-bit single-port Read Only RAM                    : 8
  4x4-bit single-port Read Only RAM                     : 1
-# Multipliers                                          : 4
+# Multipliers                                          : 6
+ 32x32-bit multiplier                                  : 2
  6x5-bit multiplier                                    : 4
-# Adders/Subtractors                                   : 42
+# Adders/Subtractors                                   : 45
  10-bit adder                                          : 5
  10-bit addsub                                         : 3
- 10-bit subtractor                                     : 5
+ 10-bit subtractor                                     : 6
  11-bit adder                                          : 6
- 11-bit subtractor                                     : 3
+ 11-bit subtractor                                     : 4
  12-bit adder                                          : 1
- 32-bit adder                                          : 9
+ 32-bit adder                                          : 10
  4-bit adder                                           : 1
  4-bit addsub                                          : 3
  9-bit adder                                           : 1
  9-bit addsub                                          : 3
  9-bit subtractor                                      : 2
-# Registers                                            : 47
- 1-bit register                                        : 16
+# Registers                                            : 48
+ 1-bit register                                        : 17
  10-bit register                                       : 9
  12-bit register                                       : 1
  2-bit register                                        : 2
@@ -566,10 +594,11 @@ Macro Statistics
  9-bit register                                        : 6
 # Latches                                              : 20
  1-bit latch                                           : 20
-# Comparators                                          : 14
+# Comparators                                          : 15
  10-bit comparator greater                             : 8
  10-bit comparator lessequal                           : 2
  11-bit comparator greater                             : 2
+ 32-bit comparator greater                             : 1
  9-bit comparator lessequal                            : 2
 # Multiplexers                                         : 34
  1-bit 2-to-1 multiplexer                              : 4
@@ -634,6 +663,10 @@ WARNING:Xst:2677 - Node <checkMapY_3> of sequential type is unconnected in block
 Synthesizing (advanced) Unit <AntiJitter>.
 The following registers are absorbed into counter <cnt>: 1 register on signal <cnt>.
 Unit <AntiJitter> synthesized (advanced).
+
+Synthesizing (advanced) Unit <CheckGhostCrash>.
+	Multiplier <Mmult_n0012> in block <CheckGhostCrash> and adder/subtractor <Madd_GND_45_o_GND_45_o_add_6_OUT> in block <CheckGhostCrash> are combined into a MAC<Maddsub_n0012>.
+Unit <CheckGhostCrash> synthesized (advanced).
 
 Synthesizing (advanced) Unit <KeyControl>.
 The following registers are absorbed into counter <PacX>: 1 register on signal <PacX>.
@@ -708,13 +741,17 @@ Macro Statistics
  1200x1-bit single-port distributed Read Only RAM      : 4
  16x7-bit single-port distributed Read Only RAM        : 8
  4x4-bit single-port distributed Read Only RAM         : 1
-# MACs                                                 : 4
+# MACs                                                 : 5
+ 11x11-to-32-bit MAC                                   : 1
  6x5-to-11-bit MAC                                     : 4
-# Adders/Subtractors                                   : 27
+# Multipliers                                          : 1
+ 10x10-bit multiplier                                  : 1
+# Adders/Subtractors                                   : 29
  10-bit adder                                          : 10
  10-bit addsub                                         : 2
- 10-bit subtractor                                     : 7
+ 10-bit subtractor                                     : 8
  11-bit adder                                          : 2
+ 11-bit subtractor                                     : 1
  5-bit subtractor                                      : 1
  9-bit adder                                           : 1
  9-bit addsub                                          : 2
@@ -727,12 +764,13 @@ Macro Statistics
  4-bit up counter                                      : 1
  4-bit updown counter                                  : 3
  9-bit updown counter                                  : 1
-# Registers                                            : 219
- Flip-Flops                                            : 219
-# Comparators                                          : 14
+# Registers                                            : 220
+ Flip-Flops                                            : 220
+# Comparators                                          : 15
  10-bit comparator greater                             : 8
  10-bit comparator lessequal                           : 2
  11-bit comparator greater                             : 2
+ 32-bit comparator greater                             : 1
  9-bit comparator lessequal                            : 2
 # Multiplexers                                         : 95
  1-bit 2-to-1 multiplexer                              : 69
@@ -822,8 +860,6 @@ Optimizing unit <KeyControl> ...
 
 Optimizing unit <Ghost_M> ...
 
-Optimizing unit <Seg7Device> ...
-
 Optimizing unit <ShiftReg> ...
 WARNING:Xst:2677 - Node <c0/clkdiv_25> of sequential type is unconnected in block <Top>.
 WARNING:Xst:2677 - Node <c0/clkdiv_26> of sequential type is unconnected in block <Top>.
@@ -866,8 +902,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 270
- Flip-Flops                                            : 270
+# Registers                                            : 271
+ Flip-Flops                                            : 271
 
 =========================================================================
 
@@ -890,26 +926,26 @@ Top Level Output File Name         : Top.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1649
+# BELS                             : 1722
 #      GND                         : 2
-#      INV                         : 15
+#      INV                         : 16
 #      LUT1                        : 43
-#      LUT2                        : 142
-#      LUT3                        : 101
-#      LUT4                        : 137
+#      LUT2                        : 192
+#      LUT3                        : 105
+#      LUT4                        : 138
 #      LUT5                        : 94
-#      LUT6                        : 563
-#      MUXCY                       : 211
+#      LUT6                        : 535
+#      MUXCY                       : 235
 #      MUXF7                       : 122
 #      MUXF8                       : 60
 #      VCC                         : 1
-#      XORCY                       : 158
-# FlipFlops/Latches                : 290
+#      XORCY                       : 179
+# FlipFlops/Latches                : 291
 #      FD                          : 103
 #      FDC                         : 3
 #      FDCE                        : 31
 #      FDE                         : 107
-#      FDR                         : 26
+#      FDR                         : 27
 #      LD                          : 10
 #      LDE_1                       : 10
 # Clock Buffers                    : 4
@@ -919,6 +955,8 @@ Primitive and Black Box Usage:
 #      IBUF                        : 5
 #      OBUF                        : 18
 #      OBUFT                       : 9
+# DSPs                             : 2
+#      DSP48E1                     : 2
 
 Device utilization summary:
 ---------------------------
@@ -927,16 +965,16 @@ Selected Device : 7k160tffg676-1
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             290  out of  202800     0%  
- Number of Slice LUTs:                 1095  out of  101400     1%  
-    Number used as Logic:              1095  out of  101400     1%  
+ Number of Slice Registers:             291  out of  202800     0%  
+ Number of Slice LUTs:                 1123  out of  101400     1%  
+    Number used as Logic:              1123  out of  101400     1%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   1105
-   Number with an unused Flip Flop:     815  out of   1105    73%  
-   Number with an unused LUT:            10  out of   1105     0%  
-   Number of fully used LUT-FF pairs:   280  out of   1105    25%  
-   Number of unique control sets:        25
+ Number of LUT Flip Flop pairs used:   1134
+   Number with an unused Flip Flop:     843  out of   1134    74%  
+   Number with an unused LUT:            11  out of   1134     0%  
+   Number of fully used LUT-FF pairs:   280  out of   1134    24%  
+   Number of unique control sets:        26
 
 IO Utilization: 
  Number of IOs:                          47
@@ -944,6 +982,7 @@ IO Utilization:
 
 Specific Feature Utilization:
  Number of BUFG/BUFGCTRLs:                4  out of     32    12%  
+ Number of DSP48E1s:                      2  out of    600     0%  
 
 ---------------------------
 Partition Resource Summary:
@@ -966,8 +1005,8 @@ Clock Information:
 -------------------------------------------------------------+---------------------------+-------+
 Clock Signal                                                 | Clock buffer(FF name)     | Load  |
 -------------------------------------------------------------+---------------------------+-------+
-clk                                                          | BUFGP                     | 76    |
-c0/clkdiv_15                                                 | NONE(a0<0>/cnt_0)         | 11    |
+clk                                                          | BUFGP                     | 77    |
+c0/clkdiv_15                                                 | NONE(a0<15>/cnt_0)        | 11    |
 c0/clkdiv_1                                                  | BUFG                      | 54    |
 DM/isWall_GhostY[8]_AND_71_o(DM/isWall_GhostY[8]_AND_71_o1:O)| NONE(*)(DM/pac_add_ip_0)  | 10    |
 DM/isWall(DM_isWall_inv1:O)                                  | NONE(*)(DM/ghost_add_ip_9)| 10    |
@@ -1080,10 +1119,10 @@ Delay:               4.680ns (Levels of Logic = 8)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'c0/clkdiv_18'
-  Clock period: 1.621ns (frequency: 616.903MHz)
+  Clock period: 1.628ns (frequency: 614.251MHz)
   Total number of paths / destination ports: 181 / 19
 -------------------------------------------------------------------------
-Delay:               1.621ns (Levels of Logic = 11)
+Delay:               1.628ns (Levels of Logic = 11)
   Source:            Pac/PacX_0 (FF)
   Destination:       Pac/PacX_9 (FF)
   Source Clock:      c0/clkdiv_18 rising
@@ -1093,7 +1132,7 @@ Delay:               1.621ns (Levels of Logic = 11)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q             10   0.282   0.544  Pac/PacX_0 (Pac/PacX_0)
+     FDE:C->Q             11   0.282   0.551  Pac/PacX_0 (Pac/PacX_0)
      LUT2:I0->O            1   0.053   0.000  Pac/Mcount_PacX_lut<0> (Pac/Mcount_PacX_lut<0>)
      MUXCY:S->O            1   0.291   0.000  Pac/Mcount_PacX_cy<0> (Pac/Mcount_PacX_cy<0>)
      MUXCY:CI->O           1   0.015   0.000  Pac/Mcount_PacX_cy<1> (Pac/Mcount_PacX_cy<1>)
@@ -1107,8 +1146,8 @@ Delay:               1.621ns (Levels of Logic = 11)
      XORCY:CI->O           1   0.320   0.000  Pac/Mcount_PacX_xor<9> (Pac/Result<9>1)
      FDE:D                     0.011          Pac/PacX_9
     ----------------------------------------
-    Total                      1.621ns (1.077ns logic, 0.544ns route)
-                                       (66.4% logic, 33.6% route)
+    Total                      1.628ns (1.077ns logic, 0.551ns route)
+                                       (66.2% logic, 33.8% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'c0/clkdiv_24'
@@ -1314,7 +1353,7 @@ Clock to Setup on destination clock DM/isWall
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 c0/clkdiv_1    |    3.006|         |         |         |
-c0/clkdiv_24   |    3.773|         |         |         |
+c0/clkdiv_24   |    3.734|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock DM/isWall_GhostY[8]_AND_71_o
@@ -1323,7 +1362,7 @@ Clock to Setup on destination clock DM/isWall_GhostY[8]_AND_71_o
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 c0/clkdiv_1    |         |         |    6.526|         |
-c0/clkdiv_18   |         |         |    6.500|         |
+c0/clkdiv_18   |         |         |    6.506|         |
 clk            |         |         |    1.693|         |
 ---------------+---------+---------+---------+---------+
 
@@ -1336,8 +1375,8 @@ DM/isWall                   |    4.017|         |         |         |
 DM/isWall_GhostY[8]_AND_71_o|         |    3.403|         |         |
 c0/clkdiv_1                 |    4.680|         |         |         |
 c0/clkdiv_15                |    1.603|         |         |         |
-c0/clkdiv_18                |    3.745|         |         |         |
-c0/clkdiv_24                |    3.723|         |         |         |
+c0/clkdiv_18                |    3.752|         |         |         |
+c0/clkdiv_24                |    3.684|         |         |         |
 ----------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock c0/clkdiv_15
@@ -1353,7 +1392,7 @@ Clock to Setup on destination clock c0/clkdiv_18
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-c0/clkdiv_18   |    1.621|         |         |         |
+c0/clkdiv_18   |    1.628|         |         |         |
 clk            |    5.319|         |         |         |
 ---------------+---------+---------+---------+---------+
 
@@ -1370,8 +1409,8 @@ Clock to Setup on destination clock c0/clkdiv_3
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-c0/clkdiv_24   |    1.217|         |         |         |
 c0/clkdiv_3    |    3.054|         |         |         |
+clk            |    0.851|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock clk
@@ -1380,21 +1419,22 @@ Clock to Setup on destination clock clk
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 c0/clkdiv_15   |    1.157|         |         |         |
-c0/clkdiv_18   |    1.738|         |         |         |
+c0/clkdiv_18   |    8.936|         |         |         |
+c0/clkdiv_24   |    8.896|         |         |         |
 clk            |    4.459|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 13.00 secs
-Total CPU time to Xst completion: 13.22 secs
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 14.24 secs
  
 --> 
 
-Total memory usage is 4627652 kilobytes
+Total memory usage is 4646600 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  158 (   0 filtered)
+Number of warnings :  166 (   0 filtered)
 Number of infos    :   45 (   0 filtered)
 
