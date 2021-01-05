@@ -61,7 +61,11 @@ module Top(
 	//ghost1's position
 	wire [9:0] ghost1X;
 	wire [8:0] ghost1Y;
-	Ghost_M ghost1(.clk(clk), .rst(rst), .x(ghost1X), .y(ghost1Y));	
+	
+	wire [1:0] gst;
+	wire res;
+	wire [1:0] gNextDir;
+	Ghost_M ghost1(.clk(clk), .rst(rst), .x(ghost1X), .y(ghost1Y),.direction(gst),.result(res), .nextDir(gNextDir));	
 	
 	//displaymodule of characters
 	Display DM(.clk(clk),.clkdiv(clkdiv),.clrn(SW_OK[0]),.state(pst),.over(over_sign),
@@ -78,7 +82,7 @@ module Top(
 	
 	//score_display module
 	wire [31:0] segTestData;
-	assign segTestData = {31'b0,over_sign};
+	assign segTestData = {2'b00, gNextDir, 3'b000, res, 2'b00, gst};
    Seg7Device segDevice(.clkIO(clkdiv[3]), .clkScan(clkdiv[15:14]), .clkBlink(clkdiv[25]),
 		.data(segTestData), .point(8'h0), .LES(8'h0),
 		.sout(sout));

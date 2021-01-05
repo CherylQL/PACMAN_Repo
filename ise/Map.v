@@ -22,7 +22,7 @@ module Map(input [9:0] x, input [8:0] y, output isWall);
 
     reg [1199:0] mapData;
 
-    assign isWall = mapData[(y / 16) * 40 + (x / 16)];
+    assign isWall = (x < 10'd0 || x > 10'd640) ? 1'b1 : (y < 9'd0 || y > 9'd480) ? 1'b1 : mapData[(y / 16) * 40 + (x / 16)];
 
     initial begin
         mapData = {
