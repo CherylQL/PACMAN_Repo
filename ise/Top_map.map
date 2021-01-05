@@ -10,7 +10,7 @@ Target Device  : xc7k160t
 Target Package : ffg676
 Target Speed   : -1
 Mapper Version : kintex7 -- $Revision: 1.55 $
-Mapped Date    : Tue Jan 05 13:18:22 2021
+Mapped Date    : Tue Jan 05 13:31:18 2021
 
 Mapping design into LUTs...
 Running directed packing...
@@ -39,7 +39,7 @@ Total REAL time at the beginning of Placer: 21 secs
 Total CPU  time at the beginning of Placer: 21 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:b0ea278c) REAL time: 25 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:b0ea278c) REAL time: 24 secs 
 
 Phase 2.7  Design Feasibility Check
 Phase 2.7  Design Feasibility Check (Checksum:b0ea278c) REAL time: 25 secs 
@@ -65,10 +65,10 @@ Phase 8.8  Global Placement
 ..................
 .....................................................................................................................
 .................................................................................................................................................
-Phase 8.8  Global Placement (Checksum:72ac3435) REAL time: 32 secs 
+Phase 8.8  Global Placement (Checksum:72ac3435) REAL time: 31 secs 
 
 Phase 9.5  Local Placement Optimization
-Phase 9.5  Local Placement Optimization (Checksum:72ac3435) REAL time: 32 secs 
+Phase 9.5  Local Placement Optimization (Checksum:72ac3435) REAL time: 31 secs 
 
 Phase 10.18  Placement Optimization
 Phase 10.18  Placement Optimization (Checksum:1f8bdc23) REAL time: 35 secs 
@@ -174,7 +174,7 @@ Specific Feature Utilization:
 
 Average Fanout of Non-Clock Nets:                5.79
 
-Peak Memory Usage:  5161 MB
+Peak Memory Usage:  5162 MB
 Total REAL time to MAP completion:  39 secs 
 Total CPU time to MAP completion:   39 secs 
 

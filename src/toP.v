@@ -31,43 +31,47 @@ module Top(
 	wire [31:0] clkdiv;
 	clkdiv c0(.clk(clk),.rst(rst),.clkdiv(clkdiv));
 	
-	wire [15:0]SW_OK;//��������֮���SW�ź�
+	wire [15:0]SW_OK;//SW signal with antijitter control
 	AntiJitter #(4) a0[15:0](.clk(clkdiv[15]), .I(SW), .O(SW_OK));
 	
-	//��ť�ź�
+	//definition of Keycode and click module of button
 	wire [4:0] keyCode;
 	wire keyReady;
 	Keypad k0 (.clk(clkdiv[15]), .keyX(BTN_Y), .keyY(BTN_X), .keyCode(keyCode), .ready(keyReady));
 	
-	//�����ź�
+	//definition of Keycode and click module of keyboard
 	wire[9:0] ps2_dataout;
 	wire ps2_ready;
 	PS2_keyboard ps2(.clk(clk), .rst(SW_OK[15]), .ps2_clk(ps2_clk), 
 							.ps2_data(ps2_data), .data_out(ps2_dataout), .ready(ps2_ready));
-
-	wire [1:0] pst;
-	//��ʾģ��
 	
+	//definition of current direction of pacman
+	wire [1:0] pst;
+	
+	//pacman's position
 	wire [9:0] px;    //pacman's x
 	wire [9:0] py;		//pacman's y
 
+	//definition of score_display's data
 	wire [3:0] sout;
 
+	//ghost1's position
 	wire [9:0] ghost1X;
 	wire [8:0] ghost1Y;
 	Ghost_M ghost1(.clk(clkdiv[24]), .x(ghost1X), .y(ghost1Y));	
 	
+	//displaymodule of characters
 	Display DM(.clk(clk),.clkdiv(clkdiv),.clrn(SW_OK[0]),.state(pst),
 		.r(r), .g(g), .b(b), .hs(HS), .vs(VS),
 		.PacX(px),.PacY(py),.GhostX(ghost1X),.GhostY(ghost1Y));
 	
-	wire result;wire result_l;
+	//key_control module of pacman
 	KeyControl Pac(.clk(clk),.rst(rst),
 		.keyCode(KeyCode),.keyboardCode(ps2_dataout[7:0]),.keyReady(KeyReady),.ps2_ready(ps2_ready),
 		.PacX(px),.PacY(py),
-		.state(pst),.result_l(result_l),.result(result));
+		.state(pst));
 	
-	//��ʾ����ģ��
+	//score_display module
 	wire [31:0] segTestData;
 	assign segTestData = {ghost1X,ghost1Y};
    Seg7Device segDevice(.clkIO(clkdiv[3]), .clkScan(clkdiv[15:14]), .clkBlink(clkdiv[25]),

@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.20 secs
+Total CPU time to Xst completion: 0.19 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.20 secs
+Total CPU time to Xst completion: 0.19 secs
  
 --> Reading design: Top.prj
 
@@ -149,8 +149,8 @@ Parsing module <Top>.
 *                            HDL Elaboration                            *
 =========================================================================
 WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 40: Port dbg_keyLine is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 58: Port direction is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 73: Port segment is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 61: Port direction is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 77: Port segment is not connected to this instance
 
 Elaborating module <Top>.
 
@@ -184,14 +184,13 @@ WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v
 WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 70: Result of 32-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 72: Result of 32-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\Display.v" Line 74: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 62: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
+WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 66: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
 
 Elaborating module <KeyControl>.
 
 Elaborating module <CheckCollision>.
-WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 66: Size mismatch in connection of port <keyCode>. Formal port size is 5-bit while actual signal size is 1-bit.
-WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 67: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
-WARNING:HDLCompiler:1127 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 68: Assignment to result_l ignored, since the identifier is never used
+WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 70: Size mismatch in connection of port <keyCode>. Formal port size is 5-bit while actual signal size is 1-bit.
+WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 71: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
 
 Elaborating module <Seg7Device>.
 
@@ -202,7 +201,7 @@ Elaborating module <SegmentDecoder>.
 Elaborating module <Seg7Remap>.
 
 Elaborating module <ShiftReg(WIDTH=64)>.
-WARNING:HDLCompiler:634 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 66: Net <KeyCode> does not have a driver.
+WARNING:HDLCompiler:634 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" Line 70: Net <KeyCode> does not have a driver.
 WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35. All outputs of instance <a0<1>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
 WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35. All outputs of instance <a0<2>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
 WARNING:Xst:2972 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35. All outputs of instance <a0<3>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
@@ -241,11 +240,9 @@ INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 35: Out
 INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 40: Output port <keyCode> of the instance <k0> is unconnected or connected to loadless signal.
 INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 40: Output port <dbg_keyLine> of the instance <k0> is unconnected or connected to loadless signal.
 INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 40: Output port <ready> of the instance <k0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 58: Output port <direction> of the instance <ghost1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 65: Output port <result_l> of the instance <Pac> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 65: Output port <result> of the instance <Pac> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 73: Output port <segment> of the instance <segDevice> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 73: Output port <anode> of the instance <segDevice> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 61: Output port <direction> of the instance <ghost1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 77: Output port <segment> of the instance <segDevice> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\DDLS\PacMan_Repo\src\toP.v" line 77: Output port <anode> of the instance <segDevice> is unconnected or connected to loadless signal.
 WARNING:Xst:653 - Signal <KeyCode> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <KeyReady> is used but never assigned. This sourceless signal will be automatically connected to value GND.
     Summary:
@@ -1390,14 +1387,14 @@ clk            |    4.459|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 14.00 secs
-Total CPU time to Xst completion: 14.07 secs
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 13.22 secs
  
 --> 
 
-Total memory usage is 4628704 kilobytes
+Total memory usage is 4627652 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  159 (   0 filtered)
-Number of infos    :   47 (   0 filtered)
+Number of warnings :  158 (   0 filtered)
+Number of infos    :   45 (   0 filtered)
 
