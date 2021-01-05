@@ -37,19 +37,23 @@ module CheckCollision(
 		case(state)
 			2'b10://вС
 				begin
-					x <= PacX - 10'd32;
+					x <= PacX - 10'd3;
+					y <= PacY + 9'd16;
 				end
 			2'b11://ср
 				begin
-					x <= PacX + 10'd32;
+					x <= PacX + 10'd35;
+					y <= PacY + 9'd16;
 				end
 			2'b00://ио
 				begin
-					y <= PacY - 9'd32;
+					x <= PacX + 10'd16;
+					y <= PacY - 9'd3;
 				end
 			2'b01://об
 				begin
-					y <= PacY + 9'd32;
+					x <= PacX + 10'd16;
+					y <= PacY + 9'd35;
 				end
 		endcase
 	end

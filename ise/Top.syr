@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.19 secs
+Total CPU time to Xst completion: 0.20 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.19 secs
+Total CPU time to Xst completion: 0.20 secs
  
 --> Reading design: Top.prj
 
@@ -478,12 +478,17 @@ WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and lef
     Found 9-bit register for signal <y>.
     Found 10-bit register for signal <x>.
     Found 10-bit subtractor for signal <PacX[9]_GND_43_o_sub_2_OUT> created at line 40.
-    Found 9-bit subtractor for signal <PacY[8]_GND_43_o_sub_4_OUT> created at line 48.
-    Found 10-bit adder for signal <PacX[9]_GND_43_o_add_2_OUT> created at line 44.
-    Found 9-bit adder for signal <PacY[8]_GND_43_o_add_4_OUT> created at line 52.
+    Found 9-bit subtractor for signal <PacY[8]_GND_43_o_sub_7_OUT> created at line 51.
+    Found 10-bit adder for signal <PacX[9]_GND_43_o_add_3_OUT> created at line 45.
+    Found 9-bit adder for signal <PacY[8]_GND_43_o_add_4_OUT> created at line 46.
+    Found 10-bit adder for signal <PacX[9]_GND_43_o_add_7_OUT> created at line 55.
+    Found 9-bit adder for signal <PacY[8]_GND_43_o_add_8_OUT> created at line 56.
+    Found 10-bit 3-to-1 multiplexer for signal <state[1]_PacX[9]_wide_mux_9_OUT> created at line 37.
+    Found 9-bit 3-to-1 multiplexer for signal <state[1]_PacY[8]_wide_mux_10_OUT> created at line 37.
     Summary:
 	inferred   2 Adder/Subtractor(s).
 	inferred  19 D-type flip-flop(s).
+	inferred   6 Multiplexer(s).
 Unit <CheckCollision> synthesized.
 
 Synthesizing Unit <Seg7Device>.
@@ -569,21 +574,23 @@ Macro Statistics
  10-bit comparator lessequal                           : 2
  11-bit comparator greater                             : 2
  9-bit comparator lessequal                            : 2
-# Multiplexers                                         : 22
+# Multiplexers                                         : 34
+ 1-bit 2-to-1 multiplexer                              : 4
  1-bit 4-to-1 multiplexer                              : 10
- 10-bit 2-to-1 multiplexer                             : 3
+ 10-bit 2-to-1 multiplexer                             : 7
  10-bit 4-to-1 multiplexer                             : 1
  12-bit 2-to-1 multiplexer                             : 3
  4-bit 2-to-1 multiplexer                              : 1
  65-bit 2-to-1 multiplexer                             : 1
  8-bit 4-to-1 multiplexer                              : 1
- 9-bit 2-to-1 multiplexer                              : 1
+ 9-bit 2-to-1 multiplexer                              : 5
  9-bit 4-to-1 multiplexer                              : 1
 # Tristates                                            : 9
  1-bit tristate buffer                                 : 9
 # FSMs                                                 : 1
 
 =========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
 
 =========================================================================
 *                       Advanced HDL Synthesis                          *
@@ -730,14 +737,14 @@ Macro Statistics
  10-bit comparator lessequal                           : 2
  11-bit comparator greater                             : 2
  9-bit comparator lessequal                            : 2
-# Multiplexers                                         : 83
- 1-bit 2-to-1 multiplexer                              : 65
+# Multiplexers                                         : 95
+ 1-bit 2-to-1 multiplexer                              : 69
  1-bit 4-to-1 multiplexer                              : 10
- 10-bit 2-to-1 multiplexer                             : 1
+ 10-bit 2-to-1 multiplexer                             : 5
  10-bit 4-to-1 multiplexer                             : 1
  12-bit 2-to-1 multiplexer                             : 3
  8-bit 4-to-1 multiplexer                              : 1
- 9-bit 2-to-1 multiplexer                              : 1
+ 9-bit 2-to-1 multiplexer                              : 5
  9-bit 4-to-1 multiplexer                              : 1
 # FSMs                                                 : 1
 
@@ -886,25 +893,25 @@ Top Level Output File Name         : Top.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 1558
+# BELS                             : 1649
 #      GND                         : 2
-#      INV                         : 17
+#      INV                         : 15
 #      LUT1                        : 43
-#      LUT2                        : 136
-#      LUT3                        : 74
-#      LUT4                        : 133
-#      LUT5                        : 99
-#      LUT6                        : 558
-#      MUXCY                       : 177
+#      LUT2                        : 142
+#      LUT3                        : 101
+#      LUT4                        : 137
+#      LUT5                        : 94
+#      LUT6                        : 563
+#      MUXCY                       : 211
 #      MUXF7                       : 122
 #      MUXF8                       : 60
 #      VCC                         : 1
-#      XORCY                       : 136
+#      XORCY                       : 158
 # FlipFlops/Latches                : 290
-#      FD                          : 81
+#      FD                          : 103
 #      FDC                         : 3
 #      FDCE                        : 31
-#      FDE                         : 129
+#      FDE                         : 107
 #      FDR                         : 26
 #      LD                          : 10
 #      LDE_1                       : 10
@@ -924,15 +931,15 @@ Selected Device : 7k160tffg676-1
 
 Slice Logic Utilization: 
  Number of Slice Registers:             290  out of  202800     0%  
- Number of Slice LUTs:                 1060  out of  101400     1%  
-    Number used as Logic:              1060  out of  101400     1%  
+ Number of Slice LUTs:                 1095  out of  101400     1%  
+    Number used as Logic:              1095  out of  101400     1%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   1072
-   Number with an unused Flip Flop:     782  out of   1072    72%  
-   Number with an unused LUT:            12  out of   1072     1%  
-   Number of fully used LUT-FF pairs:   278  out of   1072    25%  
-   Number of unique control sets:        29
+ Number of LUT Flip Flop pairs used:   1105
+   Number with an unused Flip Flop:     815  out of   1105    73%  
+   Number with an unused LUT:            10  out of   1105     0%  
+   Number of fully used LUT-FF pairs:   280  out of   1105    25%  
+   Number of unique control sets:        25
 
 IO Utilization: 
  Number of IOs:                          47
@@ -995,10 +1002,10 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 4.446ns (frequency: 224.921MHz)
-  Total number of paths / destination ports: 1899 / 113
+  Clock period: 4.459ns (frequency: 224.266MHz)
+  Total number of paths / destination ports: 2251 / 99
 -------------------------------------------------------------------------
-Delay:               4.446ns (Levels of Logic = 8)
+Delay:               4.459ns (Levels of Logic = 8)
   Source:            Pac/cc_turn/y_6 (FF)
   Destination:       Pac/state_1 (FF)
   Source Clock:      clk rising
@@ -1008,18 +1015,18 @@ Delay:               4.446ns (Levels of Logic = 8)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q              2   0.282   0.491  Pac/cc_turn/y_6 (Pac/cc_turn/y_6)
+     FD:C->Q               2   0.282   0.491  Pac/cc_turn/y_6 (Pac/cc_turn/y_6)
      LUT2:I0->O            1   0.053   0.000  Pac/cc_turn/Wall/Maddsub_n0009_Madd1_lut<4> (Pac/cc_turn/Wall/Maddsub_n0009_Madd1_lut<4>)
-     XORCY:LI->O           2   0.134   0.419  Pac/cc_turn/Wall/Maddsub_n0009_Madd1_xor<4> (Pac/cc_turn/Wall/Maddsub_n0009_5)
+     XORCY:LI->O           6   0.134   0.446  Pac/cc_turn/Wall/Maddsub_n0009_Madd1_xor<4> (Pac/cc_turn/Wall/Maddsub_n0009_5)
      LUT6:I5->O           19   0.053   0.532  Pac/cc_turn/Wall/Maddsub_n0009_Madd_xor<5>11 (Pac/cc_turn/Wall/y[8]_GND_16_o_add_1_OUT<5>)
-     LUT6:I5->O            1   0.053   0.739  Pac_cc_turn/Wall/Mram_mapData16 (Pac_cc_turn/Wall/Mram_mapData)
-     LUT6:I0->O            1   0.053   0.635  Pac_cc_turn/Wall/Mram_mapData191_8 (Pac_cc_turn/Wall/Mram_mapData191_8)
-     LUT6:I2->O            1   0.053   0.413  Pac_cc_turn/isWall_inv1_SW0 (Pac_N8)
+     LUT6:I5->O            1   0.053   0.725  Pac_cc_turn/Wall/Mram_mapData16 (Pac_cc_turn/Wall/Mram_mapData)
+     LUT6:I1->O            1   0.053   0.635  Pac_cc_turn/Wall/Mram_mapData191_8 (Pac_cc_turn/Wall/Mram_mapData191_8)
+     LUT6:I2->O            1   0.053   0.413  Pac_cc_turn/Wall/Mram_mapData191_4 (Pac_cc_turn/Wall/Mram_mapData191_4)
      LUT4:I3->O            2   0.053   0.419  Pac_cc_turn/isWall_inv1 (Pac/cc_turn/isWall)
      LUT3:I2->O            1   0.053   0.000  Pac/state_1_rstpot (Pac/state_1_rstpot)
      FD:D                      0.011          Pac/state_1
     ----------------------------------------
-    Total                      4.446ns (0.798ns logic, 3.648ns route)
+    Total                      4.459ns (0.798ns logic, 3.661ns route)
                                        (17.9% logic, 82.1% route)
 
 =========================================================================
@@ -1076,30 +1083,35 @@ Delay:               4.680ns (Levels of Logic = 8)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'c0/clkdiv_18'
-  Clock period: 1.612ns (frequency: 620.347MHz)
+  Clock period: 1.621ns (frequency: 616.903MHz)
   Total number of paths / destination ports: 181 / 19
 -------------------------------------------------------------------------
-Delay:               1.612ns (Levels of Logic = 6)
-  Source:            Pac/PacX_5 (FF)
+Delay:               1.621ns (Levels of Logic = 11)
+  Source:            Pac/PacX_0 (FF)
   Destination:       Pac/PacX_9 (FF)
   Source Clock:      c0/clkdiv_18 rising
   Destination Clock: c0/clkdiv_18 rising
 
-  Data Path: Pac/PacX_5 to Pac/PacX_9
+  Data Path: Pac/PacX_0 to Pac/PacX_9
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q             20   0.282   0.610  Pac/PacX_5 (Pac/PacX_5)
-     LUT2:I0->O            1   0.053   0.000  Pac/Mcount_PacX_lut<5> (Pac/Mcount_PacX_lut<5>)
-     MUXCY:S->O            1   0.291   0.000  Pac/Mcount_PacX_cy<5> (Pac/Mcount_PacX_cy<5>)
+     FDE:C->Q             10   0.282   0.544  Pac/PacX_0 (Pac/PacX_0)
+     LUT2:I0->O            1   0.053   0.000  Pac/Mcount_PacX_lut<0> (Pac/Mcount_PacX_lut<0>)
+     MUXCY:S->O            1   0.291   0.000  Pac/Mcount_PacX_cy<0> (Pac/Mcount_PacX_cy<0>)
+     MUXCY:CI->O           1   0.015   0.000  Pac/Mcount_PacX_cy<1> (Pac/Mcount_PacX_cy<1>)
+     MUXCY:CI->O           1   0.015   0.000  Pac/Mcount_PacX_cy<2> (Pac/Mcount_PacX_cy<2>)
+     MUXCY:CI->O           1   0.015   0.000  Pac/Mcount_PacX_cy<3> (Pac/Mcount_PacX_cy<3>)
+     MUXCY:CI->O           1   0.015   0.000  Pac/Mcount_PacX_cy<4> (Pac/Mcount_PacX_cy<4>)
+     MUXCY:CI->O           1   0.015   0.000  Pac/Mcount_PacX_cy<5> (Pac/Mcount_PacX_cy<5>)
      MUXCY:CI->O           1   0.015   0.000  Pac/Mcount_PacX_cy<6> (Pac/Mcount_PacX_cy<6>)
      MUXCY:CI->O           1   0.015   0.000  Pac/Mcount_PacX_cy<7> (Pac/Mcount_PacX_cy<7>)
      MUXCY:CI->O           0   0.015   0.000  Pac/Mcount_PacX_cy<8> (Pac/Mcount_PacX_cy<8>)
      XORCY:CI->O           1   0.320   0.000  Pac/Mcount_PacX_xor<9> (Pac/Result<9>1)
      FDE:D                     0.011          Pac/PacX_9
     ----------------------------------------
-    Total                      1.612ns (1.002ns logic, 0.610ns route)
-                                       (62.2% logic, 37.8% route)
+    Total                      1.621ns (1.077ns logic, 0.544ns route)
+                                       (66.4% logic, 33.6% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'c0/clkdiv_24'
@@ -1313,9 +1325,9 @@ Clock to Setup on destination clock DM/isWall_GhostY[8]_AND_71_o
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-c0/clkdiv_1    |         |         |    6.512|         |
-c0/clkdiv_18   |         |         |    6.473|         |
-clk            |         |         |    1.686|         |
+c0/clkdiv_1    |         |         |    6.526|         |
+c0/clkdiv_18   |         |         |    6.500|         |
+clk            |         |         |    1.693|         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock c0/clkdiv_1
@@ -1344,8 +1356,8 @@ Clock to Setup on destination clock c0/clkdiv_18
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-c0/clkdiv_18   |    1.612|         |         |         |
-clk            |    5.285|         |         |         |
+c0/clkdiv_18   |    1.621|         |         |         |
+clk            |    5.319|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock c0/clkdiv_24
@@ -1371,21 +1383,21 @@ Clock to Setup on destination clock clk
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 c0/clkdiv_15   |    1.157|         |         |         |
-c0/clkdiv_18   |    1.303|         |         |         |
-clk            |    4.446|         |         |         |
+c0/clkdiv_18   |    1.738|         |         |         |
+clk            |    4.459|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 13.00 secs
-Total CPU time to Xst completion: 13.67 secs
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 14.07 secs
  
 --> 
 
-Total memory usage is 4628792 kilobytes
+Total memory usage is 4628704 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  159 (   0 filtered)
-Number of infos    :   46 (   0 filtered)
+Number of infos    :   47 (   0 filtered)
 
