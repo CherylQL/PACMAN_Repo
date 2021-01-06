@@ -12,29 +12,48 @@ module Ghost_M(
 	clkdiv c0(.clk(clk), .rst(rst), .clkdiv(clkdiv));
 	CheckCollision cc_turn(.clk(clk), .rst(rst), .PacX(x), .PacY(y), .state(direction), .result(result));
 
-	reg [1:0] randomDir [15:0];
-	reg [3:0] randomCnt;
+	reg [1:0] randomDir1 [12:0];
+	reg [3:0] randomCnt1;
 	
-	assign nextDir = randomDir[randomCnt];
+	reg [1:0] randomDir2 [16:0];
+	reg [4:0] randomCnt2;
+
+	assign nextDir = randomDir1[randomCnt1] + randomDir2[randomCnt2];
 	
 	initial begin
-		randomCnt <= 2'd0;
-		randomDir[0] <= 2'd0;
-		randomDir[1] <= 2'd2;
-		randomDir[2] <= 2'd1;
-		randomDir[3] <= 2'd3;
-		randomDir[4] <= 2'd2;
-		randomDir[5] <= 2'd3;
-		randomDir[6] <= 2'd1;
-		randomDir[7] <= 2'd0;
-		randomDir[8] <= 2'd1;
-		randomDir[9] <= 2'd0;
-		randomDir[10] <= 2'd3;
-		randomDir[11] <= 2'd2;
-		randomDir[12] <= 2'd3;
-		randomDir[13] <= 2'd1;
-		randomDir[14] <= 2'd2;
-		randomDir[15] <= 2'd0;
+		randomCnt1 <= 0;
+		randomDir1[0] <= 2'd0;
+		randomDir1[1] <= 2'd2;
+		randomDir1[2] <= 2'd1;
+		randomDir1[3] <= 2'd3;
+		randomDir1[4] <= 2'd2;
+		randomDir1[5] <= 2'd3;
+		randomDir1[6] <= 2'd1;
+		randomDir1[7] <= 2'd0;
+		randomDir1[8] <= 2'd1;
+		randomDir1[9] <= 2'd0;
+		randomDir1[10] <= 2'd3;
+		randomDir1[11] <= 2'd2;
+		randomDir1[12] <= 2'd3;
+		
+		randomCnt2 <= 0;
+		randomDir2[0] <= 2'd1;
+		randomDir2[1] <= 2'd3;
+		randomDir2[2] <= 2'd2;
+		randomDir2[3] <= 2'd0;
+		randomDir2[4] <= 2'd1;
+		randomDir2[5] <= 2'd2;
+		randomDir2[6] <= 2'd0;
+		randomDir2[7] <= 2'd3;
+		randomDir2[8] <= 2'd0;
+		randomDir2[9] <= 2'd2;
+		randomDir2[10] <= 2'd3;
+		randomDir2[11] <= 2'd1;
+		randomDir2[12] <= 2'd3;
+		randomDir2[13] <= 2'd1;
+		randomDir2[14] <= 2'd0;
+		randomDir2[15] <= 2'd2;
+		randomDir2[16] <= 2'd3;
 	end
 	
 	initial begin
@@ -61,7 +80,12 @@ module Ghost_M(
 	always @ (posedge clkdiv[9]) begin
 	    if(result == 0) begin
 			direction <= nextDir;
-			randomCnt <= randomCnt + 1;
+			
+			if(randomCnt1 == 12) randomCnt1 <= 0;
+			else randomCnt1 <= randomCnt1 + 1;
+			
+			if(randomCnt2 == 16) randomCnt2 <= 0;
+			else randomCnt2 <= ran
 		end
  	end
 
