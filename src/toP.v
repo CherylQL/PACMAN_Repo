@@ -67,8 +67,10 @@ module Top(
 	wire [1:0] gNextDir;
 	Ghost_M ghost1(.clk(clk), .rst(rst), .x(ghost1X), .y(ghost1Y),.direction(gst),.result(res), .nextDir(gNextDir));	
 	
+	wire [1199:0] beanreg;
 	//displaymodule of characters
 	Display DM(.clk(clk),.clkdiv(clkdiv),.clrn(SW_OK[0]),.state(pst),.over(over_sign),
+		.beanmap(beanreg),
 		.r(r), .g(g), .b(b), .hs(HS), .vs(VS),
 		.PacX(px),.PacY(py),.GhostX(ghost1X),.GhostY(ghost1Y));
 	
@@ -77,12 +79,15 @@ module Top(
 		.keyCode(KeyCode),.keyboardCode(ps2_dataout[7:0]),.keyReady(KeyReady),.ps2_ready(ps2_ready),
 		.PacX(px),.PacY(py),
 		.state(pst));
-		
+	
+	wire [8:0]score;
+	bean b0(.clk(clk), .pac_x(px), .pac_y(py), .beans(beanreg), .newscore(score), .isover(over1));
+	
 	CheckGhostCrash(.clk(clk),.rst(rst),.PacX(px),.PacY(py),.GhostX(ghost1X),.GhostY(ghost1Y),.result(over));
 	
 	//score_display module
 	wire [31:0] segTestData;
-	assign segTestData = {2'b00, gNextDir, 3'b000, res, 2'b00, gst};
+	assign segTestData = {score};
    Seg7Device segDevice(.clkIO(clkdiv[3]), .clkScan(clkdiv[15:14]), .clkBlink(clkdiv[25]),
 		.data(segTestData), .point(8'h0), .LES(8'h0),
 		.sout(sout));

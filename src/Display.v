@@ -23,6 +23,7 @@ module Display(
 	input [31:0] clkdiv,
 	input clrn,
 	input over,
+	input [1199:0] beanmap,
 	input [1:0] state,
 	input [9:0] PacX,
 	input [8:0]	PacY,
@@ -50,8 +51,8 @@ module Display(
 	
 	wire isWall;
 	Map Wall(.x(col_addr), .y(row_addr), .isWall(isWall));
-	//wire isbean;
-	//beanmap Bean(.x(row_addr), .y(col_addr), .isbean(isbean), .bmap());
+	wire isbean;
+	beanmap Bean(.x(col_addr), .y(row_addr), .beanmapData(beanmap), .isbean(isbean));
 	
 	always@(* ) begin
 		if(over == 1)vga_data <= 12'h0;
@@ -59,9 +60,9 @@ module Display(
 			if(isWall) begin
 				vga_data <= 12'hfff;
 			end
-			//else if(isbean) begin
-				//vga_data <= 12'hff0;
-			//end
+			else if(isbean) begin
+				vga_data <= 12'hff0;
+			end
 			else if(row_addr >= GhostY && row_addr < GhostY + 32 && col_addr >= GhostX  && col_addr < GhostX + 32)begin
 				ghost_add_ip <= (row_addr - GhostY) * 32 + (col_addr - GhostX);
 				vga_data <= ghost_inner_color;

@@ -2,8 +2,8 @@
 Release 14.7 Trace  (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1
--n 3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf top.ucf
+E:\isee\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1 -n
+3 -fastpaths -xml Top.twx Top.ncd -o Top.twr Top.pcf -ucf top.ucf
 
 Design file:              Top.ncd
 Physical constraint file: Top.pcf
@@ -36,9 +36,9 @@ Setup/Hold to clock clk
             |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
 Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------+------------+------------------+--------+
-ps2_clk     |    0.266(R)|      FAST  |    1.295(R)|      SLOW  |clk_BUFGP         |   0.000|
-ps2_data    |    0.150(R)|      FAST  |    1.991(R)|      SLOW  |clk_BUFGP         |   0.000|
-rst         |    0.322(R)|      FAST  |    1.679(R)|      SLOW  |clk_BUFGP         |   0.000|
+ps2_clk     |    0.585(R)|      FAST  |    1.005(R)|      SLOW  |clk_BUFGP         |   0.000|
+ps2_data    |    0.106(R)|      FAST  |    2.053(R)|      SLOW  |clk_BUFGP         |   0.000|
+rst         |    0.050(R)|      FAST  |    2.209(R)|      SLOW  |clk_BUFGP         |   0.000|
 ------------+------------+------------+------------+------------+------------------+--------+
 
 Clock clk to Pad
@@ -46,7 +46,7 @@ Clock clk to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-SEGLED_CLK  |        11.815(R)|      SLOW  |         4.557(R)|      FAST  |clk_BUFGP         |   0.000|
+SEGLED_CLK  |        13.709(R)|      SLOW  |         5.386(R)|      FAST  |clk_BUFGP         |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock to Setup on destination clock clk
@@ -54,18 +54,18 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |    3.467|         |         |         |
+clk            |    5.606|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Tue Jan 05 17:24:14 2021 
+Analysis completed Wed Jan 06 21:34:53 2021 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 5107 MB
+Peak Memory Usage: 5112 MB
 
 
 

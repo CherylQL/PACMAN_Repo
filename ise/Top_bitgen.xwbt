@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\Top.ncd
-OUTFILE=C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise\Top.bit
+INFILE=E:\project\PACMAN_Repo\ise\Top.ncd
+OUTFILE=E:\project\PACMAN_Repo\ise\Top.bit
 FAMILY=Kintex7
 PART=xc7k160t-1ffg676
-WORKINGDIR=C:\Users\10308\Desktop\DDLS\PacMan_Repo\ise
+WORKINGDIR=E:\project\PACMAN_Repo\ise
 LICENSE=WebPack
 USER_INFO=__0_0_0
