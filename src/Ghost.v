@@ -14,9 +14,11 @@ module Ghost_M(
 
 	initial begin
  		direction <= 2'b00;
-		nextDir <= 2'b01;
     	x <= 10'd200;
     	y <= 9'd146;
+		
+		randomCnt1 <= 2'b01;
+		randomCnt2 <= 2'b10;
   	end
 
 	always@(posedge clkdiv[17])begin
@@ -35,14 +37,20 @@ module Ghost_M(
 		else 
 			nextDir <= nextDir + 1;
 	end
-	
-	always @ (posedge clkdiv[20]) begin
-		nextDir <= nextDir + 1;
+
+	reg [2:0] randomCnt1;	
+	always @ (posedge clkdiv[7]) begin
+		randomCnt1 <= randomCnt1 + 1;
+	end
+
+	reg [2:0] randomCnt2;	
+	always @ (posedge clkdiv[8]) begin
+		randomCnt2 <= randomCnt2 + 1;
 	end
   
 	always @ (posedge clkdiv[9]) begin
 	    if(result == 0)
-			direction <= nextDir;
+			direction <= randomCnt1 + randomCnt2;
  	end
 
 endmodule
