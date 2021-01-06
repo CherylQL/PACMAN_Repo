@@ -32,10 +32,15 @@ module Ghost_M(
 					y <= y + 9'd1;
 			endcase
 		end
+		else 
+			nextDir <= nextDir + 1;
+	end
+	
+	always @ (posedge clkdiv[20]) begin
+		nextDir <= nextDir + 1;
 	end
   
 	always @ (posedge clkdiv[9]) begin
-		nextDir <= nextDir + 1;
 	    if(result == 0)
 			direction <= nextDir;
  	end
