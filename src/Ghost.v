@@ -4,8 +4,7 @@ module Ghost_M(
     output reg [9:0] x,           // X value of Ghost's position 
     output reg [8:0] y,           // Y value of Ghost's position
 	 output result,
-    output reg [1:0] direction,
-	 output reg [1:0] nextDir
+    output reg [1:0] direction
 );
 
 	wire [31:0] clkdiv;
@@ -18,7 +17,7 @@ module Ghost_M(
     	y <= 9'd146;
 		
 		randomCnt1 <= 2'b01;
-		randomCnt2 <= 2'b10;
+		randomCnt2 <= 3'b010;
   	end
 
 	always@(posedge clkdiv[17])begin
@@ -34,11 +33,9 @@ module Ghost_M(
 					y <= y + 9'd1;
 			endcase
 		end
-		else 
-			nextDir <= nextDir + 1;
 	end
 
-	reg [2:0] randomCnt1;	
+	reg [1:0] randomCnt1;	
 	always @ (posedge clkdiv[7]) begin
 		randomCnt1 <= randomCnt1 + 1;
 	end
