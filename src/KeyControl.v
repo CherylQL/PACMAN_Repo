@@ -67,11 +67,11 @@ module KeyControl(
 						end
 					5'h9: 
 						begin
-							state_ <= 2'b01;
+							state_ <= 2'b00;
 						end
 					5'h11: 
 						begin
-							state_ <= 2'b00;
+							state_ <= 2'b01;
 						end
 					default: ;
 				endcase

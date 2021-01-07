@@ -76,7 +76,7 @@ module Top(
 	
 	//key_control module of pacman
 	KeyControl Pac(.clk(clk),.rst(rst),
-		.keyCode(KeyCode),.keyboardCode(ps2_dataout[7:0]),.keyReady(KeyReady),.ps2_ready(ps2_ready),
+		.keyCode(keyCode),.keyboardCode(ps2_dataout[7:0]),.keyReady(keyReady),.ps2_ready(ps2_ready),
 		.PacX(px),.PacY(py),
 		.state(pst));
 	

@@ -5,7 +5,7 @@ module Ghost_M(
     output reg [8:0] y,           // Y value of Ghost's position
 	output result,
     output reg [1:0] direction,
-	output wire [1:0] nextDir;
+	output wire [1:0] nextDir
 );
 
 	wire [31:0] clkdiv;
@@ -85,7 +85,7 @@ module Ghost_M(
 			else randomCnt1 <= randomCnt1 + 1;
 			
 			if(randomCnt2 == 16) randomCnt2 <= 0;
-			else randomCnt2 <= ran
+			else randomCnt2 <= randomCnt2 + 1;
 		end
  	end
 
