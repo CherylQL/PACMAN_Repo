@@ -1,4 +1,4 @@
-module Ghost_M(
+module GhostThree(
     input wire clk,               // Clock
     input wire rst,               // Reset
     output reg [9:0] x,           // X value of Ghost's position 
@@ -20,6 +20,12 @@ module Ghost_M(
 
 	assign nextDir = randomDir1[randomCnt1] + randomDir2[randomCnt2];
 	
+	initial begin
+    	x <= 10'd595;
+    	y <= 9'd435;
+ 		direction <= 2'b10;
+  	end
+
 	initial begin
 		randomCnt1 <= 0;
 		randomDir1[0] <= 2'd0;
@@ -56,12 +62,6 @@ module Ghost_M(
 		randomDir2[16] <= 2'd3;
 	end
 	
-	initial begin
-    	x <= 10'd200;
-    	y <= 9'd146;
- 		direction <= 2'b00;
-  	end
-
 	always@(posedge clkdiv[17])begin
 		if(result != 0)begin
 			case(direction)

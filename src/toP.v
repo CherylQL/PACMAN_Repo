@@ -58,14 +58,21 @@ module Top(
 	//definition of score_display's data
 	wire [3:0] sout;
 
-	//ghost1's position
 	wire [9:0] ghost1X;
 	wire [8:0] ghost1Y;
+	GhostOne ghost1(.clk(clk), .rst(rst), .x(ghost1X), .y(ghost1Y));	
 	
-	wire [1:0] gst;
-	wire res;
-	wire [1:0] gNextDir;
-	Ghost_M ghost1(.clk(clk), .rst(rst), .x(ghost1X), .y(ghost1Y),.direction(gst),.result(res), .nextDir(gNextDir));	
+	wire [9:0] ghost2X;
+	wire [8:0] ghost2Y;
+	GhostTwo ghost2(.clk(clk), .rst(rst), .x(ghost2X), .y(ghost2Y));	
+	
+	wire [9:0] ghost3X;
+	wire [8:0] ghost3Y;
+	GhostThree ghost3(.clk(clk), .rst(rst), .x(ghost3X), .y(ghost3Y));	
+	
+	wire [9:0] ghost4X;
+	wire [8:0] ghost4Y;
+	GhostFour ghost4(.clk(clk), .rst(rst), .x(ghost4X), .y(ghost4Y));	
 	
 	wire [1199:0] beanreg;
 	//displaymodule of characters
