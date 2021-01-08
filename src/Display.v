@@ -27,8 +27,14 @@ module Display(
 	input [1:0] state,
 	input [9:0] PacX,
 	input [8:0]	PacY,
-	input [9:0] GhostX,
-	input [8:0] GhostY,
+	input [9:0] Ghost1X,
+	input [8:0] Ghost1Y,
+	input [9:0] Ghost2X,
+	input [8:0] Ghost2Y,
+	input [9:0] Ghost3X,
+	input [8:0] Ghost3Y,
+	input [9:0] Ghost4X,
+	input [8:0] Ghost4Y,
    output [3:0] r,g,b, // red, green, blue colors
    output hs,vs  // horizontal and vertical synchronization
     );
@@ -60,12 +66,24 @@ module Display(
 			if(isWall) begin
 				vga_data <= 12'hfff;
 			end
+			else if(row_addr >= Ghost1Y && row_addr < Ghost1Y + 32 && col_addr >= Ghost1X  && col_addr < Ghost1X + 32)begin
+				ghost_add_ip <= (row_addr - Ghost1Y) * 32 + (col_addr - Ghost1X);
+				vga_data <= ghost_inner_color;
+			end
+			else if(row_addr >= Ghost2Y && row_addr < Ghost2Y + 32 && col_addr >= Ghost2X  && col_addr < Ghost2X + 32)begin
+				ghost_add_ip <= (row_addr - Ghost2Y) * 32 + (col_addr - Ghost2X);
+				vga_data <= ghost_inner_color;
+			end
+			else if(row_addr >= Ghost3Y && row_addr < Ghost3Y + 32 && col_addr >= Ghost3X  && col_addr < Ghost3X + 32)begin
+				ghost_add_ip <= (row_addr - Ghost3Y) * 32 + (col_addr - Ghost3X);
+				vga_data <= ghost_inner_color;
+			end
+			else if(row_addr >= Ghost4Y && row_addr < Ghost4Y + 32 && col_addr >= Ghost4X  && col_addr < Ghost4X + 32)begin
+				ghost_add_ip <= (row_addr - Ghost4Y) * 32 + (col_addr - Ghost4X);
+				vga_data <= ghost_inner_color;
+			end
 			else if(isbean) begin
 				vga_data <= 12'hff0;
-			end
-			else if(row_addr >= GhostY && row_addr < GhostY + 32 && col_addr >= GhostX  && col_addr < GhostX + 32)begin
-				ghost_add_ip <= (row_addr - GhostY) * 32 + (col_addr - GhostX);
-				vga_data <= ghost_inner_color;
 			end
 			else if(row_addr >= PacY && row_addr < PacY + 32 && col_addr >= PacX  && col_addr < PacX + 32)begin
 				if(state == 2'b00)
