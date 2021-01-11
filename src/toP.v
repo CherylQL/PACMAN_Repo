@@ -90,7 +90,9 @@ module Top(
 	wire [8:0]score;
 	bean b0(.clk(clk), .pac_x(px), .pac_y(py), .beans(beanreg), .newscore(score), .isover(over1));
 	
-	CheckGhostCrash(.clk(clk),.rst(rst),.PacX(px),.PacY(py),.GhostX(ghost1X),.GhostY(ghost1Y),.result(over));
+	CheckGhostCrash(.clk(clk), .rst(rst), .PacX(px), .PacY(py),
+		.Ghost1X(ghost1X), .Ghost1Y(ghost1Y), .Ghost2X(ghost2X), .Ghost2Y(ghost2Y),
+		.Ghost3X(ghost3X), .Ghost3Y(ghost3Y), .Ghost4X(ghost4X), .Ghost4Y(ghost4Y), .result(over));
 	
 	//score_display module
 	wire [31:0] segTestData;
