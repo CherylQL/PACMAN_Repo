@@ -20,14 +20,16 @@
 //////////////////////////////////////////////////////////////////////////////////
 module CheckGhostCrash(
 	input clk,rst,
-	input [9:0] PacX,GhostX,
-	input [8:0] PacY,GhostY,
+	input [9:0] PacX, Ghost1X, Ghost2X, Ghost3X, Ghost4X,
+	input [8:0] PacY, Ghost1Y, Ghost2Y, Ghost3Y, Ghost4Y,
 	output result
     );
 	 reg [9:0] x;
 	 reg [8:0] y;
 	 
-	assign result = ((PacX-GhostX)*(PacX-GhostX) + (PacY-GhostY)*(PacY-GhostY) < 2048)? 1 : 0;
-
+	assign result = ((PacX - Ghost1X) * (PacX - Ghost1X) + (PacY - Ghost1Y) * (PacY - Ghost1Y) < 2048)
+		||((PacX - Ghost2X) * (PacX - Ghost2X) + (PacY - Ghost2Y) * (PacY - Ghost2Y) < 2048) 
+		||((PacX - Ghost3X) * (PacX - Ghost3X) + (PacY - Ghost3Y) * (PacY - Ghost3Y) < 2048) 
+		||((PacX - Ghost4X) * (PacX - Ghost4X) + (PacY - Ghost4Y) * (PacY - Ghost4Y) < 2048); 
 
 endmodule
