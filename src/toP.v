@@ -26,13 +26,21 @@ module Top(
 	inout [4:0] BTN_X,
 	inout [3:0] BTN_Y,
 	output SEGLED_CLK,SEGLED_CLR,SEGLED_DT,SEGLED_PEN,
-	input ps2_clk, ps2_data
+	input ps2_clk, ps2_data,
+	output reg beep,
+	output high
     );
 	wire over,over1;
 	reg over_sign;
 	initial over_sign <= 0;
 	wire [31:0] clkdiv;
+	wire wbeep;
 	clkdiv c0(.clk(clk),.rst(rst),.clkdiv(clkdiv));
+	
+	initial begin
+		beep <= 0;
+	end
+	assign high = 1;
 	
 	wire [15:0]SW_OK;//SW signal with antijitter control
 	AntiJitter #(4) a0[15:0](.clk(clkdiv[15]), .I(SW), .O(SW_OK));
@@ -92,7 +100,7 @@ module Top(
 		.state(pst));
 	
 	wire [8:0]score;
-	bean b0(.clk(clk), .rst(rst), .pac_x(px), .pac_y(py), .beans(beanreg), .newscore(score), .isover(over1));
+	bean b0(.clk(clk), .rst(rst), .pac_x(px), .pac_y(py), .beans(beanreg), .newscore(score), .isover(over1),.beep(wbeep));
 	
 	CheckGhostCrash(.clk(clk), .rst(rst), .PacX(px), .PacY(py),
 		.Ghost1X(ghost1X), .Ghost1Y(ghost1Y), .Ghost2X(ghost2X), .Ghost2Y(ghost2Y),
@@ -112,6 +120,7 @@ module Top(
 	always@(posedge clk)begin
 		if(over_sign == 0) over_sign <= over == 1 || over1 == 1 ? 1 : 0;
 		if(~rst) over_sign <= 0;
+		beep <= wbeep;
 	end
 
 endmodule

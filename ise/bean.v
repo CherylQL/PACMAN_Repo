@@ -27,12 +27,15 @@ module bean(input clk,
 				input [8:0]pac_y,
 				output reg [1199:0]beans,          //here to onput the beans reg
 				output reg [8:0]newscore,         //output the new score
-				output reg isover
+				output reg isover,
+				output beep
     );
 	reg [9:0]x;
 	reg [8:0]y;
+	reg key;
 	initial begin
 		newscore <= 0;
+		key <= 0;
 		beans <= {
             1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0,
             1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 1'b0, 
@@ -107,19 +110,33 @@ module bean(input clk,
 		if(beans[((y+16)/16)*40+((x+24)/16)] == 1)  begin
 					beans[((y+16)/16)*40+((x+24)/16)] <= 0;
 					newscore <= newscore+1;
+					key <= 1;
 		end
 		if(beans[((y+16)/16)*40+((x+8)/16)] == 1)  begin
 					beans[((y+16)/16)*40+((x+8)/16)] <= 0;
 					newscore <= newscore+1;
+					key <= 1;
 		end
 		if(beans[((y+8)/16)*40+((x+16)/16)] == 1)  begin
 					beans[((y+8)/16)*40+((x+16)/16)] <= 0;
 					newscore <= newscore+1;
+					key <= 1;
 		end
 		if(beans[((y+24)/16)*40+((x+16)/16)] == 1)  begin
 					beans[((y+24)/16)*40+((x+16)/16)] <= 0;
 					newscore <= newscore+1;
+					key <= 1;
+		end
+		
+		if(key == 1)begin
+			key <= 0;
+		end
+		else begin
+			key <= 0;
 		end
 	end
+	
+	eatbgm bgm(.clk(clk),.rst(rst),.key(key),.beep(beep));
+	
 	always isover = (newscore == 142)?1:0;
 endmodule

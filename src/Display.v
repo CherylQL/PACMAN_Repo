@@ -44,6 +44,10 @@ module Display(
 	wire [9:0] col_addr;
  	wire [8:0] row_addr;
 	
+	reg [16:0] end_ip;
+	wire [11:0] end_color;
+	gameover end_pic(.addra(end_ip),.douta(end_color),.clka(clk));
+	
 	reg [9:0] pac_add_ip;
 	wire [11:0] pac_inner_color;
 	PacSelf P(.a(pac_add_ip),.spo(pac_inner_color));
@@ -63,7 +67,15 @@ module Display(
 	
 	
 	always@(* ) begin
-			if(over == 1)vga_data <= 12'h0;
+			if(over == 1)begin
+				if(row_addr >= 10'd100 && row_addr < 10'd290 && col_addr >= 9'd180  && col_addr < 9'd500)begin
+					end_ip <= (row_addr - 9'd120)* 267 + col_addr - 10'd158;
+					vga_data <= end_color;
+				end
+				else begin
+					vga_data <= 12'h0;
+				end
+			end
 			else begin
 				if(isWall) begin
 					vga_data <= 12'hfff;
