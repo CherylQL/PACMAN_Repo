@@ -49,10 +49,7 @@ module KeyControl(
 	
 	reg wasReady;
 	always@ (posedge clk)begin
-		//if (!rst) begin
-			//PacX <= 10'd320;
-			//PacY <= 9'd240;
-		//end else
+		if(~rst) state_ <= 2'b0;
 		if(rst)begin
 			wasReady <= keyReady;
 			if (!wasReady&&keyReady) begin
@@ -105,6 +102,10 @@ module KeyControl(
 	end
 	
 	always@(posedge clkdiv[18])begin
+		if (~rst) begin
+			PacX <= 10'd320;
+			PacY <= 9'd146;
+		end
 		if(result_l != 0)begin
 			case(state)
 				2'b10:

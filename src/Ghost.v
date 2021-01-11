@@ -63,6 +63,10 @@ module Ghost_M(
   	end
 
 	always@(posedge clkdiv[17])begin
+		if(~rst) begin 
+			x <= 10'd200;
+			y <= 9'd146;
+		end
 		if(result != 0)begin
 			case(direction)
 				2'b10:
@@ -78,6 +82,7 @@ module Ghost_M(
 	end
   
 	always @ (posedge clkdiv[9]) begin
+		if(~rst) direction <= 2'b00;
 	    if(result == 0) begin
 			direction <= nextDir;
 			

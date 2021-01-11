@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.23 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.23 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Reading design: Top.prj
 
@@ -108,54 +108,54 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\SegmentDecoder.v" into library work
+Analyzing Verilog file "E:\project\Final Program\src\SegmentDecoder.v" into library work
 Parsing module <SegmentDecoder>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\ise\Map.v" into library work
+Analyzing Verilog file "E:\project\Final Program\ise\Map.v" into library work
 Parsing module <Map>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\vgac.v" into library work
+Analyzing Verilog file "E:\project\Final Program\src\vgac.v" into library work
 Parsing module <vgac>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\ShiftReg.v" into library work
+Analyzing Verilog file "E:\project\Final Program\src\ShiftReg.v" into library work
 Parsing module <ShiftReg>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\Seg7Remap.v" into library work
+Analyzing Verilog file "E:\project\Final Program\src\Seg7Remap.v" into library work
 Parsing module <Seg7Remap>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\Seg7Decode.v" into library work
+Analyzing Verilog file "E:\project\Final Program\src\Seg7Decode.v" into library work
 Parsing module <Seg7Decode>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\clkdiv.v" into library work
+Analyzing Verilog file "E:\project\Final Program\src\clkdiv.v" into library work
 Parsing module <clkdiv>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\CheckCollision.v" into library work
+Analyzing Verilog file "E:\project\Final Program\src\CheckCollision.v" into library work
 Parsing module <CheckCollision>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\AntiJitter.v" into library work
+Analyzing Verilog file "E:\project\Final Program\src\AntiJitter.v" into library work
 Parsing module <AntiJitter>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\ise\ipcore_dir\PacSelf.v" into library work
+Analyzing Verilog file "E:\project\Final Program\ise\ipcore_dir\PacSelf.v" into library work
 Parsing module <PacSelf>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\ise\ipcore_dir\Ghost.v" into library work
+Analyzing Verilog file "E:\project\Final Program\ise\ipcore_dir\Ghost.v" into library work
 Parsing module <Ghost>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\ise\beanmap.v" into library work
+Analyzing Verilog file "E:\project\Final Program\ise\beanmap.v" into library work
 Parsing module <beanmap>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\Seg7Device.v" into library work
+Analyzing Verilog file "E:\project\Final Program\src\Seg7Device.v" into library work
 Parsing module <Seg7Device>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\PS2_keyboard.v" into library work
+Analyzing Verilog file "E:\project\Final Program\src\PS2_keyboard.v" into library work
 Parsing module <PS2_keyboard>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\Keypad.v" into library work
+Analyzing Verilog file "E:\project\Final Program\src\Keypad.v" into library work
 Parsing module <Keypad>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\KeyControl.v" into library work
+Analyzing Verilog file "E:\project\Final Program\src\KeyControl.v" into library work
 Parsing module <KeyControl>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\Ghost.v" into library work
+Analyzing Verilog file "E:\project\Final Program\src\Ghost.v" into library work
 Parsing module <Ghost_M>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" into library work
+Analyzing Verilog file "E:\project\Final Program\src\Display.v" into library work
 Parsing module <Display>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\CheckGhostCrash.v" into library work
+Analyzing Verilog file "E:\project\Final Program\src\CheckGhostCrash.v" into library work
 Parsing module <CheckGhostCrash>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\ise\bean.v" into library work
+Analyzing Verilog file "E:\project\Final Program\ise\bean.v" into library work
 Parsing module <bean>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" into library work
+Analyzing Verilog file "E:\project\Final Program\src\toP.v" into library work
 Parsing module <Top>.
 
 =========================================================================
 *                            HDL Elaboration                            *
 =========================================================================
-WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 43: Port dbg_keyLine is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 91: Port segment is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\project\Final Program\src\toP.v" Line 43: Port dbg_keyLine is not connected to this instance
+WARNING:HDLCompiler:1016 - "E:\project\Final Program\src\toP.v" Line 91: Port segment is not connected to this instance
 
 Elaborating module <Top>.
 
@@ -172,44 +172,45 @@ Elaborating module <Ghost_M>.
 Elaborating module <CheckCollision>.
 
 Elaborating module <Map>.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Ghost.v" Line 85: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Ghost.v" Line 88: Result of 6-bit expression is truncated to fit in 5-bit target.
-WARNING:HDLCompiler:1127 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 68: Assignment to gst ignored, since the identifier is never used
-WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 48: Port rdn is not connected to this instance
+WARNING:HDLCompiler:413 - "E:\project\Final Program\src\Ghost.v" Line 90: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "E:\project\Final Program\src\Ghost.v" Line 93: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:1127 - "E:\project\Final Program\src\toP.v" Line 68: Assignment to gst ignored, since the identifier is never used
+WARNING:HDLCompiler:1016 - "E:\project\Final Program\src\Display.v" Line 49: Port rdn is not connected to this instance
 
 Elaborating module <Display>.
 
 Elaborating module <PacSelf>.
-WARNING:HDLCompiler:1499 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\ipcore_dir\PacSelf.v" Line 39: Empty module <PacSelf> remains a black box.
+WARNING:HDLCompiler:1499 - "E:\project\Final Program\ise\ipcore_dir\PacSelf.v" Line 39: Empty module <PacSelf> remains a black box.
 
 Elaborating module <Ghost>.
-WARNING:HDLCompiler:1499 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\ipcore_dir\Ghost.v" Line 39: Empty module <Ghost> remains a black box.
+WARNING:HDLCompiler:1499 - "E:\project\Final Program\ise\ipcore_dir\Ghost.v" Line 39: Empty module <Ghost> remains a black box.
 
 Elaborating module <vgac>.
 
 Elaborating module <beanmap>.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\beanmap.v" Line 25: Result of 32-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 67: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 72: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 74: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 76: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 78: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 75: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
+WARNING:HDLCompiler:413 - "E:\project\Final Program\ise\beanmap.v" Line 25: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "E:\project\Final Program\src\Display.v" Line 69: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "E:\project\Final Program\src\Display.v" Line 74: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "E:\project\Final Program\src\Display.v" Line 76: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "E:\project\Final Program\src\Display.v" Line 78: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "E:\project\Final Program\src\Display.v" Line 80: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:189 - "E:\project\Final Program\src\toP.v" Line 75: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
 
 Elaborating module <KeyControl>.
-WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 80: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
+WARNING:HDLCompiler:189 - "E:\project\Final Program\src\toP.v" Line 80: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
 
 Elaborating module <bean>.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\bean.v" Line 70: Result of 11-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\bean.v" Line 71: Result of 10-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\bean.v" Line 74: Result of 10-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\bean.v" Line 105: Result of 32-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 84: Size mismatch in connection of port <pac_y>. Formal port size is 9-bit while actual signal size is 10-bit.
-WARNING:HDLCompiler:604 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 86: Module instantiation should have an instance name
+WARNING:HDLCompiler:413 - "E:\project\Final Program\ise\bean.v" Line 109: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "E:\project\Final Program\ise\bean.v" Line 113: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "E:\project\Final Program\ise\bean.v" Line 117: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "E:\project\Final Program\ise\bean.v" Line 121: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "E:\project\Final Program\ise\bean.v" Line 124: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:189 - "E:\project\Final Program\src\toP.v" Line 84: Size mismatch in connection of port <pac_y>. Formal port size is 9-bit while actual signal size is 10-bit.
+WARNING:HDLCompiler:604 - "E:\project\Final Program\src\toP.v" Line 86: Module instantiation should have an instance name
 
 Elaborating module <CheckGhostCrash>.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\CheckGhostCrash.v" Line 30: Result of 32-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 86: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
+WARNING:HDLCompiler:413 - "E:\project\Final Program\src\CheckGhostCrash.v" Line 30: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:189 - "E:\project\Final Program\src\toP.v" Line 86: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
 
 Elaborating module <Seg7Device>.
 
@@ -220,55 +221,55 @@ Elaborating module <SegmentDecoder>.
 Elaborating module <Seg7Remap>.
 
 Elaborating module <ShiftReg(WIDTH=64)>.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 101: Result of 32-bit expression is truncated to fit in 1-bit target.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38. All outputs of instance <a0<1>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38. All outputs of instance <a0<2>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38. All outputs of instance <a0<3>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38. All outputs of instance <a0<4>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38. All outputs of instance <a0<5>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38. All outputs of instance <a0<6>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38. All outputs of instance <a0<7>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38. All outputs of instance <a0<8>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38. All outputs of instance <a0<9>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38. All outputs of instance <a0<10>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38. All outputs of instance <a0<11>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38. All outputs of instance <a0<12>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38. All outputs of instance <a0<13>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38. All outputs of instance <a0<14>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:HDLCompiler:413 - "E:\project\Final Program\src\toP.v" Line 100: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:Xst:2972 - "E:\project\Final Program\src\toP.v" line 38. All outputs of instance <a0<1>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\project\Final Program\src\toP.v" line 38. All outputs of instance <a0<2>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\project\Final Program\src\toP.v" line 38. All outputs of instance <a0<3>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\project\Final Program\src\toP.v" line 38. All outputs of instance <a0<4>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\project\Final Program\src\toP.v" line 38. All outputs of instance <a0<5>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\project\Final Program\src\toP.v" line 38. All outputs of instance <a0<6>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\project\Final Program\src\toP.v" line 38. All outputs of instance <a0<7>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\project\Final Program\src\toP.v" line 38. All outputs of instance <a0<8>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\project\Final Program\src\toP.v" line 38. All outputs of instance <a0<9>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\project\Final Program\src\toP.v" line 38. All outputs of instance <a0<10>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\project\Final Program\src\toP.v" line 38. All outputs of instance <a0<11>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\project\Final Program\src\toP.v" line 38. All outputs of instance <a0<12>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\project\Final Program\src\toP.v" line 38. All outputs of instance <a0<13>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "E:\project\Final Program\src\toP.v" line 38. All outputs of instance <a0<14>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <Top>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v".
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<1>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<2>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<3>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<4>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<5>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<6>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<7>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<8>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<9>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<10>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<11>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<12>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<13>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 38: Output port <O> of the instance <a0<14>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 43: Output port <dbg_keyLine> of the instance <k0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 68: Output port <direction> of the instance <ghost1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 68: Output port <nextDir> of the instance <ghost1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 68: Output port <result> of the instance <ghost1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 91: Output port <segment> of the instance <segDevice> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 91: Output port <anode> of the instance <segDevice> is unconnected or connected to loadless signal.
+    Related source file is "E:\project\Final Program\src\toP.v".
+INFO:Xst:3210 - "E:\project\Final Program\src\toP.v" line 38: Output port <O> of the instance <a0<1>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\project\Final Program\src\toP.v" line 38: Output port <O> of the instance <a0<2>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\project\Final Program\src\toP.v" line 38: Output port <O> of the instance <a0<3>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\project\Final Program\src\toP.v" line 38: Output port <O> of the instance <a0<4>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\project\Final Program\src\toP.v" line 38: Output port <O> of the instance <a0<5>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\project\Final Program\src\toP.v" line 38: Output port <O> of the instance <a0<6>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\project\Final Program\src\toP.v" line 38: Output port <O> of the instance <a0<7>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\project\Final Program\src\toP.v" line 38: Output port <O> of the instance <a0<8>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\project\Final Program\src\toP.v" line 38: Output port <O> of the instance <a0<9>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\project\Final Program\src\toP.v" line 38: Output port <O> of the instance <a0<10>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\project\Final Program\src\toP.v" line 38: Output port <O> of the instance <a0<11>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\project\Final Program\src\toP.v" line 38: Output port <O> of the instance <a0<12>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\project\Final Program\src\toP.v" line 38: Output port <O> of the instance <a0<13>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\project\Final Program\src\toP.v" line 38: Output port <O> of the instance <a0<14>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\project\Final Program\src\toP.v" line 43: Output port <dbg_keyLine> of the instance <k0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\project\Final Program\src\toP.v" line 68: Output port <direction> of the instance <ghost1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\project\Final Program\src\toP.v" line 68: Output port <nextDir> of the instance <ghost1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\project\Final Program\src\toP.v" line 68: Output port <result> of the instance <ghost1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\project\Final Program\src\toP.v" line 91: Output port <segment> of the instance <segDevice> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "E:\project\Final Program\src\toP.v" line 91: Output port <anode> of the instance <segDevice> is unconnected or connected to loadless signal.
     Found 1-bit register for signal <over_sign>.
     Summary:
 	inferred   1 D-type flip-flop(s).
 Unit <Top> synthesized.
 
 Synthesizing Unit <clkdiv>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\src\clkdiv.v".
+    Related source file is "E:\project\Final Program\src\clkdiv.v".
 WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 32-bit register for signal <clkdiv>.
     Found 32-bit adder for signal <clkdiv[31]_GND_2_o_add_1_OUT> created at line 28.
@@ -278,7 +279,7 @@ WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and lef
 Unit <clkdiv> synthesized.
 
 Synthesizing Unit <AntiJitter>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\src\AntiJitter.v".
+    Related source file is "E:\project\Final Program\src\AntiJitter.v".
         WIDTH = 4
     Found 4-bit register for signal <cnt>.
     Found 1-bit register for signal <O>.
@@ -290,7 +291,7 @@ Synthesizing Unit <AntiJitter>.
 Unit <AntiJitter> synthesized.
 
 Synthesizing Unit <Keypad>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\src\Keypad.v".
+    Related source file is "E:\project\Final Program\src\Keypad.v".
     Found 4-bit register for signal <keyLineX>.
     Found 1-bit register for signal <state>.
     Found 5-bit register for signal <keyLineY>.
@@ -309,7 +310,7 @@ Synthesizing Unit <Keypad>.
 Unit <Keypad> synthesized.
 
 Synthesizing Unit <PS2_keyboard>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\src\PS2_keyboard.v".
+    Related source file is "E:\project\Final Program\src\PS2_keyboard.v".
     Found 4-bit register for signal <num>.
     Found 8-bit register for signal <temp_data>.
     Found 10-bit register for signal <data>.
@@ -328,7 +329,7 @@ Synthesizing Unit <PS2_keyboard>.
 Unit <PS2_keyboard> synthesized.
 
 Synthesizing Unit <Ghost_M>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\src\Ghost.v".
+    Related source file is "E:\project\Final Program\src\Ghost.v".
 WARNING:Xst:2999 - Signal 'randomDir1', unconnected in block 'Ghost_M', is tied to its initial value.
 WARNING:Xst:2999 - Signal 'randomDir2', unconnected in block 'Ghost_M', is tied to its initial value.
 WARNING:Xst:3035 - Index value(s) does not match array range for signal <randomDir1>, simulation mismatch.
@@ -340,21 +341,24 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <randomD
     Found 4-bit register for signal <randomCnt1>.
     Found 5-bit register for signal <randomCnt2>.
     Found 10-bit register for signal <x>.
-    Found 10-bit subtractor for signal <x[9]_GND_15_o_sub_6_OUT> created at line 69.
-    Found 9-bit subtractor for signal <y[8]_GND_15_o_sub_8_OUT> created at line 73.
+    Found 10-bit subtractor for signal <x[9]_GND_15_o_sub_8_OUT> created at line 73.
+    Found 9-bit subtractor for signal <y[8]_GND_15_o_sub_10_OUT> created at line 77.
     Found 2-bit adder for signal <nextDir> created at line 21.
-    Found 10-bit adder for signal <x[9]_GND_15_o_add_6_OUT> created at line 71.
-    Found 9-bit adder for signal <y[8]_GND_15_o_add_8_OUT> created at line 75.
-    Found 4-bit adder for signal <randomCnt1[3]_GND_15_o_add_18_OUT> created at line 85.
-    Found 5-bit adder for signal <randomCnt2[4]_GND_15_o_add_21_OUT> created at line 88.
+    Found 10-bit adder for signal <x[9]_GND_15_o_add_8_OUT> created at line 75.
+    Found 9-bit adder for signal <y[8]_GND_15_o_add_10_OUT> created at line 79.
+    Found 4-bit adder for signal <randomCnt1[3]_GND_15_o_add_21_OUT> created at line 90.
+    Found 5-bit adder for signal <randomCnt2[4]_GND_15_o_add_24_OUT> created at line 93.
+    Found 10-bit 3-to-1 multiplexer for signal <direction[1]_x[9]_wide_mux_11_OUT> created at line 71.
+    Found 9-bit 3-to-1 multiplexer for signal <direction[1]_y[8]_wide_mux_12_OUT> created at line 71.
     Summary:
 	inferred   2 RAM(s).
 	inferred   5 Adder/Subtractor(s).
 	inferred  30 D-type flip-flop(s).
+	inferred   6 Multiplexer(s).
 Unit <Ghost_M> synthesized.
 
 Synthesizing Unit <CheckCollision>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\src\CheckCollision.v".
+    Related source file is "E:\project\Final Program\src\CheckCollision.v".
 WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 9-bit register for signal <y>.
     Found 10-bit register for signal <x>.
@@ -373,7 +377,7 @@ WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and lef
 Unit <CheckCollision> synthesized.
 
 Synthesizing Unit <Map>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\ise\Map.v".
+    Related source file is "E:\project\Final Program\ise\Map.v".
 WARNING:Xst:2999 - Signal 'mapData', unconnected in block 'Map', is tied to its initial value.
 WARNING:Xst:3035 - Index value(s) does not match array range for signal <mapData>, simulation mismatch.
     Found 1200x1-bit single-port Read Only RAM <Mram_mapData> for signal <mapData>.
@@ -390,38 +394,39 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <mapData
 Unit <Map> synthesized.
 
 Synthesizing Unit <Display>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v".
+    Related source file is "E:\project\Final Program\src\Display.v".
 WARNING:Xst:647 - Input <clkdiv<0:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <clkdiv<31:2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" line 48: Output port <rdn> of the instance <vga> is unconnected or connected to loadless signal.
-    Found 10-bit subtractor for signal <GND_19_o_GND_19_o_sub_8_OUT> created at line 67.
-    Found 11-bit subtractor for signal <GND_19_o_GND_19_o_sub_9_OUT> created at line 67.
-    Found 10-bit subtractor for signal <GND_19_o_GND_19_o_sub_23_OUT> created at line 74.
-    Found 11-bit subtractor for signal <GND_19_o_GND_19_o_sub_28_OUT> created at line 76.
-    Found 10-bit subtractor for signal <GND_19_o_GND_19_o_sub_30_OUT> created at line 78.
-    Found 11-bit subtractor for signal <GND_19_o_GND_19_o_sub_31_OUT> created at line 78.
-    Found 10-bit adder for signal <n0121> created at line 66.
-    Found 11-bit adder for signal <n0123> created at line 66.
-    Found 32-bit adder for signal <n0097> created at line 67.
-    Found 10-bit adder for signal <n0131> created at line 70.
-    Found 11-bit adder for signal <n0133> created at line 70.
-    Found 32-bit adder for signal <n0100> created at line 72.
-    Found 32-bit adder for signal <n0168> created at line 74.
-    Found 32-bit adder for signal <n0103> created at line 74.
-    Found 32-bit adder for signal <n0105> created at line 76.
-    Found 32-bit adder for signal <n0177> created at line 78.
-    Found 32-bit adder for signal <n0109> created at line 78.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_19_o_GND_19_o_mux_35_OUT<9>> created at line 57.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_19_o_GND_19_o_mux_35_OUT<8>> created at line 57.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_19_o_GND_19_o_mux_35_OUT<7>> created at line 57.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_19_o_GND_19_o_mux_35_OUT<6>> created at line 57.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_19_o_GND_19_o_mux_35_OUT<5>> created at line 57.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_19_o_GND_19_o_mux_35_OUT<4>> created at line 57.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_19_o_GND_19_o_mux_35_OUT<3>> created at line 57.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_19_o_GND_19_o_mux_35_OUT<2>> created at line 57.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_19_o_GND_19_o_mux_35_OUT<1>> created at line 57.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_19_o_GND_19_o_mux_35_OUT<0>> created at line 57.
+WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "E:\project\Final Program\src\Display.v" line 49: Output port <rdn> of the instance <vga> is unconnected or connected to loadless signal.
+    Found 10-bit subtractor for signal <GND_19_o_GND_19_o_sub_8_OUT> created at line 69.
+    Found 11-bit subtractor for signal <GND_19_o_GND_19_o_sub_9_OUT> created at line 69.
+    Found 10-bit subtractor for signal <GND_19_o_GND_19_o_sub_23_OUT> created at line 76.
+    Found 11-bit subtractor for signal <GND_19_o_GND_19_o_sub_28_OUT> created at line 78.
+    Found 10-bit subtractor for signal <GND_19_o_GND_19_o_sub_30_OUT> created at line 80.
+    Found 11-bit subtractor for signal <GND_19_o_GND_19_o_sub_31_OUT> created at line 80.
+    Found 10-bit adder for signal <n0121> created at line 68.
+    Found 11-bit adder for signal <n0123> created at line 68.
+    Found 32-bit adder for signal <n0097> created at line 69.
+    Found 10-bit adder for signal <n0131> created at line 72.
+    Found 11-bit adder for signal <n0133> created at line 72.
+    Found 32-bit adder for signal <n0100> created at line 74.
+    Found 32-bit adder for signal <n0168> created at line 76.
+    Found 32-bit adder for signal <n0103> created at line 76.
+    Found 32-bit adder for signal <n0105> created at line 78.
+    Found 32-bit adder for signal <n0177> created at line 80.
+    Found 32-bit adder for signal <n0109> created at line 80.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_19_o_GND_19_o_mux_35_OUT<9>> created at line 59.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_19_o_GND_19_o_mux_35_OUT<8>> created at line 59.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_19_o_GND_19_o_mux_35_OUT<7>> created at line 59.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_19_o_GND_19_o_mux_35_OUT<6>> created at line 59.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_19_o_GND_19_o_mux_35_OUT<5>> created at line 59.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_19_o_GND_19_o_mux_35_OUT<4>> created at line 59.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_19_o_GND_19_o_mux_35_OUT<3>> created at line 59.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_19_o_GND_19_o_mux_35_OUT<2>> created at line 59.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_19_o_GND_19_o_mux_35_OUT<1>> created at line 59.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_19_o_GND_19_o_mux_35_OUT<0>> created at line 59.
 WARNING:Xst:737 - Found 1-bit latch for signal <ghost_add_ip<8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <ghost_add_ip<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <ghost_add_ip<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -442,14 +447,14 @@ WARNING:Xst:737 - Found 1-bit latch for signal <pac_add_ip<2>>. Latches may be g
 WARNING:Xst:737 - Found 1-bit latch for signal <pac_add_ip<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <pac_add_ip<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <ghost_add_ip<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-    Found 9-bit comparator lessequal for signal <n0001> created at line 66
-    Found 10-bit comparator greater for signal <GND_19_o_BUS_0001_LessThan_4_o> created at line 66
-    Found 10-bit comparator lessequal for signal <n0006> created at line 66
-    Found 11-bit comparator greater for signal <GND_19_o_BUS_0002_LessThan_7_o> created at line 66
-    Found 9-bit comparator lessequal for signal <n0015> created at line 70
-    Found 10-bit comparator greater for signal <GND_19_o_BUS_0004_LessThan_13_o> created at line 70
-    Found 10-bit comparator lessequal for signal <n0020> created at line 70
-    Found 11-bit comparator greater for signal <GND_19_o_BUS_0005_LessThan_16_o> created at line 70
+    Found 9-bit comparator lessequal for signal <n0001> created at line 68
+    Found 10-bit comparator greater for signal <GND_19_o_BUS_0001_LessThan_4_o> created at line 68
+    Found 10-bit comparator lessequal for signal <n0006> created at line 68
+    Found 11-bit comparator greater for signal <GND_19_o_BUS_0002_LessThan_7_o> created at line 68
+    Found 9-bit comparator lessequal for signal <n0015> created at line 72
+    Found 10-bit comparator greater for signal <GND_19_o_BUS_0004_LessThan_13_o> created at line 72
+    Found 10-bit comparator lessequal for signal <n0020> created at line 72
+    Found 11-bit comparator greater for signal <GND_19_o_BUS_0005_LessThan_16_o> created at line 72
     Summary:
 	inferred  17 Adder/Subtractor(s).
 	inferred  20 Latch(s).
@@ -458,7 +463,7 @@ WARNING:Xst:737 - Found 1-bit latch for signal <ghost_add_ip<9>>. Latches may be
 Unit <Display> synthesized.
 
 Synthesizing Unit <vgac>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\src\vgac.v".
+    Related source file is "E:\project\Final Program\src\vgac.v".
     Found 10-bit register for signal <v_count>.
     Found 9-bit register for signal <row_addr>.
     Found 10-bit register for signal <col_addr>.
@@ -487,7 +492,7 @@ Synthesizing Unit <vgac>.
 Unit <vgac> synthesized.
 
 Synthesizing Unit <beanmap>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\ise\beanmap.v".
+    Related source file is "E:\project\Final Program\ise\beanmap.v".
     Found 11-bit subtractor for signal <GND_23_o_GND_23_o_sub_8_OUT> created at line 25.
     Found 32-bit subtractor for signal <GND_23_o_GND_23_o_sub_9_OUT> created at line 25.
     Found 17-bit subtractor for signal <GND_23_o_GND_23_o_sub_19_OUT> created at line 25.
@@ -574,53 +579,70 @@ Synthesizing Unit <div_12u_6u>.
 Unit <div_12u_6u> synthesized.
 
 Synthesizing Unit <KeyControl>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\src\KeyControl.v".
-    Found 2-bit register for signal <state_>.
+    Related source file is "E:\project\Final Program\src\KeyControl.v".
+    Found 1-bit register for signal <wasReady>.
     Found 2-bit register for signal <state>.
     Found 10-bit register for signal <PacX>.
     Found 9-bit register for signal <PacY>.
-    Found 1-bit register for signal <wasReady>.
-    Found 10-bit subtractor for signal <PacX[9]_GND_47_o_sub_23_OUT> created at line 112.
-    Found 9-bit subtractor for signal <PacY[8]_GND_47_o_sub_25_OUT> created at line 120.
-    Found 10-bit adder for signal <PacX[9]_GND_47_o_add_23_OUT> created at line 116.
-    Found 9-bit adder for signal <PacY[8]_GND_47_o_add_25_OUT> created at line 124.
+    Found 2-bit register for signal <state_>.
+    Found 10-bit subtractor for signal <PacX[9]_GND_47_o_sub_26_OUT> created at line 113.
+    Found 9-bit subtractor for signal <PacY[8]_GND_47_o_sub_28_OUT> created at line 121.
+    Found 10-bit adder for signal <PacX[9]_GND_47_o_add_26_OUT> created at line 117.
+    Found 9-bit adder for signal <PacY[8]_GND_47_o_add_28_OUT> created at line 125.
+    Found 10-bit 3-to-1 multiplexer for signal <state[1]_PacX[9]_wide_mux_29_OUT> created at line 110.
+    Found 9-bit 3-to-1 multiplexer for signal <state[1]_PacY[8]_wide_mux_30_OUT> created at line 110.
     Summary:
 	inferred   2 Adder/Subtractor(s).
 	inferred  24 D-type flip-flop(s).
-	inferred   2 Multiplexer(s).
+	inferred  10 Multiplexer(s).
 Unit <KeyControl> synthesized.
 
 Synthesizing Unit <bean>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\ise\bean.v".
-    Found 9-bit register for signal <y>.
+    Related source file is "E:\project\Final Program\ise\bean.v".
     Found 1200-bit register for signal <beans>.
-    Found 9-bit register for signal <newscore>.
     Found 10-bit register for signal <x>.
-    Found 10-bit adder for signal <pac_x[9]_GND_49_o_add_1_OUT> created at line 70.
-    Found 9-bit adder for signal <pac_y[8]_GND_49_o_add_2_OUT> created at line 71.
-    Found 12-bit adder for signal <n3636> created at line 73.
-    Found 9-bit adder for signal <newscore[8]_GND_49_o_add_1211_OUT> created at line 74.
-    Found 5x6-bit multiplier for signal <y[8]_PWR_23_o_MuLt_7_OUT> created at line 73.
-    Found 1-bit 1200-to-1 multiplexer for signal <GND_49_o_GND_49_o_equal_7_o> created at line 72.
-    Found 12-bit comparator lessequal for signal <n0006> created at line 73
+    Found 9-bit register for signal <y>.
+    Found 9-bit register for signal <newscore>.
+    Found 10-bit adder for signal <n19307> created at line 108.
+    Found 11-bit adder for signal <n19309> created at line 108.
+    Found 13-bit adder for signal <n14489> created at line 108.
+    Found 9-bit adder for signal <newscore[8]_GND_49_o_add_1215_OUT> created at line 109.
+    Found 11-bit adder for signal <n19316> created at line 112.
+    Found 13-bit adder for signal <n15693> created at line 112.
+    Found 10-bit adder for signal <n19321> created at line 116.
+    Found 11-bit adder for signal <n19323> created at line 116.
+    Found 13-bit adder for signal <n16898> created at line 116.
+    Found 10-bit adder for signal <n19328> created at line 120.
+    Found 13-bit adder for signal <n18103> created at line 120.
+    Found 6x6-bit multiplier for signal <BUS_0004_PWR_23_o_MuLt_10_OUT> created at line 108.
+    Found 6x6-bit multiplier for signal <BUS_0018_PWR_23_o_MuLt_2440_OUT> created at line 116.
+    Found 6x6-bit multiplier for signal <BUS_0025_PWR_23_o_MuLt_3655_OUT> created at line 120.
+    Found 1-bit 1200-to-1 multiplexer for signal <GND_49_o_GND_49_o_equal_9_o> created at line 107.
+    Found 1-bit 1200-to-1 multiplexer for signal <GND_49_o_GND_49_o_equal_1224_o> created at line 111.
+    Found 1-bit 1200-to-1 multiplexer for signal <GND_49_o_GND_49_o_equal_2439_o> created at line 115.
+    Found 1-bit 1200-to-1 multiplexer for signal <GND_49_o_GND_49_o_equal_3654_o> created at line 119.
+    Found 13-bit comparator lessequal for signal <n0009> created at line 108
+    Found 13-bit comparator lessequal for signal <n2419> created at line 112
+    Found 13-bit comparator lessequal for signal <n4830> created at line 116
+    Found 13-bit comparator lessequal for signal <n7240> created at line 120
     Summary:
-	inferred   1 Multiplier(s).
-	inferred   4 Adder/Subtractor(s).
+	inferred   3 Multiplier(s).
+	inferred  11 Adder/Subtractor(s).
 	inferred 1228 D-type flip-flop(s).
-	inferred   1 Comparator(s).
-	inferred 1201 Multiplexer(s).
+	inferred   4 Comparator(s).
+	inferred 4804 Multiplexer(s).
 Unit <bean> synthesized.
 
 Synthesizing Unit <CheckGhostCrash>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\src\CheckGhostCrash.v".
+    Related source file is "E:\project\Final Program\src\CheckGhostCrash.v".
 WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Found 11-bit subtractor for signal <GND_50_o_GND_50_o_sub_1_OUT> created at line 30.
-    Found 10-bit subtractor for signal <GND_50_o_GND_50_o_sub_4_OUT> created at line 30.
-    Found 32-bit adder for signal <GND_50_o_GND_50_o_add_6_OUT> created at line 30.
+    Found 11-bit subtractor for signal <GND_51_o_GND_51_o_sub_1_OUT> created at line 30.
+    Found 10-bit subtractor for signal <GND_51_o_GND_51_o_sub_4_OUT> created at line 30.
+    Found 32-bit adder for signal <GND_51_o_GND_51_o_add_6_OUT> created at line 30.
     Found 32x32-bit multiplier for signal <n0012> created at line 30.
     Found 32x32-bit multiplier for signal <n0014> created at line 30.
-    Found 32-bit comparator greater for signal <GND_50_o_GND_50_o_LessThan_8_o> created at line 30
+    Found 32-bit comparator greater for signal <GND_51_o_GND_51_o_LessThan_8_o> created at line 30
     Summary:
 	inferred   2 Multiplier(s).
 	inferred   3 Adder/Subtractor(s).
@@ -628,7 +650,7 @@ WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and lef
 Unit <CheckGhostCrash> synthesized.
 
 Synthesizing Unit <Seg7Device>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\src\Seg7Device.v".
+    Related source file is "E:\project\Final Program\src\Seg7Device.v".
     Found 4x4-bit Read Only RAM for signal <anode>
     Found 8-bit 4-to-1 multiplexer for signal <segment> created at line 36.
     Summary:
@@ -637,32 +659,32 @@ Synthesizing Unit <Seg7Device>.
 Unit <Seg7Device> synthesized.
 
 Synthesizing Unit <Seg7Decode>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\src\Seg7Decode.v".
+    Related source file is "E:\project\Final Program\src\Seg7Decode.v".
     Summary:
 	no macro.
 Unit <Seg7Decode> synthesized.
 
 Synthesizing Unit <SegmentDecoder>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\src\SegmentDecoder.v".
+    Related source file is "E:\project\Final Program\src\SegmentDecoder.v".
     Found 16x7-bit Read Only RAM for signal <segment>
     Summary:
 	inferred   1 RAM(s).
 Unit <SegmentDecoder> synthesized.
 
 Synthesizing Unit <Seg7Remap>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\src\Seg7Remap.v".
+    Related source file is "E:\project\Final Program\src\Seg7Remap.v".
     Summary:
 	no macro.
 Unit <Seg7Remap> synthesized.
 
 Synthesizing Unit <ShiftReg>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\src\ShiftReg.v".
+    Related source file is "E:\project\Final Program\src\ShiftReg.v".
         WIDTH = 64
         DELAY = 12
     Found 1-bit register for signal <oe>.
     Found 12-bit register for signal <counter>.
     Found 65-bit register for signal <shift>.
-    Found 12-bit adder for signal <counter[11]_GND_55_o_add_5_OUT> created at line 54.
+    Found 12-bit adder for signal <counter[11]_GND_56_o_add_5_OUT> created at line 54.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  78 D-type flip-flop(s).
@@ -679,17 +701,18 @@ Macro Statistics
  16x7-bit single-port Read Only RAM                    : 8
  17x2-bit single-port Read Only RAM                    : 1
  4x4-bit single-port Read Only RAM                     : 1
-# Multipliers                                          : 10
+# Multipliers                                          : 12
  32x32-bit multiplier                                  : 4
- 6x5-bit multiplier                                    : 6
-# Adders/Subtractors                                   : 84
- 10-bit adder                                          : 5
+ 6x5-bit multiplier                                    : 5
+ 6x6-bit multiplier                                    : 3
+# Adders/Subtractors                                   : 91
+ 10-bit adder                                          : 7
  10-bit addsub                                         : 5
  10-bit subtractor                                     : 5
- 11-bit adder                                          : 6
+ 11-bit adder                                          : 9
  11-bit subtractor                                     : 5
- 12-bit adder                                          : 16
- 13-bit adder                                          : 2
+ 12-bit adder                                          : 15
+ 13-bit adder                                          : 6
  14-bit adder                                          : 2
  15-bit adder                                          : 2
  16-bit adder                                          : 2
@@ -702,7 +725,7 @@ Macro Statistics
  4-bit adder                                           : 2
  4-bit addsub                                          : 3
  5-bit adder                                           : 1
- 9-bit adder                                           : 2
+ 9-bit adder                                           : 1
  9-bit addsub                                          : 5
  9-bit subtractor                                      : 1
 # Registers                                            : 56
@@ -719,12 +742,12 @@ Macro Statistics
  9-bit register                                        : 8
 # Latches                                              : 20
  1-bit latch                                           : 20
-# Comparators                                          : 51
+# Comparators                                          : 54
  10-bit comparator greater                             : 12
  10-bit comparator lessequal                           : 2
  11-bit comparator greater                             : 2
- 12-bit comparator lessequal                           : 15
- 13-bit comparator lessequal                           : 2
+ 12-bit comparator lessequal                           : 14
+ 13-bit comparator lessequal                           : 6
  14-bit comparator lessequal                           : 2
  15-bit comparator lessequal                           : 2
  16-bit comparator lessequal                           : 2
@@ -734,19 +757,19 @@ Macro Statistics
  32-bit comparator lessequal                           : 1
  9-bit comparator greater                              : 4
  9-bit comparator lessequal                            : 2
-# Multiplexers                                         : 1505
- 1-bit 1200-to-1 multiplexer                           : 2
+# Multiplexers                                         : 5122
+ 1-bit 1200-to-1 multiplexer                           : 5
  1-bit 2-to-1 multiplexer                              : 266
  1-bit 4-to-1 multiplexer                              : 10
- 10-bit 2-to-1 multiplexer                             : 7
+ 10-bit 2-to-1 multiplexer                             : 13
  12-bit 2-to-1 multiplexer                             : 8
- 2-bit 2-to-1 multiplexer                              : 2
- 32-bit 2-to-1 multiplexer                             : 1200
+ 2-bit 2-to-1 multiplexer                              : 4
+ 32-bit 2-to-1 multiplexer                             : 4800
  4-bit 2-to-1 multiplexer                              : 1
  6-bit 2-to-1 multiplexer                              : 1
  65-bit 2-to-1 multiplexer                             : 1
  8-bit 4-to-1 multiplexer                              : 1
- 9-bit 2-to-1 multiplexer                              : 6
+ 9-bit 2-to-1 multiplexer                              : 12
 # Tristates                                            : 9
  1-bit tristate buffer                                 : 9
 
@@ -767,26 +790,16 @@ WARNING:Xst:2677 - Node <data_break> of sequential type is unconnected in block 
 WARNING:Xst:2677 - Node <data_expand> of sequential type is unconnected in block <ps2>.
 WARNING:Xst:2677 - Node <data_8> of sequential type is unconnected in block <ps2>.
 WARNING:Xst:2677 - Node <data_9> of sequential type is unconnected in block <ps2>.
-WARNING:Xst:2677 - Node <y_0> of sequential type is unconnected in block <b0>.
-WARNING:Xst:2677 - Node <y_1> of sequential type is unconnected in block <b0>.
-WARNING:Xst:2677 - Node <y_2> of sequential type is unconnected in block <b0>.
-WARNING:Xst:2677 - Node <y_3> of sequential type is unconnected in block <b0>.
-WARNING:Xst:2677 - Node <x_0> of sequential type is unconnected in block <b0>.
-WARNING:Xst:2677 - Node <x_1> of sequential type is unconnected in block <b0>.
-WARNING:Xst:2677 - Node <x_2> of sequential type is unconnected in block <b0>.
-WARNING:Xst:2677 - Node <x_3> of sequential type is unconnected in block <b0>.
 
 Synthesizing (advanced) Unit <AntiJitter>.
 The following registers are absorbed into counter <cnt>: 1 register on signal <cnt>.
 Unit <AntiJitter> synthesized (advanced).
 
 Synthesizing (advanced) Unit <CheckGhostCrash>.
-	Multiplier <Mmult_n0012> in block <CheckGhostCrash> and adder/subtractor <Madd_GND_50_o_GND_50_o_add_6_OUT> in block <CheckGhostCrash> are combined into a MAC<Maddsub_n0012>.
+	Multiplier <Mmult_n0012> in block <CheckGhostCrash> and adder/subtractor <Madd_GND_51_o_GND_51_o_add_6_OUT> in block <CheckGhostCrash> are combined into a MAC<Maddsub_n0012>.
 Unit <CheckGhostCrash> synthesized (advanced).
 
 Synthesizing (advanced) Unit <Ghost_M>.
-The following registers are absorbed into counter <x>: 1 register on signal <x>.
-The following registers are absorbed into counter <y>: 1 register on signal <y>.
 The following registers are absorbed into counter <randomCnt1>: 1 register on signal <randomCnt1>.
 The following registers are absorbed into counter <randomCnt2>: 1 register on signal <randomCnt2>.
 INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_randomDir1> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
@@ -812,11 +825,6 @@ INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_randomDir2> will be implemented on L
     |     doA            | connected to internal node          |          |
     -----------------------------------------------------------------------
 Unit <Ghost_M> synthesized (advanced).
-
-Synthesizing (advanced) Unit <KeyControl>.
-The following registers are absorbed into counter <PacX>: 1 register on signal <PacX>.
-The following registers are absorbed into counter <PacY>: 1 register on signal <PacY>.
-Unit <KeyControl> synthesized (advanced).
 
 Synthesizing (advanced) Unit <Map>.
 	Multiplier <Mmult_n0013> in block <Map> and adder/subtractor <Madd_y[8]_GND_17_o_add_3_OUT> in block <Map> are combined into a MAC<Maddsub_n0013>.
@@ -871,8 +879,8 @@ Unit <ShiftReg> synthesized (advanced).
 
 Synthesizing (advanced) Unit <bean>.
 The following registers are absorbed into counter <newscore>: 1 register on signal <newscore>.
-	Multiplier <Mmult_y[8]_PWR_23_o_MuLt_7_OUT> in block <bean> and adder/subtractor <Madd_n3636> in block <bean> are combined into a MAC<Maddsub_y[8]_PWR_23_o_MuLt_7_OUT>.
-	The following registers are also absorbed by the MAC: <x> in block <bean>.
+	Multiplier <Mmult_BUS_0018_PWR_23_o_MuLt_2440_OUT> in block <bean> and adder/subtractor <Madd_n16898> in block <bean> are combined into a MAC<Maddsub_BUS_0018_PWR_23_o_MuLt_2440_OUT>.
+	Multiplier <Mmult_BUS_0025_PWR_23_o_MuLt_3655_OUT> in block <bean> and adder/subtractor <Madd_n18103> in block <bean> are combined into a MAC<Maddsub_BUS_0025_PWR_23_o_MuLt_3655_OUT>.
 Unit <bean> synthesized (advanced).
 
 Synthesizing (advanced) Unit <beanmap>.
@@ -888,10 +896,6 @@ Synthesizing (advanced) Unit <vgac>.
 The following registers are absorbed into counter <h_count>: 1 register on signal <h_count>.
 The following registers are absorbed into counter <v_count>: 1 register on signal <v_count>.
 Unit <vgac> synthesized (advanced).
-WARNING:Xst:2677 - Node <y_0> of sequential type is unconnected in block <bean>.
-WARNING:Xst:2677 - Node <y_1> of sequential type is unconnected in block <bean>.
-WARNING:Xst:2677 - Node <y_2> of sequential type is unconnected in block <bean>.
-WARNING:Xst:2677 - Node <y_3> of sequential type is unconnected in block <bean>.
 
 =========================================================================
 Advanced HDL Synthesis Report
@@ -903,47 +907,47 @@ Macro Statistics
  16x7-bit single-port distributed Read Only RAM        : 8
  17x2-bit single-port distributed Read Only RAM        : 1
  4x4-bit single-port distributed Read Only RAM         : 1
-# MACs                                                 : 7
+# MACs                                                 : 8
  11x11-to-32-bit MAC                                   : 1
  6x5-to-11-bit MAC                                     : 4
- 6x5-to-12-bit MAC                                     : 2
-# Multipliers                                          : 3
+ 6x5-to-12-bit MAC                                     : 1
+ 6x6-to-13-bit MAC                                     : 2
+# Multipliers                                          : 4
  10x10-bit multiplier                                  : 1
  32x32-bit multiplier                                  : 2
-# Adders/Subtractors                                   : 60
- 10-bit adder                                          : 10
- 10-bit addsub                                         : 3
+ 6x6-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 70
+ 10-bit adder                                          : 12
+ 10-bit addsub                                         : 5
  10-bit subtractor                                     : 7
- 11-bit adder                                          : 2
+ 11-bit adder                                          : 5
  11-bit subtractor                                     : 2
  12-bit adder                                          : 24
+ 13-bit adder                                          : 2
  17-bit subtractor                                     : 1
  2-bit adder                                           : 1
  32-bit adder                                          : 1
  32-bit subtractor                                     : 2
  5-bit subtractor                                      : 1
  6-bit adder                                           : 1
- 9-bit adder                                           : 1
- 9-bit addsub                                          : 3
+ 9-bit addsub                                          : 5
  9-bit subtractor                                      : 1
-# Counters                                             : 17
+# Counters                                             : 13
  10-bit up counter                                     : 2
- 10-bit updown counter                                 : 2
  12-bit up counter                                     : 1
  32-bit up counter                                     : 3
  4-bit up counter                                      : 2
  4-bit updown counter                                  : 3
  5-bit up counter                                      : 1
  9-bit up counter                                      : 1
- 9-bit updown counter                                  : 2
-# Registers                                            : 1408
- Flip-Flops                                            : 1408
-# Comparators                                          : 51
+# Registers                                            : 1460
+ Flip-Flops                                            : 1460
+# Comparators                                          : 54
  10-bit comparator greater                             : 12
  10-bit comparator lessequal                           : 2
  11-bit comparator greater                             : 2
- 12-bit comparator lessequal                           : 15
- 13-bit comparator lessequal                           : 2
+ 12-bit comparator lessequal                           : 14
+ 13-bit comparator lessequal                           : 6
  14-bit comparator lessequal                           : 2
  15-bit comparator lessequal                           : 2
  16-bit comparator lessequal                           : 2
@@ -953,17 +957,17 @@ Macro Statistics
  32-bit comparator lessequal                           : 1
  9-bit comparator greater                              : 4
  9-bit comparator lessequal                            : 2
-# Multiplexers                                         : 1563
- 1-bit 1200-to-1 multiplexer                           : 2
+# Multiplexers                                         : 5180
+ 1-bit 1200-to-1 multiplexer                           : 5
  1-bit 2-to-1 multiplexer                              : 327
  1-bit 4-to-1 multiplexer                              : 10
- 10-bit 2-to-1 multiplexer                             : 6
+ 10-bit 2-to-1 multiplexer                             : 12
  12-bit 2-to-1 multiplexer                             : 8
- 2-bit 2-to-1 multiplexer                              : 2
- 32-bit 2-to-1 multiplexer                             : 1200
+ 2-bit 2-to-1 multiplexer                              : 4
+ 32-bit 2-to-1 multiplexer                             : 4800
  6-bit 2-to-1 multiplexer                              : 1
  8-bit 4-to-1 multiplexer                              : 1
- 9-bit 2-to-1 multiplexer                              : 6
+ 9-bit 2-to-1 multiplexer                              : 12
 
 =========================================================================
 
@@ -1000,7 +1004,34 @@ WARNING:Xst:2677 - Node <c0/clkdiv_28> of sequential type is unconnected in bloc
 WARNING:Xst:2677 - Node <c0/clkdiv_29> of sequential type is unconnected in block <KeyControl>.
 WARNING:Xst:2677 - Node <c0/clkdiv_30> of sequential type is unconnected in block <KeyControl>.
 WARNING:Xst:2677 - Node <c0/clkdiv_31> of sequential type is unconnected in block <KeyControl>.
-WARNING:Xst:1293 - FF/Latch <beans_785> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <x_0> of sequential type is unconnected in block <bean>.
+WARNING:Xst:2677 - Node <x_1> of sequential type is unconnected in block <bean>.
+WARNING:Xst:2677 - Node <x_2> of sequential type is unconnected in block <bean>.
+WARNING:Xst:2677 - Node <y_0> of sequential type is unconnected in block <bean>.
+WARNING:Xst:2677 - Node <y_1> of sequential type is unconnected in block <bean>.
+WARNING:Xst:2677 - Node <y_2> of sequential type is unconnected in block <bean>.
+INFO:Xst:2261 - The FF/Latch <vga/col_addr_4> in Unit <Display> is equivalent to the following FF/Latch, which will be removed : <Bean/Maddsub_y[8]_PWR_16_o_MuLt_0_OUT1_6> 
+INFO:Xst:2261 - The FF/Latch <vga/col_addr_5> in Unit <Display> is equivalent to the following FF/Latch, which will be removed : <Bean/Maddsub_y[8]_PWR_16_o_MuLt_0_OUT1_5> 
+INFO:Xst:2261 - The FF/Latch <vga/col_addr_6> in Unit <Display> is equivalent to the following FF/Latch, which will be removed : <Bean/Maddsub_y[8]_PWR_16_o_MuLt_0_OUT1_4> 
+INFO:Xst:2261 - The FF/Latch <vga/col_addr_7> in Unit <Display> is equivalent to the following FF/Latch, which will be removed : <Bean/Maddsub_y[8]_PWR_16_o_MuLt_0_OUT1_3> 
+INFO:Xst:2261 - The FF/Latch <vga/col_addr_8> in Unit <Display> is equivalent to the following FF/Latch, which will be removed : <Bean/Maddsub_y[8]_PWR_16_o_MuLt_0_OUT1_2> 
+INFO:Xst:2261 - The FF/Latch <vga/col_addr_9> in Unit <Display> is equivalent to the following FF/Latch, which will be removed : <Bean/Maddsub_y[8]_PWR_16_o_MuLt_0_OUT1_1> 
+
+Optimizing unit <Top> ...
+
+Optimizing unit <PS2_keyboard> ...
+
+Optimizing unit <Ghost_M> ...
+
+Optimizing unit <CheckCollision> ...
+
+Optimizing unit <Display> ...
+
+Optimizing unit <KeyControl> ...
+
+Optimizing unit <bean> ...
+WARNING:Xst:1293 - FF/Latch <beans_784> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_785> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_786> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_788> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_789> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1015,8 +1046,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_799> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_800> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_801> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_803> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_804> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_835> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_834> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_833> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_831> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1033,6 +1062,8 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_811> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_809> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_807> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_805> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_804> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_751> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_752> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_753> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_754> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1048,8 +1079,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_763> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_764> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_765> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_766> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_767> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_784> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_783> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_782> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_781> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1066,6 +1095,8 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_771> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_770> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_769> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_768> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_767> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_869> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_870> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_872> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_873> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1081,8 +1112,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_884> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_885> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_886> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_887> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_889> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_907> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_906> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_905> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_904> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1099,6 +1128,8 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_894> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_893> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_891> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_890> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_889> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_835> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_836> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_837> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_838> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1114,8 +1145,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_847> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_848> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_849> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_850> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_851> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_869> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_868> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_866> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_865> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1132,6 +1161,8 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_855> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_854> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_853> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_852> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_851> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_643> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_644> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_645> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_647> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1147,8 +1178,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_657> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_658> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_659> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_660> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_661> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_678> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_677> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_676> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_675> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1165,6 +1194,8 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_665> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_664> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_663> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_662> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_661> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_598> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_599> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_600> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_601> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1180,8 +1211,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_615> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_616> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_617> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_618> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_619> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_643> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_641> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_640> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_639> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1198,6 +1227,8 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_623> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_622> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_621> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_620> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_619> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_714> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_715> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_716> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_718> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1213,8 +1244,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_729> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_730> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_731> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_733> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_734> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_751> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_750> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_749> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_748> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1231,7 +1260,7 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_738> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_737> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_736> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_735> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_695> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_734> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_694> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_693> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_692> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1248,7 +1277,7 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_682> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_681> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_680> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_679> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_714> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_678> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_712> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_711> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_710> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1265,6 +1294,8 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_699> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_698> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_697> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_696> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_695> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1091> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1092> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1093> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1094> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1280,8 +1311,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1108> has a c
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1109> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1110> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1112> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1114> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1133> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1132> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1131> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1130> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1298,6 +1327,8 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1120> has a c
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1119> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1118> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1116> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1114> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1055> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1056> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1057> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1058> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1313,8 +1344,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1067> has a c
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1068> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1069> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1070> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1071> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1091> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1090> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1089> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1088> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1331,6 +1360,8 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1075> has a c
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1074> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1073> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1072> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1071> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1167> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1168> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1169> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1170> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1346,8 +1377,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1179> has a c
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1180> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1181> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1182> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1183> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <Maddsub_y[8]_PWR_23_o_MuLt_7_OUT1_0> (without init value) has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1199> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1198> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1197> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1364,7 +1393,7 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1187> has a c
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1186> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1185> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1184> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1150> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1183> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1149> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1148> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1147> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1381,7 +1410,7 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1137> has a c
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1136> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1135> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1134> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1167> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1133> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1166> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1165> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1164> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1398,6 +1427,8 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1154> has a c
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1153> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1152> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1151> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1150> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_940> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_941> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_942> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_943> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1413,8 +1444,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_954> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_955> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_956> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_958> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_959> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_982> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_981> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_980> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_979> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1431,6 +1460,8 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_964> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_963> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_961> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_960> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_959> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_907> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_908> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_909> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_910> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1446,8 +1477,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_919> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_920> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_921> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_922> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_923> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_940> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_939> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_938> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_937> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1464,6 +1493,8 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_927> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_926> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_925> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_924> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_923> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1016> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1017> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1018> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1020> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1479,8 +1510,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1030> has a c
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1032> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1033> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1034> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1035> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1055> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1054> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1053> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1052> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1497,7 +1526,7 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1040> has a c
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1039> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1038> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1036> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_999> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1035> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_998> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_997> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_996> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1514,7 +1543,7 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_986> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_985> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_984> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_983> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1016> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_982> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1015> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1014> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1013> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1531,6 +1560,7 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1003> has a c
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1002> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1001> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_1000> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_999> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_187> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_188> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_189> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1597,6 +1627,7 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_173> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_171> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_170> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_169> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_259> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_261> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_263> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_265> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1612,8 +1643,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_274> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_275> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_276> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_277> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_278> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_295> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_294> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_293> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_292> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1630,24 +1659,23 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_282> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_281> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_280> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_279> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_239> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_238> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_236> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_235> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_234> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_233> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_232> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_230> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_229> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_228> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_226> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_225> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_224> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_223> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_222> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_221> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_278> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_220> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_259> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_221> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_222> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_223> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_224> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_225> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_226> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_228> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_229> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_230> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_232> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_233> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_234> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_235> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_236> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_238> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_258> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_257> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_256> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1664,6 +1692,7 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_244> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_243> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_241> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_240> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_239> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_33> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_34> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_35> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1797,6 +1826,7 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_90> has a con
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_89> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_87> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_85> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_491> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_493> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_494> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_495> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1812,8 +1842,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_504> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_505> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_506> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_507> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_508> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_525> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_524> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_523> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_522> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1830,6 +1858,8 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_512> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_511> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_510> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_509> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_508> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_453> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_454> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_455> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_456> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1845,8 +1875,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_465> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_466> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_468> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_469> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_470> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_491> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_490> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_489> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_488> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1863,6 +1891,8 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_475> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_474> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_472> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_471> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_470> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_563> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_564> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_565> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_567> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1878,8 +1908,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_577> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_578> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_579> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_580> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_581> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_598> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_597> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_596> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_595> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1896,7 +1924,7 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_585> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_584> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_583> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_582> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_542> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_581> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_541> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_540> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_539> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1913,7 +1941,7 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_529> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_528> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_527> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_526> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_563> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_525> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_561> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_560> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_559> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1930,6 +1958,8 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_546> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_545> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_544> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_543> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_542> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_334> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_335> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_336> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_337> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1945,8 +1975,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_348> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_349> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_350> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_351> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_352> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_369> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_368> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_367> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_366> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1963,6 +1991,8 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_356> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_355> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_354> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_353> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_352> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_295> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_296> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_297> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_298> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1978,8 +2008,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_308> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_309> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_310> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_312> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_313> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_334> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_333> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_331> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_330> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -1996,6 +2024,8 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_318> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_316> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_315> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_314> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_313> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_409> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_411> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_413> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_415> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -2011,8 +2041,6 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_431> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_433> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_434> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_435> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_436> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_453> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_452> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_451> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_450> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -2029,7 +2057,7 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_440> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_439> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_438> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_437> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_386> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_436> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_385> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_384> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_383> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -2046,7 +2074,7 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_373> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_372> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_371> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_370> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_409> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_369> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_407> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_405> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_404> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
@@ -2063,26 +2091,7 @@ WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_392> has a co
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_390> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_389> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_388> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
-INFO:Xst:2261 - The FF/Latch <vga/col_addr_4> in Unit <Display> is equivalent to the following FF/Latch, which will be removed : <Bean/Maddsub_y[8]_PWR_16_o_MuLt_0_OUT1_6> 
-INFO:Xst:2261 - The FF/Latch <vga/col_addr_5> in Unit <Display> is equivalent to the following FF/Latch, which will be removed : <Bean/Maddsub_y[8]_PWR_16_o_MuLt_0_OUT1_5> 
-INFO:Xst:2261 - The FF/Latch <vga/col_addr_6> in Unit <Display> is equivalent to the following FF/Latch, which will be removed : <Bean/Maddsub_y[8]_PWR_16_o_MuLt_0_OUT1_4> 
-INFO:Xst:2261 - The FF/Latch <vga/col_addr_7> in Unit <Display> is equivalent to the following FF/Latch, which will be removed : <Bean/Maddsub_y[8]_PWR_16_o_MuLt_0_OUT1_3> 
-INFO:Xst:2261 - The FF/Latch <vga/col_addr_8> in Unit <Display> is equivalent to the following FF/Latch, which will be removed : <Bean/Maddsub_y[8]_PWR_16_o_MuLt_0_OUT1_2> 
-INFO:Xst:2261 - The FF/Latch <vga/col_addr_9> in Unit <Display> is equivalent to the following FF/Latch, which will be removed : <Bean/Maddsub_y[8]_PWR_16_o_MuLt_0_OUT1_1> 
-
-Optimizing unit <Top> ...
-
-Optimizing unit <PS2_keyboard> ...
-
-Optimizing unit <Ghost_M> ...
-
-Optimizing unit <CheckCollision> ...
-
-Optimizing unit <Display> ...
-
-Optimizing unit <KeyControl> ...
-
-Optimizing unit <bean> ...
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beans_386> has a constant value of 0 in block <bean>. This FF/Latch will be trimmed during the optimization process.
 
 Optimizing unit <Seg7Device> ...
 
@@ -2128,7 +2137,7 @@ INFO:Xst:2261 - The FF/Latch <c0/clkdiv_15> in Unit <Top> is equivalent to the f
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block Top, actual ratio is 2.
+Found area constraint ratio of 100 (+ 5) on block Top, actual ratio is 3.
 FlipFlop DM/vga/row_addr_4 has been replicated 1 time(s)
 FlipFlop DM/vga/row_addr_5 has been replicated 1 time(s)
 
@@ -2138,8 +2147,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 473
- Flip-Flops                                            : 473
+# Registers                                            : 475
+ Flip-Flops                                            : 475
 
 =========================================================================
 
@@ -2162,27 +2171,27 @@ Top Level Output File Name         : Top.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 2667
+# BELS                             : 3833
 #      GND                         : 2
-#      INV                         : 28
-#      LUT1                        : 100
-#      LUT2                        : 250
-#      LUT3                        : 175
-#      LUT4                        : 206
-#      LUT5                        : 179
-#      LUT6                        : 829
-#      MUXCY                       : 375
-#      MUXF7                       : 151
+#      INV                         : 26
+#      LUT1                        : 103
+#      LUT2                        : 266
+#      LUT3                        : 307
+#      LUT4                        : 368
+#      LUT5                        : 414
+#      LUT6                        : 1440
+#      MUXCY                       : 374
+#      MUXF7                       : 165
 #      MUXF8                       : 60
 #      VCC                         : 1
-#      XORCY                       : 311
-# FlipFlops/Latches                : 493
-#      FD                          : 111
+#      XORCY                       : 307
+# FlipFlops/Latches                : 495
+#      FD                          : 253
 #      FDC                         : 3
 #      FDCE                        : 31
-#      FDE                         : 291
+#      FDE                         : 140
 #      FDR                         : 28
-#      FDRE                        : 9
+#      FDRE                        : 20
 #      LD                          : 20
 # Clock Buffers                    : 4
 #      BUFG                        : 3
@@ -2201,16 +2210,16 @@ Selected Device : 7k160tffg676-1
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             493  out of  202800     0%  
- Number of Slice LUTs:                 1767  out of  101400     1%  
-    Number used as Logic:              1767  out of  101400     1%  
+ Number of Slice Registers:             495  out of  202800     0%  
+ Number of Slice LUTs:                 2924  out of  101400     2%  
+    Number used as Logic:              2924  out of  101400     2%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   1793
-   Number with an unused Flip Flop:    1300  out of   1793    72%  
-   Number with an unused LUT:            26  out of   1793     1%  
-   Number of fully used LUT-FF pairs:   467  out of   1793    26%  
-   Number of unique control sets:        36
+ Number of LUT Flip Flop pairs used:   2962
+   Number with an unused Flip Flop:    2467  out of   2962    83%  
+   Number with an unused LUT:            38  out of   2962     1%  
+   Number of fully used LUT-FF pairs:   457  out of   2962    15%  
+   Number of unique control sets:        34
 
 IO Utilization: 
  Number of IOs:                          47
@@ -2241,14 +2250,14 @@ Clock Information:
 ---------------------------------------------------------------+---------------------------+-------+
 Clock Signal                                                   | Clock buffer(FF name)     | Load  |
 ---------------------------------------------------------------+---------------------------+-------+
-clk                                                            | BUFGP                     | 265   |
+clk                                                            | BUFGP                     | 267   |
 c0/clkdiv_15                                                   | BUFG                      | 25    |
-c0/clkdiv_9                                                    | NONE(ghost1/randomCnt1_3) | 11    |
-ghost1/c0/clkdiv_17                                            | NONE(ghost1/y_8)          | 19    |
+c0/clkdiv_9                                                    | NONE(ghost1/randomCnt2_4) | 11    |
+ghost1/c0/clkdiv_17                                            | NONE(ghost1/x_9)          | 19    |
 c0/clkdiv_1                                                    | BUFG                      | 56    |
 DM/GND_19_o_isWall_AND_1118_o(DM/GND_19_o_isWall_AND_1118_o1:O)| NONE(*)(DM/pac_add_ip_0)  | 10    |
 DM/GND_19_o_isWall_AND_1090_o(DM/GND_19_o_isWall_AND_1090_o1:O)| NONE(*)(DM/ghost_add_ip_0)| 10    |
-Pac/c0/clkdiv_18                                               | NONE(Pac/PacY_8)          | 19    |
+Pac/c0/clkdiv_18                                               | NONE(Pac/PacX_9)          | 19    |
 c0/clkdiv_3                                                    | BUFG                      | 78    |
 ---------------------------------------------------------------+---------------------------+-------+
 (*) These 2 clock signal(s) are generated by combinatorial logic,
@@ -2265,7 +2274,7 @@ Timing Summary:
 Speed Grade: -1
 
    Minimum period: 16.636ns (Maximum Frequency: 60.112MHz)
-   Minimum input arrival time before clock: 1.535ns
+   Minimum input arrival time before clock: 3.512ns
    Maximum output required time after clock: 2.694ns
    Maximum combinational path delay: No path found
 
@@ -2275,58 +2284,64 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 5.603ns (frequency: 178.461MHz)
-  Total number of paths / destination ports: 182701 / 404
+  Clock period: 9.783ns (frequency: 102.215MHz)
+  Total number of paths / destination ports: 2066424 / 275
 -------------------------------------------------------------------------
-Delay:               5.603ns (Levels of Logic = 10)
-  Source:            b0/y_6 (FF)
-  Destination:       b0/newscore_8 (FF)
+Delay:               9.783ns (Levels of Logic = 15)
+  Source:            b0/x_4 (FF)
+  Destination:       b0/beans_793 (FF)
   Source Clock:      clk rising
   Destination Clock: clk rising
 
-  Data Path: b0/y_6 to b0/newscore_8
+  Data Path: b0/x_4 to b0/beans_793
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               2   0.282   0.491  b0/y_6 (b0/y_6)
-     LUT2:I0->O            1   0.053   0.000  b0/Maddsub_y[8]_PWR_23_o_MuLt_7_OUT_Madd1_lut<4> (b0/Maddsub_y[8]_PWR_23_o_MuLt_7_OUT_Madd1_lut<4>)
-     MUXCY:S->O            1   0.291   0.000  b0/Maddsub_y[8]_PWR_23_o_MuLt_7_OUT_Madd1_cy<4> (b0/Maddsub_y[8]_PWR_23_o_MuLt_7_OUT_Madd1_cy<4>)
-     XORCY:CI->O           1   0.320   0.413  b0/Maddsub_y[8]_PWR_23_o_MuLt_7_OUT_Madd1_xor<5> (b0/Maddsub_y[8]_PWR_23_o_MuLt_7_OUT_6)
-     LUT1:I0->O            1   0.053   0.000  b0/Maddsub_y[8]_PWR_23_o_MuLt_7_OUT_Madd_cy<6>_rt (b0/Maddsub_y[8]_PWR_23_o_MuLt_7_OUT_Madd_cy<6>_rt)
-     MUXCY:S->O            1   0.291   0.000  b0/Maddsub_y[8]_PWR_23_o_MuLt_7_OUT_Madd_cy<6> (b0/Maddsub_y[8]_PWR_23_o_MuLt_7_OUT_Madd_cy<6>)
-     XORCY:CI->O          33   0.320   0.892  b0/Maddsub_y[8]_PWR_23_o_MuLt_7_OUT_Madd_xor<7> (b0/n3636<7>)
-     LUT6:I0->O            1   0.053   0.413  b0/Mmux_GND_49_o_GND_49_o_equal_7_o_91_SW0 (N281)
-     LUT5:I4->O            1   0.053   0.635  b0/Mmux_GND_49_o_GND_49_o_equal_7_o_91 (b0/Mmux_GND_49_o_GND_49_o_equal_7_o_91)
-     LUT6:I2->O            1   0.053   0.000  b0/Mmux_GND_49_o_GND_49_o_equal_7_o_4 (b0/Mmux_GND_49_o_GND_49_o_equal_7_o_4)
-     MUXF7:I0->O         147   0.214   0.577  b0/Mmux_GND_49_o_GND_49_o_equal_7_o_2_f7 (b0/GND_49_o_GND_49_o_equal_7_o)
-     FDE:CE                    0.200          b0/beans_82
+     FD:C->Q             483   0.282   0.976  b0/x_4 (b0/x_4)
+     LUT6:I1->O            1   0.053   0.000  b0/Madd_n15693_lut<3> (b0/Madd_n15693_lut<3>)
+     XORCY:LI->O          89   0.134   0.890  b0/Madd_n15693_xor<3> (b0/n15693<3>)
+     LUT5:I0->O            1   0.053   0.413  b0/Mmux_GND_49_o_GND_49_o_equal_1224_o_207_SW1 (N538)
+     LUT5:I4->O            1   0.053   0.602  b0/Mmux_GND_49_o_GND_49_o_equal_1224_o_207 (b0/Mmux_GND_49_o_GND_49_o_equal_1224_o_207)
+     LUT6:I3->O            1   0.053   0.413  b0/Mmux_GND_49_o_GND_49_o_equal_1224_o_144 (b0/Mmux_GND_49_o_GND_49_o_equal_1224_o_144)
+     LUT6:I5->O            1   0.053   0.000  b0/Mmux_GND_49_o_GND_49_o_equal_1224_o_91_F (N602)
+     MUXF7:I0->O           1   0.214   0.635  b0/Mmux_GND_49_o_GND_49_o_equal_1224_o_91 (b0/Mmux_GND_49_o_GND_49_o_equal_1224_o_91)
+     LUT6:I2->O            1   0.053   0.000  b0/Mmux_GND_49_o_GND_49_o_equal_1224_o_4 (b0/Mmux_GND_49_o_GND_49_o_equal_1224_o_4)
+     MUXF7:I0->O          14   0.214   0.687  b0/Mmux_GND_49_o_GND_49_o_equal_1224_o_2_f7 (b0/GND_49_o_GND_49_o_equal_1224_o)
+     LUT3:I0->O           14   0.053   0.810  b0/beans[1199]_GND_49_o_mux_4861_OUT<824>131 (b0/beans[1199]_GND_49_o_mux_4861_OUT<824>13)
+     LUT6:I1->O            3   0.053   0.649  b0/beans[1199]_GND_49_o_mux_4861_OUT<787>112 (b0/beans[1199]_GND_49_o_mux_4861_OUT<787>11)
+     LUT6:I2->O            1   0.053   0.739  b0/beans[1199]_GND_49_o_mux_4861_OUT<793>2_SW0 (N496)
+     LUT6:I0->O            1   0.053   0.739  b0/beans[1199]_GND_49_o_mux_4861_OUT<793>2 (b0/beans[1199]_GND_49_o_mux_4861_OUT<793>2)
+     LUT6:I0->O            1   0.053   0.739  b0/beans[1199]_GND_49_o_mux_4861_OUT<793>4_SW0 (N442)
+     LUT6:I0->O            1   0.053   0.000  b0/beans[1199]_GND_49_o_mux_4861_OUT<793>4 (b0/beans[1199]_GND_49_o_mux_4861_OUT<793>)
+     FD:D                      0.011          b0/beans_793
     ----------------------------------------
-    Total                      5.603ns (2.183ns logic, 3.420ns route)
-                                       (39.0% logic, 61.0% route)
+    Total                      9.783ns (1.491ns logic, 8.292ns route)
+                                       (15.2% logic, 84.8% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'c0/clkdiv_15'
-  Clock period: 3.311ns (frequency: 302.024MHz)
-  Total number of paths / destination ports: 196 / 40
+  Clock period: 3.640ns (frequency: 274.725MHz)
+  Total number of paths / destination ports: 574 / 40
 -------------------------------------------------------------------------
-Delay:               3.311ns (Levels of Logic = 3)
-  Source:            k0/keyLineX_3 (FF)
+Delay:               3.640ns (Levels of Logic = 4)
+  Source:            k0/keyLineY_2 (FF)
   Destination:       k0/rdyFilter/O (FF)
   Source Clock:      c0/clkdiv_15 rising
   Destination Clock: c0/clkdiv_15 rising
 
-  Data Path: k0/keyLineX_3 to k0/rdyFilter/O
+  Data Path: k0/keyLineY_2 to k0/rdyFilter/O
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q              3   0.282   0.649  k0/keyLineX_3 (k0/keyLineX_3)
-     LUT4:I0->O            1   0.053   0.739  k0/ready_raw_SW0 (N9)
-     LUT6:I0->O            6   0.053   0.758  k0/ready_raw (k0/ready_raw)
-     LUT5:I0->O            1   0.053   0.399  k0/rdyFilter/_n00231 (k0/rdyFilter/_n0023)
+     FDE:C->Q              6   0.282   0.635  k0/keyLineY_2 (k0/keyLineY_2)
+     LUT3:I0->O            3   0.053   0.739  k0/Result<1>31 (k0/Result<1>_bdd7)
+     LUT6:I1->O            1   0.053   0.602  k0/Result<1>13 (k0/Result<1>12)
+     LUT6:I3->O            6   0.053   0.446  k0/Result<1>16 (k0/Result<1>_bdd0)
+     LUT5:I4->O            1   0.053   0.399  k0/rdyFilter/_n002311 (k0/rdyFilter/_n0023)
      FDR:R                     0.325          k0/rdyFilter/O
     ----------------------------------------
-    Total                      3.311ns (0.766ns logic, 2.545ns route)
-                                       (23.1% logic, 76.9% route)
+    Total                      3.640ns (0.819ns logic, 2.821ns route)
+                                       (22.5% logic, 77.5% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'c0/clkdiv_9'
@@ -2347,47 +2362,40 @@ Delay:               2.284ns (Levels of Logic = 3)
      LUT4:I0->O            1   0.053   0.725  ghost1/Mram_randomDir21121 (ghost1/Mram_randomDir2112)
      LUT5:I0->O            2   0.053   0.419  ghost1/Madd_nextDir_lut<0> (ghost1/Madd_nextDir_lut<0>)
      LUT6:I5->O            1   0.053   0.000  ghost1/Madd_nextDir_xor<1>11 (ghost1/nextDir<1>)
-     FDE:D                     0.011          ghost1/direction_1
+     FDRE:D                    0.011          ghost1/direction_1
     ----------------------------------------
     Total                      2.284ns (0.452ns logic, 1.832ns route)
                                        (19.8% logic, 80.2% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'ghost1/c0/clkdiv_17'
-  Clock period: 1.615ns (frequency: 619.195MHz)
-  Total number of paths / destination ports: 181 / 19
+  Clock period: 2.826ns (frequency: 353.857MHz)
+  Total number of paths / destination ports: 106 / 19
 -------------------------------------------------------------------------
-Delay:               1.615ns (Levels of Logic = 11)
+Delay:               2.826ns (Levels of Logic = 4)
   Source:            ghost1/x_0 (FF)
-  Destination:       ghost1/x_9 (FF)
+  Destination:       ghost1/x_8 (FF)
   Source Clock:      ghost1/c0/clkdiv_17 rising
   Destination Clock: ghost1/c0/clkdiv_17 rising
 
-  Data Path: ghost1/x_0 to ghost1/x_9
+  Data Path: ghost1/x_0 to ghost1/x_8
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q              9   0.282   0.538  ghost1/x_0 (ghost1/x_0)
-     LUT2:I0->O            1   0.053   0.000  ghost1/Mcount_x_lut<0> (ghost1/Mcount_x_lut<0>)
-     MUXCY:S->O            1   0.291   0.000  ghost1/Mcount_x_cy<0> (ghost1/Mcount_x_cy<0>)
-     MUXCY:CI->O           1   0.015   0.000  ghost1/Mcount_x_cy<1> (ghost1/Mcount_x_cy<1>)
-     MUXCY:CI->O           1   0.015   0.000  ghost1/Mcount_x_cy<2> (ghost1/Mcount_x_cy<2>)
-     MUXCY:CI->O           1   0.015   0.000  ghost1/Mcount_x_cy<3> (ghost1/Mcount_x_cy<3>)
-     MUXCY:CI->O           1   0.015   0.000  ghost1/Mcount_x_cy<4> (ghost1/Mcount_x_cy<4>)
-     MUXCY:CI->O           1   0.015   0.000  ghost1/Mcount_x_cy<5> (ghost1/Mcount_x_cy<5>)
-     MUXCY:CI->O           1   0.015   0.000  ghost1/Mcount_x_cy<6> (ghost1/Mcount_x_cy<6>)
-     MUXCY:CI->O           1   0.015   0.000  ghost1/Mcount_x_cy<7> (ghost1/Mcount_x_cy<7>)
-     MUXCY:CI->O           0   0.015   0.000  ghost1/Mcount_x_cy<8> (ghost1/Mcount_x_cy<8>)
-     XORCY:CI->O           1   0.320   0.000  ghost1/Mcount_x_xor<9> (ghost1/Result<9>1)
-     FDE:D                     0.011          ghost1/x_9
+     FDE:C->Q             13   0.282   0.565  ghost1/x_0 (ghost1/x_0)
+     LUT3:I1->O            3   0.053   0.616  ghost1/Mmux_direction[1]_x[9]_wide_mux_11_OUT1_rs_cy<1>11 (ghost1/Mmux_direction[1]_x[9]_wide_mux_11_OUT1_rs_cy<1>)
+     LUT6:I3->O            4   0.053   0.505  ghost1/Mmux_direction[1]_x[9]_wide_mux_11_OUT1_rs_cy<5>11 (ghost1/Mmux_direction[1]_x[9]_wide_mux_11_OUT1_rs_cy<5>)
+     LUT4:I2->O            1   0.053   0.635  ghost1/Mmux_direction[1]_x[9]_wide_mux_11_OUT1_rs_cy<7>11 (ghost1/Mmux_direction[1]_x[9]_wide_mux_11_OUT1_rs_cy<7>)
+     LUT6:I2->O            1   0.053   0.000  ghost1/Mmux_x[9]_direction[1]_mux_13_OUT91 (ghost1/x[9]_direction[1]_mux_13_OUT<8>)
+     FDE:D                     0.011          ghost1/x_8
     ----------------------------------------
-    Total                      1.615ns (1.077ns logic, 0.538ns route)
-                                       (66.7% logic, 33.3% route)
+    Total                      2.826ns (0.505ns logic, 2.321ns route)
+                                       (17.9% logic, 82.1% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'c0/clkdiv_1'
   Clock period: 16.636ns (frequency: 60.112MHz)
-  Total number of paths / destination ports: 11668928163653 / 88
+  Total number of paths / destination ports: 11668928163749 / 88
 -------------------------------------------------------------------------
 Delay:               16.636ns (Levels of Logic = 33)
   Source:            DM/vga/row_addr_8 (FF)
@@ -2407,14 +2415,14 @@ Delay:               16.636ns (Levels of Logic = 33)
      LUT1:I0->O            1   0.053   0.000  DM/Bean/Maddsub_y[8]_PWR_16_o_MuLt_0_OUT_Madd_cy<9>_rt (DM/Bean/Maddsub_y[8]_PWR_16_o_MuLt_0_OUT_Madd_cy<9>_rt)
      MUXCY:S->O            1   0.291   0.000  DM/Bean/Maddsub_y[8]_PWR_16_o_MuLt_0_OUT_Madd_cy<9> (DM/Bean/Maddsub_y[8]_PWR_16_o_MuLt_0_OUT_Madd_cy<9>)
      XORCY:CI->O          32   0.320   0.892  DM/Bean/Maddsub_y[8]_PWR_16_o_MuLt_0_OUT_Madd_xor<10> (DM/Bean/BUS_0002_PWR_16_o_mod_6/Madd_GND_24_o_b[5]_add_11_OUT_Madd_cy<10>)
-     LUT6:I0->O            1   0.053   0.000  DM/Bean/BUS_0004_PWR_16_o_div_17_OUT<0>121_G (N410)
+     LUT6:I0->O            1   0.053   0.000  DM/Bean/BUS_0004_PWR_16_o_div_17_OUT<0>121_G (N631)
      MUXF7:I1->O           3   0.217   0.616  DM/Bean/BUS_0004_PWR_16_o_div_17_OUT<0>121 (DM/Bean/BUS_0004_PWR_16_o_div_17_OUT<0>12)
-     LUT5:I2->O            1   0.053   0.485  DM/Bean/BUS_0004_PWR_16_o_div_17_OUT<0>14_SW3 (N195)
-     LUT6:I4->O            1   0.053   0.413  DM/Bean/Msub_GND_23_o_GND_23_o_sub_19_OUT_lut<4>_SW1 (N105)
+     LUT5:I2->O            1   0.053   0.485  DM/Bean/BUS_0004_PWR_16_o_div_17_OUT<0>14_SW3 (N228)
+     LUT6:I4->O            1   0.053   0.413  DM/Bean/Msub_GND_23_o_GND_23_o_sub_19_OUT_lut<4>_SW1 (N138)
      LUT6:I5->O            1   0.053   0.000  DM/Bean/Msub_GND_23_o_GND_23_o_sub_19_OUT_lut<4> (DM/Bean/Msub_GND_23_o_GND_23_o_sub_19_OUT_lut<4>)
      MUXCY:S->O            1   0.291   0.000  DM/Bean/Msub_GND_23_o_GND_23_o_sub_19_OUT_cy<4> (DM/Bean/Msub_GND_23_o_GND_23_o_sub_19_OUT_cy<4>)
      XORCY:CI->O           8   0.320   0.648  DM/Bean/Msub_GND_23_o_GND_23_o_sub_19_OUT_xor<5> (DM/Bean/GND_23_o_GND_23_o_sub_19_OUT<5>)
-     LUT5:I2->O            3   0.053   0.427  DM/Bean/Msub_GND_23_o_GND_23_o_sub_20_OUT_xor<12>11_SW0 (N142)
+     LUT5:I2->O            3   0.053   0.427  DM/Bean/Msub_GND_23_o_GND_23_o_sub_20_OUT_xor<12>11_SW0 (N175)
      LUT6:I5->O            4   0.053   0.419  DM/Bean/Msub_GND_23_o_GND_23_o_sub_20_OUT_xor<13>11_1 (DM/Bean/Msub_GND_23_o_GND_23_o_sub_20_OUT_xor<13>11)
      DSP48E1:A13->PCOUT47    1   3.421   0.000  DM/Bean/Mmult_n0027 (DM/Bean/Mmult_n0027_PCOUT_to_Bean/Mmult_n00271_PCIN_47)
      DSP48E1:PCIN47->PCOUT47    1   1.452   0.000  DM/Bean/Mmult_n00271 (DM/Bean/Mmult_n00271_PCOUT_to_Bean/Mmult_n00272_PCIN_47)
@@ -2440,10 +2448,10 @@ Delay:               16.636ns (Levels of Logic = 33)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'Pac/c0/clkdiv_18'
-  Clock period: 1.628ns (frequency: 614.251MHz)
-  Total number of paths / destination ports: 181 / 19
+  Clock period: 2.805ns (frequency: 356.506MHz)
+  Total number of paths / destination ports: 106 / 19
 -------------------------------------------------------------------------
-Delay:               1.628ns (Levels of Logic = 11)
+Delay:               2.805ns (Levels of Logic = 4)
   Source:            Pac/PacX_0 (FF)
   Destination:       Pac/PacX_9 (FF)
   Source Clock:      Pac/c0/clkdiv_18 rising
@@ -2453,29 +2461,22 @@ Delay:               1.628ns (Levels of Logic = 11)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q             11   0.282   0.551  Pac/PacX_0 (Pac/PacX_0)
-     LUT2:I0->O            1   0.053   0.000  Pac/Mcount_PacX_lut<0> (Pac/Mcount_PacX_lut<0>)
-     MUXCY:S->O            1   0.291   0.000  Pac/Mcount_PacX_cy<0> (Pac/Mcount_PacX_cy<0>)
-     MUXCY:CI->O           1   0.015   0.000  Pac/Mcount_PacX_cy<1> (Pac/Mcount_PacX_cy<1>)
-     MUXCY:CI->O           1   0.015   0.000  Pac/Mcount_PacX_cy<2> (Pac/Mcount_PacX_cy<2>)
-     MUXCY:CI->O           1   0.015   0.000  Pac/Mcount_PacX_cy<3> (Pac/Mcount_PacX_cy<3>)
-     MUXCY:CI->O           1   0.015   0.000  Pac/Mcount_PacX_cy<4> (Pac/Mcount_PacX_cy<4>)
-     MUXCY:CI->O           1   0.015   0.000  Pac/Mcount_PacX_cy<5> (Pac/Mcount_PacX_cy<5>)
-     MUXCY:CI->O           1   0.015   0.000  Pac/Mcount_PacX_cy<6> (Pac/Mcount_PacX_cy<6>)
-     MUXCY:CI->O           1   0.015   0.000  Pac/Mcount_PacX_cy<7> (Pac/Mcount_PacX_cy<7>)
-     MUXCY:CI->O           0   0.015   0.000  Pac/Mcount_PacX_cy<8> (Pac/Mcount_PacX_cy<8>)
-     XORCY:CI->O           1   0.320   0.000  Pac/Mcount_PacX_xor<9> (Pac/Result<9>1)
-     FDE:D                     0.011          Pac/PacX_9
+     FDE:C->Q             15   0.282   0.577  Pac/PacX_0 (Pac/PacX_0)
+     LUT3:I1->O            3   0.053   0.616  Pac/Mmux_state[1]_PacX[9]_wide_mux_29_OUT1_rs_cy<1>11 (Pac/Mmux_state[1]_PacX[9]_wide_mux_29_OUT1_rs_cy<1>)
+     LUT6:I3->O            4   0.053   0.505  Pac/Mmux_state[1]_PacX[9]_wide_mux_29_OUT1_rs_cy<5>11 (Pac/Mmux_state[1]_PacX[9]_wide_mux_29_OUT1_rs_cy<5>)
+     LUT4:I2->O            1   0.053   0.602  Pac/Mmux_state[1]_PacX[9]_wide_mux_29_OUT1_rs_cy<7>11 (Pac/Mmux_state[1]_PacX[9]_wide_mux_29_OUT1_rs_cy<7>)
+     LUT6:I3->O            1   0.053   0.000  Pac/Mmux_PacX[9]_state[1]_mux_31_OUT91 (Pac/PacX[9]_state[1]_mux_31_OUT<8>)
+     FDE:D                     0.011          Pac/PacX_8
     ----------------------------------------
-    Total                      1.628ns (1.077ns logic, 0.551ns route)
-                                       (66.2% logic, 33.8% route)
+    Total                      2.805ns (0.505ns logic, 2.300ns route)
+                                       (18.0% logic, 82.0% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'c0/clkdiv_3'
-  Clock period: 3.243ns (frequency: 308.361MHz)
+  Clock period: 3.054ns (frequency: 327.444MHz)
   Total number of paths / destination ports: 10086 / 156
 -------------------------------------------------------------------------
-Delay:               3.243ns (Levels of Logic = 12)
+Delay:               3.054ns (Levels of Logic = 12)
   Source:            segDevice/U2/shift_45 (FF)
   Destination:       segDevice/U2/shift_64 (FF)
   Source Clock:      c0/clkdiv_3 rising
@@ -2496,12 +2497,12 @@ Delay:               3.243ns (Levels of Logic = 12)
      MUXCY:CI->O           1   0.015   0.000  segDevice/U2/out1_wg_cy<7> (segDevice/U2/out1_wg_cy<7>)
      MUXCY:CI->O           1   0.015   0.000  segDevice/U2/out1_wg_cy<8> (segDevice/U2/out1_wg_cy<8>)
      MUXCY:CI->O           1   0.015   0.000  segDevice/U2/out1_wg_cy<9> (segDevice/U2/out1_wg_cy<9>)
-     MUXCY:CI->O          67   0.178   0.762  segDevice/U2/out1_wg_cy<10> (segDevice/U2/sckEn)
-     LUT3:I0->O           65   0.053   0.559  segDevice/U2/_n0033_inv1 (segDevice/U2/_n0033_inv)
+     MUXCY:CI->O          67   0.178   0.573  segDevice/U2/out1_wg_cy<10> (segDevice/U2/sckEn)
+     LUT3:I2->O           65   0.053   0.559  segDevice/U2/_n0033_inv1 (segDevice/U2/_n0033_inv)
      FDE:CE                    0.200          segDevice/U2/shift_0
     ----------------------------------------
-    Total                      3.243ns (1.177ns logic, 2.066ns route)
-                                       (36.3% logic, 63.7% route)
+    Total                      3.054ns (1.177ns logic, 1.877ns route)
+                                       (38.5% logic, 61.5% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'c0/clkdiv_15'
@@ -2525,22 +2526,87 @@ Offset:              1.535ns (Levels of Logic = 2)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 12 / 12
+  Total number of paths / destination ports: 170 / 160
 -------------------------------------------------------------------------
-Offset:              0.613ns (Levels of Logic = 1)
+Offset:              3.512ns (Levels of Logic = 6)
   Source:            rst (PAD)
-  Destination:       Pac/state__1 (FF)
+  Destination:       b0/beans_340 (FF)
   Destination Clock: clk rising
 
-  Data Path: rst to Pac/state__1
+  Data Path: rst to b0/beans_340
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O             3   0.000   0.413  rst_IBUF (rst_IBUF)
-     FDE:CE                    0.200          Pac/wasReady
+     IBUF:I->O           188   0.000   0.926  rst_IBUF (rst_IBUF)
+     LUT6:I0->O            2   0.053   0.419  b0/SF108111 (b0/SF10811)
+     LUT6:I5->O            1   0.053   0.413  b0/beans[1199]_GND_49_o_mux_4861_OUT<340>2 (b0/beans[1199]_GND_49_o_mux_4861_OUT<340>2)
+     LUT5:I4->O            1   0.053   0.739  b0/beans[1199]_GND_49_o_mux_4861_OUT<340>3_SW0 (N428)
+     LUT6:I0->O            1   0.053   0.739  b0/beans[1199]_GND_49_o_mux_4861_OUT<340>3 (b0/beans[1199]_GND_49_o_mux_4861_OUT<340>3)
+     LUT6:I0->O            1   0.053   0.000  b0/beans[1199]_GND_49_o_mux_4861_OUT<340>4 (b0/beans[1199]_GND_49_o_mux_4861_OUT<340>)
+     FD:D                      0.011          b0/beans_340
     ----------------------------------------
-    Total                      0.613ns (0.200ns logic, 0.413ns route)
-                                       (32.6% logic, 67.4% route)
+    Total                      3.512ns (0.276ns logic, 3.236ns route)
+                                       (7.9% logic, 92.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'ghost1/c0/clkdiv_17'
+  Total number of paths / destination ports: 38 / 38
+-------------------------------------------------------------------------
+Offset:              1.371ns (Levels of Logic = 2)
+  Source:            rst (PAD)
+  Destination:       ghost1/x_9 (FF)
+  Destination Clock: ghost1/c0/clkdiv_17 rising
+
+  Data Path: rst to ghost1/x_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           188   0.000   0.600  rst_IBUF (rst_IBUF)
+     LUT6:I5->O           19   0.053   0.518  ghost1/_n0089_inv1 (ghost1/_n0089_inv)
+     FDE:CE                    0.200          ghost1/y_0
+    ----------------------------------------
+    Total                      1.371ns (0.253ns logic, 1.118ns route)
+                                       (18.5% logic, 81.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'c0/clkdiv_9'
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Offset:              1.709ns (Levels of Logic = 2)
+  Source:            rst (PAD)
+  Destination:       ghost1/direction_1 (FF)
+  Destination Clock: c0/clkdiv_9 rising
+
+  Data Path: rst to ghost1/direction_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           188   0.000   0.926  rst_IBUF (rst_IBUF)
+     LUT6:I0->O            2   0.053   0.405  ghost1/_n00841 (ghost1/_n0084)
+     FDRE:R                    0.325          ghost1/direction_0
+    ----------------------------------------
+    Total                      1.709ns (0.378ns logic, 1.331ns route)
+                                       (22.1% logic, 77.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Pac/c0/clkdiv_18'
+  Total number of paths / destination ports: 38 / 38
+-------------------------------------------------------------------------
+Offset:              1.371ns (Levels of Logic = 2)
+  Source:            rst (PAD)
+  Destination:       Pac/PacX_9 (FF)
+  Destination Clock: Pac/c0/clkdiv_18 rising
+
+  Data Path: rst to Pac/PacX_9
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O           188   0.000   0.600  rst_IBUF (rst_IBUF)
+     LUT6:I5->O           19   0.053   0.518  Pac/_n0079_inv1 (Pac/_n0079_inv)
+     FDE:CE                    0.200          Pac/PacY_0
+    ----------------------------------------
+    Total                      1.371ns (0.253ns logic, 1.118ns route)
+                                       (18.5% logic, 81.5% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'c0/clkdiv_1'
@@ -2643,7 +2709,7 @@ Clock to Setup on destination clock DM/GND_19_o_isWall_AND_1090_o
 Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 -------------------+---------+---------+---------+---------+
 c0/clkdiv_1        |         |         |    2.820|         |
-ghost1/c0/clkdiv_17|         |         |    2.740|         |
+ghost1/c0/clkdiv_17|         |         |    2.753|         |
 -------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock DM/GND_19_o_isWall_AND_1118_o
@@ -2651,9 +2717,9 @@ Clock to Setup on destination clock DM/GND_19_o_isWall_AND_1118_o
                 | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ----------------+---------+---------+---------+---------+
-Pac/c0/clkdiv_18|         |         |    5.778|         |
+Pac/c0/clkdiv_18|         |         |    5.798|         |
 c0/clkdiv_1     |         |         |    5.811|         |
-clk             |         |         |    1.694|         |
+clk             |         |         |    1.697|         |
 ----------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock Pac/c0/clkdiv_18
@@ -2661,8 +2727,8 @@ Clock to Setup on destination clock Pac/c0/clkdiv_18
                 | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ----------------+---------+---------+---------+---------+
-Pac/c0/clkdiv_18|    1.628|         |         |         |
-clk             |    6.385|         |         |         |
+Pac/c0/clkdiv_18|    2.805|         |         |         |
+clk             |    6.621|         |         |         |
 ----------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock c0/clkdiv_1
@@ -2675,8 +2741,8 @@ DM/GND_19_o_isWall_AND_1118_o|         |    4.058|         |         |
 Pac/c0/clkdiv_18             |    4.882|         |         |         |
 c0/clkdiv_1                  |   16.636|         |         |         |
 c0/clkdiv_15                 |    1.617|         |         |         |
-clk                          |    4.843|         |         |         |
-ghost1/c0/clkdiv_17          |    5.426|         |         |         |
+clk                          |    4.856|         |         |         |
+ghost1/c0/clkdiv_17          |    5.446|         |         |         |
 -----------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock c0/clkdiv_15
@@ -2684,7 +2750,7 @@ Clock to Setup on destination clock c0/clkdiv_15
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-c0/clkdiv_15   |    3.311|         |         |         |
+c0/clkdiv_15   |    3.640|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock c0/clkdiv_3
@@ -2692,7 +2758,7 @@ Clock to Setup on destination clock c0/clkdiv_3
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-c0/clkdiv_3    |    3.243|         |         |         |
+c0/clkdiv_3    |    3.054|         |         |         |
 clk            |    1.124|         |         |         |
 ---------------+---------+---------+---------+---------+
 
@@ -2702,7 +2768,7 @@ Clock to Setup on destination clock c0/clkdiv_9
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 c0/clkdiv_9    |    2.284|         |         |         |
-clk            |    7.289|         |         |         |
+clk            |    7.413|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock clk
@@ -2710,11 +2776,11 @@ Clock to Setup on destination clock clk
                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 -------------------+---------+---------+---------+---------+
-Pac/c0/clkdiv_18   |    9.688|         |         |         |
-c0/clkdiv_15       |    2.544|         |         |         |
-c0/clkdiv_9        |    1.839|         |         |         |
-clk                |    5.603|         |         |         |
-ghost1/c0/clkdiv_17|    9.602|         |         |         |
+Pac/c0/clkdiv_18   |    9.155|         |         |         |
+c0/clkdiv_15       |    2.557|         |         |         |
+c0/clkdiv_9        |    1.840|         |         |         |
+clk                |    9.783|         |         |         |
+ghost1/c0/clkdiv_17|    9.069|         |         |         |
 -------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock ghost1/c0/clkdiv_17
@@ -2722,22 +2788,22 @@ Clock to Setup on destination clock ghost1/c0/clkdiv_17
                    | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock       |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 -------------------+---------+---------+---------+---------+
-c0/clkdiv_9        |    1.866|         |         |         |
-clk                |    6.412|         |         |         |
-ghost1/c0/clkdiv_17|    1.615|         |         |         |
+c0/clkdiv_9        |    3.018|         |         |         |
+clk                |    6.659|         |         |         |
+ghost1/c0/clkdiv_17|    2.826|         |         |         |
 -------------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 53.00 secs
-Total CPU time to Xst completion: 53.03 secs
+Total REAL time to Xst completion: 295.00 secs
+Total CPU time to Xst completion: 294.92 secs
  
 --> 
 
-Total memory usage is 4749248 kilobytes
+Total memory usage is 5064644 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings : 1202 (   0 filtered)
+Number of warnings : 1197 (   0 filtered)
 Number of infos    :   52 (   0 filtered)
 

@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Thu Jan 07 12:05:35 2021
+// Written by: Map P.20131013 on Mon Jan 11 18:28:45 2021
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -9,6 +9,8 @@ COMP "BTN_X<2>" LOCATE = SITE "W19" LEVEL 1;
 COMP "BTN_X<1>" LOCATE = SITE "W18" LEVEL 1;
 COMP "BTN_X<0>" LOCATE = SITE "V17" LEVEL 1;
 COMP "rst" LOCATE = SITE "W13" LEVEL 1;
+PIN rst_pin<0> = BEL "rst" PINNAME PAD;
+PIN "rst_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
 COMP "HS" LOCATE = SITE "M22" LEVEL 1;
 COMP "VS" LOCATE = SITE "M21" LEVEL 1;
 COMP "SEGLED_CLK" LOCATE = SITE "M24" LEVEL 1;

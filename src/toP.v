@@ -69,7 +69,7 @@ module Top(
 	
 	wire [1199:0] beanreg;
 	//displaymodule of characters
-	Display DM(.clk(clk),.clkdiv(clkdiv),.clrn(SW_OK[0]),.state(pst),.over(over_sign),
+	Display DM(.clk(clk),.rst(rst),.clkdiv(clkdiv),.clrn(SW_OK[0]),.state(pst),.over(over_sign),
 		.beanmap(beanreg),
 		.r(r), .g(g), .b(b), .hs(HS), .vs(VS),
 		.PacX(px),.PacY(py),.GhostX(ghost1X),.GhostY(ghost1Y));
@@ -81,7 +81,7 @@ module Top(
 		.state(pst));
 	
 	wire [8:0]score;
-	bean b0(.clk(clk), .pac_x(px), .pac_y(py), .beans(beanreg), .newscore(score), .isover(over1));
+	bean b0(.clk(clk), .rst(rst), .pac_x(px), .pac_y(py), .beans(beanreg), .newscore(score), .isover(over1));
 	
 	CheckGhostCrash(.clk(clk),.rst(rst),.PacX(px),.PacY(py),.GhostX(ghost1X),.GhostY(ghost1Y),.result(over));
 	
@@ -97,8 +97,8 @@ module Top(
 	assign SEGLED_CLR = sout[0];
  	
 	always@(posedge clk)begin
-		if(over_sign == 0)
-			over_sign <= over == 1 || over1 == 1 ? 1 : 0;
+		if(over_sign == 0) over_sign <= over == 1 || over1 == 1 ? 1 : 0;
+		if(~rst) over_sign <= 0;
 	end
 
 endmodule

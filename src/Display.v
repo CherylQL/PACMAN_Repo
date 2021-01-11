@@ -20,6 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 module Display(
 	input clk,
+	input rst,
 	input [31:0] clkdiv,
 	input clrn,
 	input over,
@@ -54,33 +55,34 @@ module Display(
 	wire isbean;
 	beanmap Bean(.x(col_addr), .y(row_addr), .beanmapData(beanmap), .isbean(isbean));
 	
+	
 	always@(* ) begin
-		if(over == 1)vga_data <= 12'h0;
-		else begin
-			if(isWall) begin
-				vga_data <= 12'hfff;
-			end
-			else if(isbean) begin
-				vga_data <= 12'hff0;
-			end
-			else if(row_addr >= GhostY && row_addr < GhostY + 32 && col_addr >= GhostX  && col_addr < GhostX + 32)begin
-				ghost_add_ip <= (row_addr - GhostY) * 32 + (col_addr - GhostX);
-				vga_data <= ghost_inner_color;
-			end
-			else if(row_addr >= PacY && row_addr < PacY + 32 && col_addr >= PacX  && col_addr < PacX + 32)begin
-				if(state == 2'b00)
-					pac_add_ip <= (col_addr - PacX) * 32 + (row_addr - PacY);
-				else if(state == 2'b01)
-					pac_add_ip <= (col_addr - PacX) * 32 + (32 - row_addr + PacY);
-				else if(state == 2'b10)
-					pac_add_ip <= (row_addr - PacY) * 32 + (col_addr - PacX);
-				else
-					pac_add_ip <= (row_addr - PacY) * 32 + (32 - col_addr + PacX);
-				vga_data <= pac_inner_color;
-			end
+			if(over == 1)vga_data <= 12'h0;
 			else begin
-				vga_data <= 3'h0;
+				if(isWall) begin
+					vga_data <= 12'hfff;
+				end
+				else if(isbean) begin
+					vga_data <= 12'hff0;
+				end
+				else if(row_addr >= GhostY && row_addr < GhostY + 32 && col_addr >= GhostX  && col_addr < GhostX + 32)begin
+					ghost_add_ip <= (row_addr - GhostY) * 32 + (col_addr - GhostX);
+					vga_data <= ghost_inner_color;
+				end
+				else if(row_addr >= PacY && row_addr < PacY + 32 && col_addr >= PacX  && col_addr < PacX + 32)begin
+					if(state == 2'b00)
+						pac_add_ip <= (col_addr - PacX) * 32 + (row_addr - PacY);
+					else if(state == 2'b01)
+						pac_add_ip <= (col_addr - PacX) * 32 + (32 - row_addr + PacY);
+					else if(state == 2'b10)
+						pac_add_ip <= (row_addr - PacY) * 32 + (col_addr - PacX);
+					else
+						pac_add_ip <= (row_addr - PacY) * 32 + (32 - col_addr + PacX);
+					vga_data <= pac_inner_color;
+				end
+				else begin
+					vga_data <= 3'h0;
+				end
 			end
 		end
-	end
 endmodule
