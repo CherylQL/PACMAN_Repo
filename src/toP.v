@@ -79,7 +79,11 @@ module Top(
 	Display DM(.clk(clk),.rst(rst),.clkdiv(clkdiv),.clrn(SW_OK[0]),.state(pst),.over(over_sign),
 		.beanmap(beanreg),
 		.r(r), .g(g), .b(b), .hs(HS), .vs(VS),
-		.PacX(px),.PacY(py),.GhostX(ghost1X),.GhostY(ghost1Y));
+		.PacX(px),.PacY(py),
+		.Ghost1X(ghost1X),.Ghost1Y(ghost1Y),
+		.Ghost2X(ghost2X),.Ghost2Y(ghost2Y),
+		.Ghost3X(ghost3X),.Ghost3Y(ghost3Y),
+		.Ghost4X(ghost4X),.Ghost4Y(ghost4Y));
 	
 	//key_control module of pacman
 	KeyControl Pac(.clk(clk),.rst(rst),

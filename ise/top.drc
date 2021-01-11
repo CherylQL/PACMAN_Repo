@@ -1,16 +1,16 @@
 Release 14.7 Drc P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Mon Jan 11 18:29:56 2021
+Mon Jan 11 19:57:00 2021
 
 drc -z Top.ncd Top.pcf
 
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   DM/GND_19_o_isWall_AND_1118_o is sourced by a combinatorial pin. This is not
+   DM/GND_22_o_isWall_AND_1120_o is sourced by a combinatorial pin. This is not
    good design practice. Use the CE pin to control the loading of data into the
    flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   DM/GND_19_o_isWall_AND_1090_o is sourced by a combinatorial pin. This is not
+   DM/GND_22_o_isWall_AND_1097_o is sourced by a combinatorial pin. This is not
    good design practice. Use the CE pin to control the loading of data into the
    flip-flop.
 DRC detected 0 errors and 2 warnings.  Please see the previously displayed
