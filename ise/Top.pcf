@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Mon Jan 11 22:02:30 2021
+// Written by: Map P.20131013 on Tue Jan 12 16:14:06 2021
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -20,6 +20,7 @@ COMP "r<0>" LOCATE = SITE "N21" LEVEL 1;
 COMP "r<1>" LOCATE = SITE "N22" LEVEL 1;
 COMP "r<2>" LOCATE = SITE "R21" LEVEL 1;
 COMP "r<3>" LOCATE = SITE "P21" LEVEL 1;
+COMP "beep" LOCATE = SITE "P26" LEVEL 1;
 COMP "high" LOCATE = SITE "M25" LEVEL 1;
 COMP "BTN_Y<3>" LOCATE = SITE "W14" LEVEL 1;
 COMP "BTN_Y<2>" LOCATE = SITE "V14" LEVEL 1;
@@ -52,7 +53,6 @@ COMP "SW<6>" LOCATE = SITE "AD11" LEVEL 1;
 COMP "SW<7>" LOCATE = SITE "AD10" LEVEL 1;
 COMP "SW<8>" LOCATE = SITE "AE10" LEVEL 1;
 COMP "SW<9>" LOCATE = SITE "AE12" LEVEL 1;
-COMP "beep" LOCATE = SITE "P26" LEVEL 1;
 COMP "SEGLED_DT" LOCATE = SITE "L24" LEVEL 1;
 SCHEMATIC END;
 

@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.19 secs
+Total CPU time to Xst completion: 0.24 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.19 secs
+Total CPU time to Xst completion: 0.24 secs
  
 --> Reading design: Top.prj
 
@@ -244,10 +244,10 @@ Elaborating module <KeyControl>.
 WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 99: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
 
 Elaborating module <bean>.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\bean.v" Line 112: Result of 10-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\bean.v" Line 117: Result of 10-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\bean.v" Line 122: Result of 10-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\bean.v" Line 127: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\bean.v" Line 113: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\bean.v" Line 119: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\bean.v" Line 125: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\bean.v" Line 131: Result of 10-bit expression is truncated to fit in 9-bit target.
 
 Elaborating module <eatbgm>.
 WARNING:HDLCompiler:1127 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\eatbgm.v" Line 55: Assignment to clkdiv ignored, since the identifier is never used
@@ -794,34 +794,38 @@ Synthesizing Unit <bean>.
     Found 1200-bit register for signal <beans>.
     Found 10-bit register for signal <x>.
     Found 9-bit register for signal <y>.
+    Found 1-bit register for signal <s1>.
+    Found 1-bit register for signal <s2>.
+    Found 1-bit register for signal <s3>.
+    Found 1-bit register for signal <s4>.
+    Found 1-bit register for signal <key>.
     Found 9-bit register for signal <newscore>.
-    Found 10-bit adder for signal <n19308> created at line 111.
-    Found 11-bit adder for signal <n19310> created at line 111.
-    Found 13-bit adder for signal <n14490> created at line 111.
-    Found 9-bit adder for signal <newscore[8]_GND_71_o_add_1215_OUT> created at line 112.
-    Found 11-bit adder for signal <n19317> created at line 116.
-    Found 13-bit adder for signal <n15694> created at line 116.
-    Found 10-bit adder for signal <n19322> created at line 121.
-    Found 11-bit adder for signal <n19324> created at line 121.
-    Found 13-bit adder for signal <n16899> created at line 121.
-    Found 10-bit adder for signal <n19329> created at line 126.
-    Found 13-bit adder for signal <n18104> created at line 126.
-    Found 6x6-bit multiplier for signal <BUS_0004_PWR_27_o_MuLt_10_OUT> created at line 111.
-    Found 6x6-bit multiplier for signal <BUS_0018_PWR_27_o_MuLt_2440_OUT> created at line 121.
-    Found 6x6-bit multiplier for signal <BUS_0025_PWR_27_o_MuLt_3655_OUT> created at line 126.
-    Found 1-bit 1200-to-1 multiplexer for signal <GND_71_o_GND_71_o_equal_9_o> created at line 110.
-    Found 1-bit 1200-to-1 multiplexer for signal <GND_71_o_GND_71_o_equal_1224_o> created at line 115.
-    Found 1-bit 1200-to-1 multiplexer for signal <GND_71_o_GND_71_o_equal_2439_o> created at line 120.
-    Found 1-bit 1200-to-1 multiplexer for signal <GND_71_o_GND_71_o_equal_3654_o> created at line 125.
-    Found 13-bit comparator lessequal for signal <n0009> created at line 111
-    Found 13-bit comparator lessequal for signal <n2419> created at line 116
-    Found 13-bit comparator lessequal for signal <n4830> created at line 121
-    Found 13-bit comparator lessequal for signal <n7240> created at line 126
-    WARNING:Xst:2404 -  FFs/Latches <key<0:0>> (without init value) have a constant value of 0 in block <bean>.
+    Found 10-bit adder for signal <n19315> created at line 112.
+    Found 11-bit adder for signal <n19317> created at line 112.
+    Found 13-bit adder for signal <n14497> created at line 112.
+    Found 9-bit adder for signal <newscore[8]_GND_71_o_add_1215_OUT> created at line 113.
+    Found 11-bit adder for signal <n19324> created at line 118.
+    Found 13-bit adder for signal <n15701> created at line 118.
+    Found 10-bit adder for signal <n19329> created at line 124.
+    Found 11-bit adder for signal <n19331> created at line 124.
+    Found 13-bit adder for signal <n16906> created at line 124.
+    Found 10-bit adder for signal <n19336> created at line 130.
+    Found 13-bit adder for signal <n18111> created at line 130.
+    Found 6x6-bit multiplier for signal <BUS_0004_PWR_27_o_MuLt_10_OUT> created at line 112.
+    Found 6x6-bit multiplier for signal <BUS_0018_PWR_27_o_MuLt_2440_OUT> created at line 124.
+    Found 6x6-bit multiplier for signal <BUS_0025_PWR_27_o_MuLt_3655_OUT> created at line 130.
+    Found 1-bit 1200-to-1 multiplexer for signal <GND_71_o_GND_71_o_equal_9_o> created at line 111.
+    Found 1-bit 1200-to-1 multiplexer for signal <GND_71_o_GND_71_o_equal_1224_o> created at line 117.
+    Found 1-bit 1200-to-1 multiplexer for signal <GND_71_o_GND_71_o_equal_2439_o> created at line 123.
+    Found 1-bit 1200-to-1 multiplexer for signal <GND_71_o_GND_71_o_equal_3654_o> created at line 129.
+    Found 13-bit comparator lessequal for signal <n0009> created at line 112
+    Found 13-bit comparator lessequal for signal <n2419> created at line 118
+    Found 13-bit comparator lessequal for signal <n4830> created at line 124
+    Found 13-bit comparator lessequal for signal <n7240> created at line 130
     Summary:
 	inferred   3 Multiplier(s).
 	inferred  11 Adder/Subtractor(s).
-	inferred 1228 D-type flip-flop(s).
+	inferred 1233 D-type flip-flop(s).
 	inferred   4 Comparator(s).
 	inferred 4804 Multiplexer(s).
 Unit <bean> synthesized.
@@ -837,24 +841,25 @@ INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\eatbgm.v" line 55: Outpu
     Found finite state machine <FSM_0> for signal <prediv>.
     -----------------------------------------------------------------------
     | States             | 3                                              |
-    | Transitions        | 12                                             |
-    | Inputs             | 4                                              |
+    | Transitions        | 18                                             |
+    | Inputs             | 6                                              |
     | Outputs            | 16                                             |
     | Clock              | clk (rising_edge)                              |
-    | Reset              | GND_73_o_GND_73_o_equal_2_o (positive)         |
+    | Reset              | rkey_GND_73_o_equal_2_o (positive)             |
     | Reset type         | synchronous                                    |
-    | Reset State        | 1011101010011110                               |
+    | Reset State        | 0110111011111010                               |
     | Power Up State     | 0110111011111010                               |
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 16-bit adder for signal <cnt[15]_GND_73_o_add_3_OUT> created at line 68.
-    Found 16-bit adder for signal <delay[15]_GND_73_o_add_5_OUT> created at line 72.
-    Found 16-bit comparator equal for signal <cnt[15]_prediv[15]_equal_5_o> created at line 69
+    Found 16-bit adder for signal <cnt[15]_GND_73_o_add_2_OUT> created at line 67.
+    Found 16-bit adder for signal <delay[15]_GND_73_o_add_4_OUT> created at line 71.
+    Found 16-bit comparator equal for signal <cnt[15]_prediv[15]_equal_4_o> created at line 68
     Summary:
 	inferred   2 Adder/Subtractor(s).
 	inferred  34 D-type flip-flop(s).
 	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
 	inferred   1 Finite State Machine(s).
 Unit <eatbgm> synthesized.
 
@@ -973,8 +978,8 @@ Macro Statistics
  9-bit adder                                           : 1
  9-bit addsub                                          : 11
  9-bit subtractor                                      : 1
-# Registers                                            : 85
- 1-bit register                                        : 20
+# Registers                                            : 90
+ 1-bit register                                        : 25
  10-bit register                                       : 16
  12-bit register                                       : 1
  1200-bit register                                     : 1
@@ -1004,9 +1009,9 @@ Macro Statistics
  32-bit comparator lessequal                           : 1
  9-bit comparator greater                              : 8
  9-bit comparator lessequal                            : 6
-# Multiplexers                                         : 5180
+# Multiplexers                                         : 5181
  1-bit 1200-to-1 multiplexer                           : 5
- 1-bit 2-to-1 multiplexer                              : 308
+ 1-bit 2-to-1 multiplexer                              : 309
  1-bit 4-to-1 multiplexer                              : 10
  10-bit 2-to-1 multiplexer                             : 19
  12-bit 2-to-1 multiplexer                             : 12
@@ -1036,7 +1041,6 @@ Loading core <PacSelf> for timing and area information for instance <P>.
 Loading core <Ghost> for timing and area information for instance <G>.
 WARNING:Xst:1290 - Hierarchical block <U1> is unconnected in block <segDevice>.
    It will be removed from the design.
-WARNING:Xst:1293 - FF/Latch <rkey> has a constant value of 0 in block <bgm>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:2677 - Node <data_break> of sequential type is unconnected in block <ps2>.
 WARNING:Xst:2677 - Node <data_expand> of sequential type is unconnected in block <ps2>.
 WARNING:Xst:2677 - Node <data_8> of sequential type is unconnected in block <ps2>.
@@ -1220,8 +1224,8 @@ Unit <ShiftReg> synthesized (advanced).
 
 Synthesizing (advanced) Unit <bean>.
 The following registers are absorbed into counter <newscore>: 1 register on signal <newscore>.
-	Multiplier <Mmult_BUS_0025_PWR_27_o_MuLt_3655_OUT> in block <bean> and adder/subtractor <Madd_n18104> in block <bean> are combined into a MAC<Maddsub_BUS_0025_PWR_27_o_MuLt_3655_OUT>.
-	Multiplier <Mmult_BUS_0018_PWR_27_o_MuLt_2440_OUT> in block <bean> and adder/subtractor <Madd_n16899> in block <bean> are combined into a MAC<Maddsub_BUS_0018_PWR_27_o_MuLt_2440_OUT>.
+	Multiplier <Mmult_BUS_0025_PWR_27_o_MuLt_3655_OUT> in block <bean> and adder/subtractor <Madd_n18111> in block <bean> are combined into a MAC<Maddsub_BUS_0025_PWR_27_o_MuLt_3655_OUT>.
+	Multiplier <Mmult_BUS_0018_PWR_27_o_MuLt_2440_OUT> in block <bean> and adder/subtractor <Madd_n16906> in block <bean> are combined into a MAC<Maddsub_BUS_0018_PWR_27_o_MuLt_2440_OUT>.
 Unit <bean> synthesized (advanced).
 
 Synthesizing (advanced) Unit <beanmap>.
@@ -1292,8 +1296,8 @@ Macro Statistics
  5-bit up counter                                      : 4
  9-bit up counter                                      : 1
  9-bit updown counter                                  : 3
-# Registers                                            : 1526
- Flip-Flops                                            : 1526
+# Registers                                            : 1531
+ Flip-Flops                                            : 1531
 # Comparators                                          : 80
  10-bit comparator greater                             : 19
  10-bit comparator lessequal                           : 6
@@ -1328,15 +1332,14 @@ Macro Statistics
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-WARNING:Xst:1293 - FF/Latch <rkey> has a constant value of 0 in block <eatbgm>. This FF/Latch will be trimmed during the optimization process.
 INFO:Xst:2146 - In block <Top>, Counter <c0/clkdiv> <ghost1/c0/clkdiv> <ghost2/c0/clkdiv> <ghost3/c0/clkdiv> <ghost4/c0/clkdiv> are equivalent, XST will keep only <c0/clkdiv>.
 Analyzing FSM <MFsm> for best encoding.
 Optimizing FSM <b0/bgm/FSM_0> on signal <prediv[1:2]> with sequential encoding.
 ------------------------------
  State            | Encoding
 ------------------------------
- 1011101010011110 | 00
- 0110111011111010 | 01
+ 0110111011111010 | 00
+ 1011101010011110 | 01
  1000101111001111 | 10
 ------------------------------
 WARNING:Xst:2677 - Node <Mmult_n01881> of sequential type is unconnected in block <Display>.
@@ -2464,42 +2467,6 @@ WARNING:Xst:2677 - Node <ps2/data_9> of sequential type is unconnected in block 
 WARNING:Xst:2677 - Node <ps2/data_8> of sequential type is unconnected in block <Top>.
 WARNING:Xst:2677 - Node <ps2/data_break> of sequential type is unconnected in block <Top>.
 WARNING:Xst:2677 - Node <ps2/data_expand> of sequential type is unconnected in block <Top>.
-WARNING:Xst:1293 - FF/Latch <b0/bgm/cnt_15> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/prediv_FSM_FFd1> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/cnt_13> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/cnt_12> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/cnt_14> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/cnt_10> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/cnt_9> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/cnt_11> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/cnt_8> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/cnt_7> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/cnt_5> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/cnt_4> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/cnt_6> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/cnt_2> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/cnt_1> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/cnt_3> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/beep> (without init value) has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/delay_15> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/delay_14> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/delay_13> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/delay_12> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/delay_11> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/delay_10> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/delay_9> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/delay_8> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/delay_7> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/delay_6> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/delay_5> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/delay_4> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/delay_3> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/delay_2> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/delay_1> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/delay_0> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <b0/bgm/cnt_0> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <beep> has a constant value of 0 in block <Top>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:2677 - Node <b0/bgm/prediv_FSM_FFd2> of sequential type is unconnected in block <Top>.
 INFO:Xst:2261 - The FF/Latch <c0/clkdiv_0> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_0> 
 INFO:Xst:2261 - The FF/Latch <c0/clkdiv_1> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_1> 
 INFO:Xst:2261 - The FF/Latch <c0/clkdiv_2> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_2> 
@@ -2509,14 +2476,21 @@ INFO:Xst:2261 - The FF/Latch <c0/clkdiv_5> in Unit <Top> is equivalent to the fo
 INFO:Xst:2261 - The FF/Latch <c0/clkdiv_6> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_6> 
 INFO:Xst:2261 - The FF/Latch <c0/clkdiv_7> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_7> 
 INFO:Xst:2261 - The FF/Latch <c0/clkdiv_8> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_8> 
+INFO:Xst:2261 - The FF/Latch <b0/bgm/delay_0> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <b0/bgm/beep> 
 INFO:Xst:2261 - The FF/Latch <c0/clkdiv_9> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_9> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_10> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_10> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_11> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_11> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_12> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_12> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_13> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_13> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_14> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_14> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_15> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_15> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_16> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_16> 
+INFO:Xst:2261 - The FF/Latch <c0/clkdiv_17> in Unit <Top> is equivalent to the following FF/Latch, which will be removed : <Pac/c0/clkdiv_17> 
 
 Mapping all equations...
 Building and optimizing final netlist ...
 Found area constraint ratio of 100 (+ 5) on block Top, actual ratio is 4.
-FlipFlop DM/vga/col_addr_7 has been replicated 1 time(s)
-FlipFlop DM/vga/col_addr_8 has been replicated 1 time(s)
-FlipFlop DM/vga/row_addr_4 has been replicated 2 time(s)
+FlipFlop DM/vga/row_addr_4 has been replicated 1 time(s)
 FlipFlop DM/vga/row_addr_5 has been replicated 1 time(s)
 FlipFlop DM/vga/row_addr_6 has been replicated 1 time(s)
 FlipFlop DM/vga/row_addr_7 has been replicated 2 time(s)
@@ -2528,8 +2502,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 642
- Flip-Flops                                            : 642
+# Registers                                            : 672
+ Flip-Flops                                            : 672
 
 =========================================================================
 
@@ -2552,27 +2526,27 @@ Top Level Output File Name         : Top.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 5142
+# BELS                             : 5304
 #      GND                         : 3
-#      INV                         : 43
-#      LUT1                        : 95
-#      LUT2                        : 450
-#      LUT3                        : 437
-#      LUT4                        : 513
-#      LUT5                        : 502
-#      LUT6                        : 1653
-#      MUXCY                       : 640
-#      MUXF7                       : 182
+#      INV                         : 47
+#      LUT1                        : 125
+#      LUT2                        : 447
+#      LUT3                        : 451
+#      LUT4                        : 550
+#      LUT5                        : 512
+#      LUT6                        : 1657
+#      MUXCY                       : 673
+#      MUXF7                       : 191
 #      MUXF8                       : 69
 #      VCC                         : 2
-#      XORCY                       : 553
-# FlipFlops/Latches                : 682
-#      FD                          : 330
+#      XORCY                       : 577
+# FlipFlops/Latches                : 712
+#      FD                          : 325
 #      FDC                         : 3
 #      FDCE                        : 31
 #      FDE                         : 207
-#      FDR                         : 28
-#      FDRE                        : 47
+#      FDR                         : 47
+#      FDRE                        : 63
 #      LD                          : 20
 #      LDE                         : 16
 # RAMS                             : 21
@@ -2594,16 +2568,16 @@ Selected Device : 7k160tffg676-1
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             682  out of  202800     0%  
- Number of Slice LUTs:                 3693  out of  101400     3%  
-    Number used as Logic:              3693  out of  101400     3%  
+ Number of Slice Registers:             712  out of  202800     0%  
+ Number of Slice LUTs:                 3789  out of  101400     3%  
+    Number used as Logic:              3789  out of  101400     3%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   3740
-   Number with an unused Flip Flop:    3058  out of   3740    81%  
-   Number with an unused LUT:            47  out of   3740     1%  
-   Number of fully used LUT-FF pairs:   635  out of   3740    16%  
-   Number of unique control sets:        51
+ Number of LUT Flip Flop pairs used:   3835
+   Number with an unused Flip Flop:    3123  out of   3835    81%  
+   Number with an unused LUT:            46  out of   3835     1%  
+   Number of fully used LUT-FF pairs:   666  out of   3835    17%  
+   Number of unique control sets:        55
 
 IO Utilization: 
  Number of IOs:                          49
@@ -2636,11 +2610,11 @@ Clock Information:
 ---------------------------------------------------------------+---------------------------+-------+
 Clock Signal                                                   | Clock buffer(FF name)     | Load  |
 ---------------------------------------------------------------+---------------------------+-------+
+clk                                                            | BUFGP                     | 394   |
 c0/clkdiv_17                                                   | BUFG                      | 76    |
 c0/clkdiv_9                                                    | BUFG                      | 44    |
-clk                                                            | BUFGP                     | 361   |
 c0/clkdiv_15                                                   | BUFG                      | 25    |
-c0/clkdiv_1                                                    | BUFG                      | 64    |
+c0/clkdiv_1                                                    | BUFG                      | 61    |
 DM/GND_22_o_isWall_AND_2139_o(DM/GND_22_o_isWall_AND_2139_o1:O)| NONE(*)(DM/ghost_add_ip_0)| 10    |
 DM/GND_22_o_isWall_AND_2164_o(DM/GND_22_o_isWall_AND_2164_o1:O)| NONE(*)(DM/pac_add_ip_0)  | 10    |
 over_sign                                                      | NONE(DM/end_ip_0)         | 16    |
@@ -2657,7 +2631,7 @@ Asynchronous Control Signals Information:
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 Control Signal                                                                                                                                                                                                                                                                         | Buffer(FF name)                                                                                                                                      | Load  |
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-DM/end_pic/N1(DM/end_pic/XST_GND:G)                                                                                                                                                                                                                                                    | NONE(DM/end_pic/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/v6_init.ram/NO_BMM_INFO.SP.SIMPLE_PRIM36.ram)     | 36    |
+DM/end_pic/N1(DM/end_pic/XST_GND:G)                                                                                                                                                                                                                                                    | NONE(DM/end_pic/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/v6_init.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_B)| 36    |
 DM/end_pic/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/v6_init.ram/cascadelata_tmp(DM/end_pic/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/v6_init.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_B:CASCADEOUTA)| NONE(DM/end_pic/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/v6_init.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_T)| 1     |
 DM/end_pic/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/v6_init.ram/cascadelatb_tmp(DM/end_pic/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/v6_init.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_B:CASCADEOUTB)| NONE(DM/end_pic/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/v6_init.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_T)| 1     |
 DM/end_pic/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/v6_init.ram/cascadelata_tmp(DM/end_pic/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/v6_init.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_B:CASCADEOUTA)| NONE(DM/end_pic/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/v6_init.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_T)| 1     |
@@ -2670,14 +2644,49 @@ Timing Summary:
 ---------------
 Speed Grade: -1
 
-   Minimum period: 16.040ns (Maximum Frequency: 62.343MHz)
-   Minimum input arrival time before clock: 2.904ns
+   Minimum period: 16.587ns (Maximum Frequency: 60.290MHz)
+   Minimum input arrival time before clock: 3.381ns
    Maximum output required time after clock: 2.766ns
    Maximum combinational path delay: No path found
 
 Timing Details:
 ---------------
 All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 9.596ns (frequency: 104.206MHz)
+  Total number of paths / destination ports: 2173151 / 371
+-------------------------------------------------------------------------
+Delay:               9.596ns (Levels of Logic = 14)
+  Source:            b0/x_5 (FF)
+  Destination:       b0/beans_157 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: b0/x_5 to b0/beans_157
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q             482   0.282   0.976  b0/x_5 (b0/x_5)
+     LUT6:I1->O            1   0.053   0.000  b0/Madd_n14497_lut<3> (b0/Madd_n14497_lut<3>)
+     XORCY:LI->O         104   0.134   0.893  b0/Madd_n14497_xor<3> (b0/n14497<3>)
+     LUT6:I1->O            1   0.053   0.413  b0/Mmux_GND_71_o_GND_71_o_equal_9_o_1913_SW1 (N599)
+     LUT6:I5->O            1   0.053   0.635  b0/Mmux_GND_71_o_GND_71_o_equal_9_o_1913 (b0/Mmux_GND_71_o_GND_71_o_equal_9_o_1913)
+     LUT6:I2->O            1   0.053   0.635  b0/Mmux_GND_71_o_GND_71_o_equal_9_o_143 (b0/Mmux_GND_71_o_GND_71_o_equal_9_o_143)
+     LUT6:I2->O            1   0.053   0.485  b0/Mmux_GND_71_o_GND_71_o_equal_9_o_9 (b0/Mmux_GND_71_o_GND_71_o_equal_9_o_9)
+     LUT6:I4->O            1   0.053   0.000  b0/Mmux_GND_71_o_GND_71_o_equal_9_o_4 (b0/Mmux_GND_71_o_GND_71_o_equal_9_o_4)
+     MUXF7:I0->O          19   0.214   0.721  b0/Mmux_GND_71_o_GND_71_o_equal_9_o_2_f7 (b0/GND_71_o_GND_71_o_equal_9_o)
+     LUT3:I0->O           22   0.053   0.621  b0/SF100211 (b0/SF10021)
+     LUT5:I3->O            2   0.053   0.731  b0/beans[1199]_GND_71_o_mux_4861_OUT<151>1111 (b0/beans[1199]_GND_71_o_mux_4861_OUT<151>111)
+     LUT6:I1->O            2   0.053   0.731  b0/beans[1199]_GND_71_o_mux_4861_OUT<151>112 (b0/beans[1199]_GND_71_o_mux_4861_OUT<151>11)
+     LUT5:I0->O            1   0.053   0.739  b0/beans[1199]_GND_71_o_mux_4861_OUT<157>2_SW0 (N495)
+     LUT6:I0->O            1   0.053   0.739  b0/beans[1199]_GND_71_o_mux_4861_OUT<157>2 (b0/beans[1199]_GND_71_o_mux_4861_OUT<157>2)
+     LUT6:I0->O            1   0.053   0.000  b0/beans[1199]_GND_71_o_mux_4861_OUT<157>4 (b0/beans[1199]_GND_71_o_mux_4861_OUT<157>)
+     FD:D                      0.011          b0/beans_157
+    ----------------------------------------
+    Total                      9.596ns (1.277ns logic, 8.319ns route)
+                                       (13.3% logic, 86.7% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'c0/clkdiv_17'
@@ -2729,40 +2738,6 @@ Delay:               2.284ns (Levels of Logic = 3)
                                        (19.8% logic, 80.2% route)
 
 =========================================================================
-Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 9.071ns (frequency: 110.239MHz)
-  Total number of paths / destination ports: 2188474 / 287
--------------------------------------------------------------------------
-Delay:               9.071ns (Levels of Logic = 13)
-  Source:            b0/x_5 (FF)
-  Destination:       b0/beans_116 (FF)
-  Source Clock:      clk rising
-  Destination Clock: clk rising
-
-  Data Path: b0/x_5 to b0/beans_116
-                                Gate     Net
-    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
-    ----------------------------------------  ------------
-     FD:C->Q             479   0.282   0.975  b0/x_5 (b0/x_5)
-     LUT6:I1->O            1   0.053   0.000  b0/Madd_n14490_lut<3> (b0/Madd_n14490_lut<3>)
-     XORCY:LI->O          97   0.134   0.906  b0/Madd_n14490_xor<3> (b0/n14490<3>)
-     LUT6:I0->O            1   0.053   0.602  b0/Mmux_GND_71_o_GND_71_o_equal_9_o_2110_SW0 (N594)
-     LUT3:I0->O            1   0.053   0.602  b0/Mmux_GND_71_o_GND_71_o_equal_9_o_2110 (b0/Mmux_GND_71_o_GND_71_o_equal_9_o_2110)
-     LUT6:I3->O            1   0.053   0.485  b0/Mmux_GND_71_o_GND_71_o_equal_9_o_155 (b0/Mmux_GND_71_o_GND_71_o_equal_9_o_155)
-     LUT6:I4->O            1   0.053   0.602  b0/Mmux_GND_71_o_GND_71_o_equal_9_o_10 (b0/Mmux_GND_71_o_GND_71_o_equal_9_o_10)
-     LUT6:I3->O            1   0.053   0.000  b0/Mmux_GND_71_o_GND_71_o_equal_9_o_4 (b0/Mmux_GND_71_o_GND_71_o_equal_9_o_4)
-     MUXF7:I0->O          12   0.214   0.797  b0/Mmux_GND_71_o_GND_71_o_equal_9_o_2_f7 (b0/GND_71_o_GND_71_o_equal_9_o)
-     LUT6:I1->O            4   0.053   0.745  b0/SF1391111 (b0/SF139111)
-     LUT6:I1->O            4   0.053   0.655  b0/SF1391121 (b0/SF139112)
-     LUT6:I2->O            1   0.053   0.739  b0/beans[1199]_GND_71_o_mux_4861_OUT<116>3_SW0 (N414)
-     LUT6:I0->O            1   0.053   0.739  b0/beans[1199]_GND_71_o_mux_4861_OUT<116>3 (b0/beans[1199]_GND_71_o_mux_4861_OUT<116>3)
-     LUT6:I0->O            1   0.053   0.000  b0/beans[1199]_GND_71_o_mux_4861_OUT<116>4 (b0/beans[1199]_GND_71_o_mux_4861_OUT<116>)
-     FD:D                      0.011          b0/beans_116
-    ----------------------------------------
-    Total                      9.071ns (1.224ns logic, 7.847ns route)
-                                       (13.5% logic, 86.5% route)
-
-=========================================================================
 Timing constraint: Default period analysis for Clock 'c0/clkdiv_15'
   Clock period: 3.311ns (frequency: 302.024MHz)
   Total number of paths / destination ports: 196 / 40
@@ -2788,10 +2763,10 @@ Delay:               3.311ns (Levels of Logic = 3)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'c0/clkdiv_1'
-  Clock period: 16.040ns (frequency: 62.343MHz)
-  Total number of paths / destination ports: 8014163602139 / 96
+  Clock period: 16.587ns (frequency: 60.290MHz)
+  Total number of paths / destination ports: 11668928171245 / 93
 -------------------------------------------------------------------------
-Delay:               16.040ns (Levels of Logic = 31)
+Delay:               16.587ns (Levels of Logic = 35)
   Source:            DM/vga/row_addr_6_1 (FF)
   Destination:       DM/vga/r_3 (FF)
   Source Clock:      c0/clkdiv_1 rising
@@ -2804,22 +2779,26 @@ Delay:               16.040ns (Levels of Logic = 31)
      FD:C->Q               2   0.282   0.491  DM/vga/row_addr_6_1 (DM/vga/row_addr_6_1)
      LUT2:I0->O            1   0.053   0.000  DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd1_lut<4> (DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd1_lut<4>)
      MUXCY:S->O            1   0.291   0.000  DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd1_cy<4> (DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd1_cy<4>)
-     XORCY:CI->O           1   0.320   0.413  DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd1_xor<5> (DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_6)
-     LUT1:I0->O            1   0.053   0.000  DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd_cy<6>_rt (DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd_cy<6>_rt)
-     MUXCY:S->O            1   0.291   0.000  DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd_cy<6> (DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd_cy<6>)
-     XORCY:CI->O          40   0.320   0.756  DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd_xor<7> (DM/Bean/BUS_0002_PWR_21_o_mod_6/Madd_a[11]_GND_28_o_add_17_OUT_cy<7>)
-     LUT6:I3->O            1   0.053   0.635  DM/Bean/BUS_0002_PWR_21_o_mod_6/BUS_0012_INV_227_o11_SW2 (N218)
-     LUT6:I2->O            7   0.053   0.453  DM/Bean/BUS_0002_PWR_21_o_mod_6/BUS_0012_INV_227_o11 (DM/Bean/BUS_0002_PWR_21_o_mod_6/BUS_0012_INV_227_o)
-     LUT6:I5->O            3   0.053   0.427  DM/Bean/BUS_0002_PWR_21_o_mod_6/Mmux_o615_SW0 (N175)
-     LUT6:I5->O            1   0.053   0.413  DM/Bean/BUS_0002_PWR_21_o_mod_6/Mmux_o615_SW6 (N255)
-     LUT6:I5->O            1   0.053   0.000  DM/Bean/Msub_GND_27_o_GND_27_o_sub_8_OUT_lut<9> (DM/Bean/Msub_GND_27_o_GND_27_o_sub_8_OUT_lut<9>)
-     MUXCY:S->O            0   0.291   0.000  DM/Bean/Msub_GND_27_o_GND_27_o_sub_8_OUT_cy<9> (DM/Bean/Msub_GND_27_o_GND_27_o_sub_8_OUT_cy<9>)
-     XORCY:CI->O           3   0.320   0.427  DM/Bean/Msub_GND_27_o_GND_27_o_sub_8_OUT_xor<10> (DM/Bean/GND_27_o_GND_27_o_sub_8_OUT<10>)
-     LUT6:I5->O            6   0.053   0.432  DM/Bean/Msub_GND_27_o_GND_27_o_sub_9_OUT_xor<11>11_1 (DM/Bean/Msub_GND_27_o_GND_27_o_sub_9_OUT_xor<11>11)
-     DSP48E1:A11->PCOUT47    1   3.421   0.000  DM/Bean/Mmult_n0023 (DM/Bean/Mmult_n0023_PCOUT_to_Bean/Mmult_n00231_PCIN_47)
-     DSP48E1:PCIN47->PCOUT47    1   1.452   0.000  DM/Bean/Mmult_n00231 (DM/Bean/Mmult_n00231_PCOUT_to_Bean/Mmult_n00232_PCIN_47)
-     DSP48E1:PCIN47->P0    1   1.286   0.485  DM/Bean/Mmult_n00232 (DM/Bean/n0023<17>)
-     LUT2:I0->O            1   0.053   0.000  DM/Bean/Madd_GND_27_o_GND_27_o_add_26_OUT_lut<17> (DM/Bean/Madd_GND_27_o_GND_27_o_add_26_OUT_lut<17>)
+     MUXCY:CI->O           1   0.015   0.000  DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd1_cy<5> (DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd1_cy<5>)
+     MUXCY:CI->O           1   0.015   0.000  DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd1_cy<6> (DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd1_cy<6>)
+     MUXCY:CI->O           1   0.015   0.000  DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd1_cy<7> (DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd1_cy<7>)
+     XORCY:CI->O           1   0.320   0.413  DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd1_xor<8> (DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_9)
+     LUT1:I0->O            1   0.053   0.000  DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd_cy<9>_rt (DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd_cy<9>_rt)
+     MUXCY:S->O            1   0.291   0.000  DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd_cy<9> (DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd_cy<9>)
+     XORCY:CI->O          32   0.320   0.892  DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd_xor<10> (DM/Bean/BUS_0002_PWR_21_o_mod_6/Madd_GND_28_o_b[5]_add_11_OUT_Madd_cy<10>)
+     LUT6:I0->O            1   0.053   0.000  DM/Bean/BUS_0004_PWR_21_o_div_17_OUT<0>121_G (N700)
+     MUXF7:I1->O           3   0.217   0.616  DM/Bean/BUS_0004_PWR_21_o_div_17_OUT<0>121 (DM/Bean/BUS_0004_PWR_21_o_div_17_OUT<0>12)
+     LUT5:I2->O            1   0.053   0.485  DM/Bean/BUS_0004_PWR_21_o_div_17_OUT<0>14_SW3 (N237)
+     LUT6:I4->O            1   0.053   0.413  DM/Bean/Msub_GND_27_o_GND_27_o_sub_19_OUT_lut<4>_SW1 (N163)
+     LUT6:I5->O            1   0.053   0.000  DM/Bean/Msub_GND_27_o_GND_27_o_sub_19_OUT_lut<4> (DM/Bean/Msub_GND_27_o_GND_27_o_sub_19_OUT_lut<4>)
+     MUXCY:S->O            1   0.291   0.000  DM/Bean/Msub_GND_27_o_GND_27_o_sub_19_OUT_cy<4> (DM/Bean/Msub_GND_27_o_GND_27_o_sub_19_OUT_cy<4>)
+     XORCY:CI->O           8   0.320   0.648  DM/Bean/Msub_GND_27_o_GND_27_o_sub_19_OUT_xor<5> (DM/Bean/GND_27_o_GND_27_o_sub_19_OUT<5>)
+     LUT5:I2->O            3   0.053   0.427  DM/Bean/Msub_GND_27_o_GND_27_o_sub_20_OUT_xor<12>11_SW0 (N184)
+     LUT6:I5->O            4   0.053   0.419  DM/Bean/Msub_GND_27_o_GND_27_o_sub_20_OUT_xor<13>11_1 (DM/Bean/Msub_GND_27_o_GND_27_o_sub_20_OUT_xor<13>11)
+     DSP48E1:A13->PCOUT47    1   3.421   0.000  DM/Bean/Mmult_n0027 (DM/Bean/Mmult_n0027_PCOUT_to_Bean/Mmult_n00271_PCIN_47)
+     DSP48E1:PCIN47->PCOUT47    1   1.452   0.000  DM/Bean/Mmult_n00271 (DM/Bean/Mmult_n00271_PCOUT_to_Bean/Mmult_n00272_PCIN_47)
+     DSP48E1:PCIN47->P0    1   1.286   0.413  DM/Bean/Mmult_n00272 (DM/Bean/n0027<17>)
+     LUT2:I1->O            1   0.053   0.000  DM/Bean/Madd_GND_27_o_GND_27_o_add_26_OUT_lut<17> (DM/Bean/Madd_GND_27_o_GND_27_o_add_26_OUT_lut<17>)
      MUXCY:S->O            1   0.291   0.000  DM/Bean/Madd_GND_27_o_GND_27_o_add_26_OUT_cy<17> (DM/Bean/Madd_GND_27_o_GND_27_o_add_26_OUT_cy<17>)
      MUXCY:CI->O           1   0.015   0.000  DM/Bean/Madd_GND_27_o_GND_27_o_add_26_OUT_cy<18> (DM/Bean/Madd_GND_27_o_GND_27_o_add_26_OUT_cy<18>)
      MUXCY:CI->O           1   0.015   0.000  DM/Bean/Madd_GND_27_o_GND_27_o_add_26_OUT_cy<19> (DM/Bean/Madd_GND_27_o_GND_27_o_add_26_OUT_cy<19>)
@@ -2835,8 +2814,8 @@ Delay:               16.040ns (Levels of Logic = 31)
      LUT6:I5->O            1   0.053   0.000  DM/Mmux_vga_data63 (DM/vga_data<11>)
      FDR:D                     0.011          DM/vga/b_3
     ----------------------------------------
-    Total                     16.040ns (9.890ns logic, 6.150ns route)
-                                       (61.7% logic, 38.3% route)
+    Total                     16.587ns (10.152ns logic, 6.435ns route)
+                                       (61.2% logic, 38.8% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'Pac/c0/clkdiv_18'
@@ -2900,7 +2879,7 @@ Delay:               3.054ns (Levels of Logic = 12)
 Timing constraint: Default OFFSET IN BEFORE for Clock 'c0/clkdiv_17'
   Total number of paths / destination ports: 38 / 38
 -------------------------------------------------------------------------
-Offset:              1.372ns (Levels of Logic = 2)
+Offset:              1.373ns (Levels of Logic = 2)
   Source:            rst (PAD)
   Destination:       ghost1/x_9 (FF)
   Destination Clock: c0/clkdiv_17 rising
@@ -2909,18 +2888,18 @@ Offset:              1.372ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           194   0.000   0.601  rst_IBUF (rst_IBUF)
+     IBUF:I->O           198   0.000   0.602  rst_IBUF (rst_IBUF)
      LUT6:I5->O           19   0.053   0.518  ghost1/_n0089_inv1 (ghost1/_n0089_inv)
      FDE:CE                    0.200          ghost1/y_0
     ----------------------------------------
-    Total                      1.372ns (0.253ns logic, 1.119ns route)
+    Total                      1.373ns (0.253ns logic, 1.120ns route)
                                        (18.4% logic, 81.6% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'c0/clkdiv_9'
   Total number of paths / destination ports: 2 / 2
 -------------------------------------------------------------------------
-Offset:              1.710ns (Levels of Logic = 2)
+Offset:              1.711ns (Levels of Logic = 2)
   Source:            rst (PAD)
   Destination:       ghost1/direction_1 (FF)
   Destination Clock: c0/clkdiv_9 rising
@@ -2929,11 +2908,11 @@ Offset:              1.710ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           194   0.000   0.927  rst_IBUF (rst_IBUF)
+     IBUF:I->O           198   0.000   0.928  rst_IBUF (rst_IBUF)
      LUT6:I0->O            2   0.053   0.405  ghost1/_n00841 (ghost1/_n0084)
      FDRE:R                    0.325          ghost1/direction_0
     ----------------------------------------
-    Total                      1.710ns (0.378ns logic, 1.332ns route)
+    Total                      1.711ns (0.378ns logic, 1.333ns route)
                                        (22.1% logic, 77.9% route)
 
 =========================================================================
@@ -2958,32 +2937,32 @@ Offset:              1.535ns (Levels of Logic = 2)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
-  Total number of paths / destination ports: 179 / 164
+  Total number of paths / destination ports: 182 / 164
 -------------------------------------------------------------------------
-Offset:              2.904ns (Levels of Logic = 5)
+Offset:              3.381ns (Levels of Logic = 5)
   Source:            rst (PAD)
-  Destination:       b0/beans_237 (FF)
+  Destination:       b0/beans_962 (FF)
   Destination Clock: clk rising
 
-  Data Path: rst to b0/beans_237
+  Data Path: rst to b0/beans_962
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           194   0.000   0.601  rst_IBUF (rst_IBUF)
-     LUT5:I4->O            1   0.053   0.602  b0/beans[1199]_GND_71_o_mux_4861_OUT<237>2 (b0/beans[1199]_GND_71_o_mux_4861_OUT<237>2)
-     LUT6:I3->O            1   0.053   0.739  b0/beans[1199]_GND_71_o_mux_4861_OUT<237>3 (b0/beans[1199]_GND_71_o_mux_4861_OUT<237>3)
-     LUT6:I0->O            1   0.053   0.739  b0/beans[1199]_GND_71_o_mux_4861_OUT<237>5_SW0 (N472)
-     LUT6:I0->O            1   0.053   0.000  b0/beans[1199]_GND_71_o_mux_4861_OUT<237>5 (b0/beans[1199]_GND_71_o_mux_4861_OUT<237>)
-     FD:D                      0.011          b0/beans_237
+     IBUF:I->O           198   0.000   0.914  rst_IBUF (rst_IBUF)
+     LUT5:I0->O            5   0.053   0.766  b0/SF22111 (b0/SF2211)
+     LUT6:I0->O            1   0.053   0.739  b0/beans[1199]_GND_71_o_mux_4861_OUT<707>3 (b0/beans[1199]_GND_71_o_mux_4861_OUT<707>3)
+     LUT6:I0->O            1   0.053   0.739  b0/beans[1199]_GND_71_o_mux_4861_OUT<707>4_SW0 (N625)
+     LUT6:I0->O            1   0.053   0.000  b0/beans[1199]_GND_71_o_mux_4861_OUT<707>4 (b0/beans[1199]_GND_71_o_mux_4861_OUT<707>)
+     FD:D                      0.011          b0/beans_707
     ----------------------------------------
-    Total                      2.904ns (0.223ns logic, 2.681ns route)
-                                       (7.7% logic, 92.3% route)
+    Total                      3.381ns (0.223ns logic, 3.158ns route)
+                                       (6.6% logic, 93.4% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'Pac/c0/clkdiv_18'
   Total number of paths / destination ports: 38 / 38
 -------------------------------------------------------------------------
-Offset:              1.372ns (Levels of Logic = 2)
+Offset:              1.373ns (Levels of Logic = 2)
   Source:            rst (PAD)
   Destination:       Pac/PacX_9 (FF)
   Destination Clock: Pac/c0/clkdiv_18 rising
@@ -2992,11 +2971,11 @@ Offset:              1.372ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           194   0.000   0.601  rst_IBUF (rst_IBUF)
+     IBUF:I->O           198   0.000   0.602  rst_IBUF (rst_IBUF)
      LUT6:I5->O           19   0.053   0.518  Pac/_n0079_inv1 (Pac/_n0079_inv)
      FDE:CE                    0.200          Pac/PacY_0
     ----------------------------------------
-    Total                      1.372ns (0.253ns logic, 1.119ns route)
+    Total                      1.373ns (0.253ns logic, 1.120ns route)
                                        (18.4% logic, 81.6% route)
 
 =========================================================================
@@ -3071,7 +3050,7 @@ Offset:              2.766ns (Levels of Logic = 13)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
-  Total number of paths / destination ports: 1 / 1
+  Total number of paths / destination ports: 2 / 2
 -------------------------------------------------------------------------
 Offset:              1.161ns (Levels of Logic = 2)
   Source:            c0/clkdiv_3 (FF)
@@ -3108,8 +3087,8 @@ Clock to Setup on destination clock DM/GND_22_o_isWall_AND_2164_o
                 | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ----------------+---------+---------+---------+---------+
-Pac/c0/clkdiv_18|         |         |    5.818|         |
-c0/clkdiv_1     |         |         |    5.847|         |
+Pac/c0/clkdiv_18|         |         |    5.785|         |
+c0/clkdiv_1     |         |         |    5.814|         |
 clk             |         |         |    1.697|         |
 ----------------+---------+---------+---------+---------+
 
@@ -3130,7 +3109,7 @@ Source Clock                 |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 DM/GND_22_o_isWall_AND_2139_o|         |    4.425|         |         |
 DM/GND_22_o_isWall_AND_2164_o|         |    3.908|         |         |
 Pac/c0/clkdiv_18             |    5.243|         |         |         |
-c0/clkdiv_1                  |   16.040|         |         |         |
+c0/clkdiv_1                  |   16.587|         |         |         |
 c0/clkdiv_15                 |    1.617|         |         |         |
 c0/clkdiv_17                 |    7.097|         |         |         |
 clk                          |    4.938|         |         |         |
@@ -3181,7 +3160,7 @@ Pac/c0/clkdiv_18|    9.856|         |         |         |
 c0/clkdiv_15    |    2.544|         |         |         |
 c0/clkdiv_17    |    9.725|         |         |         |
 c0/clkdiv_9     |    1.839|         |         |         |
-clk             |    9.071|         |         |         |
+clk             |    9.596|         |         |         |
 over_sign       |         |    0.935|         |         |
 ----------------+---------+---------+---------+---------+
 
@@ -3190,20 +3169,20 @@ Clock to Setup on destination clock over_sign
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-c0/clkdiv_1    |         |         |    7.216|         |
+c0/clkdiv_1    |         |         |    7.101|         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 376.00 secs
-Total CPU time to Xst completion: 376.35 secs
+Total REAL time to Xst completion: 365.00 secs
+Total CPU time to Xst completion: 365.12 secs
  
 --> 
 
-Total memory usage is 5082832 kilobytes
+Total memory usage is 5082600 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings : 1275 (   0 filtered)
-Number of infos    :   63 (   0 filtered)
+Number of warnings : 1236 (   0 filtered)
+Number of infos    :   72 (   0 filtered)
 

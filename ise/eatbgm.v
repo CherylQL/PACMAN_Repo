@@ -56,13 +56,12 @@ module eatbgm(
 		
 
 	always @(posedge clk) begin
-		if(rkey == 0)
-			rkey <= key;
 		if (rkey == 1'b0) begin
+			rkey <= key;
 			beep <= 1'b0;
 			delay <= 13'd0;
 			cnt <= 16'd0;
-			prediv <= 16'hBA9E;
+			prediv <= 16'h6EFA;
 		end
 		else begin
 			cnt <= cnt + 1'b1;
@@ -71,13 +70,16 @@ module eatbgm(
 				beep <= ~beep;
 				delay <= delay +1'b1;
 				case(delay)
+					16'd400:begin
+						prediv <= 16'hBA9E;
+					end
 					16'd800:begin
 						prediv <= 16'h6EFA;
 					end
-					16'd1600:begin
+					16'd1200:begin
 						prediv <= 16'h8BCF;
-						rkey <= 0;
 					end
+					16'd1201: rkey <= 0;
 					default : prediv <= prediv;
 				endcase
 			end

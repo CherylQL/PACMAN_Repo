@@ -32,6 +32,7 @@ module bean(input clk,
     );
 	reg [9:0]x;
 	reg [8:0]y;
+	reg s1, s2, s3, s4;
 	reg key;
 	initial begin
 		newscore <= 0;
@@ -110,30 +111,29 @@ module bean(input clk,
 		if(beans[((y+16)/16)*40+((x+24)/16)] == 1)  begin
 					beans[((y+16)/16)*40+((x+24)/16)] <= 0;
 					newscore <= newscore+1;
-					key <= 1;
+					s1 <= 1;
 		end
+		else s1 <= 0;
 		if(beans[((y+16)/16)*40+((x+8)/16)] == 1)  begin
 					beans[((y+16)/16)*40+((x+8)/16)] <= 0;
 					newscore <= newscore+1;
-					key <= 1;
+					s2 <= 1;
 		end
+		else s2 <= 0;
 		if(beans[((y+8)/16)*40+((x+16)/16)] == 1)  begin
 					beans[((y+8)/16)*40+((x+16)/16)] <= 0;
 					newscore <= newscore+1;
-					key <= 1;
+					s3 <= 1;
 		end
+		else s3 <= 0;
 		if(beans[((y+24)/16)*40+((x+16)/16)] == 1)  begin
 					beans[((y+24)/16)*40+((x+16)/16)] <= 0;
 					newscore <= newscore+1;
-					key <= 1;
+					s4 <= 1;
 		end
+		else s4 <= 0;
 		
-		if(key == 1)begin
-			key <= 0;
-		end
-		else begin
-			key <= 0;
-		end
+		key <= s1 || s2 || s3 || s4;
 	end
 	
 	eatbgm bgm(.clk(clk),.rst(rst),.key(key),.beep(beep));

@@ -69,7 +69,7 @@ module Display(
 	always@(* ) begin
 			if(over == 1)begin
 				if(row_addr >= 10'd100 && row_addr < 10'd290 && col_addr >= 9'd180  && col_addr < 9'd500)begin
-					end_ip <= (row_addr - 9'd120)* 267 + col_addr - 10'd158;
+					end_ip <= (row_addr - 9'd100)* 320+ col_addr - 10'd180;
 					vga_data <= end_color;
 				end
 				else begin

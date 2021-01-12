@@ -13,15 +13,24 @@
          <ClosedNode>/Top C:|Users|10308|Desktop|DDLS|PacMan_Repo|src|toP.v/segDevice - Seg7Device</ClosedNode>
          <ClosedNode>/Top C:|Users|10308|Desktop|DDLS|PacMan|toP.v/k0 - Keypad</ClosedNode>
          <ClosedNode>/Top C:|Users|10308|Desktop|DDLS|PacMan|toP.v/segDevice - Seg7Device</ClosedNode>
+         <ClosedNode>/Top C:|Users|10308|Desktop|PACMAN_Repo|src|toP.v/DM - Display</ClosedNode>
+         <ClosedNode>/Top C:|Users|10308|Desktop|PACMAN_Repo|src|toP.v/Pac - KeyControl</ClosedNode>
+         <ClosedNode>/Top C:|Users|10308|Desktop|PACMAN_Repo|src|toP.v/b0 - bean/bgm - eatbgm</ClosedNode>
+         <ClosedNode>/Top C:|Users|10308|Desktop|PACMAN_Repo|src|toP.v/ghost1 - GhostOne</ClosedNode>
+         <ClosedNode>/Top C:|Users|10308|Desktop|PACMAN_Repo|src|toP.v/ghost2 - GhostTwo</ClosedNode>
+         <ClosedNode>/Top C:|Users|10308|Desktop|PACMAN_Repo|src|toP.v/ghost3 - GhostThree</ClosedNode>
+         <ClosedNode>/Top C:|Users|10308|Desktop|PACMAN_Repo|src|toP.v/ghost4 - GhostFour</ClosedNode>
+         <ClosedNode>/Top C:|Users|10308|Desktop|PACMAN_Repo|src|toP.v/k0 - Keypad</ClosedNode>
+         <ClosedNode>/Top C:|Users|10308|Desktop|PACMAN_Repo|src|toP.v/segDevice - Seg7Device</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Top (C:/Users/10308/Desktop/PACMAN_Repo/src/toP.v)</SelectedItem>
+         <SelectedItem>bgm - eatbgm (C:/Users/10308/Desktop/PACMAN_Repo/ise/eatbgm.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >9</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001ac000000020000000000000000000000000200000064ffffffff000000810000000300000002000001ac0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Top (C:/Users/10308/Desktop/PACMAN_Repo/src/toP.v)</CurrentItem>
+      <CurrentItem>bgm - eatbgm (C:/Users/10308/Desktop/PACMAN_Repo/ise/eatbgm.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
@@ -36,7 +45,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000b8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000b80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -44,12 +53,15 @@
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
-      <SelectedItems/>
+      <SelectedItems>
+         <SelectedItem>Ghost.xco</SelectedItem>
+         <SelectedItem>Ghost.xise</SelectedItem>
+      </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002d2000000040101000100000000000000000000000064ffffffff0000008100000000000000040000007c0000000100000000000000fc0000000100000000000000780000000100000000000000e20000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>AntiJitter.v</CurrentItem>
+      <CurrentItem>Ghost.xco</CurrentItem>
    </ItemView>
    <ItemView guiview="Library" >
       <ClosedNodes>
@@ -70,13 +82,13 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem>View HDL Instantiation Template</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem>View HDL Instantiation Template</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -104,13 +116,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="ManualCompile" >
       <ClosedNodes>
