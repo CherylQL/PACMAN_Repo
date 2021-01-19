@@ -40,10 +40,11 @@ module KeyControl(
 	
 	wire result_l;
 	wire result;
-	//wire result;
+	
+	//turn permission;result = 1 means permitted
 	CheckCollision cc_turn(.clk(clk),.rst(rst),.PacX(PacX),.PacY(PacY),.state(state_),.result(result));
 	
-
+	//move forward permission;result_1 = 1 means permitted
 	CheckCollision cc_line(.clk(clk),.rst(rst),.PacX(PacX),.PacY(PacY),.state(state),.result(result_l));
 	
 	
@@ -56,19 +57,19 @@ module KeyControl(
 				case (keyCode)
 					5'hc:
 						begin
-							state_ <= 2'b10;
+							state_ <= 2'b10;//button_left
 						end
 					5'he: 
 						begin
-							state_ <= 2'b11;
+							state_ <= 2'b11;//button_right
 						end
 					5'h9: 
 						begin
-							state_ <= 2'b00;
+							state_ <= 2'b00;//button_up
 						end
 					5'h11: 
 						begin
-							state_ <= 2'b01;
+							state_ <= 2'b01;//button_down
 						end
 					default: ;
 				endcase
@@ -76,19 +77,19 @@ module KeyControl(
 			
 			if (!wasReady&&ps2_ready) begin
 				case (keyboardCode)
-					8'h6b:	//¼üÅÌ×ó
+					8'h6b:	//keyboard_left
 						begin
 							state_ <= 2'b10;
 						end
-					8'h74: 	//¼üÅÌÓÒ
+					8'h74: 	//keyboard_right
 						begin
 							state_ <= 2'b11;
 						end
-					8'h75: 	//¼üÅÌÉÏ
+					8'h75: 	//keyboard_up
 						begin
 							state_ <= 2'b00;
 						end
-					8'h72:	//¼üÅÌÏÂ
+					8'h72:	//keyboard_down
 						begin
 							state_ <= 2'b01;
 						end
@@ -96,7 +97,7 @@ module KeyControl(
 				endcase
 			end
 		end
-		if(result == 1)begin//Åö×²¼ì²â
+		if(result == 1)begin//crash collision;if direction's turn is permitted,change the direction
 			state <= state_;
 		end
 	end
@@ -106,8 +107,9 @@ module KeyControl(
 			PacX <= 10'd320;
 			PacY <= 9'd146;
 		end
+		//result_1 = 0 means reached a wall
 		if(result_l != 0)begin
-			case(state)
+			case(state)//pacman moves according to the state
 				2'b10:
 					begin
 						PacX<=PacX - 10'd1;

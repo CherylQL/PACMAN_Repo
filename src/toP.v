@@ -37,6 +37,8 @@ module Top(
 	wire wbeep;
 	clkdiv c0(.clk(clk),.rst(rst),.clkdiv(clkdiv));
 	
+	
+	//initialize beep signal
 	initial begin
 		beep <= 0;
 	end
@@ -66,6 +68,7 @@ module Top(
 	//definition of score_display's data
 	wire [3:0] sout;
 
+	//difinition of 4 ghosts' position and relative module
 	wire [9:0] ghost1X;
 	wire [8:0] ghost1Y;
 	GhostOne ghost1(.clk(clk), .rst(rst), .x(ghost1X), .y(ghost1Y));	
@@ -82,7 +85,9 @@ module Top(
 	wire [8:0] ghost4Y;
 	GhostFour ghost4(.clk(clk), .rst(rst), .x(ghost4X), .y(ghost4Y));	
 	
+	//define the array saving beans
 	wire [1199:0] beanreg;
+	
 	//displaymodule of characters
 	Display DM(.clk(clk),.rst(rst),.clkdiv(clkdiv),.clrn(SW_OK[0]),.state(pst),.over(over_sign),
 		.beanmap(beanreg),
@@ -99,9 +104,11 @@ module Top(
 		.PacX(px),.PacY(py),
 		.state(pst));
 	
+	//definition of score
 	wire [8:0]score;
 	bean b0(.clk(clk), .rst(rst), .pac_x(px), .pac_y(py), .beans(beanreg), .newscore(score), .isover(over1),.beep(wbeep));
 	
+	//Check Crash between pacman and ghosts
 	CheckGhostCrash(.clk(clk), .rst(rst), .PacX(px), .PacY(py),
 		.Ghost1X(ghost1X), .Ghost1Y(ghost1Y), .Ghost2X(ghost2X), .Ghost2Y(ghost2Y),
 		.Ghost3X(ghost3X), .Ghost3Y(ghost3Y), .Ghost4X(ghost4X), .Ghost4Y(ghost4Y), .result(over));
@@ -117,6 +124,7 @@ module Top(
 	assign SEGLED_PEN = sout[1];
 	assign SEGLED_CLR = sout[0];
  	
+	//always judging whether the game is over
 	always@(posedge clk)begin
 		if(over_sign == 0) over_sign <= over == 1 || over1 == 1 ? 1 : 0;
 		if(~rst) over_sign <= 0;

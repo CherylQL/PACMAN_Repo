@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.24 secs
+Total CPU time to Xst completion: 0.21 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.24 secs
+Total CPU time to Xst completion: 0.21 secs
  
 --> Reading design: Top.prj
 
@@ -110,10 +110,10 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\SegmentDecoder.v" into library work
 Parsing module <SegmentDecoder>.
+Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\Map.v" into library work
+Parsing module <Map>.
 Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\clkdiv.v" into library work
 Parsing module <clkdiv>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\ise\Map.v" into library work
-Parsing module <Map>.
 Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\vgac.v" into library work
 Parsing module <vgac>.
 Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\ShiftReg.v" into library work
@@ -122,8 +122,12 @@ Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\Seg7Remap.v" into
 Parsing module <Seg7Remap>.
 Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\Seg7Decode.v" into library work
 Parsing module <Seg7Decode>.
+Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\eatbgm.v" into library work
+Parsing module <eatbgm>.
 Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\CheckCollision.v" into library work
 Parsing module <CheckCollision>.
+Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\beanmap.v" into library work
+Parsing module <beanmap>.
 Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\AntiJitter.v" into library work
 Parsing module <AntiJitter>.
 Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\ise\ipcore_dir\PacSelf.v" into library work
@@ -132,10 +136,6 @@ Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\ise\ipcore_dir\Ghost.
 Parsing module <Ghost>.
 Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\ise\ipcore_dir\gameover.v" into library work
 Parsing module <gameover>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\ise\eatbgm.v" into library work
-Parsing module <eatbgm>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\ise\beanmap.v" into library work
-Parsing module <beanmap>.
 Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\Seg7Device.v" into library work
 Parsing module <Seg7Device>.
 Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\PS2_keyboard.v" into library work
@@ -156,7 +156,7 @@ Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" into l
 Parsing module <Display>.
 Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\CheckGhostCrash.v" into library work
 Parsing module <CheckGhostCrash>.
-Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\ise\bean.v" into library work
+Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\bean.v" into library work
 Parsing module <bean>.
 Analyzing Verilog file "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" into library work
 Parsing module <Top>.
@@ -164,12 +164,12 @@ Parsing module <Top>.
 =========================================================================
 *                            HDL Elaboration                            *
 =========================================================================
-WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 51: Port dbg_keyLine is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 71: Port result is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 75: Port result is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 79: Port result is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 83: Port result is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 112: Port segment is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 53: Port dbg_keyLine is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 74: Port result is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 78: Port result is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 82: Port result is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 86: Port result is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 119: Port segment is not connected to this instance
 
 Elaborating module <Top>.
 
@@ -197,21 +197,21 @@ WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\CheckCollision
 WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\CheckCollision.v" Line 74: Result of 11-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\CheckCollision.v" Line 76: Result of 32-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:634 - "C:\Users\10308\Desktop\PACMAN_Repo\src\CheckCollision.v" Line 35: Net <iswall1> does not have a driver.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\GhostOne.v" Line 90: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\GhostOne.v" Line 93: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\GhostOne.v" Line 93: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\GhostOne.v" Line 96: Result of 6-bit expression is truncated to fit in 5-bit target.
 
 Elaborating module <GhostTwo>.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\GhostTwo.v" Line 85: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\GhostTwo.v" Line 88: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\GhostTwo.v" Line 91: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\GhostTwo.v" Line 94: Result of 6-bit expression is truncated to fit in 5-bit target.
 
 Elaborating module <GhostThree>.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\GhostThree.v" Line 85: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\GhostThree.v" Line 88: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\GhostThree.v" Line 91: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\GhostThree.v" Line 94: Result of 6-bit expression is truncated to fit in 5-bit target.
 
 Elaborating module <GhostFour>.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\GhostFour.v" Line 85: Result of 5-bit expression is truncated to fit in 4-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\GhostFour.v" Line 88: Result of 6-bit expression is truncated to fit in 5-bit target.
-WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 59: Port rdn is not connected to this instance
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\GhostFour.v" Line 91: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\GhostFour.v" Line 94: Result of 6-bit expression is truncated to fit in 5-bit target.
+WARNING:HDLCompiler:1016 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 62: Port rdn is not connected to this instance
 
 Elaborating module <Display>.
 
@@ -228,35 +228,35 @@ WARNING:HDLCompiler:1499 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\ipcore_dir\Gh
 Elaborating module <vgac>.
 
 Elaborating module <beanmap>.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\beanmap.v" Line 25: Result of 32-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 72: Result of 32-bit expression is truncated to fit in 17-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 84: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 88: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 92: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 96: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 104: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 106: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 108: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\beanmap.v" Line 25: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 80: Result of 32-bit expression is truncated to fit in 17-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 95: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 100: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 105: Result of 32-bit expression is truncated to fit in 10-bit target.
 WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 110: Result of 32-bit expression is truncated to fit in 10-bit target.
-WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 90: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 120: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 122: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 124: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" Line 126: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 95: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
 
 Elaborating module <KeyControl>.
-WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 99: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
+WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 104: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
 
 Elaborating module <bean>.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\bean.v" Line 113: Result of 10-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\bean.v" Line 119: Result of 10-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\bean.v" Line 125: Result of 10-bit expression is truncated to fit in 9-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\bean.v" Line 131: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\bean.v" Line 113: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\bean.v" Line 119: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\bean.v" Line 125: Result of 10-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\bean.v" Line 131: Result of 10-bit expression is truncated to fit in 9-bit target.
 
 Elaborating module <eatbgm>.
-WARNING:HDLCompiler:1127 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\eatbgm.v" Line 55: Assignment to clkdiv ignored, since the identifier is never used
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\bean.v" Line 141: Result of 32-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 103: Size mismatch in connection of port <pac_y>. Formal port size is 9-bit while actual signal size is 10-bit.
-WARNING:HDLCompiler:604 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 105: Module instantiation should have an instance name
+WARNING:HDLCompiler:1127 - "C:\Users\10308\Desktop\PACMAN_Repo\src\eatbgm.v" Line 55: Assignment to clkdiv ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\bean.v" Line 141: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 109: Size mismatch in connection of port <pac_y>. Formal port size is 9-bit while actual signal size is 10-bit.
+WARNING:HDLCompiler:604 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 112: Module instantiation should have an instance name
 
 Elaborating module <CheckGhostCrash>.
-WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 105: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
+WARNING:HDLCompiler:189 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 112: Size mismatch in connection of port <PacY>. Formal port size is 9-bit while actual signal size is 10-bit.
 
 Elaborating module <Seg7Device>.
 
@@ -267,24 +267,24 @@ Elaborating module <SegmentDecoder>.
 Elaborating module <Seg7Remap>.
 
 Elaborating module <ShiftReg(WIDTH=64)>.
-WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 121: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" Line 129: Result of 32-bit expression is truncated to fit in 1-bit target.
 WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\CheckCollision.v" line 37. All outputs of instance <Wall1> of block <Map> are unconnected in block <CheckCollision>. Underlying logic will be removed.
 WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\CheckCollision.v" line 38. All outputs of instance <Wall2> of block <Map> are unconnected in block <CheckCollision>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\eatbgm.v" line 55. All outputs of instance <c0> of block <clkdiv> are unconnected in block <eatbgm>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46. All outputs of instance <a0<1>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46. All outputs of instance <a0<2>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46. All outputs of instance <a0<3>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46. All outputs of instance <a0<4>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46. All outputs of instance <a0<5>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46. All outputs of instance <a0<6>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46. All outputs of instance <a0<7>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46. All outputs of instance <a0<8>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46. All outputs of instance <a0<9>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46. All outputs of instance <a0<10>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46. All outputs of instance <a0<11>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46. All outputs of instance <a0<12>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46. All outputs of instance <a0<13>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
-WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46. All outputs of instance <a0<14>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\eatbgm.v" line 55. All outputs of instance <c0> of block <clkdiv> are unconnected in block <eatbgm>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48. All outputs of instance <a0<1>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48. All outputs of instance <a0<2>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48. All outputs of instance <a0<3>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48. All outputs of instance <a0<4>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48. All outputs of instance <a0<5>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48. All outputs of instance <a0<6>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48. All outputs of instance <a0<7>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48. All outputs of instance <a0<8>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48. All outputs of instance <a0<9>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48. All outputs of instance <a0<10>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48. All outputs of instance <a0<11>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48. All outputs of instance <a0<12>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48. All outputs of instance <a0<13>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48. All outputs of instance <a0<14>> of block <AntiJitter> are unconnected in block <Top>. Underlying logic will be removed.
 
 =========================================================================
 *                           HDL Synthesis                               *
@@ -292,35 +292,35 @@ WARNING:Xst:2972 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46. All o
 
 Synthesizing Unit <Top>.
     Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v".
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46: Output port <O> of the instance <a0<1>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46: Output port <O> of the instance <a0<2>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46: Output port <O> of the instance <a0<3>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46: Output port <O> of the instance <a0<4>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46: Output port <O> of the instance <a0<5>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46: Output port <O> of the instance <a0<6>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46: Output port <O> of the instance <a0<7>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46: Output port <O> of the instance <a0<8>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46: Output port <O> of the instance <a0<9>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46: Output port <O> of the instance <a0<10>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46: Output port <O> of the instance <a0<11>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46: Output port <O> of the instance <a0<12>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46: Output port <O> of the instance <a0<13>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 46: Output port <O> of the instance <a0<14>> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 51: Output port <dbg_keyLine> of the instance <k0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 71: Output port <direction> of the instance <ghost1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 71: Output port <nextDir> of the instance <ghost1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 71: Output port <result> of the instance <ghost1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 75: Output port <direction> of the instance <ghost2> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 75: Output port <nextDir> of the instance <ghost2> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 75: Output port <result> of the instance <ghost2> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 79: Output port <direction> of the instance <ghost3> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 79: Output port <nextDir> of the instance <ghost3> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 79: Output port <result> of the instance <ghost3> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 83: Output port <direction> of the instance <ghost4> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 83: Output port <nextDir> of the instance <ghost4> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 83: Output port <result> of the instance <ghost4> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 112: Output port <segment> of the instance <segDevice> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 112: Output port <anode> of the instance <segDevice> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48: Output port <O> of the instance <a0<1>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48: Output port <O> of the instance <a0<2>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48: Output port <O> of the instance <a0<3>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48: Output port <O> of the instance <a0<4>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48: Output port <O> of the instance <a0<5>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48: Output port <O> of the instance <a0<6>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48: Output port <O> of the instance <a0<7>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48: Output port <O> of the instance <a0<8>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48: Output port <O> of the instance <a0<9>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48: Output port <O> of the instance <a0<10>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48: Output port <O> of the instance <a0<11>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48: Output port <O> of the instance <a0<12>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48: Output port <O> of the instance <a0<13>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 48: Output port <O> of the instance <a0<14>> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 53: Output port <dbg_keyLine> of the instance <k0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 74: Output port <direction> of the instance <ghost1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 74: Output port <nextDir> of the instance <ghost1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 74: Output port <result> of the instance <ghost1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 78: Output port <direction> of the instance <ghost2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 78: Output port <nextDir> of the instance <ghost2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 78: Output port <result> of the instance <ghost2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 82: Output port <direction> of the instance <ghost3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 82: Output port <nextDir> of the instance <ghost3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 82: Output port <result> of the instance <ghost3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 86: Output port <direction> of the instance <ghost4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 86: Output port <nextDir> of the instance <ghost4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 86: Output port <result> of the instance <ghost4> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 119: Output port <segment> of the instance <segDevice> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\toP.v" line 119: Output port <anode> of the instance <segDevice> is unconnected or connected to loadless signal.
     Found 1-bit register for signal <beep>.
     Found 1-bit register for signal <over_sign>.
     Summary:
@@ -400,15 +400,15 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <randomD
     Found 4-bit register for signal <randomCnt1>.
     Found 5-bit register for signal <randomCnt2>.
     Found 10-bit register for signal <x>.
-    Found 10-bit subtractor for signal <x[9]_GND_15_o_sub_8_OUT> created at line 73.
-    Found 9-bit subtractor for signal <y[8]_GND_15_o_sub_10_OUT> created at line 77.
+    Found 10-bit subtractor for signal <x[9]_GND_15_o_sub_8_OUT> created at line 76.
+    Found 9-bit subtractor for signal <y[8]_GND_15_o_sub_10_OUT> created at line 80.
     Found 2-bit adder for signal <nextDir> created at line 21.
-    Found 10-bit adder for signal <x[9]_GND_15_o_add_8_OUT> created at line 75.
-    Found 9-bit adder for signal <y[8]_GND_15_o_add_10_OUT> created at line 79.
-    Found 4-bit adder for signal <randomCnt1[3]_GND_15_o_add_21_OUT> created at line 90.
-    Found 5-bit adder for signal <randomCnt2[4]_GND_15_o_add_24_OUT> created at line 93.
-    Found 10-bit 3-to-1 multiplexer for signal <direction[1]_x[9]_wide_mux_11_OUT> created at line 71.
-    Found 9-bit 3-to-1 multiplexer for signal <direction[1]_y[8]_wide_mux_12_OUT> created at line 71.
+    Found 10-bit adder for signal <x[9]_GND_15_o_add_8_OUT> created at line 78.
+    Found 9-bit adder for signal <y[8]_GND_15_o_add_10_OUT> created at line 82.
+    Found 4-bit adder for signal <randomCnt1[3]_GND_15_o_add_21_OUT> created at line 93.
+    Found 5-bit adder for signal <randomCnt2[4]_GND_15_o_add_24_OUT> created at line 96.
+    Found 10-bit 3-to-1 multiplexer for signal <direction[1]_x[9]_wide_mux_11_OUT> created at line 74.
+    Found 9-bit 3-to-1 multiplexer for signal <direction[1]_y[8]_wide_mux_12_OUT> created at line 74.
     Summary:
 	inferred   2 RAM(s).
 	inferred   5 Adder/Subtractor(s).
@@ -440,20 +440,18 @@ WARNING:Xst:653 - Signal <iswall2> is used but never assigned. This sourceless s
 Unit <CheckCollision> synthesized.
 
 Synthesizing Unit <Map>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\ise\Map.v".
+    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\src\Map.v".
+WARNING:Xst:647 - Input <x<3:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <y<3:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:2999 - Signal 'mapData', unconnected in block 'Map', is tied to its initial value.
 WARNING:Xst:3035 - Index value(s) does not match array range for signal <mapData>, simulation mismatch.
     Found 1200x1-bit single-port Read Only RAM <Mram_mapData> for signal <mapData>.
-    Found 11-bit adder for signal <y[8]_GND_17_o_add_3_OUT> created at line 25.
-    Found 5x6-bit multiplier for signal <n0013> created at line 25.
-    Found 10-bit comparator greater for signal <PWR_9_o_x[9]_LessThan_1_o> created at line 25
-    Found 9-bit comparator greater for signal <PWR_9_o_y[8]_LessThan_2_o> created at line 25
+    Found 11-bit adder for signal <y[8]_GND_17_o_add_1_OUT> created at line 5.
+    Found 5x6-bit multiplier for signal <n0009> created at line 5.
     Summary:
 	inferred   1 RAM(s).
 	inferred   1 Multiplier(s).
 	inferred   1 Adder/Subtractor(s).
-	inferred   2 Comparator(s).
-	inferred   2 Multiplexer(s).
 Unit <Map> synthesized.
 
 Synthesizing Unit <GhostTwo>.
@@ -469,17 +467,20 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <randomD
     Found 4-bit register for signal <randomCnt1>.
     Found 5-bit register for signal <randomCnt2>.
     Found 10-bit register for signal <x>.
-    Found 10-bit subtractor for signal <x[9]_GND_19_o_sub_6_OUT> created at line 69.
-    Found 9-bit subtractor for signal <y[8]_GND_19_o_sub_8_OUT> created at line 73.
+    Found 10-bit subtractor for signal <x[9]_GND_19_o_sub_8_OUT> created at line 75.
+    Found 9-bit subtractor for signal <y[8]_GND_19_o_sub_10_OUT> created at line 79.
     Found 2-bit adder for signal <nextDir> created at line 21.
-    Found 10-bit adder for signal <x[9]_GND_19_o_add_6_OUT> created at line 71.
-    Found 9-bit adder for signal <y[8]_GND_19_o_add_8_OUT> created at line 75.
-    Found 4-bit adder for signal <randomCnt1[3]_GND_19_o_add_18_OUT> created at line 85.
-    Found 5-bit adder for signal <randomCnt2[4]_GND_19_o_add_21_OUT> created at line 88.
+    Found 10-bit adder for signal <x[9]_GND_19_o_add_8_OUT> created at line 77.
+    Found 9-bit adder for signal <y[8]_GND_19_o_add_10_OUT> created at line 81.
+    Found 4-bit adder for signal <randomCnt1[3]_GND_19_o_add_20_OUT> created at line 91.
+    Found 5-bit adder for signal <randomCnt2[4]_GND_19_o_add_23_OUT> created at line 94.
+    Found 10-bit 3-to-1 multiplexer for signal <direction[1]_x[9]_wide_mux_11_OUT> created at line 73.
+    Found 9-bit 3-to-1 multiplexer for signal <direction[1]_y[8]_wide_mux_12_OUT> created at line 73.
     Summary:
 	inferred   2 RAM(s).
 	inferred   5 Adder/Subtractor(s).
 	inferred  30 D-type flip-flop(s).
+	inferred   6 Multiplexer(s).
 Unit <GhostTwo> synthesized.
 
 Synthesizing Unit <GhostThree>.
@@ -495,17 +496,20 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <randomD
     Found 4-bit register for signal <randomCnt1>.
     Found 5-bit register for signal <randomCnt2>.
     Found 10-bit register for signal <x>.
-    Found 10-bit subtractor for signal <x[9]_GND_20_o_sub_6_OUT> created at line 69.
-    Found 9-bit subtractor for signal <y[8]_GND_20_o_sub_8_OUT> created at line 73.
+    Found 10-bit subtractor for signal <x[9]_GND_20_o_sub_8_OUT> created at line 75.
+    Found 9-bit subtractor for signal <y[8]_GND_20_o_sub_10_OUT> created at line 79.
     Found 2-bit adder for signal <nextDir> created at line 21.
-    Found 10-bit adder for signal <x[9]_GND_20_o_add_6_OUT> created at line 71.
-    Found 9-bit adder for signal <y[8]_GND_20_o_add_8_OUT> created at line 75.
-    Found 4-bit adder for signal <randomCnt1[3]_GND_20_o_add_18_OUT> created at line 85.
-    Found 5-bit adder for signal <randomCnt2[4]_GND_20_o_add_21_OUT> created at line 88.
+    Found 10-bit adder for signal <x[9]_GND_20_o_add_8_OUT> created at line 77.
+    Found 9-bit adder for signal <y[8]_GND_20_o_add_10_OUT> created at line 81.
+    Found 4-bit adder for signal <randomCnt1[3]_GND_20_o_add_20_OUT> created at line 91.
+    Found 5-bit adder for signal <randomCnt2[4]_GND_20_o_add_23_OUT> created at line 94.
+    Found 10-bit 3-to-1 multiplexer for signal <direction[1]_x[9]_wide_mux_11_OUT> created at line 73.
+    Found 9-bit 3-to-1 multiplexer for signal <direction[1]_y[8]_wide_mux_12_OUT> created at line 73.
     Summary:
 	inferred   2 RAM(s).
 	inferred   5 Adder/Subtractor(s).
 	inferred  30 D-type flip-flop(s).
+	inferred   6 Multiplexer(s).
 Unit <GhostThree> synthesized.
 
 Synthesizing Unit <GhostFour>.
@@ -521,17 +525,20 @@ WARNING:Xst:3035 - Index value(s) does not match array range for signal <randomD
     Found 4-bit register for signal <randomCnt1>.
     Found 5-bit register for signal <randomCnt2>.
     Found 10-bit register for signal <x>.
-    Found 10-bit subtractor for signal <x[9]_GND_21_o_sub_6_OUT> created at line 69.
-    Found 9-bit subtractor for signal <y[8]_GND_21_o_sub_8_OUT> created at line 73.
+    Found 10-bit subtractor for signal <x[9]_GND_21_o_sub_8_OUT> created at line 75.
+    Found 9-bit subtractor for signal <y[8]_GND_21_o_sub_10_OUT> created at line 79.
     Found 2-bit adder for signal <nextDir> created at line 21.
-    Found 10-bit adder for signal <x[9]_GND_21_o_add_6_OUT> created at line 71.
-    Found 9-bit adder for signal <y[8]_GND_21_o_add_8_OUT> created at line 75.
-    Found 4-bit adder for signal <randomCnt1[3]_GND_21_o_add_18_OUT> created at line 85.
-    Found 5-bit adder for signal <randomCnt2[4]_GND_21_o_add_21_OUT> created at line 88.
+    Found 10-bit adder for signal <x[9]_GND_21_o_add_8_OUT> created at line 77.
+    Found 9-bit adder for signal <y[8]_GND_21_o_add_10_OUT> created at line 81.
+    Found 4-bit adder for signal <randomCnt1[3]_GND_21_o_add_20_OUT> created at line 91.
+    Found 5-bit adder for signal <randomCnt2[4]_GND_21_o_add_23_OUT> created at line 94.
+    Found 10-bit 3-to-1 multiplexer for signal <direction[1]_x[9]_wide_mux_11_OUT> created at line 73.
+    Found 9-bit 3-to-1 multiplexer for signal <direction[1]_y[8]_wide_mux_12_OUT> created at line 73.
     Summary:
 	inferred   2 RAM(s).
 	inferred   5 Adder/Subtractor(s).
 	inferred  30 D-type flip-flop(s).
+	inferred   6 Multiplexer(s).
 Unit <GhostFour> synthesized.
 
 Synthesizing Unit <Display>.
@@ -539,53 +546,53 @@ Synthesizing Unit <Display>.
 WARNING:Xst:647 - Input <clkdiv<0:0>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <clkdiv<31:2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" line 59: Output port <rdn> of the instance <vga> is unconnected or connected to loadless signal.
-    Found 10-bit subtractor for signal <GND_22_o_GND_22_o_sub_6_OUT> created at line 72.
-    Found 10-bit subtractor for signal <GND_22_o_GND_22_o_sub_18_OUT> created at line 84.
-    Found 11-bit subtractor for signal <GND_22_o_GND_22_o_sub_19_OUT> created at line 84.
-    Found 10-bit subtractor for signal <GND_22_o_GND_22_o_sub_27_OUT> created at line 88.
-    Found 11-bit subtractor for signal <GND_22_o_GND_22_o_sub_28_OUT> created at line 88.
-    Found 10-bit subtractor for signal <GND_22_o_GND_22_o_sub_36_OUT> created at line 92.
-    Found 11-bit subtractor for signal <GND_22_o_GND_22_o_sub_37_OUT> created at line 92.
-    Found 10-bit subtractor for signal <GND_22_o_GND_22_o_sub_45_OUT> created at line 96.
-    Found 11-bit subtractor for signal <GND_22_o_GND_22_o_sub_46_OUT> created at line 96.
-    Found 10-bit subtractor for signal <GND_22_o_GND_22_o_sub_60_OUT> created at line 106.
-    Found 11-bit subtractor for signal <GND_22_o_GND_22_o_sub_65_OUT> created at line 108.
-    Found 10-bit subtractor for signal <GND_22_o_GND_22_o_sub_67_OUT> created at line 110.
-    Found 11-bit subtractor for signal <GND_22_o_GND_22_o_sub_68_OUT> created at line 110.
-    Found 32-bit adder for signal <GND_22_o_GND_22_o_add_7_OUT> created at line 72.
-    Found 10-bit adder for signal <n0245> created at line 83.
-    Found 11-bit adder for signal <n0247> created at line 83.
-    Found 32-bit adder for signal <n0196> created at line 84.
-    Found 10-bit adder for signal <n0255> created at line 87.
-    Found 11-bit adder for signal <n0257> created at line 87.
-    Found 32-bit adder for signal <n0201> created at line 88.
-    Found 10-bit adder for signal <n0265> created at line 91.
-    Found 11-bit adder for signal <n0267> created at line 91.
-    Found 32-bit adder for signal <n0206> created at line 92.
-    Found 10-bit adder for signal <n0275> created at line 95.
-    Found 11-bit adder for signal <n0277> created at line 95.
-    Found 32-bit adder for signal <n0211> created at line 96.
-    Found 10-bit adder for signal <n0285> created at line 102.
-    Found 11-bit adder for signal <n0287> created at line 102.
-    Found 32-bit adder for signal <n0214> created at line 104.
-    Found 32-bit adder for signal <n0346> created at line 106.
-    Found 32-bit adder for signal <n0217> created at line 106.
-    Found 32-bit adder for signal <n0219> created at line 108.
-    Found 32-bit adder for signal <n0355> created at line 110.
-    Found 32-bit adder for signal <n0223> created at line 110.
-    Found 16-bit subtractor for signal <GND_22_o_GND_22_o_sub_9_OUT<15:0>> created at line 72.
-    Found 32x9-bit multiplier for signal <n0188> created at line 72.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_22_o_GND_22_o_mux_72_OUT<9>> created at line 69.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_22_o_GND_22_o_mux_72_OUT<8>> created at line 69.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_22_o_GND_22_o_mux_72_OUT<7>> created at line 69.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_22_o_GND_22_o_mux_72_OUT<6>> created at line 69.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_22_o_GND_22_o_mux_72_OUT<5>> created at line 69.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_22_o_GND_22_o_mux_72_OUT<4>> created at line 69.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_22_o_GND_22_o_mux_72_OUT<3>> created at line 69.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_22_o_GND_22_o_mux_72_OUT<2>> created at line 69.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_22_o_GND_22_o_mux_72_OUT<1>> created at line 69.
-    Found 1-bit 4-to-1 multiplexer for signal <GND_22_o_GND_22_o_mux_72_OUT<0>> created at line 69.
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\Display.v" line 62: Output port <rdn> of the instance <vga> is unconnected or connected to loadless signal.
+    Found 10-bit subtractor for signal <GND_22_o_GND_22_o_sub_6_OUT> created at line 80.
+    Found 10-bit subtractor for signal <GND_22_o_GND_22_o_sub_18_OUT> created at line 95.
+    Found 11-bit subtractor for signal <GND_22_o_GND_22_o_sub_19_OUT> created at line 95.
+    Found 10-bit subtractor for signal <GND_22_o_GND_22_o_sub_27_OUT> created at line 100.
+    Found 11-bit subtractor for signal <GND_22_o_GND_22_o_sub_28_OUT> created at line 100.
+    Found 10-bit subtractor for signal <GND_22_o_GND_22_o_sub_36_OUT> created at line 105.
+    Found 11-bit subtractor for signal <GND_22_o_GND_22_o_sub_37_OUT> created at line 105.
+    Found 10-bit subtractor for signal <GND_22_o_GND_22_o_sub_45_OUT> created at line 110.
+    Found 11-bit subtractor for signal <GND_22_o_GND_22_o_sub_46_OUT> created at line 110.
+    Found 10-bit subtractor for signal <GND_22_o_GND_22_o_sub_60_OUT> created at line 122.
+    Found 11-bit subtractor for signal <GND_22_o_GND_22_o_sub_65_OUT> created at line 124.
+    Found 10-bit subtractor for signal <GND_22_o_GND_22_o_sub_67_OUT> created at line 126.
+    Found 11-bit subtractor for signal <GND_22_o_GND_22_o_sub_68_OUT> created at line 126.
+    Found 32-bit adder for signal <GND_22_o_GND_22_o_add_7_OUT> created at line 80.
+    Found 10-bit adder for signal <n0245> created at line 94.
+    Found 11-bit adder for signal <n0247> created at line 94.
+    Found 32-bit adder for signal <n0196> created at line 95.
+    Found 10-bit adder for signal <n0255> created at line 99.
+    Found 11-bit adder for signal <n0257> created at line 99.
+    Found 32-bit adder for signal <n0201> created at line 100.
+    Found 10-bit adder for signal <n0265> created at line 104.
+    Found 11-bit adder for signal <n0267> created at line 104.
+    Found 32-bit adder for signal <n0206> created at line 105.
+    Found 10-bit adder for signal <n0275> created at line 109.
+    Found 11-bit adder for signal <n0277> created at line 109.
+    Found 32-bit adder for signal <n0211> created at line 110.
+    Found 10-bit adder for signal <n0285> created at line 118.
+    Found 11-bit adder for signal <n0287> created at line 118.
+    Found 32-bit adder for signal <n0214> created at line 120.
+    Found 32-bit adder for signal <n0346> created at line 122.
+    Found 32-bit adder for signal <n0217> created at line 122.
+    Found 32-bit adder for signal <n0219> created at line 124.
+    Found 32-bit adder for signal <n0355> created at line 126.
+    Found 32-bit adder for signal <n0223> created at line 126.
+    Found 16-bit subtractor for signal <GND_22_o_GND_22_o_sub_9_OUT<15:0>> created at line 80.
+    Found 32x9-bit multiplier for signal <n0188> created at line 80.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_22_o_GND_22_o_mux_72_OUT<9>> created at line 76.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_22_o_GND_22_o_mux_72_OUT<8>> created at line 76.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_22_o_GND_22_o_mux_72_OUT<7>> created at line 76.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_22_o_GND_22_o_mux_72_OUT<6>> created at line 76.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_22_o_GND_22_o_mux_72_OUT<5>> created at line 76.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_22_o_GND_22_o_mux_72_OUT<4>> created at line 76.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_22_o_GND_22_o_mux_72_OUT<3>> created at line 76.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_22_o_GND_22_o_mux_72_OUT<2>> created at line 76.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_22_o_GND_22_o_mux_72_OUT<1>> created at line 76.
+    Found 1-bit 4-to-1 multiplexer for signal <GND_22_o_GND_22_o_mux_72_OUT<0>> created at line 76.
 WARNING:Xst:737 - Found 1-bit latch for signal <end_ip<15>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <end_ip<14>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <end_ip<13>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -622,30 +629,30 @@ WARNING:Xst:737 - Found 1-bit latch for signal <pac_add_ip<3>>. Latches may be g
 WARNING:Xst:737 - Found 1-bit latch for signal <pac_add_ip<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <pac_add_ip<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <pac_add_ip<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
-    Found 9-bit comparator lessequal for signal <n0001> created at line 71
-    Found 9-bit comparator greater for signal <row_addr[8]_PWR_16_o_LessThan_3_o> created at line 71
-    Found 10-bit comparator lessequal for signal <n0005> created at line 71
-    Found 10-bit comparator greater for signal <col_addr[9]_GND_22_o_LessThan_5_o> created at line 71
-    Found 9-bit comparator lessequal for signal <n0015> created at line 83
-    Found 10-bit comparator greater for signal <GND_22_o_BUS_0002_LessThan_14_o> created at line 83
-    Found 10-bit comparator lessequal for signal <n0020> created at line 83
-    Found 11-bit comparator greater for signal <GND_22_o_BUS_0003_LessThan_17_o> created at line 83
-    Found 9-bit comparator lessequal for signal <n0029> created at line 87
-    Found 10-bit comparator greater for signal <GND_22_o_BUS_0005_LessThan_23_o> created at line 87
-    Found 10-bit comparator lessequal for signal <n0034> created at line 87
-    Found 11-bit comparator greater for signal <GND_22_o_BUS_0006_LessThan_26_o> created at line 87
-    Found 9-bit comparator lessequal for signal <n0043> created at line 91
-    Found 10-bit comparator greater for signal <GND_22_o_BUS_0008_LessThan_32_o> created at line 91
-    Found 10-bit comparator lessequal for signal <n0048> created at line 91
-    Found 11-bit comparator greater for signal <GND_22_o_BUS_0009_LessThan_35_o> created at line 91
-    Found 9-bit comparator lessequal for signal <n0057> created at line 95
-    Found 10-bit comparator greater for signal <GND_22_o_BUS_0011_LessThan_41_o> created at line 95
-    Found 10-bit comparator lessequal for signal <n0062> created at line 95
-    Found 11-bit comparator greater for signal <GND_22_o_BUS_0012_LessThan_44_o> created at line 95
-    Found 9-bit comparator lessequal for signal <n0071> created at line 102
-    Found 10-bit comparator greater for signal <GND_22_o_BUS_0014_LessThan_50_o> created at line 102
-    Found 10-bit comparator lessequal for signal <n0076> created at line 102
-    Found 11-bit comparator greater for signal <GND_22_o_BUS_0015_LessThan_53_o> created at line 102
+    Found 9-bit comparator lessequal for signal <n0001> created at line 79
+    Found 9-bit comparator greater for signal <row_addr[8]_PWR_16_o_LessThan_3_o> created at line 79
+    Found 10-bit comparator lessequal for signal <n0005> created at line 79
+    Found 10-bit comparator greater for signal <col_addr[9]_GND_22_o_LessThan_5_o> created at line 79
+    Found 9-bit comparator lessequal for signal <n0015> created at line 94
+    Found 10-bit comparator greater for signal <GND_22_o_BUS_0002_LessThan_14_o> created at line 94
+    Found 10-bit comparator lessequal for signal <n0020> created at line 94
+    Found 11-bit comparator greater for signal <GND_22_o_BUS_0003_LessThan_17_o> created at line 94
+    Found 9-bit comparator lessequal for signal <n0029> created at line 99
+    Found 10-bit comparator greater for signal <GND_22_o_BUS_0005_LessThan_23_o> created at line 99
+    Found 10-bit comparator lessequal for signal <n0034> created at line 99
+    Found 11-bit comparator greater for signal <GND_22_o_BUS_0006_LessThan_26_o> created at line 99
+    Found 9-bit comparator lessequal for signal <n0043> created at line 104
+    Found 10-bit comparator greater for signal <GND_22_o_BUS_0008_LessThan_32_o> created at line 104
+    Found 10-bit comparator lessequal for signal <n0048> created at line 104
+    Found 11-bit comparator greater for signal <GND_22_o_BUS_0009_LessThan_35_o> created at line 104
+    Found 9-bit comparator lessequal for signal <n0057> created at line 109
+    Found 10-bit comparator greater for signal <GND_22_o_BUS_0011_LessThan_41_o> created at line 109
+    Found 10-bit comparator lessequal for signal <n0062> created at line 109
+    Found 11-bit comparator greater for signal <GND_22_o_BUS_0012_LessThan_44_o> created at line 109
+    Found 9-bit comparator lessequal for signal <n0071> created at line 118
+    Found 10-bit comparator greater for signal <GND_22_o_BUS_0014_LessThan_50_o> created at line 118
+    Found 10-bit comparator lessequal for signal <n0076> created at line 118
+    Found 11-bit comparator greater for signal <GND_22_o_BUS_0015_LessThan_53_o> created at line 118
     Summary:
 	inferred   1 Multiplier(s).
 	inferred  35 Adder/Subtractor(s).
@@ -684,7 +691,7 @@ Synthesizing Unit <vgac>.
 Unit <vgac> synthesized.
 
 Synthesizing Unit <beanmap>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\ise\beanmap.v".
+    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\src\beanmap.v".
     Found 11-bit subtractor for signal <GND_27_o_GND_27_o_sub_8_OUT> created at line 25.
     Found 32-bit subtractor for signal <GND_27_o_GND_27_o_sub_9_OUT> created at line 25.
     Found 17-bit subtractor for signal <GND_27_o_GND_27_o_sub_19_OUT> created at line 25.
@@ -777,12 +784,12 @@ Synthesizing Unit <KeyControl>.
     Found 10-bit register for signal <PacX>.
     Found 9-bit register for signal <PacY>.
     Found 2-bit register for signal <state_>.
-    Found 10-bit subtractor for signal <PacX[9]_GND_69_o_sub_26_OUT> created at line 113.
-    Found 9-bit subtractor for signal <PacY[8]_GND_69_o_sub_28_OUT> created at line 121.
-    Found 10-bit adder for signal <PacX[9]_GND_69_o_add_26_OUT> created at line 117.
-    Found 9-bit adder for signal <PacY[8]_GND_69_o_add_28_OUT> created at line 125.
-    Found 10-bit 3-to-1 multiplexer for signal <state[1]_PacX[9]_wide_mux_29_OUT> created at line 110.
-    Found 9-bit 3-to-1 multiplexer for signal <state[1]_PacY[8]_wide_mux_30_OUT> created at line 110.
+    Found 10-bit subtractor for signal <PacX[9]_GND_69_o_sub_26_OUT> created at line 115.
+    Found 9-bit subtractor for signal <PacY[8]_GND_69_o_sub_28_OUT> created at line 123.
+    Found 10-bit adder for signal <PacX[9]_GND_69_o_add_26_OUT> created at line 119.
+    Found 9-bit adder for signal <PacY[8]_GND_69_o_add_28_OUT> created at line 127.
+    Found 10-bit 3-to-1 multiplexer for signal <state[1]_PacX[9]_wide_mux_29_OUT> created at line 112.
+    Found 9-bit 3-to-1 multiplexer for signal <state[1]_PacY[8]_wide_mux_30_OUT> created at line 112.
     Summary:
 	inferred   2 Adder/Subtractor(s).
 	inferred  24 D-type flip-flop(s).
@@ -790,7 +797,7 @@ Synthesizing Unit <KeyControl>.
 Unit <KeyControl> synthesized.
 
 Synthesizing Unit <bean>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\ise\bean.v".
+    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\src\bean.v".
     Found 1200-bit register for signal <beans>.
     Found 10-bit register for signal <x>.
     Found 9-bit register for signal <y>.
@@ -831,8 +838,8 @@ Synthesizing Unit <bean>.
 Unit <bean> synthesized.
 
 Synthesizing Unit <eatbgm>.
-    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\ise\eatbgm.v".
-INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\eatbgm.v" line 55: Output port <clkdiv> of the instance <c0> is unconnected or connected to loadless signal.
+    Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\src\eatbgm.v".
+INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\src\eatbgm.v" line 55: Output port <clkdiv> of the instance <c0> is unconnected or connected to loadless signal.
     Found 1-bit register for signal <beep>.
     Found 16-bit register for signal <delay>.
     Found 16-bit register for signal <cnt>.
@@ -852,9 +859,9 @@ INFO:Xst:3210 - "C:\Users\10308\Desktop\PACMAN_Repo\ise\eatbgm.v" line 55: Outpu
     | Encoding           | auto                                           |
     | Implementation     | LUT                                            |
     -----------------------------------------------------------------------
-    Found 16-bit adder for signal <cnt[15]_GND_73_o_add_2_OUT> created at line 67.
-    Found 16-bit adder for signal <delay[15]_GND_73_o_add_4_OUT> created at line 71.
-    Found 16-bit comparator equal for signal <cnt[15]_prediv[15]_equal_4_o> created at line 68
+    Found 16-bit adder for signal <cnt[15]_GND_73_o_add_2_OUT> created at line 68.
+    Found 16-bit adder for signal <delay[15]_GND_73_o_add_4_OUT> created at line 74.
+    Found 16-bit comparator equal for signal <cnt[15]_prediv[15]_equal_4_o> created at line 71
     Summary:
 	inferred   2 Adder/Subtractor(s).
 	inferred  34 D-type flip-flop(s).
@@ -867,30 +874,30 @@ Synthesizing Unit <CheckGhostCrash>.
     Related source file is "C:\Users\10308\Desktop\PACMAN_Repo\src\CheckGhostCrash.v".
 WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 WARNING:Xst:647 - Input <rst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Found 11-bit subtractor for signal <GND_74_o_GND_74_o_sub_1_OUT> created at line 30.
-    Found 10-bit subtractor for signal <GND_74_o_GND_74_o_sub_4_OUT> created at line 30.
-    Found 11-bit subtractor for signal <GND_74_o_GND_74_o_sub_9_OUT> created at line 31.
-    Found 10-bit subtractor for signal <GND_74_o_GND_74_o_sub_12_OUT> created at line 31.
-    Found 11-bit subtractor for signal <GND_74_o_GND_74_o_sub_17_OUT> created at line 32.
-    Found 10-bit subtractor for signal <GND_74_o_GND_74_o_sub_20_OUT> created at line 32.
-    Found 11-bit subtractor for signal <GND_74_o_GND_74_o_sub_25_OUT> created at line 33.
-    Found 10-bit subtractor for signal <GND_74_o_GND_74_o_sub_28_OUT> created at line 33.
-    Found 32-bit adder for signal <GND_74_o_GND_74_o_add_6_OUT> created at line 30.
-    Found 32-bit adder for signal <GND_74_o_GND_74_o_add_14_OUT> created at line 31.
-    Found 32-bit adder for signal <GND_74_o_GND_74_o_add_22_OUT> created at line 32.
-    Found 32-bit adder for signal <GND_74_o_GND_74_o_add_30_OUT> created at line 33.
-    Found 32x32-bit multiplier for signal <n0038> created at line 30.
-    Found 32x32-bit multiplier for signal <n0040> created at line 30.
-    Found 32x32-bit multiplier for signal <n0043> created at line 31.
-    Found 32x32-bit multiplier for signal <n0045> created at line 31.
-    Found 32x32-bit multiplier for signal <n0048> created at line 32.
-    Found 32x32-bit multiplier for signal <n0050> created at line 32.
-    Found 32x32-bit multiplier for signal <n0053> created at line 33.
-    Found 32x32-bit multiplier for signal <n0055> created at line 33.
-    Found 32-bit comparator greater for signal <GND_74_o_GND_74_o_LessThan_8_o> created at line 30
-    Found 32-bit comparator greater for signal <GND_74_o_GND_74_o_LessThan_16_o> created at line 31
-    Found 32-bit comparator greater for signal <GND_74_o_GND_74_o_LessThan_24_o> created at line 32
-    Found 32-bit comparator greater for signal <GND_74_o_GND_74_o_LessThan_32_o> created at line 33
+    Found 11-bit subtractor for signal <GND_74_o_GND_74_o_sub_1_OUT> created at line 31.
+    Found 10-bit subtractor for signal <GND_74_o_GND_74_o_sub_4_OUT> created at line 31.
+    Found 11-bit subtractor for signal <GND_74_o_GND_74_o_sub_9_OUT> created at line 32.
+    Found 10-bit subtractor for signal <GND_74_o_GND_74_o_sub_12_OUT> created at line 32.
+    Found 11-bit subtractor for signal <GND_74_o_GND_74_o_sub_17_OUT> created at line 33.
+    Found 10-bit subtractor for signal <GND_74_o_GND_74_o_sub_20_OUT> created at line 33.
+    Found 11-bit subtractor for signal <GND_74_o_GND_74_o_sub_25_OUT> created at line 34.
+    Found 10-bit subtractor for signal <GND_74_o_GND_74_o_sub_28_OUT> created at line 34.
+    Found 32-bit adder for signal <GND_74_o_GND_74_o_add_6_OUT> created at line 31.
+    Found 32-bit adder for signal <GND_74_o_GND_74_o_add_14_OUT> created at line 32.
+    Found 32-bit adder for signal <GND_74_o_GND_74_o_add_22_OUT> created at line 33.
+    Found 32-bit adder for signal <GND_74_o_GND_74_o_add_30_OUT> created at line 34.
+    Found 32x32-bit multiplier for signal <n0038> created at line 31.
+    Found 32x32-bit multiplier for signal <n0040> created at line 31.
+    Found 32x32-bit multiplier for signal <n0043> created at line 32.
+    Found 32x32-bit multiplier for signal <n0045> created at line 32.
+    Found 32x32-bit multiplier for signal <n0048> created at line 33.
+    Found 32x32-bit multiplier for signal <n0050> created at line 33.
+    Found 32x32-bit multiplier for signal <n0053> created at line 34.
+    Found 32x32-bit multiplier for signal <n0055> created at line 34.
+    Found 32-bit comparator greater for signal <GND_74_o_GND_74_o_LessThan_8_o> created at line 31
+    Found 32-bit comparator greater for signal <GND_74_o_GND_74_o_LessThan_16_o> created at line 32
+    Found 32-bit comparator greater for signal <GND_74_o_GND_74_o_LessThan_24_o> created at line 33
+    Found 32-bit comparator greater for signal <GND_74_o_GND_74_o_LessThan_32_o> created at line 34
     Summary:
 	inferred   8 Multiplier(s).
 	inferred  12 Adder/Subtractor(s).
@@ -993,8 +1000,8 @@ Macro Statistics
  9-bit register                                        : 14
 # Latches                                              : 36
  1-bit latch                                           : 36
-# Comparators                                          : 80
- 10-bit comparator greater                             : 19
+# Comparators                                          : 66
+ 10-bit comparator greater                             : 12
  10-bit comparator lessequal                           : 6
  11-bit comparator greater                             : 5
  12-bit comparator lessequal                           : 14
@@ -1007,13 +1014,13 @@ Macro Statistics
  18-bit comparator lessequal                           : 2
  32-bit comparator greater                             : 4
  32-bit comparator lessequal                           : 1
- 9-bit comparator greater                              : 8
+ 9-bit comparator greater                              : 1
  9-bit comparator lessequal                            : 6
-# Multiplexers                                         : 5181
+# Multiplexers                                         : 5185
  1-bit 1200-to-1 multiplexer                           : 5
- 1-bit 2-to-1 multiplexer                              : 309
+ 1-bit 2-to-1 multiplexer                              : 295
  1-bit 4-to-1 multiplexer                              : 10
- 10-bit 2-to-1 multiplexer                             : 19
+ 10-bit 2-to-1 multiplexer                             : 28
  12-bit 2-to-1 multiplexer                             : 12
  2-bit 2-to-1 multiplexer                              : 4
  32-bit 2-to-1 multiplexer                             : 4800
@@ -1021,7 +1028,7 @@ Macro Statistics
  6-bit 2-to-1 multiplexer                              : 1
  65-bit 2-to-1 multiplexer                             : 1
  8-bit 4-to-1 multiplexer                              : 1
- 9-bit 2-to-1 multiplexer                              : 18
+ 9-bit 2-to-1 multiplexer                              : 27
 # Tristates                                            : 9
  1-bit tristate buffer                                 : 9
 # FSMs                                                 : 1
@@ -1045,6 +1052,54 @@ WARNING:Xst:2677 - Node <data_break> of sequential type is unconnected in block 
 WARNING:Xst:2677 - Node <data_expand> of sequential type is unconnected in block <ps2>.
 WARNING:Xst:2677 - Node <data_8> of sequential type is unconnected in block <ps2>.
 WARNING:Xst:2677 - Node <data_9> of sequential type is unconnected in block <ps2>.
+WARNING:Xst:2677 - Node <y_0> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <y_1> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <y_2> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <y_3> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <x_0> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <x_1> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <x_2> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <x_3> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <y_0> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <y_1> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <y_2> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <y_3> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <x_0> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <x_1> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <x_2> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <x_3> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <y_0> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <y_1> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <y_2> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <y_3> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <x_0> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <x_1> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <x_2> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <x_3> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <y_0> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <y_1> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <y_2> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <y_3> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <x_0> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <x_1> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <x_2> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <x_3> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <y_0> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <y_1> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <y_2> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <y_3> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <x_0> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <x_1> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <x_2> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <x_3> of sequential type is unconnected in block <cc_turn>.
+WARNING:Xst:2677 - Node <y_0> of sequential type is unconnected in block <cc_line>.
+WARNING:Xst:2677 - Node <y_1> of sequential type is unconnected in block <cc_line>.
+WARNING:Xst:2677 - Node <y_2> of sequential type is unconnected in block <cc_line>.
+WARNING:Xst:2677 - Node <y_3> of sequential type is unconnected in block <cc_line>.
+WARNING:Xst:2677 - Node <x_0> of sequential type is unconnected in block <cc_line>.
+WARNING:Xst:2677 - Node <x_1> of sequential type is unconnected in block <cc_line>.
+WARNING:Xst:2677 - Node <x_2> of sequential type is unconnected in block <cc_line>.
+WARNING:Xst:2677 - Node <x_3> of sequential type is unconnected in block <cc_line>.
 
 Synthesizing (advanced) Unit <AntiJitter>.
 The following registers are absorbed into counter <cnt>: 1 register on signal <cnt>.
@@ -1058,8 +1113,6 @@ Synthesizing (advanced) Unit <CheckGhostCrash>.
 Unit <CheckGhostCrash> synthesized (advanced).
 
 Synthesizing (advanced) Unit <GhostFour>.
-The following registers are absorbed into counter <x>: 1 register on signal <x>.
-The following registers are absorbed into counter <y>: 1 register on signal <y>.
 The following registers are absorbed into counter <randomCnt1>: 1 register on signal <randomCnt1>.
 The following registers are absorbed into counter <randomCnt2>: 1 register on signal <randomCnt2>.
 INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_randomDir1> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
@@ -1114,8 +1167,6 @@ INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_randomDir2> will be implemented on L
 Unit <GhostOne> synthesized (advanced).
 
 Synthesizing (advanced) Unit <GhostThree>.
-The following registers are absorbed into counter <x>: 1 register on signal <x>.
-The following registers are absorbed into counter <y>: 1 register on signal <y>.
 The following registers are absorbed into counter <randomCnt1>: 1 register on signal <randomCnt1>.
 The following registers are absorbed into counter <randomCnt2>: 1 register on signal <randomCnt2>.
 INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_randomDir1> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
@@ -1143,8 +1194,6 @@ INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_randomDir2> will be implemented on L
 Unit <GhostThree> synthesized (advanced).
 
 Synthesizing (advanced) Unit <GhostTwo>.
-The following registers are absorbed into counter <x>: 1 register on signal <x>.
-The following registers are absorbed into counter <y>: 1 register on signal <y>.
 The following registers are absorbed into counter <randomCnt1>: 1 register on signal <randomCnt1>.
 The following registers are absorbed into counter <randomCnt2>: 1 register on signal <randomCnt2>.
 INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_randomDir1> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
@@ -1172,7 +1221,7 @@ INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_randomDir2> will be implemented on L
 Unit <GhostTwo> synthesized (advanced).
 
 Synthesizing (advanced) Unit <Map>.
-	Multiplier <Mmult_n0013> in block <Map> and adder/subtractor <Madd_y[8]_GND_17_o_add_3_OUT> in block <Map> are combined into a MAC<Maddsub_n0013>.
+	Multiplier <Mmult_n0009> in block <Map> and adder/subtractor <Madd_y[8]_GND_17_o_add_1_OUT> in block <Map> are combined into a MAC<Maddsub_n0009>.
 INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_mapData> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
@@ -1180,7 +1229,7 @@ INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_mapData> will be implemented on LUTs
     | Port A                                                              |
     |     aspect ratio   | 1200-word x 1-bit                   |          |
     |     weA            | connected to signal <GND>           | high     |
-    |     addrA          | connected to signal <y[8]_GND_17_o_add_3_OUT> |          |
+    |     addrA          | connected to signal <y[8]_GND_17_o_add_1_OUT> |          |
     |     diA            | connected to signal <GND>           |          |
     |     doA            | connected to internal node          |          |
     -----------------------------------------------------------------------
@@ -1267,9 +1316,9 @@ Macro Statistics
  32x32-bit multiplier                                  : 2
  32x9-bit multiplier                                   : 1
  6x6-bit multiplier                                    : 1
-# Adders/Subtractors                                   : 103
+# Adders/Subtractors                                   : 109
  10-bit adder                                          : 18
- 10-bit addsub                                         : 8
+ 10-bit addsub                                         : 11
  10-bit subtractor                                     : 14
  11-bit adder                                          : 8
  11-bit subtractor                                     : 5
@@ -1283,11 +1332,10 @@ Macro Statistics
  32-bit subtractor                                     : 2
  5-bit subtractor                                      : 4
  6-bit adder                                           : 1
- 9-bit addsub                                          : 8
+ 9-bit addsub                                          : 11
  9-bit subtractor                                      : 1
-# Counters                                             : 30
+# Counters                                             : 24
  10-bit up counter                                     : 2
- 10-bit updown counter                                 : 3
  12-bit up counter                                     : 1
  16-bit up counter                                     : 2
  32-bit up counter                                     : 6
@@ -1295,11 +1343,10 @@ Macro Statistics
  4-bit updown counter                                  : 3
  5-bit up counter                                      : 4
  9-bit up counter                                      : 1
- 9-bit updown counter                                  : 3
-# Registers                                            : 1531
- Flip-Flops                                            : 1531
-# Comparators                                          : 80
- 10-bit comparator greater                             : 19
+# Registers                                            : 1588
+ Flip-Flops                                            : 1588
+# Comparators                                          : 66
+ 10-bit comparator greater                             : 12
  10-bit comparator lessequal                           : 6
  11-bit comparator greater                             : 5
  12-bit comparator lessequal                           : 14
@@ -1312,19 +1359,19 @@ Macro Statistics
  18-bit comparator lessequal                           : 2
  32-bit comparator greater                             : 4
  32-bit comparator lessequal                           : 1
- 9-bit comparator greater                              : 8
+ 9-bit comparator greater                              : 1
  9-bit comparator lessequal                            : 6
-# Multiplexers                                         : 5235
+# Multiplexers                                         : 5246
  1-bit 1200-to-1 multiplexer                           : 5
- 1-bit 2-to-1 multiplexer                              : 366
+ 1-bit 2-to-1 multiplexer                              : 359
  1-bit 4-to-1 multiplexer                              : 10
- 10-bit 2-to-1 multiplexer                             : 18
+ 10-bit 2-to-1 multiplexer                             : 27
  12-bit 2-to-1 multiplexer                             : 12
  2-bit 2-to-1 multiplexer                              : 4
  32-bit 2-to-1 multiplexer                             : 4800
  6-bit 2-to-1 multiplexer                              : 1
  8-bit 4-to-1 multiplexer                              : 1
- 9-bit 2-to-1 multiplexer                              : 18
+ 9-bit 2-to-1 multiplexer                              : 27
 # FSMs                                                 : 1
 
 =========================================================================
@@ -1332,6 +1379,14 @@ Macro Statistics
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
+WARNING:Xst:2677 - Node <y_0> of sequential type is unconnected in block <CheckCollision>.
+WARNING:Xst:2677 - Node <y_1> of sequential type is unconnected in block <CheckCollision>.
+WARNING:Xst:2677 - Node <y_2> of sequential type is unconnected in block <CheckCollision>.
+WARNING:Xst:2677 - Node <y_3> of sequential type is unconnected in block <CheckCollision>.
+WARNING:Xst:2677 - Node <x_0> of sequential type is unconnected in block <CheckCollision>.
+WARNING:Xst:2677 - Node <x_1> of sequential type is unconnected in block <CheckCollision>.
+WARNING:Xst:2677 - Node <x_2> of sequential type is unconnected in block <CheckCollision>.
+WARNING:Xst:2677 - Node <x_3> of sequential type is unconnected in block <CheckCollision>.
 INFO:Xst:2146 - In block <Top>, Counter <c0/clkdiv> <ghost1/c0/clkdiv> <ghost2/c0/clkdiv> <ghost3/c0/clkdiv> <ghost4/c0/clkdiv> are equivalent, XST will keep only <c0/clkdiv>.
 Analyzing FSM <MFsm> for best encoding.
 Optimizing FSM <b0/bgm/FSM_0> on signal <prediv[1:2]> with sequential encoding.
@@ -2502,8 +2557,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 672
- Flip-Flops                                            : 672
+# Registers                                            : 624
+ Flip-Flops                                            : 624
 
 =========================================================================
 
@@ -2526,22 +2581,22 @@ Top Level Output File Name         : Top.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 5304
+# BELS                             : 5150
 #      GND                         : 3
-#      INV                         : 47
+#      INV                         : 41
 #      LUT1                        : 125
-#      LUT2                        : 447
-#      LUT3                        : 451
-#      LUT4                        : 550
-#      LUT5                        : 512
-#      LUT6                        : 1657
-#      MUXCY                       : 673
+#      LUT2                        : 396
+#      LUT3                        : 459
+#      LUT4                        : 565
+#      LUT5                        : 537
+#      LUT6                        : 1672
+#      MUXCY                       : 618
 #      MUXF7                       : 191
 #      MUXF8                       : 69
 #      VCC                         : 2
-#      XORCY                       : 577
-# FlipFlops/Latches                : 712
-#      FD                          : 325
+#      XORCY                       : 472
+# FlipFlops/Latches                : 664
+#      FD                          : 277
 #      FDC                         : 3
 #      FDCE                        : 31
 #      FDE                         : 207
@@ -2568,16 +2623,16 @@ Selected Device : 7k160tffg676-1
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             712  out of  202800     0%  
- Number of Slice LUTs:                 3789  out of  101400     3%  
-    Number used as Logic:              3789  out of  101400     3%  
+ Number of Slice Registers:             664  out of  202800     0%  
+ Number of Slice LUTs:                 3795  out of  101400     3%  
+    Number used as Logic:              3795  out of  101400     3%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   3835
-   Number with an unused Flip Flop:    3123  out of   3835    81%  
-   Number with an unused LUT:            46  out of   3835     1%  
-   Number of fully used LUT-FF pairs:   666  out of   3835    17%  
-   Number of unique control sets:        55
+ Number of LUT Flip Flop pairs used:   3841
+   Number with an unused Flip Flop:    3177  out of   3841    82%  
+   Number with an unused LUT:            46  out of   3841     1%  
+   Number of fully used LUT-FF pairs:   618  out of   3841    16%  
+   Number of unique control sets:        52
 
 IO Utilization: 
  Number of IOs:                          49
@@ -2610,7 +2665,7 @@ Clock Information:
 ---------------------------------------------------------------+---------------------------+-------+
 Clock Signal                                                   | Clock buffer(FF name)     | Load  |
 ---------------------------------------------------------------+---------------------------+-------+
-clk                                                            | BUFGP                     | 394   |
+clk                                                            | BUFGP                     | 346   |
 c0/clkdiv_17                                                   | BUFG                      | 76    |
 c0/clkdiv_9                                                    | BUFG                      | 44    |
 c0/clkdiv_15                                                   | BUFG                      | 25    |
@@ -2631,7 +2686,7 @@ Asynchronous Control Signals Information:
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
 Control Signal                                                                                                                                                                                                                                                                         | Buffer(FF name)                                                                                                                                      | Load  |
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+-------+
-DM/end_pic/N1(DM/end_pic/XST_GND:G)                                                                                                                                                                                                                                                    | NONE(DM/end_pic/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/v6_init.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_B)| 36    |
+DM/end_pic/N1(DM/end_pic/XST_GND:G)                                                                                                                                                                                                                                                    | NONE(DM/end_pic/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/v6_init.ram/NO_BMM_INFO.SP.SIMPLE_PRIM36.ram)     | 36    |
 DM/end_pic/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/v6_init.ram/cascadelata_tmp(DM/end_pic/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/v6_init.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_B:CASCADEOUTA)| NONE(DM/end_pic/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/v6_init.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_T)| 1     |
 DM/end_pic/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/v6_init.ram/cascadelatb_tmp(DM/end_pic/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/v6_init.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_B:CASCADEOUTB)| NONE(DM/end_pic/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/v6_init.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_T)| 1     |
 DM/end_pic/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/v6_init.ram/cascadelata_tmp(DM/end_pic/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/v6_init.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_B:CASCADEOUTA)| NONE(DM/end_pic/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/v6_init.ram/NO_BMM_INFO.SP.CASCADED_PRIM36.ram_T)| 1     |
@@ -2645,7 +2700,7 @@ Timing Summary:
 Speed Grade: -1
 
    Minimum period: 16.587ns (Maximum Frequency: 60.290MHz)
-   Minimum input arrival time before clock: 3.381ns
+   Minimum input arrival time before clock: 3.394ns
    Maximum output required time after clock: 2.766ns
    Maximum combinational path delay: No path found
 
@@ -2655,10 +2710,10 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 9.596ns (frequency: 104.206MHz)
-  Total number of paths / destination ports: 2173151 / 371
+  Clock period: 9.601ns (frequency: 104.160MHz)
+  Total number of paths / destination ports: 2173003 / 355
 -------------------------------------------------------------------------
-Delay:               9.596ns (Levels of Logic = 14)
+Delay:               9.601ns (Levels of Logic = 14)
   Source:            b0/x_5 (FF)
   Destination:       b0/beans_157 (FF)
   Source Clock:      clk rising
@@ -2668,30 +2723,30 @@ Delay:               9.596ns (Levels of Logic = 14)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q             482   0.282   0.976  b0/x_5 (b0/x_5)
+     FD:C->Q             483   0.282   0.976  b0/x_5 (b0/x_5)
      LUT6:I1->O            1   0.053   0.000  b0/Madd_n14497_lut<3> (b0/Madd_n14497_lut<3>)
      XORCY:LI->O         104   0.134   0.893  b0/Madd_n14497_xor<3> (b0/n14497<3>)
-     LUT6:I1->O            1   0.053   0.413  b0/Mmux_GND_71_o_GND_71_o_equal_9_o_1913_SW1 (N599)
+     LUT6:I1->O            1   0.053   0.413  b0/Mmux_GND_71_o_GND_71_o_equal_9_o_1913_SW1 (N603)
      LUT6:I5->O            1   0.053   0.635  b0/Mmux_GND_71_o_GND_71_o_equal_9_o_1913 (b0/Mmux_GND_71_o_GND_71_o_equal_9_o_1913)
      LUT6:I2->O            1   0.053   0.635  b0/Mmux_GND_71_o_GND_71_o_equal_9_o_143 (b0/Mmux_GND_71_o_GND_71_o_equal_9_o_143)
      LUT6:I2->O            1   0.053   0.485  b0/Mmux_GND_71_o_GND_71_o_equal_9_o_9 (b0/Mmux_GND_71_o_GND_71_o_equal_9_o_9)
      LUT6:I4->O            1   0.053   0.000  b0/Mmux_GND_71_o_GND_71_o_equal_9_o_4 (b0/Mmux_GND_71_o_GND_71_o_equal_9_o_4)
      MUXF7:I0->O          19   0.214   0.721  b0/Mmux_GND_71_o_GND_71_o_equal_9_o_2_f7 (b0/GND_71_o_GND_71_o_equal_9_o)
-     LUT3:I0->O           22   0.053   0.621  b0/SF100211 (b0/SF10021)
+     LUT3:I0->O           23   0.053   0.625  b0/SF100211 (b0/SF10021)
      LUT5:I3->O            2   0.053   0.731  b0/beans[1199]_GND_71_o_mux_4861_OUT<151>1111 (b0/beans[1199]_GND_71_o_mux_4861_OUT<151>111)
      LUT6:I1->O            2   0.053   0.731  b0/beans[1199]_GND_71_o_mux_4861_OUT<151>112 (b0/beans[1199]_GND_71_o_mux_4861_OUT<151>11)
-     LUT5:I0->O            1   0.053   0.739  b0/beans[1199]_GND_71_o_mux_4861_OUT<157>2_SW0 (N495)
+     LUT5:I0->O            1   0.053   0.739  b0/beans[1199]_GND_71_o_mux_4861_OUT<157>2_SW0 (N503)
      LUT6:I0->O            1   0.053   0.739  b0/beans[1199]_GND_71_o_mux_4861_OUT<157>2 (b0/beans[1199]_GND_71_o_mux_4861_OUT<157>2)
      LUT6:I0->O            1   0.053   0.000  b0/beans[1199]_GND_71_o_mux_4861_OUT<157>4 (b0/beans[1199]_GND_71_o_mux_4861_OUT<157>)
      FD:D                      0.011          b0/beans_157
     ----------------------------------------
-    Total                      9.596ns (1.277ns logic, 8.319ns route)
+    Total                      9.601ns (1.277ns logic, 8.324ns route)
                                        (13.3% logic, 86.7% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'c0/clkdiv_17'
   Clock period: 3.051ns (frequency: 327.761MHz)
-  Total number of paths / destination ports: 649 / 76
+  Total number of paths / destination ports: 424 / 76
 -------------------------------------------------------------------------
 Delay:               3.051ns (Levels of Logic = 4)
   Source:            ghost1/x_1 (FF)
@@ -2764,7 +2819,7 @@ Delay:               3.311ns (Levels of Logic = 3)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'c0/clkdiv_1'
   Clock period: 16.587ns (frequency: 60.290MHz)
-  Total number of paths / destination ports: 11668928171245 / 93
+  Total number of paths / destination ports: 11668928170993 / 93
 -------------------------------------------------------------------------
 Delay:               16.587ns (Levels of Logic = 35)
   Source:            DM/vga/row_addr_6_1 (FF)
@@ -2786,14 +2841,14 @@ Delay:               16.587ns (Levels of Logic = 35)
      LUT1:I0->O            1   0.053   0.000  DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd_cy<9>_rt (DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd_cy<9>_rt)
      MUXCY:S->O            1   0.291   0.000  DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd_cy<9> (DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd_cy<9>)
      XORCY:CI->O          32   0.320   0.892  DM/Bean/Maddsub_y[8]_PWR_21_o_MuLt_0_OUT_Madd_xor<10> (DM/Bean/BUS_0002_PWR_21_o_mod_6/Madd_GND_28_o_b[5]_add_11_OUT_Madd_cy<10>)
-     LUT6:I0->O            1   0.053   0.000  DM/Bean/BUS_0004_PWR_21_o_div_17_OUT<0>121_G (N700)
+     LUT6:I0->O            1   0.053   0.000  DM/Bean/BUS_0004_PWR_21_o_div_17_OUT<0>121_G (N706)
      MUXF7:I1->O           3   0.217   0.616  DM/Bean/BUS_0004_PWR_21_o_div_17_OUT<0>121 (DM/Bean/BUS_0004_PWR_21_o_div_17_OUT<0>12)
-     LUT5:I2->O            1   0.053   0.485  DM/Bean/BUS_0004_PWR_21_o_div_17_OUT<0>14_SW3 (N237)
-     LUT6:I4->O            1   0.053   0.413  DM/Bean/Msub_GND_27_o_GND_27_o_sub_19_OUT_lut<4>_SW1 (N163)
+     LUT5:I2->O            1   0.053   0.485  DM/Bean/BUS_0004_PWR_21_o_div_17_OUT<0>14_SW3 (N249)
+     LUT6:I4->O            1   0.053   0.413  DM/Bean/Msub_GND_27_o_GND_27_o_sub_19_OUT_lut<4>_SW1 (N175)
      LUT6:I5->O            1   0.053   0.000  DM/Bean/Msub_GND_27_o_GND_27_o_sub_19_OUT_lut<4> (DM/Bean/Msub_GND_27_o_GND_27_o_sub_19_OUT_lut<4>)
      MUXCY:S->O            1   0.291   0.000  DM/Bean/Msub_GND_27_o_GND_27_o_sub_19_OUT_cy<4> (DM/Bean/Msub_GND_27_o_GND_27_o_sub_19_OUT_cy<4>)
      XORCY:CI->O           8   0.320   0.648  DM/Bean/Msub_GND_27_o_GND_27_o_sub_19_OUT_xor<5> (DM/Bean/GND_27_o_GND_27_o_sub_19_OUT<5>)
-     LUT5:I2->O            3   0.053   0.427  DM/Bean/Msub_GND_27_o_GND_27_o_sub_20_OUT_xor<12>11_SW0 (N184)
+     LUT5:I2->O            3   0.053   0.427  DM/Bean/Msub_GND_27_o_GND_27_o_sub_20_OUT_xor<12>11_SW0 (N196)
      LUT6:I5->O            4   0.053   0.419  DM/Bean/Msub_GND_27_o_GND_27_o_sub_20_OUT_xor<13>11_1 (DM/Bean/Msub_GND_27_o_GND_27_o_sub_20_OUT_xor<13>11)
      DSP48E1:A13->PCOUT47    1   3.421   0.000  DM/Bean/Mmult_n0027 (DM/Bean/Mmult_n0027_PCOUT_to_Bean/Mmult_n00271_PCIN_47)
      DSP48E1:PCIN47->PCOUT47    1   1.452   0.000  DM/Bean/Mmult_n00271 (DM/Bean/Mmult_n00271_PCOUT_to_Bean/Mmult_n00272_PCIN_47)
@@ -2819,10 +2874,10 @@ Delay:               16.587ns (Levels of Logic = 35)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'Pac/c0/clkdiv_18'
-  Clock period: 3.182ns (frequency: 314.268MHz)
+  Clock period: 3.092ns (frequency: 323.415MHz)
   Total number of paths / destination ports: 106 / 19
 -------------------------------------------------------------------------
-Delay:               3.182ns (Levels of Logic = 4)
+Delay:               3.092ns (Levels of Logic = 4)
   Source:            Pac/PacX_1 (FF)
   Destination:       Pac/PacX_8 (FF)
   Source Clock:      Pac/c0/clkdiv_18 rising
@@ -2835,12 +2890,12 @@ Delay:               3.182ns (Levels of Logic = 4)
      FDE:C->Q             17   0.282   0.591  Pac/PacX_1 (Pac/PacX_1)
      LUT3:I1->O            3   0.053   0.739  Pac/Mmux_state[1]_PacX[9]_wide_mux_29_OUT1_rs_cy<1>11 (Pac/Mmux_state[1]_PacX[9]_wide_mux_29_OUT1_rs_cy<1>)
      LUT6:I1->O            4   0.053   0.622  Pac/Mmux_state[1]_PacX[9]_wide_mux_29_OUT1_rs_cy<5>11 (Pac/Mmux_state[1]_PacX[9]_wide_mux_29_OUT1_rs_cy<5>)
-     LUT4:I1->O            1   0.053   0.725  Pac/Mmux_state[1]_PacX[9]_wide_mux_29_OUT1_rs_cy<7>11 (Pac/Mmux_state[1]_PacX[9]_wide_mux_29_OUT1_rs_cy<7>)
-     LUT6:I1->O            1   0.053   0.000  Pac/Mmux_PacX[9]_state[1]_mux_31_OUT91 (Pac/PacX[9]_state[1]_mux_31_OUT<8>)
+     LUT4:I1->O            1   0.053   0.635  Pac/Mmux_state[1]_PacX[9]_wide_mux_29_OUT1_rs_cy<7>11 (Pac/Mmux_state[1]_PacX[9]_wide_mux_29_OUT1_rs_cy<7>)
+     LUT6:I2->O            1   0.053   0.000  Pac/Mmux_PacX[9]_state[1]_mux_31_OUT91 (Pac/PacX[9]_state[1]_mux_31_OUT<8>)
      FDE:D                     0.011          Pac/PacX_8
     ----------------------------------------
-    Total                      3.182ns (0.505ns logic, 2.677ns route)
-                                       (15.9% logic, 84.1% route)
+    Total                      3.092ns (0.505ns logic, 2.587ns route)
+                                       (16.3% logic, 83.7% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'c0/clkdiv_3'
@@ -2877,9 +2932,9 @@ Delay:               3.054ns (Levels of Logic = 12)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'c0/clkdiv_17'
-  Total number of paths / destination ports: 38 / 38
+  Total number of paths / destination ports: 152 / 152
 -------------------------------------------------------------------------
-Offset:              1.373ns (Levels of Logic = 2)
+Offset:              1.386ns (Levels of Logic = 2)
   Source:            rst (PAD)
   Destination:       ghost1/x_9 (FF)
   Destination Clock: c0/clkdiv_17 rising
@@ -2888,18 +2943,18 @@ Offset:              1.373ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           198   0.000   0.602  rst_IBUF (rst_IBUF)
-     LUT6:I5->O           19   0.053   0.518  ghost1/_n0089_inv1 (ghost1/_n0089_inv)
+     IBUF:I->O           258   0.000   0.615  rst_IBUF (rst_IBUF)
+     LUT2:I1->O           19   0.053   0.518  ghost1/_n0089_inv1 (ghost1/_n0089_inv)
      FDE:CE                    0.200          ghost1/y_0
     ----------------------------------------
-    Total                      1.373ns (0.253ns logic, 1.120ns route)
-                                       (18.4% logic, 81.6% route)
+    Total                      1.386ns (0.253ns logic, 1.133ns route)
+                                       (18.3% logic, 81.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'c0/clkdiv_9'
   Total number of paths / destination ports: 2 / 2
 -------------------------------------------------------------------------
-Offset:              1.711ns (Levels of Logic = 2)
+Offset:              1.398ns (Levels of Logic = 2)
   Source:            rst (PAD)
   Destination:       ghost1/direction_1 (FF)
   Destination Clock: c0/clkdiv_9 rising
@@ -2908,12 +2963,12 @@ Offset:              1.711ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           198   0.000   0.928  rst_IBUF (rst_IBUF)
-     LUT6:I0->O            2   0.053   0.405  ghost1/_n00841 (ghost1/_n0084)
+     IBUF:I->O           258   0.000   0.615  rst_IBUF (rst_IBUF)
+     LUT2:I1->O            2   0.053   0.405  ghost1/_n00841 (ghost1/_n0084)
      FDRE:R                    0.325          ghost1/direction_0
     ----------------------------------------
-    Total                      1.711ns (0.378ns logic, 1.333ns route)
-                                       (22.1% logic, 77.9% route)
+    Total                      1.398ns (0.378ns logic, 1.020ns route)
+                                       (27.0% logic, 73.0% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'c0/clkdiv_15'
@@ -2939,7 +2994,7 @@ Offset:              1.535ns (Levels of Logic = 2)
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
   Total number of paths / destination ports: 182 / 164
 -------------------------------------------------------------------------
-Offset:              3.381ns (Levels of Logic = 5)
+Offset:              3.394ns (Levels of Logic = 5)
   Source:            rst (PAD)
   Destination:       b0/beans_962 (FF)
   Destination Clock: clk rising
@@ -2948,21 +3003,21 @@ Offset:              3.381ns (Levels of Logic = 5)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           198   0.000   0.914  rst_IBUF (rst_IBUF)
+     IBUF:I->O           258   0.000   0.927  rst_IBUF (rst_IBUF)
      LUT5:I0->O            5   0.053   0.766  b0/SF22111 (b0/SF2211)
      LUT6:I0->O            1   0.053   0.739  b0/beans[1199]_GND_71_o_mux_4861_OUT<707>3 (b0/beans[1199]_GND_71_o_mux_4861_OUT<707>3)
-     LUT6:I0->O            1   0.053   0.739  b0/beans[1199]_GND_71_o_mux_4861_OUT<707>4_SW0 (N625)
+     LUT6:I0->O            1   0.053   0.739  b0/beans[1199]_GND_71_o_mux_4861_OUT<707>4_SW0 (N631)
      LUT6:I0->O            1   0.053   0.000  b0/beans[1199]_GND_71_o_mux_4861_OUT<707>4 (b0/beans[1199]_GND_71_o_mux_4861_OUT<707>)
      FD:D                      0.011          b0/beans_707
     ----------------------------------------
-    Total                      3.381ns (0.223ns logic, 3.158ns route)
+    Total                      3.394ns (0.223ns logic, 3.171ns route)
                                        (6.6% logic, 93.4% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'Pac/c0/clkdiv_18'
   Total number of paths / destination ports: 38 / 38
 -------------------------------------------------------------------------
-Offset:              1.373ns (Levels of Logic = 2)
+Offset:              1.386ns (Levels of Logic = 2)
   Source:            rst (PAD)
   Destination:       Pac/PacX_9 (FF)
   Destination Clock: Pac/c0/clkdiv_18 rising
@@ -2971,12 +3026,12 @@ Offset:              1.373ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O           198   0.000   0.602  rst_IBUF (rst_IBUF)
-     LUT6:I5->O           19   0.053   0.518  Pac/_n0079_inv1 (Pac/_n0079_inv)
+     IBUF:I->O           258   0.000   0.615  rst_IBUF (rst_IBUF)
+     LUT2:I1->O           19   0.053   0.518  Pac/_n0079_inv1 (Pac/_n0079_inv)
      FDE:CE                    0.200          Pac/PacY_0
     ----------------------------------------
-    Total                      1.373ns (0.253ns logic, 1.120ns route)
-                                       (18.4% logic, 81.6% route)
+    Total                      1.386ns (0.253ns logic, 1.133ns route)
+                                       (18.3% logic, 81.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'c0/clkdiv_1'
@@ -3079,7 +3134,7 @@ Clock to Setup on destination clock DM/GND_22_o_isWall_AND_2139_o
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 c0/clkdiv_1    |         |         |    4.577|         |
-c0/clkdiv_17   |         |         |    4.992|         |
+c0/clkdiv_17   |         |         |    5.012|         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock DM/GND_22_o_isWall_AND_2164_o
@@ -3097,8 +3152,8 @@ Clock to Setup on destination clock Pac/c0/clkdiv_18
                 | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ----------------+---------+---------+---------+---------+
-Pac/c0/clkdiv_18|    3.182|         |         |         |
-clk             |    6.621|         |         |         |
+Pac/c0/clkdiv_18|    3.092|         |         |         |
+clk             |    5.504|         |         |         |
 ----------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock c0/clkdiv_1
@@ -3106,12 +3161,12 @@ Clock to Setup on destination clock c0/clkdiv_1
                              | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                 |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 -----------------------------+---------+---------+---------+---------+
-DM/GND_22_o_isWall_AND_2139_o|         |    4.425|         |         |
-DM/GND_22_o_isWall_AND_2164_o|         |    3.908|         |         |
+DM/GND_22_o_isWall_AND_2139_o|         |    4.542|         |         |
+DM/GND_22_o_isWall_AND_2164_o|         |    3.823|         |         |
 Pac/c0/clkdiv_18             |    5.243|         |         |         |
 c0/clkdiv_1                  |   16.587|         |         |         |
 c0/clkdiv_15                 |    1.617|         |         |         |
-c0/clkdiv_17                 |    7.097|         |         |         |
+c0/clkdiv_17                 |    7.117|         |         |         |
 clk                          |    4.938|         |         |         |
 -----------------------------+---------+---------+---------+---------+
 
@@ -3130,7 +3185,7 @@ Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 c0/clkdiv_17   |    3.051|         |         |         |
 c0/clkdiv_9    |    3.224|         |         |         |
-clk            |    6.659|         |         |         |
+clk            |    5.532|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock c0/clkdiv_3
@@ -3148,7 +3203,7 @@ Clock to Setup on destination clock c0/clkdiv_9
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
 c0/clkdiv_9    |    2.284|         |         |         |
-clk            |    7.413|         |         |         |
+clk            |    5.798|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock clk
@@ -3156,11 +3211,11 @@ Clock to Setup on destination clock clk
                 | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ----------------+---------+---------+---------+---------+
-Pac/c0/clkdiv_18|    9.856|         |         |         |
+Pac/c0/clkdiv_18|   10.633|         |         |         |
 c0/clkdiv_15    |    2.544|         |         |         |
-c0/clkdiv_17    |    9.725|         |         |         |
+c0/clkdiv_17    |   10.528|         |         |         |
 c0/clkdiv_9     |    1.839|         |         |         |
-clk             |    9.596|         |         |         |
+clk             |    9.601|         |         |         |
 over_sign       |         |    0.935|         |         |
 ----------------+---------+---------+---------+---------+
 
@@ -3169,20 +3224,20 @@ Clock to Setup on destination clock over_sign
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-c0/clkdiv_1    |         |         |    7.101|         |
+c0/clkdiv_1    |         |         |    7.281|         |
 ---------------+---------+---------+---------+---------+
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 365.00 secs
-Total CPU time to Xst completion: 365.12 secs
+Total REAL time to Xst completion: 407.00 secs
+Total CPU time to Xst completion: 407.13 secs
  
 --> 
 
-Total memory usage is 5082600 kilobytes
+Total memory usage is 5082664 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings : 1236 (   0 filtered)
+Number of warnings : 1294 (   0 filtered)
 Number of infos    :   72 (   0 filtered)
 

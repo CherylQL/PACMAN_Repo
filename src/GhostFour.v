@@ -25,7 +25,7 @@ module GhostFour(
     	y <= 9'd240;
  		direction <= 2'b11;
   	end
-
+	//if rst = 0 initialize x and y
 	initial begin
 		randomCnt1 <= 0;
 		randomDir1[0] <= 2'd0;
@@ -63,7 +63,13 @@ module GhostFour(
 	end
 	
 	always@(posedge clkdiv[17])begin
+		//if rst = 0 initialize x and y
+		if(~rst) begin 
+			x <= 10'd200;
+			y <= 9'd146;
+		end
 		if(result != 0)begin
+		//ghost move along the direction we set
 			case(direction)
 				2'b10:
 					x <= x - 10'd1;

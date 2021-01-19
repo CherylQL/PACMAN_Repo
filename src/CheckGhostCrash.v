@@ -27,9 +27,10 @@ module CheckGhostCrash(
 	 reg [9:0] x;
 	 reg [8:0] y;
 	 
-	assign result = ((PacX - Ghost1X) * (PacX - Ghost1X) + (PacY - Ghost1Y) * (PacY - Ghost1Y) < 2048)
-		||((PacX - Ghost2X) * (PacX - Ghost2X) + (PacY - Ghost2Y) * (PacY - Ghost2Y) < 2048) 
-		||((PacX - Ghost3X) * (PacX - Ghost3X) + (PacY - Ghost3Y) * (PacY - Ghost3Y) < 2048) 
-		||((PacX - Ghost4X) * (PacX - Ghost4X) + (PacY - Ghost4Y) * (PacY - Ghost4Y) < 2048); 
+	 //if pacman are crashed into any of the ghost, the game is over; 1024 are the the diagonal distance between two characters
+	assign result = ((PacX - Ghost1X) * (PacX - Ghost1X) + (PacY - Ghost1Y) * (PacY - Ghost1Y) < 1024)
+		||((PacX - Ghost2X) * (PacX - Ghost2X) + (PacY - Ghost2Y) * (PacY - Ghost2Y) < 1024) 
+		||((PacX - Ghost3X) * (PacX - Ghost3X) + (PacY - Ghost3Y) * (PacY - Ghost3Y) < 1024) 
+		||((PacX - Ghost4X) * (PacX - Ghost4X) + (PacY - Ghost4Y) * (PacY - Ghost4Y) < 1024); 
 
 endmodule

@@ -39,66 +39,82 @@ module Display(
    output [3:0] r,g,b, // red, green, blue colors
    output hs,vs  // horizontal and vertical synchronization
     );
-
+	//intialize array of data, col and row.
 	reg [11:0] vga_data;
 	wire [9:0] col_addr;
  	wire [8:0] row_addr;
-	
+	//initialize gameover sight
 	reg [16:0] end_ip;
 	wire [11:0] end_color;
 	gameover end_pic(.addra(end_ip),.douta(end_color),.clka(clk));
 	
+	//initialize pacman ip
 	reg [9:0] pac_add_ip;
 	wire [11:0] pac_inner_color;
 	PacSelf P(.a(pac_add_ip),.spo(pac_inner_color));
 	
+	//intialize ghost ip
 	reg [9:0] ghost_add_ip;
 	wire [11:0] ghost_inner_color;
 	Ghost G(.a(ghost_add_ip),.spo(ghost_inner_color));
 	
+	//vga module
 	vgac vga (
 		.vga_clk(clkdiv[1]), .clrn(clrn), .d_in(vga_data), .row_addr(row_addr), .col_addr(col_addr), .r(r), .g(g), .b(b), .hs(hs), .vs(vs)
 	);
 	
+	//wall module
 	wire isWall;
 	Map Wall(.x(col_addr), .y(row_addr), .isWall(isWall));
+	
+	//bean module
 	wire isbean;
 	beanmap Bean(.x(col_addr), .y(row_addr), .beanmapData(beanmap), .isbean(isbean));
 	
 	
+	//refresh the vgadata according to the coordinate of each characters
 	always@(* ) begin
 			if(over == 1)begin
+			//gameover picture
 				if(row_addr >= 10'd100 && row_addr < 10'd290 && col_addr >= 9'd180  && col_addr < 9'd500)begin
 					end_ip <= (row_addr - 9'd100)* 320+ col_addr - 10'd180;
 					vga_data <= end_color;
 				end
 				else begin
+				//other place is black
 					vga_data <= 12'h0;
 				end
 			end
 			else begin
+			//wall picture
 				if(isWall) begin
 					vga_data <= 12'hfff;
 				end
+				//ghost 1 picture
 				else if(row_addr >= Ghost1Y && row_addr < Ghost1Y + 32 && col_addr >= Ghost1X  && col_addr < Ghost1X + 32)begin
 					ghost_add_ip <= (row_addr - Ghost1Y) * 32 + (col_addr - Ghost1X);
 					vga_data <= ghost_inner_color;
 				end
+				//ghost 2 picture
 				else if(row_addr >= Ghost2Y && row_addr < Ghost2Y + 32 && col_addr >= Ghost2X  && col_addr < Ghost2X + 32)begin
 					ghost_add_ip <= (row_addr - Ghost2Y) * 32 + (col_addr - Ghost2X);
 					vga_data <= ghost_inner_color;
 				end
+				//ghost 3 picture
 				else if(row_addr >= Ghost3Y && row_addr < Ghost3Y + 32 && col_addr >= Ghost3X  && col_addr < Ghost3X + 32)begin
 					ghost_add_ip <= (row_addr - Ghost3Y) * 32 + (col_addr - Ghost3X);
 					vga_data <= ghost_inner_color;
 				end
+				//ghost 4 picture
 				else if(row_addr >= Ghost4Y && row_addr < Ghost4Y + 32 && col_addr >= Ghost4X  && col_addr < Ghost4X + 32)begin
 					ghost_add_ip <= (row_addr - Ghost4Y) * 32 + (col_addr - Ghost4X);
 					vga_data <= ghost_inner_color;
 				end
+				//bean picture
 				else if(isbean) begin
 					vga_data <= 12'hff0;
 				end
+				//pacman picture
 				else if(row_addr >= PacY && row_addr < PacY + 32 && col_addr >= PacX  && col_addr < PacX + 32)begin
 					if(state == 2'b00)
 						pac_add_ip <= (col_addr - PacX) * 32 + (row_addr - PacY);
